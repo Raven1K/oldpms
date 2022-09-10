@@ -14,7 +14,7 @@
           <a class="nav-link" href="#aboutus">ABOUT OLDPMS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contactus">CONTACT US</a>
+          <a class="nav-link" href="#contactus">CONTACT ME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.php">LOGIN</a>
