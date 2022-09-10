@@ -5,13 +5,13 @@
     </button>
     <a href="index.php"><img src="images/oldrmslogo.png" alt="Red Planet" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER REGISTRATION & MONITORING SYSTEM</strong></a>
+    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
       <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutus">ABOUT OLDRMS</a>
+          <a class="nav-link" href="#aboutus">ABOUT OLDPMS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contactus">CONTACT US</a>

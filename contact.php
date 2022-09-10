@@ -44,7 +44,7 @@
             </div>
             <div class="col-lg-6">
 
-                <h4 class="heading-primary"><strong>RICTU DENR Caraga</strong></h4>
+                <h4 class="heading-primary"><strong>DENR Regional ICT Caraga</strong></h4>
                 <ul class="list list-icons list-icons-style-3 mt-4">
                     <li><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Ambago, Butuan City, Philippines, 8600</li>
                     <li><i class="fas fa-phone"></i> <strong>Phone:</strong> (085) 815 – 2277</li>
