@@ -14,7 +14,7 @@
     <!-- Cuztomize Styles-->
     <link rel="stylesheet" href="css/mystyle.css">
 
-    <title>Online Lumber Dealer Registration & Monitoring System</title>
+    <title>Online Lumber Dealer Permitting & Monitoring System</title>
   </head>
   <body>
   <?php 
