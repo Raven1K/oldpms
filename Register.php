@@ -6,8 +6,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-   <title>Online Lumber Dealer Registration and Monitoring System</title>
+   <title>Online Lumber Dealer Permitting and Monitoring System</title>
    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="fonts/css/all.css">
    <script src="js/main.js" defer></script>
   </head>
   
@@ -24,9 +25,9 @@
   <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="img\oldrms.png"></a>
+          <a class="nav-link disabled" style="cursor: pointer;"><img src="img\oldpmslogoreg.png"></a>
         </li>
-        <li class="nav-item" style="margin-left: 45px; margin-top: 30px;">
+        <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
             <span style="font-weight: 900; color: #fff;"><img src="img\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
@@ -44,16 +45,14 @@
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name">
                           <form class="row g-3" style="margin-bottom: 10px;">
-                              <div class="col-auto" style="width: 50%;">
+                              <div class="col-auto" style="width: 100%;">
                               <input type="text" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*"></div>
-                              <div class="col-auto">
-                              <button type="submit" class="btn btn-danger verify_yournoBtn"><span style="font-size: 10px;">Verify Your No.</span></button></div>
                           </form>
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_password" placeholder="Password*" aria-label="pw"></div>
                     <div class="col">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email">
-                              <input style="margin-bottom: 10px;" type="text" class="form-control user_verifycode" placeholder="Verification Code*" aria-label="verification_code">
+                              <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button>
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw"></div></div>
                               <br>
                               <div class="mb-3">
@@ -71,6 +70,26 @@
                               <center>
                               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 250px; border-radius: 7px; background-color: #2987ce;">Register</button>
                             </center>
+
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+           <br><br>
+<div class="modal-body">
+             <img src="img/verification.png"><br><br><br>
+             <label style="font-weight: 700; font-size: 20px;">Authenticate Your Account</label>
+             <label style="font-weight: 400; color:#808080; font-size: 15px; color: #696969;">Please confirm your account<br>by entering the verification code sent to</label>
+             <label style="font-weight: 600; font-size: 16px; font-size: 15px; color: #525252">***-****-0909.</label><br>
+              <label style="font-weight: 300; font-size: 16px; font-size: 45px; color: #525252;"><u>0</u> <u>9</u> <u>_</u> <u>_</u> <u>_</u></label><br>
+            </div>
+            <div class="modal-footer">
+              <label style="font-size: 13px; color: #696969; width: 80%; text-align: left; text-decoration: none;">It may take a minute to receive your code.<br>Haven't received it? <a href="  #" style="color: #3E8CFF; cursor: pointer; font-weight: 500;">Resend a new code</a></label>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
   <div class="modal-dialog" style="margin-top: 7%;">
@@ -119,6 +138,8 @@
   </div>
 </div>
 </div>
+
+
 
 <script>
 var toastTrigger = document.getElementById('acceptBtn')
