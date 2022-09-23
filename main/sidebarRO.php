@@ -100,7 +100,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="charts.html">
+                <a class="nav-link text-white" href="maps.php">
                     <i class="fas fa-fw fa-map-marked-alt text-info"></i>
                     <span class="text-white">Maps</span></a>
             </li>

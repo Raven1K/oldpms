@@ -12,7 +12,7 @@
     <title>OLDPMS-Reviews</title>
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free-6.2.0-web/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -25,7 +25,7 @@
 	
 	<style>
 .btn {
-  width:100%;
+  width:80%;
  }
 </style>
 
@@ -68,14 +68,16 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="1">
-                                     <thead class="bg-info text-white">
+                                     <thead class="bg-primary text-white">
                                         <tr>
                                             <th>ID</th>
                                             <th>Applicant Name</th>
                                             <th>Address</th>
 											<th>Date Applied</th>
+											<th>Office Applied</th>
+											<th style="width: 110px">Action</th>
                                             <th>Status</th>
-                                            <th style="width: 120px">Action</th>
+                                            
                                             
                                         </tr>
                                     </thead>
@@ -86,17 +88,20 @@
                                             <td>Tiger Nixon</td>
                                             <td>Cabadbaran</td>
 											<td>2022-10-03</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
-                                            <td>
-												<div class="row">
-												<a href="#" class="btn btn-warning btn-icon-split btn-sm">
-                                       			 <span class="icon text-white-50">
-                                          			  <i class="fas fa-search"></i>
+											<td>CENRO Tubay</td>
+											<td>
+												<div class="row justify-content-center">
+												<a href="#" class="btn btn-warning btn-sm">                                       			 
+                                       			 <span class="text align-content-center"><strong>Evaluate</strong></span>
+                                    			
+												 <span class="icon ml-2">
+                                          			  <i class="fas fa-search-plus"></i>
                                        			 </span>
-                                       			 <span class="text"><strong>For Review</strong></span>
-                                    			</a>
+												</a>
 												</div>	
 											</td>
+                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                            
                                             
                                         </tr>
                                         <tr>
@@ -104,18 +109,20 @@
                                             <td>Garrett Winters</td>
                                             <td>Loreto</td>
 											<td>2022-09-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Loreto</td>
+											 <td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm btn-icon-split">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-primary btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
-                                            
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                           
                                             
                                         </tr>
                                         <tr>
@@ -123,17 +130,20 @@
                                             <td>Ashton Cox</td>
                                             <td>Talacogon</td>
 											<td>2021-08-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Talacogon</td>
+											<td>
 												<div class="row justify-content-center">
-											<a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-success btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            
                                             
                                             
                                         </tr>
@@ -142,17 +152,20 @@
                                             <td>Cedric Kelly</td>
                                             <td>Bunawan</td>
 											<td>2022-12-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Bunawan</td>
+											<td>
 												<div class="row justify-content-center">
-											<a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-success btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            
                                             
                                             
                                         </tr>
@@ -161,17 +174,20 @@
                                             <td>Airi Satou</td>
                                             <td>Bayugan City</td>
 											<td>2022-11-03</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
-                                            <td>
+											<td>CENRO Bayugan</td>
+											 <td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-warning btn-icon-split btn-sm">
-                                       			 <span class="icon text-white-50">
-                                          			  <i class="fas fa-search"></i>
+												<a href="#" class="btn btn-warning  btn-sm">                                       			 
+                                       			 <span class="text align-content-center"><strong>Evaluate</strong></span>
+                                    			
+												 <span class="icon ml-2">
+                                          			  <i class="fas fa-search-plus"></i>
                                        			 </span>
-                                       			 <span class="text"><strong>For Review</strong></span>
-                                    			</a>
-												</div>
+												</a>
+												</div>	
 											</td>
+                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                           
                                             
                                             
                                         </tr>
@@ -180,17 +196,20 @@
                                             <td>Brielle Williamson</td>
                                             <td>Surigao City</td>
 											<td>2021-12-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Tubod</td>
+											<td>
 												<div class="row justify-content-center">
-											<a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-success btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            
                                             
                                             
                                         </tr>
@@ -199,17 +218,20 @@
                                             <td>Herrod Chandler</td>
                                             <td>Tubod</td>
 											<td>2022-06-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Tubod</td>
+											 <td>
 												<div class="row justify-content-center">
-											<a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-success btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                           
                                             
                                             
                                         </tr>
@@ -218,17 +240,20 @@
                                             <td>Rhona Davidson</td>
                                             <td>Dinagat Island</td>
 											<td>2022-10-15</td>
-                                            <td class="text-danger"><strong>Returned</strong></td>
-                                            <td>
+											<td>PENRO Dinagat Island</td>
+											 <td>
 												<div class="row justify-content-center">
-											 	<a href="#" class="btn-danger btn-icon-split btn-sm disabled btn ml-0">
-                                       				 <span class="icon text-white-50">
+											 	<a href="#" class="btn-danger  btn-sm disabled btn ml-0">
+                                       				 
+                                       				 <span class="text align-content-center"><strong>Rejected</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-times-circle"></i>
                                        				 </span>
-                                       				 <span class="text"><strong>Rejected</strong></span>
                                    				 </a>
 													</div>
 											</td>
+                                            <td class="text-danger"><strong>Returned</strong></td>
+                                           
                                             
                                             
                                         </tr>
@@ -237,17 +262,20 @@
                                             <td>Colleen Hurst</td>
                                             <td>Carascal</td>
 											<td>2022-10-30</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
-                                           <td>
-											   <div class="row justify-content-center">
-												<a href="#" class="btn btn-warning btn-icon-split btn-sm">
-                                       			 <span class="icon text-white-50">
-                                          			  <i class="fas fa-search"></i>
+											<td>CENRO Cantilan</td>
+											<td>
+											  <div class="row justify-content-center">
+												<a href="#" class="btn btn-warning  btn-sm">                                       			 
+                                       			 <span class="text align-content-center"><strong>Evaluate</strong></span>
+                                    			
+												 <span class="icon ml-2">
+                                          			  <i class="fas fa-search-plus"></i>
                                        			 </span>
-                                       			 <span class="text"><strong>For Review </strong></span>
-                                    			</a>
-											   </div>
+												</a>
+												</div>	
 											</td>
+                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                           
                                             
                                             
                                         </tr>
@@ -256,17 +284,20 @@
                                             <td>Sonya Frost</td>
                                             <td>Tandag</td>
 											<td>2022-03-03</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
-                                            <td>
+											<td>CENRO Lianga</td>
+											  <td>
 												<div class="row justify-content-center">
-											<a href="#" class="btn btn-success btn-icon-split btn-sm">
-                                        			<span class="icon text-white-50">
+												<a href="#" class="btn btn-success btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Completed</strong></span>
                                    				 </a>
 												</div>
 											</td>
+                                            <td class="text-info"><strong>For Initial</strong></td>
+                                          
                                             
                                             
                                         </tr>
@@ -275,18 +306,21 @@
                                             <td>Jena Gaines</td>
                                             <td>Bislig</td>
 											<td>2022-05-03</td>
-                                            <td class="text-danger"><strong>Returned</strong></td>
-                                            <td>
+											<td>CENRO Bislig</td>
+											<td>
 												<div class="row justify-content-center">
-												 <a href="#" class="btn btn-danger btn-icon-split btn-sm disabled btn">
-                                       				 <span class="icon text-white-50">
+											 	<a href="#" class="btn-danger  btn-sm disabled btn ml-0">
+                                       				 
+                                       				 <span class="text align-content-center"><strong>Rejected</strong></span>
+													<span class="icon ml-2">
                                            			 <i class="fas fa-times-circle"></i>
                                        				 </span>
-                                        			<span class="text"><strong>Rejected</strong></span>
-                                    			</a>
-												</div>
+                                   				 </a>
+													</div>
 											
 											</td>
+                                            <td class="text-danger"><strong>Returned</strong></td>
+                                            
                                             
                                             
                                         </tr>
@@ -295,17 +329,20 @@
                                             <td>Quinn Flynn</td>
                                             <td>Lianga</td>
 											<td>2022-01-03</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
-                                            <td>
-												<div class="row justify-content-center ">
-												<a href="#" class="btn btn-warning btn-icon-split btn-sm">
-                                       			 <span class="icon text-white-50">
-                                          			  <i class="fas fa-search"></i>
+											<td>CENRO Lianga</td>
+											<td>
+												<div class="row justify-content-center">
+												<a href="#" class="btn btn-warning  btn-sm">                                       			 
+                                       			 <span class="text align-content-center"><strong>For Review</strong></span>
+                                    			
+												 <span class="icon ml-2">
+                                          			  <i class="fas fa-search-plus"></i>
                                        			 </span>
-                                       			 <span class="text"><strong>For Review</strong></span>
-                                    			</a>
-												</div>
+												</a>
+												</div>	
 											</td>
+                                            <td class="text-warning text-content-center"><strong>For Evaluation</strong></td>
+                                            
                                             
                                             
                                         </tr>
