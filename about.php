@@ -2,8 +2,8 @@
 	<div class="container-fluid">
 		<div class="container text-white">
 			<br><br>
-			<h1 class="mb-2"><strong>About OLDRMS</h1></strong><br>
-			<p>The Online Lumber Dealer Registration and Monitoring System is developed in order to:</p>
+			<h1 class="mb-2"><strong>About OLDPMS</h1></strong><br>
+			<p>The Online Lumber Dealer Permitting and Monitoring System is developed in order to:</p>
 			<li>Standardize and streamline the process flow regionwide</li>
 			<li>Strengthen the  protection and conservation of naturally grown timber</li>
 			<li>Improve access to service delivery and efficient processing of lumber dealer application</li>

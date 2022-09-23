@@ -25,11 +25,11 @@
   <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="img\oldpmslogoreg.png"></a>
+          <a class="nav-link disabled" style="cursor: pointer;"><img src="images/oldpmslogoreg.png"></a>
         </li>
         <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
-            <span style="font-weight: 900; color: #fff;"><img src="img\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
+            <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
     </ul>
   </div>
