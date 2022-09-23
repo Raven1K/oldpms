@@ -1,0 +1,17 @@
+/* Add here all your CSS customizations */
+.noHover {
+    pointer-events: none;
+}
+
+.dropdown-left-manual {
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+/*
+.hideMenu {
+    display: none;
+}
+    */

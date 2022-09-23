@@ -3,24 +3,24 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="index.php"><img src="images/oldpmslogo.png" alt="Red Planet" height="40"></a>
+    <a href="index.php"><img src="images/oldrmslogo.png" alt="Red Planet" height="60"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
+    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER REGISTRATION & MONITORING SYSTEM</strong></a>
       <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#aboutus">ABOUT OLDPMS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#requirement">REQUIREMENTS</a>
+          <a class="nav-link" href="#aboutus">ABOUT OLDRMS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contactus">CONTACT US</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.php">LOGIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.php">REGISTER</a>
         </li>
       </ul>
     </div>

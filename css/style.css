@@ -1,15 +1,11 @@
-:root {
-  --primary-color: #2987ce;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
+  padding: 0; 
+  align-items: center;
   background: #ecedf0;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 3%;
 }
 /*! .custom_alert {
   background: #b8c8ac;
@@ -27,15 +23,6 @@ body {
   font-size: 18px;
   color: #161d12;
 }*/
-.custom_container{
-  padding: 0; 
-  align-items: center;
-  background: #ecedf0;
-  display: flex;
-  max-width: 500px;
-  margin: auto;
-  margin-top: 3%;
-}
 
 
 .custom_alert.show {
@@ -57,8 +44,6 @@ body {
   }
 }
 
-
-
 .custom_alert.hide {
   display: none;
 }
@@ -79,7 +64,6 @@ body {
   border-bottom-right-radius: calc(0.3rem - 10px);
   border-bottom-left-radius: calc(0.3rem - 10px);
 }
-
 .custom_modal-footer > * {
   margin: 0.25rem;
 }
@@ -197,170 +181,6 @@ body {
    .modal-fullscreen-xxl-down .custom_modal-body {
     overflow-y: auto;
   }
-
-/*! Dashboard-Multi-step*/
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-input {
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-}
-
-.width-50 {
-  width: 50%;
-}
-
-.ml-auto {
-  margin-left: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* Progressbar */
-.progressbar {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  counter-reset: step;
-  margin: 2rem 0 4rem;
-}
-
-.progressbar::before,
-.progress {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 4px;
-  width: 100%;
-  background-color: #dcdcdc;
-  z-index: -1;
-}
-
-.progress {
-  background-color: #2987ce;
-  width: 0%;
-  transition: 0.3s;
-}
-
-.progress-step {
-  width: 2.1875rem;
-  height: 2.1875rem;
-  background-color: #dcdcdc;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.progress-step::before {
-  counter-increment: step;
-  content: counter(step);
-}
-
-.progress-step::after {
-  content: attr(data-title);
-  position: absolute;
-  top: calc(100% + 0.5rem);
-  font-size: 0.85rem;
-  color: #666;
-}
-
-.progress-step-active {
-  background-color: #2987ce;
-  color: #f3f3f3;
-}
-
-/* Form */
-.form {
-  width: clamp(820px, 40%, 530px);
-  margin: 0 auto;
-  border-radius: 0.35rem;
-  padding: 1.5rem;
-}
-
-.form-step {
-  display: none;
-  transform-origin: top;
-  animation: animate 0.4s;
-  padding: 20px;
-  border-radius: 20px;
-  background-color: #fff;
-}
-
-.form-step-active {
-  display: block;
-}
-
-.input-group {
-  margin: 2rem 0;
-}
-
-@keyframes animate {
-  from {
-    transform: scale(1, 0);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1, 1);
-    opacity: 1;
-  }
-}
-
-/* Button */
-.btns-group {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-}
-
-.custom_btn {
-  padding: 0.75rem;
-  display: block;
-  text-decoration: none;
-  background-color: #2987ce;
-  color: #f3f3f3;
-  text-align: center;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-
-.custom_btn_next {
-  padding: 0.75rem;
-  display: block;
-  text-decoration: none;
-  background-color: #2987ce;
-  color: #f3f3f3;
-  text-align: center;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.custom_btn_prev {
-  padding: 0.75rem;
-  display: block;
-  text-decoration: none;
-  background-color: darkgray;
-  color: #f3f3f3;
-  text-align: center;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-
-
-
 
 /*! card*/
   .custom-card {

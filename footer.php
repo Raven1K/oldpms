@@ -1,10 +1,10 @@
-<footer class="short bg-dark text-white" id="footer">
+<footer class="short text-white" id="footer" style="background: #358d27">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
             <br>
                 <h5 class="heading-primary">Department of Environment and Natural Resources - CARAGA Region</h5>
-                <h3>DENR Regional ICT Caraga</h3>
+                <h3>RICTU Caraga</h3>
             </div>
         </div>
     </div>
