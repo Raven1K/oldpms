@@ -33,12 +33,14 @@
     <section class="body-sign">
         <div class="center-sign">
             <a href="index.php" class="logo pull-left">
-                <img src="images/oldrmslogo2.png" height="150" alt="RB-IIMS Admin" />
+                <img src="images/oldpmslogin.png" height="150" alt="OLDPMS" />
             </a>
 
             <div class="panel panel-sign">
-                <div class="panel-title-sign mt-xl text-right">
-                    <h2 class="title text-uppercase text-weight-bold m-none"><i class="fa fa-user mr-xs"></i> Sign In</h2>
+                <div class="panel-title-sign mt-xl text-right ms-2">
+
+                    <h2 class="title text-uppercase text-weight-bold m-none "><i class="fa fa-user mr-xs"></i> Sign In</h2>
+ <!--                    <a href="index.php" class="logo pull-left"><img src="images/oldpmslogin.png" class="mb-2" height="50" alt="OLDPMS" /></a> -->
                 </div>
                 <div class="panel-body">
                     <form action="/Account/Login" class="form-horizontal" method="post" role="form">

@@ -1,20 +1,3 @@
-<section id="indexmap">
-<div class="container">
-	<div class="bg-dark mt-5 mb-5 border border-dark border-5">
-		<h1 class="text-white text-center"><strong>LUMBER DEALER PERMITTEES</strong></h1>
-			<div class="mapouter">
-				<div class="gmap_canvas">
-					<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=900&amp;hl=en&amp;q=denr ambago&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-					</iframe><a href="https://embedmapgenerator.com/">embed google maps in website</a>
-				</div>
-					<style>.mapouter{position:relative;text-align:right;width:100%;height:800px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:800px;}.gmap_iframe {height:800px!important;}
-					</style>
-					<br>
-			</div>
-	</div>	
-</div>
-</section>
-
 <section id="aboutus" class="bg-dark bg-gradient">
 	<div class="container-fluid">
 		<div class="container text-white">
@@ -34,6 +17,25 @@
 		</div>
 	</div>
 </section>
+
+
+<section id="indexmap">
+<div class="container">
+	<div class="bg-dark mt-5 mb-5 border border-dark border-5">
+		<h1 class="text-white text-center"><strong>LUMBER DEALER PERMITTEES</strong></h1>
+			<div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=900&amp;hl=en&amp;q=denr ambago&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+					</iframe><a href="https://embedmapgenerator.com/">embed google maps in website</a>
+				</div>
+					<style>.mapouter{position:relative;text-align:right;width:100%;height:800px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:800px;}.gmap_iframe {height:800px!important;}
+					</style>
+					<br>
+			</div>
+	</div>	
+</div>
+</section>
+
 
 
 

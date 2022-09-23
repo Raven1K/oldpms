@@ -21,6 +21,7 @@
       require_once 'navbar.php';
       require_once 'hdrslide.php';
       require_once 'about.php';
+      require_once 'requirement.php';
       require_once 'contact.php';
       require_once 'footer.php';
   ?>
