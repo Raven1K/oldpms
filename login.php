@@ -76,7 +76,7 @@
                         <br />
                         <hr />
                             <button type="button" onclick="window.location.href='ForgotPasswordReset'" class="mb-xs mt-xs mr-xs btn btn-warning">Forgot Password?</button>
-                            <button type="button" onclick="window.location.href='register.php'" class="mb-xs mt-xs mr-xs btn btn-warning">Register</button>
+                            <button type="button" onclick="window.location.href='Register.php'" class="mb-xs mt-xs mr-xs btn btn-warning">Register</button>
                         </form>
                         </div>
 
