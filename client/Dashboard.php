@@ -12,17 +12,19 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../fonts/css/all.css">
     <script src="../js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <input type="file" id="real-file"  hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file2" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file3" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file4" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file5" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file6" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile"  hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile2" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile3" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile4" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile5" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile6" hidden="hidden" accept="Application/pdf" value=""/>
 
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -191,7 +193,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized. </span>
+      <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.<span style="color: red; font-weight: 500;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -201,7 +203,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text2" style="font-size: 13px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer </span>
+      <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button2" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -211,7 +213,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit </span>
+      <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button3" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -221,7 +223,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan </span>
+      <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button4" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -231,7 +233,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return </span>
+      <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button5" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -241,7 +243,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner </span>
+      <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -253,7 +255,7 @@
         </div>
         <div class="btns-group">
           <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
-          <button type="button" class="btn btn-success" data-bs-toggle="modal" id="acceptBtn" disabled="true" >Submit</button>
+          <button type="button submit" class="btn btn-success" data-bs-toggle="modal" disabled="true" id="acceptBtn" >Submit</button>
         </div>
       </div>
     </form>
@@ -272,22 +274,14 @@
 <script type="text/javascript">
 
 
-  var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-    toast.show()
-  })
-}
-  
-  const realFileBtn = document.getElementById("real-file");
-  const realFileBtn2 = document.getElementById("real-file2");
-  const realFileBtn3 = document.getElementById("real-file3");
-  const realFileBtn4 = document.getElementById("real-file4");
-  const realFileBtn5 = document.getElementById("real-file5");
-  const realFileBtn6 = document.getElementById("real-file6");
+ 
+  const realFileBtnAccept = document.getElementById("acceptBtn");
+  const realFileBtn = document.getElementById("realfile");
+  const realFileBtn2 = document.getElementById("realfile2");
+  const realFileBtn3 = document.getElementById("realfile3");
+  const realFileBtn4 = document.getElementById("realfile4");
+  const realFileBtn5 = document.getElementById("realfile5");
+  const realFileBtn6 = document.getElementById("realfile6");
 
   const customBtn = document.getElementById("custom-button");
   const customBtn2 = document.getElementById("custom-button2");
@@ -322,8 +316,8 @@ if (toastTrigger) {
       for (var i = 0; i < this.files.length; i++){
          customTxt.style.color="red";
             customTxt.innerHTML = this.files.item(i).name;
-            document.getElementById('acceptBtn').disabled = true; 
-      }
+            customBtn.innerHTML = "Upload file..";
+                  }
       if(files[0].size > 10 * 1024 * 1024){
         customTxtMB.innerHTML = 'File exceed 10 mb';
         customTxtMB.style.color = "red";
@@ -334,10 +328,8 @@ if (toastTrigger) {
     }
     if (totalBytes < 1000000){
       var _size = Math.floor(totalBytes/1000) + ' KB';
-      document.getElementById('acceptBtn').disabled = false; 
     }else {
       var _size = Math.floor(totalBytes/1000000) + ' MB'; 
-       document.getElementById('acceptBtn').disabled = false; 
     }
     
     customTxtMB.innerHTML = _size;
@@ -360,6 +352,7 @@ if (toastTrigger) {
  for (var i = 0; i < this.files.length; i++){
          customTxt2.style.color="red";
             customTxt2.innerHTML = this.files.item(i).name;
+              customBtn2.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
@@ -399,6 +392,7 @@ if (toastTrigger) {
     for (var i = 0; i < this.files.length; i++){
          customTxt3.style.color="red";
             customTxt3.innerHTML = this.files.item(i).name;
+              customBtn3.innerHTML = "Upload file..";
       }
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
@@ -440,6 +434,7 @@ if (toastTrigger) {
       for (var i = 0; i < this.files.length; i++){
          customTxt4.style.color="red";
             customTxt4.innerHTML = this.files.item(i).name;
+             customBtn4.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
@@ -480,6 +475,7 @@ if (toastTrigger) {
         for (var i = 0; i < this.files.length; i++){
          customTxt5.style.color="red";
             customTxt5.innerHTML = this.files.item(i).name;
+             customBtn5.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
@@ -518,6 +514,7 @@ if (toastTrigger) {
         for (var i = 0; i < this.files.length; i++){
          customTxt6.style.color="red";
             customTxt6.innerHTML = this.files.item(i).name;
+             customBtn6.innerHTML = "Upload file..";
       }
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
@@ -547,9 +544,46 @@ if (toastTrigger) {
         }
   });
 
+ $(document).ready(function(){
+  $('input[type="file"]').change(function(){
+    if( $('#realfile').val() != '' && $('#realfile2').val() != '' && $('#realfile3').val() != ''  && $('#realfile4').val() != ''  
+      && $('#realfile5').val() != ''  && $('#realfile6').val() != '')
+    {
+      $('#acceptBtn').attr('disabled', false);
+    }
+  });
+});
 
+ document.getElementById("acceptBtn").addEventListener("click", function showFileSize() {
+    if (!window.FileReader) { 
+        console.log("The file API isn't supported on this browser yet.");
+        return;
+    }
+    var input = document.getElementById('realfile');
+    if (!input.files) { 
+        console.error("This browser doesn't seem to support the `files` property of file inputs.");
+    } else {
+        var file = input.files[0];
+        alert("File " + file.name + " is " + " more than 10 MB in size");
+          $('#acceptBtn').attr('disabled', true);
+    }
 
-</script>
+});
+</script> 
+<!--
+    var toastTrigger = document.getElementById("acceptBtn")
+  var toastLiveExample = document.getElementById("liveToast")
+    //
+  var toastTrigger = document.getElementById("acceptBtn")
+  var toastLiveExample = document.getElementById("liveToast")
 
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+    toast.show()
+  })
+}
+    -->
+  
   </body>
 </html>

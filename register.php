@@ -25,11 +25,11 @@
   <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="img\oldpmslogoreg.png"></a>
+          <a class="nav-link disabled" style="cursor: pointer;"><img src="images\oldpmslogoreg.png"></a>
         </li>
         <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
-            <span style="font-weight: 900; color: #fff;"><img src="img\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
+            <span style="font-weight: 900; color: #fff;"><img src="images\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
     </ul>
   </div>
@@ -43,17 +43,17 @@
                   <div class="row">
                     <div class="col" style="position: relative;">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name">
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name">
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name">
                           <form class="row g-3" style="margin-bottom: 10px;">
                               <div class="col-auto" style="width: 100%;">
-                              <input type="text" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*"></div>
+                              <input type="number" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*"></div>
                           </form>
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_password" placeholder="Password*" aria-label="pw"></div>
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw"></div>
                     <div class="col">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name">
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email">
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email">
                               <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button>
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw"></div></div>
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw"></div></div>
                               <br>
                               <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
@@ -77,11 +77,11 @@
         <div class="modal-content">
            <br><br>
 <div class="modal-body">
-             <img src="img/verification.png"><br><br><br>
+             <img src="images/verification.png"><br><br><br>
              <label style="font-weight: 700; font-size: 20px;">Authenticate Your Account</label>
              <label style="font-weight: 400; color:#808080; font-size: 15px; color: #696969;">Please confirm your account<br>by entering the verification code sent to</label>
              <label style="font-weight: 600; font-size: 16px; font-size: 15px; color: #525252">***-****-0909.</label><br>
-              <label style="font-weight: 300; font-size: 16px; font-size: 45px; color: #525252;"><u>0</u> <u>9</u> <u>_</u> <u>_</u> <u>_</u></label><br>
+               <input type="number" style="font-weight: 300; width: 100px; font-size: 45px;color: #525252; text-align: center; border-bottom-color: #000; border-top-color: #fff; border-right-color: #fff; border-left-color: #fff;" class="form-control" id="exampleFormControlInput1" placeholder=""><br>
             </div>
             <div class="modal-footer">
               <label style="font-size: 13px; color: #696969; width: 80%; text-align: left; text-decoration: none;">It may take a minute to receive your code.<br>Haven't received it? <a href="  #" style="color: #3E8CFF; cursor: pointer; font-weight: 500;">Resend a new code</a></label>
@@ -132,7 +132,7 @@
 <div class="position-fixed top-0 end-0 p-3" style="z-index: 11;">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style=" background-color: #d1e7dd;">
     <div class="toast-header" style=" background-color: #d1e7dd; color: #658251">
-      <strong class="me-auto"><img src="img/alert_success.png"> Registered Successfully!</strong>
+      <strong class="me-auto"><img src="images/alert_success.png"> Registered Successfully!</strong>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
   </div>
