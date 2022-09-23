@@ -57,6 +57,8 @@ body {
   }
 }
 
+
+
 .custom_alert.hide {
   display: none;
 }
@@ -77,6 +79,7 @@ body {
   border-bottom-right-radius: calc(0.3rem - 10px);
   border-bottom-left-radius: calc(0.3rem - 10px);
 }
+
 .custom_modal-footer > * {
   margin: 0.25rem;
 }

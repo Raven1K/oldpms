@@ -9,20 +9,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="fonts/css/all.css">
-    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../fonts/css/all.css">
+    <script src="../js/script.js" defer></script>
   </head>
   
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <input type="file" id="real-file"  hidden="hidden" accept="Application/pdf" />
-    <input type="file" id="real-file2" hidden="hidden" accept="Application/pdf"/>
-    <input type="file" id="real-file3" hidden="hidden" accept="Application/pdf"/>
-    <input type="file" id="real-file4" hidden="hidden" accept="Application/pdf"/>
-    <input type="file" id="real-file5" hidden="hidden" accept="Application/pdf"/>
-    <input type="file" id="real-file6" hidden="hidden" accept="Application/pdf"/>
+    <input type="file" id="real-file"  hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="real-file2" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="real-file3" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="real-file4" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="real-file5" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="real-file6" hidden="hidden" accept="Application/pdf" value=""/>
 
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -31,9 +31,9 @@
       
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
   <div class="container-fluid">
-      <img src="img\oldpmslogo.png">
-      <a class="navbar-brand" href="#" style="font-family: Candara; color:#312f31; font-size:20px; color: #fff; font-weight: bold;">ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</a>
-    
+     <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
            <li class="nav-item">
@@ -253,7 +253,7 @@
         </div>
         <div class="btns-group">
           <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
-          <button type="button" class="btn btn-success" data-bs-toggle="modal" id="acceptBtn" >Submit</button>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" id="acceptBtn" disabled="true" >Submit</button>
         </div>
       </div>
     </form>
@@ -270,6 +270,8 @@
 </div>
 
 <script type="text/javascript">
+
+
   var toastTrigger = document.getElementById("acceptBtn")
   var toastLiveExample = document.getElementById("liveToast")
 
@@ -279,8 +281,6 @@ if (toastTrigger) {
     toast.show()
   })
 }
-  
-  const customBtnAccept = document.getElementById("acceptBtn");
   
   const realFileBtn = document.getElementById("real-file");
   const realFileBtn2 = document.getElementById("real-file2");
@@ -322,6 +322,7 @@ if (toastTrigger) {
       for (var i = 0; i < this.files.length; i++){
          customTxt.style.color="red";
             customTxt.innerHTML = this.files.item(i).name;
+            document.getElementById('acceptBtn').disabled = true; 
       }
       if(files[0].size > 10 * 1024 * 1024){
         customTxtMB.innerHTML = 'File exceed 10 mb';
@@ -333,8 +334,10 @@ if (toastTrigger) {
     }
     if (totalBytes < 1000000){
       var _size = Math.floor(totalBytes/1000) + ' KB';
+      document.getElementById('acceptBtn').disabled = false; 
     }else {
       var _size = Math.floor(totalBytes/1000000) + ' MB'; 
+       document.getElementById('acceptBtn').disabled = false; 
     }
     
     customTxtMB.innerHTML = _size;
@@ -543,6 +546,9 @@ if (toastTrigger) {
           customTxt6.style.color = "#808080";
         }
   });
+
+
+
 </script>
 
   </body>
