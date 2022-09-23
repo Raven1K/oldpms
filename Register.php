@@ -101,7 +101,7 @@
         <p style="position: absolute; font-size: 12px; font-family: Sans-serif; color: #808080; font-weight:100;">The following Terms and Conditions contain significant agreements involving all users of DENR Caraga Online Lumber Dealer Permitting and Monitoring System (Online LDPMS). We therefore advise you to please review these terms and conditions carefully and indicate whether you agree or disagree to them by clicking on the corresponding box towards the end of this document.
         <br>
         <br>
-           All the terms "You", "Your" and "Yours" will refer to the Online LDPMS user. The terms "We", "Us" and "Our" refer to DENR Caraga. The words "System" refer to Online PMS.
+           All the terms "You", "Your" and "Yours" will refer to the Online Lumber Dealer Permitting & Monitoring System (OLDPMS) user. The terms "We", "Us" and "Our" refer to DENR Caraga. The words "System" refer to Online PMS.
         <br>
         <br>
 
