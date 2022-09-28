@@ -218,7 +218,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -233,7 +233,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -248,7 +248,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -264,7 +264,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -279,7 +279,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -294,7 +294,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -309,7 +309,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -324,7 +324,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -339,7 +339,7 @@
                             </td>
                             <td>
                             <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
@@ -354,7 +354,7 @@
                             </td>
                              <td>
                               <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
+                              <i class="fa fa-external-link"> </i> For Evaluation</a>
                               </div>
                             </td>
                           </tr>
