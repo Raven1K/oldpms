@@ -26,7 +26,7 @@
           <a class="nav-link" href="register.php">REGISTER</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="register.php">FUS - CENRO</a>
+          <a class="nav-link" href="register.php">FUS-CENRO</a>
         </li>
       </ul>
     </div>
