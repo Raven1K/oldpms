@@ -54,12 +54,6 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                <!--    <h1 class="h3 mb-2 text-success"><strong>Tables</strong></h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
-
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header bg-success py-3">
@@ -91,7 +85,7 @@
 											<td>CENRO Tubay</td>
 											<td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-warning btn-sm">                                       			 
+												<a href="evaluation.php" class="btn btn-warning btn-sm">                                       			 
                                        			 <span class="text align-content-center"><strong>Evaluate</strong></span>
                                     			
 												 <span class="icon ml-2">
@@ -116,12 +110,12 @@
                                         			
                                         			<span class="text align-content-center"><strong>Endorse</strong></span>
 													<span class="icon ml-2">
-                                           			 <i class="fas fa-check"></i>
+                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
                                        				 </span>
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Endorsement</strong></td>
+                                            <td class="text-primary"><strong>For Endorsement</strong></td>
                                            
                                             
                                         </tr>
@@ -133,7 +127,7 @@
 											<td>CENRO Talacogon</td>
 											<td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success disabled btn-sm ">
+												<a href="#" class="btn btn-info disabled btn-sm ">
                                         			
                                         			<span class="text align-content-center"><strong>Completed</strong></span>
 													<span class="icon ml-2">
@@ -155,9 +149,9 @@
 											<td>CENRO Bunawan</td>
 											<td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm ">
+												<a href="#" class="btn btn-info disabled btn-sm ">
                                         			
-                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+                                        			<span class="text align-content-center"><strong>Completed</strong></span>
 													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
@@ -177,7 +171,7 @@
 											<td>CENRO Bayugan</td>
 											 <td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-warning  btn-sm">                                       			 
+												<a href="evaluation.php" class="btn btn-warning  btn-sm">                             			 
                                        			 <span class="text align-content-center"><strong>Evaluate</strong></span>
                                     			
 												 <span class="icon ml-2">
@@ -199,9 +193,9 @@
 											<td>CENRO Tubod</td>
 											<td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm ">
+												<a href="#" class="btn btn-info disabled btn-sm ">
                                         			
-                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+                                        			<span class="text align-content-center"><strong>Completed</strong></span>
 													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
@@ -219,18 +213,19 @@
                                             <td>Tubod</td>
 											<td>2022-06-03</td>
 											<td>CENRO Tubod</td>
-											 <td>
+											  <td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm ">
+												<a href="#" class="btn btn-primary btn-sm ">
                                         			
-                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
 													<span class="icon ml-2">
-                                           			 <i class="fas fa-check"></i>
+                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
                                        				 </span>
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td class="text-primary"><strong>For Endorsement</strong></td>
+                                            
                                            
                                             
                                             
@@ -263,18 +258,18 @@
                                             <td>Carascal</td>
 											<td>2022-10-30</td>
 											<td>CENRO Cantilan</td>
-											<td>
-											  <div class="row justify-content-center">
-												<a href="#" class="btn btn-warning  btn-sm">                                       			 
-                                       			 <span class="text align-content-center"><strong>Evaluate</strong></span>
-                                    			
-												 <span class="icon ml-2">
-                                          			  <i class="fas fa-search-plus"></i>
-                                       			 </span>
-												</a>
-												</div>	
+											 <td>
+												<div class="row justify-content-center">
+												<a href="#" class="btn btn-primary btn-sm ">
+                                        			
+                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
+													<span class="icon ml-2">
+                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
+                                       				 </span>
+                                   				 </a>
+												</div>
 											</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                            <td class="text-primary"><strong>For Endorsement</strong></td>
                                            
                                             
                                             
@@ -285,18 +280,18 @@
                                             <td>Tandag</td>
 											<td>2022-03-03</td>
 											<td>CENRO Lianga</td>
-											  <td>
+											   <td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm ">
+												<a href="#" class="btn btn-primary btn-sm ">
                                         			
-                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
 													<span class="icon ml-2">
-                                           			 <i class="fas fa-check"></i>
+                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
                                        				 </span>
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td class="text-primary"><strong>For Endorsement</strong></td>
                                           
                                             
                                             
@@ -324,29 +319,7 @@
                                             
                                             
                                         </tr>
-                                        <tr>
-											<td>12</td>
-                                            <td>Quinn Flynn</td>
-                                            <td>Lianga</td>
-											<td>2022-01-03</td>
-											<td>CENRO Lianga</td>
-											<td>
-												<div class="row justify-content-center">
-												<a href="#" class="btn btn-warning  btn-sm">                                       			 
-                                       			 <span class="text align-content-center"><strong>For Review</strong></span>
-                                    			
-												 <span class="icon ml-2">
-                                          			  <i class="fas fa-search-plus"></i>
-                                       			 </span>
-												</a>
-												</div>	
-											</td>
-                                            <td class="text-warning text-content-center"><strong>For Evaluation</strong></td>
-                                            
-                                            
-                                            
-                                        </tr>
-                                        
+                                      
                                     </tbody>
                                 </table>
                             </div>
