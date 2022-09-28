@@ -191,5 +191,9 @@
 	        .appendTo( '#example_wrapper .col-md-6:eq(0)' );
 	} );
      </script>
+	
+	 <!-- Bootstrap core JavaScript-->
+    
+    
 </body>
 </html>

@@ -121,7 +121,7 @@
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td class="text-info"><strong>For Endorsement</strong></td>
                                            
                                             
                                         </tr>
@@ -133,9 +133,9 @@
 											<td>CENRO Talacogon</td>
 											<td>
 												<div class="row justify-content-center">
-												<a href="#" class="btn btn-success btn-sm ">
+												<a href="#" class="btn btn-success disabled btn-sm ">
                                         			
-                                        			<span class="text align-content-center"><strong>Evaluated</strong></span>
+                                        			<span class="text align-content-center"><strong>Completed</strong></span>
 													<span class="icon ml-2">
                                            			 <i class="fas fa-check"></i>
                                        				 </span>
