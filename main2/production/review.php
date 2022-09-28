@@ -230,7 +230,7 @@
             </div>
                   <div class="modal-body">
 
-                  <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+                  <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
                                 <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -266,7 +266,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                         <div class="modal-footer">
                                 <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -302,7 +302,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
                                 <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -339,7 +339,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                        <div class="modal-footer">
                                  <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -375,7 +375,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                         <div class="modal-footer">
                                 <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -411,7 +411,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
                           <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -447,7 +447,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                          <div class="modal-footer">
                          <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -483,7 +483,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                      <div class="modal-footer">
                      <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
@@ -519,7 +519,7 @@
             </div>
             <div class="modal-body">
 
-            <embed src="main2/images/sample.pdf" frameborder="0" width="100%" height="400px">
+            <embed src="main2/production/images/sample.pdf" frameborder="0" width="100%" height="400px">
                    <div class="modal-footer">
                                 <a class="btn btn-round btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
