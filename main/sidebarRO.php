@@ -37,7 +37,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="table.php">
+                <a class="nav-link text-white" href="dealertable.php">
                     <i class="fas fa-fw fa-certificate text-info"></i>
                     <span class="text-white">Existing Lumber Dealers</span>
                 </a>
