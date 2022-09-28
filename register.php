@@ -42,30 +42,66 @@
                 <div class="col">
                   <div class="row">
                     <div class="col" style="position: relative;">
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name">
-                              <input style="margin-bottom: 5px;" type="email" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name">
+
+
+
+                    <form action="processphp/prc_clientregister.php"  method="post" role="form" >
+                    
+                    enctype="multipart/form-data" >
+<!-- for  multilingual file back end reciptional  -->
+
+                              <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name" name="firstname">
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name" name="email">
                           <form class="row g-3" style="margin-bottom: 10px;">
                               <div class="col-auto" style="width: 100%;">
-                              <input type="number" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*"></div>
-                          </form>
-                              <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw"></div>
+                              <input type="number" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*" name="mobilenum"></div>
+                       
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw" name="password"></div>
                     <div class="col">
-                              <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name">
-                              <input style="margin-bottom: 5px;" type="email" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email">
+                              <input style="margin-bottom: 5px;" type="text" class="form-control user_middlename" placeholder="Middle Name*" aria-label="last_name" name="mid_name">
+                              <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name" name="lastname">
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email" name="Cemail">
                               <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button>
-                              <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw"></div></div>
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw" name="Cpassword"></div></div>
                               <br>
                               <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
-                              <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" multiple>
+                              <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" name="my_image1" multiple>
                               </div>
+              <scrip>
+                              <?php if (isset($_GET['error'])): 
+                                if(isset($_POST['my_image1']))
+                                  {
+                      
+                                    if ($error === 0) 
+                                    {
+                                      if ($img_size > 1125000) 
+                                      {
+                                          $em = "Sorry, your file is too large.";
+                                          header("Location: ../univmodal.php?error=$em");
+                          
+                                      }
+
+                                      else;
+
+                                    }
+                             
+                                  
+
+                                  }
+                                endif;
+
+                              ?>
+
+                                </script>
+
                                <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload a copy of your Government Issued ID</label>
-                              <input class="form-control formFileMultiple2" type="file" id="formFileMultiple" multiple>
+                              <input class="form-control formFileMultiple2" type="file" id="formFileMultiple"  name="my_image2" multiple>
                               </div>
                                <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload Company's Authorization Letter</label>
-                              <input class="form-control formFileMultiple3" type="file" id="formFileMultiple" multiple>
+                              <input class="form-control formFileMultiple3" type="file" id="formFileMultiple"  name="my_image3" multiple>
                               </div></div></p>
                               <center>
                               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 250px; border-radius: 7px; background-color: #2987ce;">Register</button>
@@ -119,7 +155,9 @@
 
       <div class="modal-footer">
               <button type="button" class="btn btn-danger declineBtn" data-bs-dismiss="modal">Decline</button>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="acceptBtn" style="background-color: #2987ce;">Accept</button>
+              <button class="btn  btn-success" name="btn"> Accept </button>
+              <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="acceptBtn" style="background-color: #2987ce;" name="btn">Accept</button> -->
+      </form>
       </div>
     </div>
   </div>

@@ -1,3 +1,17 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+     header("location: ../login.php");
+    exit;
+}
+?>
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -56,7 +70,18 @@
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Profile</a>
-               <a class="dropdown-item" href="#">Logout</a>
+
+
+
+              <form action="../processphp/prc_logout.php"  method="post" role="form" >
+
+               <!-- <button class="btn  btn-success" name="Log-out">Logout</button> -->
+               <button class="btn  btn-success" name="btn"> Logout </button>
+
+</form>
+
+
+
             </li>
           </ul>
         </li>
@@ -110,7 +135,7 @@
             <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>
          <div class="row">
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" >
+          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" name="fname" >
           </div>
           <div class="col"><br>
           <input style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">

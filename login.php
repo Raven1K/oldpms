@@ -43,20 +43,20 @@
  <!--                    <a href="index.php" class="logo pull-left"><img src="images/oldpmslogin.png" class="mb-2" height="50" alt="OLDPMS" /></a> -->
                 </div>
                 <div class="panel-body">
-                    <form action="/Account/Login" class="form-horizontal" method="post" role="form">
+                <form action="processphp/prclogin.php" class="form-horizontal" method="post" role="form">
                         <input name="__RequestVerificationToken" type="hidden" value="TusLxdoC-WSu8vJrVyC708Q-VCmwvxcodV1bCLSKxDKuOc10e_n32QEZtvLL0gC62OBGkguEbcvPQAhVk3fwXBKpyPYjqSD2anIRvin4ylc1" />  <h4>Please Log In</h4>
                         <hr />
                         <div class="form-group">
                             <label class="col-md-3 control-label" for="Email">Email</label>
                             <div class="col-md-9">
-                                <input class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" type="text" value="" />
+                                <input class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="email" type="text" value="" />
                                 <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-md-3 control-label" for="Password">Password</label>
                             <div class="col-md-9">
-                                <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password" />
+                                <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="password" type="password" />
                                 <span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-md-offset-3 col-md-9">
-                                <input type="submit" value="Log in" class="btn btn-success" />
+                                <input type="submit" value="Log in" class="btn btn-success" name="btn"/>
                             </div>
                         </div>
                         <br />

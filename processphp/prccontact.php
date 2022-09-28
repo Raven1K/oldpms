@@ -1,9 +1,15 @@
 <?php 
 
     require_once('config.php');
+     if(isset($_POST['btn']))
+     {
 
-    if(isset($_POST['btn']))
-    {
+   
+
+    // if ( isset($_POST['name']) && isset($_POST['email'])
+    //  && isset($_POST['subject']) && isset($_POST['message']) ) {
+
+
         $full_name = $_POST['name'];
         $email = $_POST['email'];
         $subject = $_POST['subject'];
@@ -24,7 +30,7 @@
             <button type="backpage" name="button"> Backpage </button>
             </form>';
 
-
+           
 
             // echo '<a class="btn btn-primary" href="edit_old.php?user_id" </a>  ';
             // header("Location: index.php");
@@ -40,12 +46,39 @@
 
                 if($result)
                 {
+
+
+                    //  echo ' Your Record Has Been Saved in the Database ';
+                
+             
+      
+                
+              
+            //  echo '<script>alert("Your Record Has Been Saved in the Database" )</script>';
+
+        
+            // header("Location: ../index.php#contactus");
+                    // header("Location: ../index.php#contactus");
+                   
+
+
+                     $em = "Your Message Has Been Send";
+                     header ("Location: univmodal.php?error=$em");
+
+    //    header("Location: ../");
+                    // die();
+                    
                     // echo ' Your Record Has Been Saved in the Database ';
                    
-                    echo '<a href="../index.php" onclick="history.back();">
-                    <script>alert("Your Record Has Been Saved in the Database" ) </script>
-                    <button type="backpage" name="button"> OK </button>
-                    </form>';
+                    // echo '<a href="../index.php" onclick="history.back();">
+                    // <script>alert("Your Record Has Been Saved in the Database" ) </script>
+                    // <button type="backpage" name="button"> OK </button>
+                    // </form>';
+                   
+                    
+                    
+    
+
                 }
                 else
                 {
