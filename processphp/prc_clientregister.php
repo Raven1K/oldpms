@@ -42,7 +42,7 @@
 
 
 
-        if(empty($firstname) || empty($lastname) || empty($email) || empty($Cemail)  || empty($password) || empty($CPassword) || empty($File1) 
+        if(empty($firstname) || empty($lastname) || empty($email)  || empty($password) || empty($CPassword) || empty($File1) 
         || empty($File2) || empty($File3))
         {
             // echo ' Please Fill in the Blanks ';
@@ -54,21 +54,36 @@
            
 
 
-            echo '<form action ="../Register.php" method = "POST">
-            <script>alert("Please Fill in the Blanks" )</script>
-            <button type="backpage" name="button"> Backpage </button>
-            </form>';
+            // echo '<form action ="../Register.php" method = "POST">
+            // <script>alert("Please Fill in the Blanks" )</script>
+            // <button type="backpage" name="button"> Backpage </button>
+            // </form>';
+
+            $em = "Please Fill in the Blanks";
+            header ("Location: univmodal.php?error=$em");
+
+
+
         }
         else
         {
             if($password!=$CPassword)
             {
-                echo ' Password Not Matched ' ;
+                // echo ' Password Not Matched ' ;
+
+                $em = "Password Not Matched";
+                header ("Location: univmodal.php?error=$em");
+    
              
             }
             elseif($Cemail!=$email)
             {
-                echo '<script>alert("Confirm Email Not Match")</script>';
+
+
+                $em = "Confirm Email Not Match";
+                header ("Location: univmodal.php?error=$em");
+
+
             }
             else
             
@@ -83,7 +98,13 @@
         $query->bindParam("email", $email, PDO::PARAM_STR);
         $query->execute();
         if ($query->rowCount() > 0) {
-            echo '<p class="error">The email address is already registered!</p>';
+            // echo '<p class="error">The email address is already registered!</p>';
+            
+            $em = "The email address is already registered!";
+            header("Location: univmodal.php?error=$em");
+
+
+
         }
         if ($query->rowCount() == 0) {
             $query = $connection->prepare("INSERT INTO user_client(firstname,mid_name,lastname,mobilenum,password,email,comp_id_upload,govt_id_upload,auth_letter)

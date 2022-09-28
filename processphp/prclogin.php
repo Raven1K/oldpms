@@ -1,5 +1,12 @@
 <?php
     session_start();
+
+
+    if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+        header("location: ../client/dashboard.php");
+        exit;
+    }
+
     include('config.php');
     if (isset($_POST['btn'])) {
         $email = $_POST['email'];
@@ -28,15 +35,31 @@
 // if ($result['password'] == $password) 
 if (password_verify($password, $result['password']))
 {
-    $_SESSION['user_id'] = $result['client_id'];
     
-    echo 'Password is valid!';
+    session_start();
+                            
+    // Store data in session variables
+    $_SESSION["loggedin"] = true;
+    $_SESSION["client_id"] = $id;
+    $_SESSION["email"] = $email;   
+    
+    // $_SESSION['loggedin'] = $result['client_id'];
+    
+    header("location: ../client/dashboard.php");
+
+    // echo 'Password is valid!';
     
 
 } 
 else 
 {
-    echo 'Invalid password.';
+
+     $em = "Invalid password.";
+     header ("Location: univmodal.php?error=$em");
+    
+    // echo 'Invalid password.';
+    // header("Location: ../");
+   
 }
 
             // if (password_verify($password, $result['password'])) {
