@@ -10,6 +10,9 @@
     <meta name="author" content="">
 
     <title>OLDPMS-Reviews</title>
+	
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free-6.2.0-web/css/all.min.css" rel="stylesheet" type="text/css">
@@ -94,31 +97,14 @@
 												</a>
 												</div>	
 											</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                            <td >
+												<span class=" text-warning"><i class="bi bi-exclamation-triangle me-1 text-warning"></i><strong> For Endorsement</strong></span>
+												
+												</td>
                                             
                                             
                                         </tr>
-                                        <tr>
-											<td>2</td>
-                                            <td>Garrett Winters</td>
-                                            <td>Loreto</td>
-											<td>2022-09-03</td>
-											<td>CENRO Loreto</td>
-											 <td>
-												<div class="row justify-content-center">
-												<a href="#" class="btn btn-primary btn-sm ">
-                                        			
-                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
-													<span class="icon ml-2">
-                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
-                                       				 </span>
-                                   				 </a>
-												</div>
-											</td>
-                                            <td class="text-primary"><strong>For Endorsement</strong></td>
-                                           
-                                            
-                                        </tr>
+                                        
                                         <tr>
 											<td>3</td>
                                             <td>Ashton Cox</td>
@@ -136,7 +122,10 @@
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td >
+												<span class=" text-info"><i class="bi bi-upload me-1 text-info"></i><strong> For Initial</strong></span>
+												
+												</td>
                                             
                                             
                                             
@@ -158,7 +147,10 @@
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td >
+												<span class=" text-info"><i class="bi bi-upload me-1 text-info"></i><strong> For Initial</strong></span>
+												
+												</td>
                                             
                                             
                                             
@@ -180,7 +172,10 @@
 												</a>
 												</div>	
 											</td>
-                                            <td class="text-warning"><strong>For Evaluation</strong></td>
+                                            <td >
+												<span class=" text-warning"><i class="bi bi-exclamation-triangle me-1 text-warning"></i><strong> For Endorsement</strong></span>
+												
+												</td>
                                            
                                             
                                             
@@ -202,34 +197,15 @@
                                    				 </a>
 												</div>
 											</td>
-                                            <td class="text-info"><strong>For Initial</strong></td>
+                                            <td >
+												<span class=" text-info"><i class="bi bi-upload me-1 text-info"></i><strong> For Initial</strong></span>
+												
+												</td>
                                             
                                             
                                             
                                         </tr>
-                                        <tr>
-											<td>7</td>
-                                            <td>Herrod Chandler</td>
-                                            <td>Tubod</td>
-											<td>2022-06-03</td>
-											<td>CENRO Tubod</td>
-											  <td>
-												<div class="row justify-content-center">
-												<a href="#" class="btn btn-primary btn-sm ">
-                                        			
-                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
-													<span class="icon ml-2">
-                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
-                                       				 </span>
-                                   				 </a>
-												</div>
-											</td>
-                                            <td class="text-primary"><strong>For Endorsement</strong></td>
-                                            
-                                           
-                                            
-                                            
-                                        </tr>
+                                        
                                         <tr>
 											<td>8</td>
                                             <td>Rhona Davidson</td>
@@ -247,55 +223,16 @@
                                    				 </a>
 													</div>
 											</td>
-                                            <td class="text-danger"><strong>Returned</strong></td>
+                                            <td >
+												<span class=" text-danger"><i class="bi bi-exclamation-octagon me-1 text-danger"></i><strong> Returned</strong></span>
+												
+												</td>
                                            
                                             
                                             
                                         </tr>
-                                        <tr>
-											<td>9</td>
-                                            <td>Colleen Hurst</td>
-                                            <td>Carascal</td>
-											<td>2022-10-30</td>
-											<td>CENRO Cantilan</td>
-											 <td>
-												<div class="row justify-content-center">
-												<a href="#" class="btn btn-primary btn-sm ">
-                                        			
-                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
-													<span class="icon ml-2">
-                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
-                                       				 </span>
-                                   				 </a>
-												</div>
-											</td>
-                                            <td class="text-primary"><strong>For Endorsement</strong></td>
-                                           
-                                            
-                                            
-                                        </tr>
-                                        <tr>
-											<td>10</td>
-                                            <td>Sonya Frost</td>
-                                            <td>Tandag</td>
-											<td>2022-03-03</td>
-											<td>CENRO Lianga</td>
-											   <td>
-												<div class="row justify-content-center">
-												<a href="#" class="btn btn-primary btn-sm ">
-                                        			
-                                        			<span class="text align-content-center"><strong>Endorse</strong></span>
-													<span class="icon ml-2">
-                                           			 <i class="fas fa-sharp fa-solid fa-user-group"></i>
-                                       				 </span>
-                                   				 </a>
-												</div>
-											</td>
-                                            <td class="text-primary"><strong>For Endorsement</strong></td>
-                                          
-                                            
-                                            
-                                        </tr>
+                                        
+                                       
                                         <tr>
 											<td>11</td>
                                             <td>Jena Gaines</td>
@@ -314,7 +251,10 @@
 													</div>
 											
 											</td>
-                                            <td class="text-danger"><strong>Returned</strong></td>
+												<td >
+												<span class=" text-danger"><i class="bi bi-exclamation-octagon me-1 text-danger"></i><strong> Returned</strong></span>
+												
+												</td>
                                             
                                             
                                             
