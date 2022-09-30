@@ -47,7 +47,7 @@
 
                     <form action="processphp/prc_clientregister.php"  method="post" role="form" >
                     
-                    enctype="multipart/form-data" >
+                   < enctype="multipart/form-data" >
 <!-- for  multilingual file back end reciptional  -->
 
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name" name="firstname">
