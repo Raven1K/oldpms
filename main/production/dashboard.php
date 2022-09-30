@@ -63,7 +63,7 @@
                   <li><a href="application.php"><i class="fa fa-edit"></i> Evaluation </a></li>
                   <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
                   <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
-                  <li><a href="index.html"><i class="fa fa-map-marker"></i> Site Validated </a></li>
+                  <li><a href="https://oldpms.herokuapp.com/"><i class="fa fa-map-marker"></i> Site Validated </a></li>
                     </ul>
                   </li>
                 </ul>
@@ -77,13 +77,13 @@
 
         <!-- top navigation -->
         <div class="top_nav">
-           <div class="nav_menu navbar-dark" style="background: #222222">
+            <div class="nav_menu navbar-dark" style="background: #222222">
               <div class="nav toggle">
                 <a id="menu_toggle"><i class="fa fa-bars"></i></a>
               </div>
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">
-              <span class="navbar-text" style="color: green">ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</span>
+                <span class="navbar-text" style="color: green">ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</span>
                 <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                     <img src="images/faces/face28.png" alt="" ><span style="color: green">FUU - CENRO</span>
@@ -167,7 +167,6 @@
             </nav>
           </div>
         </div>
-        </div>
         <!-- /top navigation -->
 
         <div class="right_col" role="main">
@@ -176,7 +175,7 @@
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Application Form</h2>
+                    <h2>Home - <small> Status </small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -196,187 +195,138 @@
                       <div class="row">
                           <div class="col-sm-12">
                             <div class="card-box table-responsive">
-                    <table id="datatable-responsive" class="table table-striped table-bordered" style="width:100%">
+                    <table id="datatable-buttons" class="table table-striped table-bordered" style="width:100%">
                       <thead>
                         <tr>
                           <tr>
                             <th> Applicant Name </th>
+                            <th> Reference No </th>
+                            <th> Total Payment </th>
                             <th> Address </th>
+                            <th> Payment Mode </th>
+                            <th> Application Date </th>
                             <th> Application Status </th>
-                            <th> Action </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>
-                            <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Mayet Chua</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
-                              <div class="badge badge-success"> Approved</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
+                              <div class="badge badge-success">Approved</div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                            <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Julie Mar Madelo</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-warning">Pending</div>
                             </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
                           </tr>
                           <tr>
                             <td>
-                            <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jobert Awa</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-danger">Rejected</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
                             </td>
                           </tr>
                           <tr>
                             </td>
                             <td>
-                            <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-success">Approved</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                            <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jaycelen Paler</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-success">Approved</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
                             </td>
                           </tr>
                           <tr>
                             <td>
-                            <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
+                              <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Joshua Jumonong</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
                           </tr>
                           <tr>
                             <td>
-                            <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-1">Totitz Baptisma</span>
+                              <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
+                              <span class="pl-2">Totitz Baptisma</span>
                             </td>
+                            <td> 02312 </td>
+                            <td> ₱2,116 </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> Online Payment </td>
+                            <td> 04 Dec 2019 </td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
                           </tr>
-                          <tr>
-                            <td>
-                            <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Patric Luminarias</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                            <img src="images/faces/face12.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jay Ar Montaner</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td>
-                              <div class="badge badge-danger">Rejected</div>
-                            </td>
-                            <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                            <img src="images/faces/face15.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Kent Bandoy</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td>
-                              <div class="badge badge-danger">Rejected</div>
-                            </td>
-                             <td>
-                              <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> Lumber Dealer Application</a>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody>
+                          </tbody>
                       </table>
+                      
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-  
-
       </div>
     </div>
   </div>
 </div>
 </div>
 </div>
+
 <!-- footer content -->
 <footer class="footer-dark" style="background: #222222">
   <div class="pull-right" style="color: green">
-  DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES - R13<a href=""></a>
+    DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES - R13 <a href=""></a>
   </div>
   <div class="clearfix"></div>
 </footer>
@@ -417,9 +367,3 @@
 
   </body>
 </html>
-
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();   
-});
-</script>

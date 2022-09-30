@@ -63,7 +63,7 @@
                   <li><a href="application.php"><i class="fa fa-edit"></i> Evaluation </a></li>
                   <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
                   <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
-                  <li><a href="index.html"><i class="fa fa-map-marker"></i> Site Validated </a></li>
+                  <li><a href="https://oldpms.herokuapp.com/"><i class="fa fa-map-marker"></i> Site Validated </a></li>
                     </ul>
                   </li>
                 </ul>
@@ -228,7 +228,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -291,7 +291,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -353,7 +353,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -416,7 +416,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -480,7 +480,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -542,7 +542,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
@@ -606,7 +606,7 @@
 
 <!-- Trigger the modal with a button -->
 <!-- Button to Open the Modal -->
-<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">Payment</button>
+<button  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal">View Payment</button>
 
   <!-- The Modal -->
   <div class="modal" id="myModal">
