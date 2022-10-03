@@ -87,7 +87,7 @@ function updateProgressbar() {
     if (files.length > 0){
       for (var i = 0; i < this.files.length; i++){
          customTxt.style.color="red";
-            customTxt.innerHTML = "Application form or duly accompished & sworn/notarized. <br>" + this.files.item(i).name;
+            customTxt.innerHTML = "<span style = 'color:black'>" + "Application form or duly accompished & sworn/notarized. <br>" + "</span>" + this.files.item(i).name;
             customBtn.innerHTML = "Upload file..";
                   }
       if(files[0].size > 10 * 1024 * 1024){
@@ -123,7 +123,7 @@ function updateProgressbar() {
     var totalBytes2 = this.files[0].size;
  for (var i = 0; i < this.files.length; i++){
          customTxt2.style.color="red";
-            customTxt2.innerHTML = "Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer <br>" + this.files.item(i).name;
+            customTxt2.innerHTML = "<span style = 'color:black'>" + "Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer <br>" + "</span>" + this.files.item(i).name;
               customBtn2.innerHTML = "Upload file..";
       }
 
@@ -163,7 +163,7 @@ function updateProgressbar() {
     var totalBytes3 = this.files[0].size;
     for (var i = 0; i < this.files.length; i++){
          customTxt3.style.color="red";
-            customTxt3.innerHTML = "Mayor's Permit/Business Permit <br>" + this.files.item(i).name;
+            customTxt3.innerHTML = "<span style = 'color:black'>" + "Mayor's Permit/Business Permit <br>" + "</span>" + this.files.item(i).name;
               customBtn3.innerHTML = "Upload file..";
       }
     if (files.length > 0){
@@ -205,7 +205,7 @@ function updateProgressbar() {
 
       for (var i = 0; i < this.files.length; i++){
          customTxt4.style.color="red";
-            customTxt4.innerHTML = "Annual Business Plan <br>" + this.files.item(i).name;
+            customTxt4.innerHTML = "<span style = 'color:black'>" + "Annual Business Plan <br>" + "</span>" + this.files.item(i).name;
              customBtn4.innerHTML = "Upload file..";
       }
 
@@ -246,7 +246,7 @@ function updateProgressbar() {
       var totalBytes5 = this.files[0].size;
         for (var i = 0; i < this.files.length; i++){
          customTxt5.style.color="red";
-            customTxt5.innerHTML = "Latest Income Tax return <br>" + this.files.item(i).name;
+            customTxt5.innerHTML = "<span style = 'color:black'>" + "Latest Income Tax return <br>" + "</span>" + this.files.item(i).name;
              customBtn5.innerHTML = "Upload file..";
       }
 
@@ -285,7 +285,7 @@ function updateProgressbar() {
       var totalBytes6 = this.files[0].size;
         for (var i = 0; i < this.files.length; i++){
          customTxt6.style.color="red";
-            customTxt6.innerHTML = "Proof of ownership of the lumberyard or consent/agreement with the owner <br>" + this.files.item(i).name;
+            customTxt6.innerHTML = "<span style = 'color:black'>" + "Proof of ownership of the lumberyard or consent/agreement with the owner <br>" + "</span>" +  this.files.item(i).name;
              customBtn6.innerHTML = "Upload file..";
       }
     if (files.length > 0){
