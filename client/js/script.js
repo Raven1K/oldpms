@@ -87,11 +87,11 @@ function updateProgressbar() {
     if (files.length > 0){
       for (var i = 0; i < this.files.length; i++){
          customTxt.style.color="red";
-            customTxt.innerHTML = this.files.item(i).name;
+            customTxt.innerHTML = "Application form or duly accompished & sworn/notarized. <br>" + this.files.item(i).name;
             customBtn.innerHTML = "Upload file..";
                   }
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB.innerHTML = 'File exceed 10 mb';
+        customTxtMB.innerHTML = 'File exceed 10 MB';
         customTxtMB.style.color = "red";
         customTxt.innerHTML = this.files.item(i).name;
         customTxt.style.color="red";
@@ -123,13 +123,13 @@ function updateProgressbar() {
     var totalBytes2 = this.files[0].size;
  for (var i = 0; i < this.files.length; i++){
          customTxt2.style.color="red";
-            customTxt2.innerHTML = this.files.item(i).name;
+            customTxt2.innerHTML = "Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer <br>" + this.files.item(i).name;
               customBtn2.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB2.innerHTML = 'File exceed 10 mb';
+        customTxtMB2.innerHTML = 'File exceed 10 MB';
         customTxtMB2.style.color = "red";
         customTxt2.innerHTML = this.files.item(i).name;
         customTxt2.style.color="red";
@@ -163,12 +163,12 @@ function updateProgressbar() {
     var totalBytes3 = this.files[0].size;
     for (var i = 0; i < this.files.length; i++){
          customTxt3.style.color="red";
-            customTxt3.innerHTML = this.files.item(i).name;
+            customTxt3.innerHTML = "Mayor's Permit/Business Permit <br>" + this.files.item(i).name;
               customBtn3.innerHTML = "Upload file..";
       }
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB3.innerHTML = 'File exceed 10 mb';
+        customTxtMB3.innerHTML = 'File exceed 10 MB';
         customTxtMB3.style.color = "red";
         customTxt3.innerHTML = this.files.item(i).name;
         customTxt3.style.color="red";
@@ -205,13 +205,13 @@ function updateProgressbar() {
 
       for (var i = 0; i < this.files.length; i++){
          customTxt4.style.color="red";
-            customTxt4.innerHTML = this.files.item(i).name;
+            customTxt4.innerHTML = "Annual Business Plan <br>" + this.files.item(i).name;
              customBtn4.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB4.innerHTML = 'File exceed 10 mb';
+        customTxtMB4.innerHTML = 'File exceed 10 MB';
         customTxtMB4.style.color = "red";
         customTxt4.innerHTML = this.files.item(i).name;
         customTxt4.style.color="red";
@@ -246,13 +246,13 @@ function updateProgressbar() {
       var totalBytes5 = this.files[0].size;
         for (var i = 0; i < this.files.length; i++){
          customTxt5.style.color="red";
-            customTxt5.innerHTML = this.files.item(i).name;
+            customTxt5.innerHTML = "Latest Income Tax return <br>" + this.files.item(i).name;
              customBtn5.innerHTML = "Upload file..";
       }
 
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB5.innerHTML = 'File exceed 10 mb';
+        customTxtMB5.innerHTML = 'File exceed 10 MB';
         customTxtMB5.style.color = "red";
         customTxt5.innerHTML = this.files.item(i).name;
         customTxt5.style.color="red";
@@ -285,12 +285,12 @@ function updateProgressbar() {
       var totalBytes6 = this.files[0].size;
         for (var i = 0; i < this.files.length; i++){
          customTxt6.style.color="red";
-            customTxt6.innerHTML = this.files.item(i).name;
+            customTxt6.innerHTML = "Proof of ownership of the lumberyard or consent/agreement with the owner <br>" + this.files.item(i).name;
              customBtn6.innerHTML = "Upload file..";
       }
     if (files.length > 0){
       if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB6.innerHTML = 'File exceed 10 mb';
+        customTxtMB6.innerHTML = 'File exceed 10 MB';
         customTxtMB6.style.color = "red";
         customTxt6.innerHTML = this.files.item(i).name;
         customTxt6.style.color="red";
