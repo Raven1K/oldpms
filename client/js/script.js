@@ -316,28 +316,72 @@ function updateProgressbar() {
         }
   });
 
+
+
  $(document).ready(function(){
   $('input[type="file"]').change(function(){
     if( $('#realfile').val() != '' && $('#realfile2').val() != '' && $('#realfile3').val() != ''  && $('#realfile4').val() != ''  
       && $('#realfile5').val() != ''  && $('#realfile6').val() != '')
     {
       $('#acceptBtn').attr('disabled', false);
-    }
+    }    
+         let files1 = realFileBtn.files;
+         let files2 = realFileBtn2.files;
+         let files3 = realFileBtn3.files;
+         let files4 = realFileBtn4.files;
+         let files5 = realFileBtn5.files;
+         let files6 = realFileBtn6.files;
+             if (files1.length > 0){
+              if(files1[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
+             if (files2.length > 0){
+              if(files2[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
+            if (files3.length > 0){
+              if(files3[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
+            if (files4.length > 0){
+              if(files4[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
+            if (files5.length > 0){
+              if(files5[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
+            if (files6.length > 0){
+              if(files6[0].size > 10 * 1024 * 1024){
+               $('#acceptBtn').attr('disabled', true);
+                return;
+              }
+            }
   });
 });
 
  document.getElementById("acceptBtn").addEventListener("click", function showFileSize() {
-    if (!window.FileReader) { 
-        console.log("The file API isn't supported on this browser yet.");
-        return;
-    }
-    var input = document.getElementById('realfile');
-    if (!input.files) { 
-        console.error("This browser doesn't seem to support the `files` property of file inputs.");
-    } else {
-        var file = input.files[0];
-        alert("File " + file.name + " is " + " more than 10 MB in size");
-          $('#acceptBtn').attr('disabled', true);
-    }
+   var toastTrigger = document.getElementById("acceptBtn")
+  var toastLiveExample = document.getElementById("liveToast")
+    //
+  var toastTrigger = document.getElementById("acceptBtn")
+  var toastLiveExample = document.getElementById("liveToast")
+
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+    toast.show()
+  })
+}
 
 });

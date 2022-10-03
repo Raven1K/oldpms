@@ -295,12 +295,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </div>
 </div>
 </div>
-
-<script type="text/javascript">
-
-
- 
-</script> 
 <!--
     var toastTrigger = document.getElementById("acceptBtn")
   var toastLiveExample = document.getElementById("liveToast")
