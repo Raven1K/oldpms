@@ -296,18 +296,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </div>
 </div>
 <!--
-    var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-    //
-  var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-    toast.show()
-  })
-}
+  
     -->
   
   </body>
