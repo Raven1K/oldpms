@@ -68,7 +68,7 @@
                               <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
                               <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" name="my_image1" multiple>
                               </div>
-              <scrip>
+              <script>
                               <?php if (isset($_GET['error'])): 
                                 if(isset($_POST['my_image1']))
                                   {
