@@ -58,7 +58,7 @@
   <div class="card-body">
   <center>
     <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Status of Documents Uploaded</h2>
-    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 20px; font-weight: 300;">Click <b>'Browse'</b> to select the corresponding electronic copy of document.<br><span style="color:red;">Note: Only PDF File not larger than 10 MB is allowed.</span></p><br></p>
+    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 19px; font-weight: 350;">Click <b>'Details'</b> to select the corresponding electronic copy of document.<br><span style="color:red;">Note: Only PDF File not larger than 10 MB is allowed.</span></p><br></p>
   </center>
 
       <table class="table table-striped" style="width: 900px;">
@@ -73,12 +73,12 @@
             <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.</span>
             </td>
             <td align="center" style="width: 50px;">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-            <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+            <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;" hidden>Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;" id="mb1"></td>
+            <td align="center" style="color: #808080; font-size: 15px;" id="mb1">2 MB</td>
         </tr>
 
         <tr>
@@ -86,12 +86,12 @@
             <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</span>
             </td>
            <td align="center">
-             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;" >Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-                  <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+                  <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px; "id="mb2"></td>
+            <td align="center" style="color: #808080; font-size: 15px; "id="mb2">4 MB</td>
         </tr>
 
         <tr>
@@ -99,12 +99,12 @@
             <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb3"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb3">6 MB</td>
         </tr>
 
         <tr>
@@ -112,12 +112,12 @@
             <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan</span>
             </td>
              <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-          <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+          <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb4"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb4">8 MB</td>
         </tr>
 
         <tr>
@@ -125,12 +125,12 @@
             <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return</span>
             </td>
            <td align="center">
-            <p style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">DisApproved</p>
+            <p style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">DisApproved <i class="fa-regular fa-x"></i></p>
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb5"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb5">9 MB</td>
         </tr>
 
         <tr>
@@ -138,14 +138,16 @@
             <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-    <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+    <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb6">10 MB</td>
         </tr>
       </table>
+
+
   </div>
 </div>
 
