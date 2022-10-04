@@ -27,7 +27,7 @@
     <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="../build/css/custom.min.css" rel="stylesheet">
+    <link href="../build/css/custom.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -36,24 +36,16 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="dashboard.php" class="site_title"><img src="images/oldpmslogo.png" alt="logo" height="50"/></a>
+            <a href="dashboard.php" class="sidebar-brand d-flex align-items-center" ><img class="img-fluid img-overlay" src="images/oldpmslogo.png" alt="logo"/></a>
             </div>
-
-            <div class="clearfix"></div>
-            <!-- menu profile quick info -->
-            <div class="profile clearfix">
-              <div class="profile_pic">
-                <img src="images/faces/face28.png" alt="..." class="img-circle profile_img">
-              </div>
-              <div class="profile_info">
-                <span>Welcome,</span>
-                <h2>FUU - CENRO</h2>
-              </div>
-            </div>
-            <!-- /menu profile quick info -->
-
             <br />
-
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
@@ -77,95 +69,32 @@
 
         <!-- top navigation -->
         <div class="top_nav">
-            <div class="nav_menu navbar-dark" style="background: #222222">
+           <div class="nav_menu navbar-dark" style="background: #222222">
               <div class="nav toggle">
                 <a id="menu_toggle"><i class="fa fa-bars"></i></a>
               </div>
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">
-                <span class="navbar-text" style="color: green">ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</span>
-                <li class="nav-item dropdown open" style="padding-left: 15px;">
+              <div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-4">
+              <h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5>
+              <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                     <img src="images/faces/face28.png" alt="" ><span style="color: green">FUU - CENRO</span>
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="javascript:;"> Profile</a>
+                    <a class="dropdown-item"  href="javascript:;"> Message</a>                   
                       <a class="dropdown-item"  href="javascript:;">
-                        <span class="badge bg-red pull-right">50%</span>
                         <span>Settings</span>
                       </a>
                   <a class="dropdown-item"  href="javascript:;">Help</a>
                     <a class="dropdown-item"  href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
                   </div>
                 </li>
-
-                <li role="presentation" class="nav-item dropdown open">
-                  <a href="javascript:;" class="dropdown-toggle info-number" id="navbarDropdown1" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
-                  </a>
-                  <ul class="dropdown-menu list-unstyled msg_list" role="menu" aria-labelledby="navbarDropdown1">
-                    <li class="nav-item">
-                      <a class="dropdown-item">
-                        <span class="image"><img src="images/faces/face28.png" alt="Profile Image" /></span>
-                        <span>
-                          <span>FUU - CENRO</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Evaluate Data.
-                        </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item">
-                        <span class="image"><img src="images/faces/face28.png" alt="Profile Image" /></span>
-                        <span>
-                          <span>FUU - CENRO</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Review and Validate.
-                        </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item">
-                        <span class="image"><img src="images/faces/face28.png" alt="Profile Image" /></span>
-                        <span>
-                          <span>FUU - CENRO</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Schedule for Validation.
-                        </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="dropdown-item">
-                        <span class="image"><img src="images/faces/face28.png" alt="Profile Image" /></span>
-                        <span>
-                          <span>FUU - CENRO</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          For Endorsement to CENR Officer
-                        </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="text-center">
-                        <a class="dropdown-item">
-                          <strong>See All Alerts</strong>
-                          <i class="fa fa-angle-right"></i>
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
               </ul>
             </nav>
           </div>
+        </div>
         </div>
         <!-- /top navigation -->
 
@@ -205,8 +134,8 @@
                             <th> Address </th>
                             <th> Payment Mode </th>
                             <th> Payment Date </th>
-                            <th> Payment Status </th>
-                            <th> Action </th>
+                            <th> Action Taken </th>
+                            <th> For Payment </th>
                           </tr>
                         </thead>
                         <tbody>
@@ -263,7 +192,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -326,7 +255,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -388,7 +317,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -451,7 +380,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -515,7 +444,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -577,7 +506,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
@@ -641,7 +570,7 @@
         <!-- Modal footer -->
         <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal">Proceed for Payment</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
         </div>
         
       </div>
