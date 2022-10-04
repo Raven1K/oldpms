@@ -14,7 +14,7 @@
     <!-- Cuztomize Styles-->
     <link rel="stylesheet" href="css/mystyle.css">
 
-    <title>Online Limber Dealer Registration & Monitoring System</title>
+    <title>OLDPMS</title>
   </head>
   <body>
   <?php 
