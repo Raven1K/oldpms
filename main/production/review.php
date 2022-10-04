@@ -27,7 +27,7 @@
     <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="../build/css/custom.min.css" rel="stylesheet">
+    <link href="../build/css/custom.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">
@@ -36,9 +36,8 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="dashboard.php" class="site_title"><img src="images/oldpmslogo.png" alt="logo" height="50"/></a>
+            <a href="dashboard.php" class="sidebar-brand d-flex align-items-center" ><img class="img-fluid img-overlay" src="images/oldpmslogo.png" alt="logo"/></a>
             </div>
-
             <div class="clearfix"></div>
             <!-- menu profile quick info -->
             <div class="profile clearfix">
@@ -232,12 +231,11 @@
 
                   <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
-                                <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -268,12 +266,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                         <div class="modal-footer">
-                                <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -304,12 +301,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
-                                <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -341,12 +337,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                        <div class="modal-footer">
-                                 <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -377,12 +372,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                         <div class="modal-footer">
-                                <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -413,12 +407,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                           <div class="modal-footer">
-                          <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -449,12 +442,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                          <div class="modal-footer">
-                         <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -485,12 +477,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                      <div class="modal-footer">
-                     <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                             </td>
                           </tr>
@@ -521,12 +512,11 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                    <div class="modal-footer">
-                                <a class="btn btn-round btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
-                                <a class="btn btn-round btn-danger" data-dismiss="modal">
+                                <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>
-                                <a class="btn btn-round btn-secondary" data-dismiss="modal">
-                                <i class="fa fa-close"> </i>Close</a>
+                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
                               </div>
                             </td>
