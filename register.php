@@ -30,13 +30,7 @@
         <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
             <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="images\oldpmslogoreg.png"></a>
         </li>
-        <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
-          <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
-            <span style="font-weight: 900; color: #fff;"><img src="images\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
-        </li>
-    </ul>
   </div>
   <div class="custom-card-body" style="padding: 25px;">
     <h5 class="custom-card-title"></h5>
