@@ -76,14 +76,13 @@
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">
               <div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-4">
-              <h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5>
+              <a href="dashboard.php"><h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5></a>
               <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                     <img src="images/faces/face28.png" alt="" ><span style="color: green">FUU - CENRO</span>
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="javascript:;"> Profile</a>
-                    <a class="dropdown-item"  href="javascript:;"> Message</a>                   
                       <a class="dropdown-item"  href="javascript:;">
                         <span>Settings</span>
                       </a>
@@ -99,12 +98,15 @@
         <!-- /top navigation -->
 
         <div class="right_col" role="main">
+          
+          <!-- top tiles -->
+
 					<div class="clearfix"></div>
 					<div class="row">
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Home - <small> Status </small></h2>
+                    <h2>Application - <small> Status </small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -245,18 +247,20 @@
                 </div>
               </div>
             </div>
+            
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
+
+
 
 <!-- footer content -->
 <footer class="footer-dark" style="background: #222222">
-  <div class="pull-right" style="color: green">
-    DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES - R13 <a href=""></a>
-  </div>
+<div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-4">
+						<h6>Department of Environment and Natural Resources - CARAGA Region <h/6> 
+						<h5>DENR Regional ICT Caraga </h5> 
+                        <h6>&copy; Copyright 2022. All Rights Reserved </h6>
+                    </div>
   <div class="clearfix"></div>
 </footer>
 <!-- /footer content -->
