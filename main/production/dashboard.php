@@ -35,7 +35,7 @@
       <div class="main_container">
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
-            <div class="navbar nav_title" style="border: 0;">
+            <div class="sidebar-brand-icon" style="border: 0;" >
               <a href="dashboard.php" class="site_title"><img class="img-fluid img-overlay" src="images/oldpmslogo.png" alt="logo" height="50"/></a>
             </div>
 
