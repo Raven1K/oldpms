@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -54,8 +53,8 @@
       </div>
     </div>
   </nav>
-
-<table class="table table-bordered" style="margin-top: 10px;">
+<div class="container-xxl">
+<table class="table table-bordered" style="margin-top: 50px;">
   <tr>
     <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
     <th style="background: #597EFB; color: #fff; font-weight: 300;">File Size</th>
@@ -120,7 +119,7 @@
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
   </tr>
-</table>
+</table></div>
 
   </body>
 </html>
