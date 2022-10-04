@@ -1,3 +1,4 @@
+
 <section id="contactus" class="py-2 bg-light">
     <div class="container">
         <div class="row mt-5">
@@ -12,8 +13,17 @@
                 </div>
 
                 <h2 class="mb-2"><strong>Contact Us</strong></h2>
-                <form id="contactForm" action="/ContactForm" method="POST">
-                    <div class="form-row">
+                <!-- <form id="contactForm" action="/ContactForm" method="POST">\ -->
+
+         
+     <?php if (isset($_GET['error'])): ?>
+		<p>   <?php echo $_GET['error']; ?></p>
+	<?php endif ?>
+        
+
+                 <form  action="processphp/prccontact.php" method="POST">
+                 <!-- <form  action="processphp/prccontact.php" method="POST"> -->
+                <div class="form-row">
                         <div class="form-group col-lg-6 mt-3">
                             <label>Your name *</label>
                             <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
@@ -35,12 +45,27 @@
                             <textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
                         </div>
                     </div>
+                    
                     <div class="form-row">
                         <div class="form-group col mt-3">
-                            <input type="submit" value="Send Message" class="btn btn-primary btn-lg mt-3 mb-4" data-loading-text="Loading...">
+                            <input type="submit" value="Send Message" class="btn btn-primary btn-lg mt-3 mb-4" name="btn" data-loading-text="Loading...">
                         </div>
                     </div>
-                </form>
+
+
+               
+                    
+  
+                    
+                    
+                    
+                    
+                    <!-- <button class="btn" name="btn"> Signup </button> -->
+
+              
+                </form> 
+
+                
             </div>
             <div class="col-lg-6">
 
@@ -56,3 +81,5 @@
         </div>
     </div>
 </section>
+
+?>

@@ -1,3 +1,17 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+     header("location: ../login.php");
+    exit;
+}
+?>
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,20 +23,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="../fonts/css/all.css">
-    <script src="../js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <input type="file" id="real-file"  hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file2" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file3" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file4" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file5" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="real-file6" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile"  hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile2" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile3" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile4" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile5" hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile6" hidden="hidden" accept="Application/pdf" value=""/>
 
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -54,7 +70,18 @@
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Profile</a>
-               <a class="dropdown-item" href="#">Logout</a>
+
+
+
+              <form action="../processphp/prc_logout.php"  method="post" role="form" >
+
+               <!-- <button class="btn  btn-success" name="Log-out">Logout</button> -->
+               <button class="btn  btn-success" name="btn"> Logout </button>
+
+</form>
+
+
+
             </li>
           </ul>
         </li>
@@ -108,7 +135,7 @@
             <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>
          <div class="row">
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" >
+          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" name="fname" >
           </div>
           <div class="col"><br>
           <input style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">
@@ -191,7 +218,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized. </span>
+      <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.<span style="color: red; font-weight: 500;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -201,7 +228,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text2" style="font-size: 13px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer </span>
+      <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button2" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -211,7 +238,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit </span>
+      <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button3" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -221,7 +248,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan </span>
+      <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button4" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -231,7 +258,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return </span>
+      <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button5" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -241,7 +268,7 @@
 
   <tr>
       <td style="border-right-color: #fff;">
-      <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner </span>
+      <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
       <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
@@ -253,7 +280,7 @@
         </div>
         <div class="btns-group">
           <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
-          <button type="button" class="btn btn-success" data-bs-toggle="modal" id="acceptBtn" disabled="true" >Submit</button>
+          <button type="button submit" class="btn btn-success" data-bs-toggle="modal" disabled="true" id="acceptBtn" >Submit</button>
         </div>
       </div>
     </form>
@@ -268,288 +295,5 @@
   </div>
 </div>
 </div>
-
-<script type="text/javascript">
-
-
-  var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-    toast.show()
-  })
-}
-  
-  const realFileBtn = document.getElementById("real-file");
-  const realFileBtn2 = document.getElementById("real-file2");
-  const realFileBtn3 = document.getElementById("real-file3");
-  const realFileBtn4 = document.getElementById("real-file4");
-  const realFileBtn5 = document.getElementById("real-file5");
-  const realFileBtn6 = document.getElementById("real-file6");
-
-  const customBtn = document.getElementById("custom-button");
-  const customBtn2 = document.getElementById("custom-button2");
-  const customBtn3 = document.getElementById("custom-button3");
-  const customBtn4 = document.getElementById("custom-button4");
-  const customBtn5 = document.getElementById("custom-button5");
-  const customBtn6 = document.getElementById("custom-button6");
-
-  const customTxt = document.getElementById("custom-text");
-  const customTxt2 = document.getElementById("custom-text2");
-  const customTxt3 = document.getElementById("custom-text3");
-  const customTxt4 = document.getElementById("custom-text4");
-  const customTxt5 = document.getElementById("custom-text5");
-  const customTxt6 = document.getElementById("custom-text6");
-
-  const customTxtMB = document.getElementById("mb1");
-  const customTxtMB2 = document.getElementById("mb2");
-  const customTxtMB3 = document.getElementById("mb3");
-  const customTxtMB4 = document.getElementById("mb4");
-  const customTxtMB5 = document.getElementById("mb5");
-  const customTxtMB6 = document.getElementById("mb6");
-
-
-  customBtn.addEventListener("click", function() {
-        realFileBtn.click();
-  });
-  realFileBtn.addEventListener("change", function(){
-    let files = realFileBtn.files;
-    var totalBytes = this.files[0].size;
-
-    if (files.length > 0){
-      for (var i = 0; i < this.files.length; i++){
-         customTxt.style.color="red";
-            customTxt.innerHTML = this.files.item(i).name;
-            document.getElementById('acceptBtn').disabled = true; 
-      }
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB.innerHTML = 'File exceed 10 mb';
-        customTxtMB.style.color = "red";
-        customTxt.innerHTML = this.files.item(i).name;
-        customTxt.style.color="red";
-        return;
-      }
-    }
-    if (totalBytes < 1000000){
-      var _size = Math.floor(totalBytes/1000) + ' KB';
-      document.getElementById('acceptBtn').disabled = false; 
-    }else {
-      var _size = Math.floor(totalBytes/1000000) + ' MB'; 
-       document.getElementById('acceptBtn').disabled = false; 
-    }
-    
-    customTxtMB.innerHTML = _size;
-    customTxtMB.style.color = "#808080";
-        if (realFileBtn.value) {
-            customTxt.style.color = "#4285F4";
-            customTxt.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt.innerHTML = "Application form or duly accompished & sworn/notarized. ";
-          customTxt.style.color = "#808080";
-        }
-  });
-
-  customBtn2.addEventListener("click", function() {
-        realFileBtn2.click();
-  });
-  realFileBtn2.addEventListener("change", function(){
-    let files = realFileBtn2.files;
-    var totalBytes2 = this.files[0].size;
- for (var i = 0; i < this.files.length; i++){
-         customTxt2.style.color="red";
-            customTxt2.innerHTML = this.files.item(i).name;
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB2.innerHTML = 'File exceed 10 mb';
-        customTxtMB2.style.color = "red";
-        customTxt2.innerHTML = this.files.item(i).name;
-        customTxt2.style.color="red";
-        return;
-      }
-    }
-
-       if (totalBytes2 < 1000000){
-      var _size = Math.floor(totalBytes2/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes2/1000000) + ' MB'; 
-    }
-
-    customTxtMB2.innerHTML = _size;
-    customTxtMB2.style.color = "#808080";
-        if (realFileBtn2.value) {
-            customTxt2.style.color = "#4285F4";
-            customTxt2.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt2.innerHTML = "Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer ";
-          customTxt2.style.color = "#808080";
-        }
-  });
-
-    customBtn3.addEventListener("click", function() {
-        realFileBtn3.click();
-  });
-  realFileBtn3.addEventListener("change", function(){
-    let files = realFileBtn3.files;
-    var totalBytes3 = this.files[0].size;
-    for (var i = 0; i < this.files.length; i++){
-         customTxt3.style.color="red";
-            customTxt3.innerHTML = this.files.item(i).name;
-      }
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB3.innerHTML = 'File exceed 10 mb';
-        customTxtMB3.style.color = "red";
-        customTxt3.innerHTML = this.files.item(i).name;
-        customTxt3.style.color="red";
-        return;
-      }
-    }
-
-       if (totalBytes3 < 1000000){
-      var _size = Math.floor(totalBytes3/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes3/1000000) + ' MB'; 
-    }
-
-    customTxtMB3.innerHTML = _size;
-
-    customTxtMB3.style.color = "#808080";
-        if (realFileBtn3.value) {
-            customTxt3.style.color = "#4285F4";
-            customTxt3.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt3.innerHTML = "Mayor's Permit/Business Permit ";
-          customTxt3.style.color = "#808080";
-        }
-  });
-
-
-   customBtn4.addEventListener("click", function() {
-        realFileBtn4.click();
-  });
-  realFileBtn4.addEventListener("change", function(){
-    let files = realFileBtn4.files;
-     var totalBytes4 = this.files[0].size;
-
-      for (var i = 0; i < this.files.length; i++){
-         customTxt4.style.color="red";
-            customTxt4.innerHTML = this.files.item(i).name;
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB4.innerHTML = 'File exceed 10 mb';
-        customTxtMB4.style.color = "red";
-        customTxt4.innerHTML = this.files.item(i).name;
-        customTxt4.style.color="red";
-        return;
-      }
-    }
-    
-       if (totalBytes4 < 1000000){
-      var _size = Math.floor(totalBytes4/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes4/1000000) + ' MB'; 
-    }
-
-    customTxtMB4.innerHTML = _size;
-
-    customTxtMB4.style.color = "#808080";
-        if (realFileBtn4.value) {
-            customTxt4.style.color = "#4285F4";
-            customTxt4.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt4.innerHTML = "Annual Business Plan ";
-          customTxt4.style.color = "#808080";
-        }
-  });
-
-     customBtn5.addEventListener("click", function() {
-        realFileBtn5.click();
-  });
-  realFileBtn5.addEventListener("change", function(){
-    let files = realFileBtn5.files;
-      var totalBytes5 = this.files[0].size;
-        for (var i = 0; i < this.files.length; i++){
-         customTxt5.style.color="red";
-            customTxt5.innerHTML = this.files.item(i).name;
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB5.innerHTML = 'File exceed 10 mb';
-        customTxtMB5.style.color = "red";
-        customTxt5.innerHTML = this.files.item(i).name;
-        customTxt5.style.color="red";
-        return;
-      }
-    }
-  
-       if (totalBytes5 < 1000000){
-      var _size = Math.floor(totalBytes5/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes5/1000000) + ' MB'; 
-    }
-
-    customTxtMB5.innerHTML = _size;
-    customTxtMB5.style.color = "#808080";
-        if (realFileBtn5.value) {
-            customTxt5.style.color = "#4285F4";
-            customTxt5.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt5.innerHTML = "Latest Income Tax return ";
-          customTxt5.style.color = "#808080";
-        }
-  });
-
-     customBtn6.addEventListener("click", function() {
-        realFileBtn6.click();});
-  realFileBtn6.addEventListener("change", function(){
-    let files = realFileBtn6.files;
-      var totalBytes6 = this.files[0].size;
-        for (var i = 0; i < this.files.length; i++){
-         customTxt6.style.color="red";
-            customTxt6.innerHTML = this.files.item(i).name;
-      }
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB6.innerHTML = 'File exceed 10 mb';
-        customTxtMB6.style.color = "red";
-        customTxt6.innerHTML = this.files.item(i).name;
-        customTxt6.style.color="red";
-        return;
-      }
-    }
-   
-       if (totalBytes6 < 1000000){
-      var _size = Math.floor(totalBytes6/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes6/1000000) + ' MB'; 
-    }
-
-    customTxtMB6.innerHTML = _size;
-    customTxtMB6.style.color = "#808080";
-        if (realFileBtn6.value) {
-            customTxt6.style.color = "#4285F4";
-            customTxt6.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt6.innerHTML = "Proof of ownership of the lumberyard or consent/agreement with the owner ";
-          customTxt6.style.color = "#808080";
-        }
-  });
-
-
-
-</script>
-
   </body>
 </html>

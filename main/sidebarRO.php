@@ -2,7 +2,7 @@
         <ul class="navbar-nav bg-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.php">
                 <div class="sidebar-brand-icon">
 					<img class="img-fluid img-overlay" src="img/oldpmslogo.png">
                  <!--   <i class="fas fa-laugh-wink"></i> -->
@@ -15,7 +15,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link text-white" href="index.php">
+                <a class="nav-link text-white" href="dashboard.php">
                     <i class="fas fa-fw fa-tachometer-alt text-info"></i>
                     <span class="text-white">Dashboard</span></a>
             </li>
@@ -29,7 +29,7 @@
             </div> -->
 			
 			<li class="nav-item">
-                <a class="nav-link text-white" href="tables.php">
+                <a class="nav-link text-white" href="foraction.php">
                     <i class="fas fa-fw fa-search text-info"></i>
                     <span class="text-white">For Review</span></a>
             </li>
@@ -37,7 +37,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="existLD.php">
+                <a class="nav-link text-white" href="dealertable.php">
                     <i class="fas fa-fw fa-certificate text-info"></i>
                     <span class="text-white">Existing Lumber Dealers</span>
                 </a>
@@ -100,7 +100,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="charts.html">
+                <a class="nav-link text-white" href="maps.php">
                     <i class="fas fa-fw fa-map-marked-alt text-info"></i>
                     <span class="text-white">Maps</span></a>
             </li>
