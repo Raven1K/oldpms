@@ -2,7 +2,7 @@
         <ul class="navbar-nav bg-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="fusdash.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.php">
                 <div class="sidebar-brand-icon">
 					<img class="img-fluid img-overlay" src="img/oldpmslogo.png">
                  <!--   <i class="fas fa-laugh-wink"></i> -->
@@ -15,7 +15,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link text-white" href="fusdash.php">
+                <a class="nav-link text-white" href="dashboard.php">
                     <i class="fas fa-fw fa-tachometer-alt text-info"></i>
                     <span class="text-white">Dashboard</span></a>
             </li>

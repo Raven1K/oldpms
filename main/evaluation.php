@@ -9,7 +9,10 @@
     <meta name="author" content="">
 
     <title>OLDPMS-Reviews</title>
-
+	  
+	  <!-- Custom badges for this template -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free-6.2.0-web/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -18,6 +21,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.css" rel="stylesheet">
+	
+	  
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -76,7 +81,7 @@
                             1. Application form or duly accomplished & sworn/notirized.
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
              <div class="container">
@@ -110,7 +115,7 @@
                             2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer.
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -146,7 +151,7 @@
                             3. Mayor's Permit/Business Permit
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -183,7 +188,7 @@
                             4. Annual Business Plan
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -219,7 +224,7 @@
                             5. Latest Income Tax Return
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -255,7 +260,7 @@
                             6. Proof ownership of the lumberyard or consent/agreement with the owner
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -291,7 +296,7 @@
                             7. Generated Application Form
                             </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -327,7 +332,7 @@
                             8. Lumber Dealer Geotag Photo
                             </td>
                             <td>
-                            <div class="badge badge-success">Approved</div>
+                            <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
@@ -363,7 +368,7 @@
                             9. Inspection/Validation Report
                             </td>
                             <td>
-                            <div class="badge badge-success">Approved</div>
+                            <span class="badge bg-success text-white"><i class="bi bi-check-circle me-1"></i>Approved</span>
                             </td>
                             <td>
                             <div class="container">
