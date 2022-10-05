@@ -105,34 +105,28 @@
           <div class="row" style="display: inline-block;" >
           <div class="tile_count">
             <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Users</span>
-              <div class="count">2500</div>
-              <span class="count_bottom"><i class="green">4% </i> From last Week</span>
+              <span class="count_top"><i class="fa fa-user"></i> Total Lumber Dealer</span>
+              <div class="count blue">500</div>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-clock-o"></i> Average Time</span>
-              <div class="count">123.50</div>
-              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span>
+              <span class="count_top"><i class="fa fa-user"></i> Total Lumber Dealer</span>
+              <div class="count green">400</div>
+              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>90% </i> Renewed</span>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Males</span>
-              <div class="count green">2,500</div>
-              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+              <span class="count_top"><i class="fa fa-user"></i> Total Lumber Dealer</span>
+              <div class="count">100</div>
+              <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>10% </i> Not yet renew</span>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Females</span>
-              <div class="count">4,567</div>
-              <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span>
+              <span class="count_top"><i class="fa fa-user"></i> Lumber Dealer</span>
+              <div class="count red" style="color: #ffc107">5</div>
+              <span class="count_bottom"><i class="yellow"><i class="fa fa-sort-desc"></i>5% </i> Pending</span>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Collections</span>
-              <div class="count">2,315</div>
-              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
-            </div>
-            <div class="col-md-2 col-sm-4  tile_stats_count">
-              <span class="count_top"><i class="fa fa-user"></i> Total Connections</span>
-              <div class="count">7,325</div>
-              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            <span class="count_top"><i class="fa fa-user"></i> Lumber Dealer</span>
+              <div class="count red">5</div>
+              <span class="count_bottom"><i class="yellow"><i class="fa fa-sort-desc"></i>5% </i> Disapproved</span>
             </div>
           </div>
         </div>
@@ -197,154 +191,6 @@
           </div>
           <br/>
 
-					<div class="row">
-
-              <div class="col-md-12 col-sm-12 ">
-                <div class="x_panel">
-                  <div class="x_title">
-                    <h2>Lumber Dealer Application - <small> Status </small></h2>
-                    <ul class="nav navbar-right panel_toolbox">
-                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Settings 1</a>
-                            <a class="dropdown-item" href="#">Settings 2</a>
-                          </div>
-                      </li>
-                      <li><a class="close-link"><i class="fa fa-close"></i></a>
-                      </li>
-                    </ul>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
-                      <div class="row">
-                          <div class="col-sm-12">
-                            <div class="card-box table-responsive">
-                    <table id="datatable-buttons" class="table table-striped table-bordered" style="width:100%">
-                      <thead>
-                        <tr>
-                          <tr>
-                            <th> Applicant Name </th>
-                            <th> Reference No </th>
-                            <th> Total Payment </th>
-                            <th> Address </th>
-                            <th> Payment Mode </th>
-                            <th> Application Date </th>
-                            <th> Application Status </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Mayet Chua</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Julie Mar Madelo</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-warning">Pending</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jobert Awa</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-danger">Rejected</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            </td>
-                            <td>
-                              <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Anthonie Feny Catalan</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jaycelen Paler</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Joshua Jumonong</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Totitz Baptisma</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,116 </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 04 Dec 2019 </td>
-                            <td>
-                              <div class="badge badge-success">Approved</div>
-                            </td>
-                          </tr>
-                          </tbody>
-                      </table>               
-                      </div>
-                      </div>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-          <br />
-
           <div class="row">
 
               <div class="col-md-4 col-sm-6 ">
@@ -395,28 +241,16 @@
                           </tr>
                           <tr>
                             <td>
-                              <p><i class="fa fa-square green"></i>C-Bayugan </p>
+                              <p><i class="fa fa-square green"></i>C-Bislig </p>
                             </td>
                             <td>10%</td>
                           </tr>
                           <tr>
                             <td>
-                              <p><i class="fa fa-square purple"></i>C-Loreto</p>
+                              <p><i class="fa fa-square purple"></i>C-Cantilan</p>
                             </td>
                             <td>20%</td>
                           </tr>
-                          <tr>
-                            <td>
-                              <p><i class="fa fa-square aero"></i>C-Bislig </p>
-                            </td>
-                            <td>15%</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p><i class="fa fa-square red"></i>C-Tubod </p>
-                            </td>
-                            <td>30%</td>
-                            </tr>
                         </table>
                       </td>
                     </tr>
@@ -460,16 +294,12 @@
                   <td class="fs15 fw700 text-right">33</td>
                 </tr>
                 <tr>
-                  <td>Bayugan</td>
+                  <td>Bislig</td>
                   <td class="fs15 fw700 text-right">27</td>
                 </tr>
                 <tr>
-                  <td>Tubod</td>
+                  <td>Cantilan</td>
                   <td class="fs15 fw700 text-right">16</td>
-                </tr>
-                <tr>
-                  <td>Bislig</td>
-                  <td class="fs15 fw700 text-right">11</td>
                 </tr>
               </tbody>
             </table>
@@ -477,7 +307,7 @@
           <section id="indexmap">
 			<div class="col-md-8 col-sm-12 " style="height:230px;">
 				<div class="gmap_canvas">
-					<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=900&amp;hl=en&amp;q=denr ambago&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+					<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=900&amp;hl=en&amp;q=Surigao del Sur&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
 					</iframe>
 				</div>
         <style>.mapouter{position:relative;text-align:right;width:100%;height:230px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:230px;}.gmap_iframe {height:230px!important;}</style>
