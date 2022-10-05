@@ -52,7 +52,7 @@
 			<hr class="sidebar-divider">
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+         <!--   <li class="nav-item">
                 <a class="nav-link text-white" href="#">
                     <i class="fas fa-fw fa-database text-white"></i>
                     <span class="text-white">Issued Certificates</span>
