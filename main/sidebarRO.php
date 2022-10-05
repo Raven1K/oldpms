@@ -38,7 +38,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">
-                    <i class="fas fa-fw fa-sharp fa-solid fa-file-chart-column text-white"></i>
+                    <i class="fas fa-sharp fa-solid fa-file-chart-column text-white"></i>
                     <span class="text-white">Reports</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
