@@ -134,7 +134,7 @@
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Latest Income Tax Return</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
-              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='http://www.plspetdoge.com/' target='_blank'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb5">9 MB</td>
         </tr>
