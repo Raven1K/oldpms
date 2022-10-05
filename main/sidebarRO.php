@@ -30,24 +30,24 @@
 			
 			<li class="nav-item">
                 <a class="nav-link text-white" href="foraction.php">
-                    <i class="fas fa-fw fa-search text-white"></i>
+                    <i class="fas fa-fw fa-edit text-white"></i>
                     <span class="text-white">For Review</span></a>
             </li>
 			<hr class="sidebar-divider">
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="dealertable.php">
-                    <i class="fas fa-fw fa-certificate text-white"></i>
-                    <span class="text-white">Existing Lumber Dealers</span>
+                <a class="nav-link text-white" href="#">
+                    <i class="fas fa-fw fa-sharp fa-solid fa-file-chart-column text-white"></i>
+                    <span class="text-white">Reports</span>
                 </a>
-              <!--  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <h6 class="collapse-header">Reports:</h6>
+                        <a class="collapse-item fas fa-fw fa-certificate text-white" href="dealertable.php">Existing Lumber Dealers</a>
+                        <a class="collapse-item" href="#">Issued Certificates</a>
                     </div>
-                </div>  -->
+                </div>  
             </li>
 			<hr class="sidebar-divider">
 
