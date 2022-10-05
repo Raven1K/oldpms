@@ -77,7 +77,7 @@
             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-             <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Application form or duly accomplished & sworn/notarized.</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+             <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Application form or duly accomplished & sworn/notarized.</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
               <i role='button' id='browsefile' class='fa-solid fa-link'></i><br>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;" id="mb1">2 MB</td>
@@ -91,7 +91,7 @@
              <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;" >Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-                    <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+                    <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
               <i role='button' id='browsefile' class='fa-solid fa-link'></i><br>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px; "id="mb2">4 MB</td>
@@ -105,7 +105,7 @@
             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-                <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Mayor's Permit/Business Permit</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+                <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Mayor's Permit/Business Permit</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
               <i role='button' id='browsefile' class='fa-solid fa-link'></i><br>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb3">6 MB</td>
@@ -119,7 +119,7 @@
             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-       <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Annual Business Plan</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+       <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Annual Business Plan</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
               <i role='button' id='browsefile' class='fa-solid fa-link'></i><br>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb4">8 MB</td>
@@ -147,7 +147,7 @@
             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-      <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Proof of ownership of the lumberyard or consent/agreement with the owner</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+      <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Proof of ownership of the lumberyard or consent/agreement with the owner</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
               <i role='button' id='browsefile' class='fa-solid fa-link'></i><br>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb6">10 MB</td>
