@@ -17,6 +17,8 @@
   </head>
   
 <body>
+    <input type="file" id="invalidfile" hidden="hidden" accept="Application/pdf" value=""/>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
   <div class="container-fluid">
@@ -58,27 +60,27 @@
   <div class="card-body">
   <center>
     <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Status of Documents Uploaded</h2>
-    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 20px; font-weight: 300;">Click <b>'Browse'</b> to select the corresponding electronic copy of document.<br><span style="color:red;">Note: Only PDF File not larger than 10 MB is allowed.</span></p><br></p>
+    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 19px; font-weight: 350;">Click <b>'Details'</b> to select the corresponding electronic copy of document.<br><span style="color:red;">Note: Only PDF File not larger than 10 MB is allowed.</span></p><br></p>
   </center>
 
       <table class="table table-striped" style="width: 900px;">
         <tr>
           <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
-           <th style="background: #597EFB; color: #fff; font-weight: 300;"> </th>
-          <th style="background: #597EFB; color: #fff; font-weight: 300 ;width: 100px;">File Size</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 300;"></th>
+          <th style="background: #597EFB; color: #fff; font-weight: 300;">File Size</th>
         </tr>
-
         <tr>
             <td style="border-right-color: #fff;">
-            <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.</span>
+            <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accomplished & sworn/notarized.</span>
             </td>
             <td align="center" style="width: 50px;">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-            <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+             <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Application form or duly accomplished & sworn/notarized.</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;" id="mb1"></td>
+            <td align="center" style="color: #808080; font-size: 15px;" id="mb1">2 MB</td>
         </tr>
 
         <tr>
@@ -86,12 +88,13 @@
             <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</span>
             </td>
            <td align="center">
-             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;" >Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-                  <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+                    <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px; "id="mb2"></td>
+            <td align="center" style="color: #808080; font-size: 15px; "id="mb2">4 MB</td>
         </tr>
 
         <tr>
@@ -99,12 +102,13 @@
             <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+                <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Mayor's Permit/Business Permit</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb3"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb3">6 MB</td>
         </tr>
 
         <tr>
@@ -112,25 +116,27 @@
             <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan</span>
             </td>
              <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-          <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+       <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Annual Business Plan</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb4"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb4">8 MB</td>
         </tr>
 
         <tr>
             <td style="border-right-color: #fff; ">
-            <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return</span>
+            <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax Return</span>
             </td>
            <td align="center">
-            <p style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">DisApproved</p>
+            <p  style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">Disapproved <i class="fa-solid fa-xmark"></i></p>
             </td>
              <td align="center">
-          <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+          <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Latest Income Tax Return</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb5"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb5">9 MB</td>
         </tr>
 
         <tr>
@@ -138,17 +144,38 @@
             <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted</p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
-    <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+      <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Proof of ownership of the lumberyard or consent/agreement with the owner</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
+            <td align="center" style="color: #808080; font-size: 15px;"id="mb6">10 MB</td>
         </tr>
       </table>
+
+
   </div>
 </div>
 
+<script type="text/javascript">
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+  $(window).load(function(){
+$('[data-bs-toggle="popover"]').popover();
+$('body').on('click', function (e) {
+    $('[data-bs-toggle="popover"]').each(function () {
+        if (!$(this).is(e.target) && 
+             $(this).has(e.target).length === 0 && 
+             $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+});
+});
+</script>
 
   </body>
 </html>
