@@ -37,7 +37,7 @@ body {
   margin-top: 3%;
 }
 
-
+.title {text-align: right;}
 .custom_alert.show {
   animation: show_slide 1s ease forwards;
 }
