@@ -45,7 +45,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Reports:</h6>
                         <a class="collapse-item" href="dealertable.php">Existing Lumber Dealers</a>
-                        <a class="collapse-item" href="#">Issued Certificates</a>
+                        <a class="collapse-item" href="dashboard.php">Issued Certificates</a>
                     </div>
                 </div>  
             </li>
