@@ -68,7 +68,7 @@
                     </div>
                 </div>  -->
             </li>
-			<hr class="sidebar-divider">
+			
             <!-- Divider -->
         <!--     <hr class="sidebar-divider"> -->
 
