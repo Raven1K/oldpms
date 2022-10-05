@@ -16,7 +16,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link text-white" href="dashboard.php">
-                    <i class="fas fa-fw fa-tachometer-alt text-info"></i>
+                    <i class="fas fa-fw fa-tachometer-alt text-white"></i>
                     <span class="text-white">Dashboard</span></a>
             </li>
 
@@ -30,7 +30,7 @@
 			
 			<li class="nav-item">
                 <a class="nav-link text-white" href="foraction.php">
-                    <i class="fas fa-fw fa-search text-info"></i>
+                    <i class="fas fa-fw fa-search text-white"></i>
                     <span class="text-white">For Review</span></a>
             </li>
 			<hr class="sidebar-divider">
@@ -38,7 +38,7 @@
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link text-white" href="dealertable.php">
-                    <i class="fas fa-fw fa-certificate text-info"></i>
+                    <i class="fas fa-fw fa-certificate text-white"></i>
                     <span class="text-white">Existing Lumber Dealers</span>
                 </a>
               <!--  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -54,7 +54,7 @@
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">
-                    <i class="fas fa-fw fa-database text-info"></i>
+                    <i class="fas fa-fw fa-database text-white"></i>
                     <span class="text-white">Issued Certificates</span>
                 </a>
             <!--    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
@@ -101,7 +101,7 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link text-white" href="maps.php">
-                    <i class="fas fa-fw fa-map-marked-alt text-info"></i>
+                    <i class="fas fa-fw fa-map-marked-alt text-white"></i>
                     <span class="text-white">Maps</span></a>
             </li>
 			
