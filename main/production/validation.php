@@ -55,7 +55,7 @@
                   <li><a href="application.php"><i class="fa fa-edit"></i> Evaluation </a></li>
                   <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
                   <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
-                  <li><a href="https://oldpms.herokuapp.com/"><i class="fa fa-map-marker"></i> Site Validated </a></li>
+                  <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> Site Validated </a></li>
                     </ul>
                   </li>
                 </ul>
@@ -76,7 +76,7 @@
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">
               <div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-4">
-              <h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5>
+              <a href="dashboard.php"><h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5></a>
               <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                     <img src="images/faces/face28.png" alt="" ><span style="color: green">FUU - CENRO</span>
