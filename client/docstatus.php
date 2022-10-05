@@ -64,8 +64,8 @@
       <table class="table table-striped" style="width: 900px;">
         <tr>
           <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
-           <th style="background: #597EFB; color: #fff; font-weight: 300;"> </th>
-          <th style="background: #597EFB; color: #fff; font-weight: 300 ;width: 100px;">File Size</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 300;"></th>
+          <th style="background: #597EFB; color: #fff; font-weight: 300;">File Size</th>
         </tr>
 
         <tr>
@@ -73,7 +73,7 @@
             <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.</span>
             </td>
             <td align="center" style="width: 50px;">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
             <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;" hidden>Details</button>
@@ -86,7 +86,7 @@
             <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer</span>
             </td>
            <td align="center">
-             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;" >Accepted <i class="fa-solid fa-check"></i></p>
+             <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;" >Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
                   <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
@@ -99,7 +99,7 @@
             <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
            <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
@@ -112,7 +112,7 @@
             <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan</span>
             </td>
              <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
@@ -125,7 +125,7 @@
             <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return</span>
             </td>
            <td align="center">
-            <p style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">DisApproved <i class="fa-regular fa-x"></i></p>
+            <p style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">DisApproved <i class="fa-solid fa-xmark"></i></p>
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
@@ -138,7 +138,7 @@
             <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner</span>
             </td>
             <td align="center">
-            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500;">Accepted <i class="fa-solid fa-check"></i></p>
+            <p style="font-family: system-ui; background: #32CD32; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 11px; font-weight: 500; width: 90px;">Accepted <i class="fa-solid fa-check"></i></p>
             </td>
              <td align="center">
     <button type="button" id="custom-button" class="btn btn-sm" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;"hidden>Details</button>
