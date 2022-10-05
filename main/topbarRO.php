@@ -150,7 +150,7 @@
                                     <div class="dropdown-list-image mr-3">
                                         <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                                             alt="...">
-                                        <div class="status-indicator bg-info"></div>
+                                        <div class="status-indicator bg-white"></div>
                                     </div>
                                     <div>
                                         <div class="text-truncate">Am I a good boy? I already paid the total bills</div>
