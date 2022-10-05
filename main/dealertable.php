@@ -133,6 +133,126 @@
                 <td>Bunawan</td>
                 
             </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>Nixon</td>
+                <td>Bayugan City</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bayugan</td>
+               
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nixon</td>
+                <td>Bunawan</td>
+                <td>LD-R13-27-06132019-ADS</td>
+                <td>08/22/2016</td>
+                <td>08/22/2019</td>
+                <td>Bunawan</td>
+                
+            </tr>
                       
         </tbody>
     </table>
@@ -183,17 +303,20 @@
     <script>
 	$(document).ready(function() {
 	    var table = $('#example').DataTable( {
-	        lengthChange: false,
-	        buttons: [ 'copy', 'excel', 'pdf', 'print', 'colvis' ]
+			responsive: true,
+	        lengthChange: true,
+	        buttons: [ 'copy', 'excel', 'pdf', 'print' ]
 	    } );
 	 
 	    table.buttons().container()
 	        .appendTo( '#example_wrapper .col-md-6:eq(0)' );
+		
 	} );
      </script>
 	
 	 <!-- Bootstrap core JavaScript-->
 	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/sb-admin-2.min.js"></script
 
     
 </body>
