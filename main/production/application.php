@@ -79,7 +79,7 @@
               <a href="dashboard.php"><h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5></a>
               <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/faces/face28.png" alt="" ><span style="color: green">FUU - CENRO</span>
+                    <img src="images/faces/face28.png" alt="" ><span>FUU - CENRO</span>
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="javascript:;"> Profile</a>
@@ -142,11 +142,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success"> Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -157,11 +157,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-warning">Pending</div>
+                              <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -172,11 +172,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-danger">Rejected</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -188,11 +188,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -203,11 +203,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -218,11 +218,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -233,11 +233,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -248,11 +248,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>
@@ -263,11 +263,12 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-danger">Rejected</div>
+                              <div class="badge badge-warning">For Evaluation</div>
                             </td>
                             <td>
-                            <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
+                              </div>
                               </div>
                             </td>
                           </tr>
@@ -278,11 +279,11 @@
                             </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td>
-                              <div class="badge badge-danger">Rejected</div>
+                            <div class="badge badge-warning">For Evaluation</div>
                             </td>
                              <td>
-                              <div><a  type="button" class="btn btn-round btn-warning" href="review.php"></button>
-                              <i class="fa fa-external-link"> </i> For Evaluation</a>
+                              <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
+                              <i class="fa fa-external-link"> </i> Evaluate</a>
                               </div>
                             </td>
                           </tr>

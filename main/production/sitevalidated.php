@@ -53,7 +53,7 @@
                   <li><a href="application.php"><i class="fa fa-edit"></i> Application Status </a></li>
                   <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
                   <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
-                  <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> Site Validated </a></li>
+                  <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> For Endorsement </a></li>
                     </ul>
                   </li>
                 </ul>
@@ -145,7 +145,7 @@
                               <span class="pl-2">Mayet Chua</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -153,12 +153,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+          <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -184,7 +184,7 @@
                               <span class="pl-2">Julie Mar Madelo</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -192,12 +192,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+       <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -223,7 +223,7 @@
                               <span class="pl-2">Jobert Awa</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -231,12 +231,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+   <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -263,7 +263,7 @@
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -271,12 +271,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+          <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -302,7 +302,7 @@
                               <span class="pl-2">Jaycelen Paler</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -310,12 +310,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+          <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -341,7 +341,7 @@
                               <span class="pl-2">Joshua Jumonong</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -349,12 +349,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+           <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
@@ -380,7 +380,7 @@
                               <span class="pl-2">Totitz Baptisma</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
@@ -388,12 +388,12 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">Site Validated</div>
+                              <div class="badge badge-success">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>Endorsement</a>
+           <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
                               <div class="modal-dialog modal-lg">
