@@ -145,7 +145,7 @@
                               <span class="pl-2">Mayet Chua</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -173,12 +173,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -208,7 +209,7 @@
                               <span class="pl-2">Julie Mar Madelo</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -236,12 +237,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -270,7 +272,7 @@
                               <span class="pl-2">Jobert Awa</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -298,12 +300,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -333,7 +336,7 @@
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -361,12 +364,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -397,7 +401,7 @@
                               <span class="pl-2">Jaycelen Paler</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -425,12 +429,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -459,7 +464,7 @@
                               <span class="pl-2">Joshua Jumonong</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -487,12 +492,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
@@ -523,7 +529,7 @@
                               <span class="pl-2">Totitz Baptisma</span>
                             </td>
                             <td> 02312 </td>
-                            <td> ₱2,116 </td>
+                            <td> ₱2,216 </td>
                             <td> Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 04 Dec 2019 </td>
@@ -551,12 +557,13 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Oath Fee</span> <span>₱36.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Cash Bond </span> <span>₱1,000.00</span> </div>
                 <hr>
-                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,116.00</span> </div>
+                <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Total </span> <span class="text-success">₱2,216.00</span> </div>
                 <hr>
                 <br>
                 <br>
