@@ -2205,26 +2205,31 @@ function init_charts() {
 
         var ctx = document.getElementById("canvasDoughnut");
         var data = {
-            labels: [
-                "Purple Color",
-                "Green Color",
-                "Blue Color"
-            ],
-            datasets: [{
-                data: [120, 50, 140, 180, 100],
-                backgroundColor: [
-                    "#9B59B6",
-                    "#26B99A",
-                    "#3498DB"
+            data: {
+                labels: [
+                    "C-Cantilan",
+                    "C-Bislig",
+                    "C-Lianga"
                 ],
-                hoverBackgroundColor: [
-                    "#B370CF",
-                    "#36CAAB",
-                    "#49A9EA"
-                ]
-
-            }]
-        };
+                datasets: [{
+                    data: [20,10,30],
+                    backgroundColor: [
+                        "#9B59B6",
+                        "#26B99A",
+                        "#3498DB"
+                    ],
+                    hoverBackgroundColor: [
+                        "#B370CF",
+                        "#36CAAB",
+                        "#49A9EA"
+                    ]
+                }]
+            },
+            options: {
+                legend: false,
+                responsive: false
+            }
+        }
 
         var canvasDoughnut = new Chart(ctx, {
             type: 'doughnut',

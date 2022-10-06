@@ -389,7 +389,7 @@ function init_chart_doughnut() {
 
     console.log('init_chart_doughnut');
 
-    if ($('.canvasDoughnuts').length) {
+    if ($('.canvasDoughnut').length) {
 
         var chart_doughnut_settings = {
             type: 'doughnut',
@@ -420,7 +420,7 @@ function init_chart_doughnut() {
             }
         }
 
-        $('.canvasDoughnuts').each(function () {
+        $('.canvasDoughnut').each(function () {
 
             var chart_element = $(this);
             var chart_doughnut = new Chart(chart_element, chart_doughnut_settings);
@@ -1907,9 +1907,9 @@ function init_charts() {
 
     // Doughnut chart
 
-    if ($('#canvasDoughnuts').length) {
+    if ($('#canvasDoughnut').length) {
 
-        var ctx = document.getElementById("canvasDoughnuts");
+        var ctx = document.getElementById("canvasDoughnut");
         var data = {
             labels: [
                 "Dark Grey",
