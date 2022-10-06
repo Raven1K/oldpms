@@ -389,32 +389,26 @@ function init_chart_doughnut() {
 
     console.log('init_chart_doughnut');
 
-    if ($('.canvasDoughnut').length) {
+    if ($('.canvasDoughnuts').length) {
 
         var chart_doughnut_settings = {
             type: 'doughnut',
             tooltipFillColor: "rgba(51, 51, 51, 0.55)",
             data: {
                 labels: [
-                    "Symbian",
-                    "Blackberry",
-                    "Other",
-                    "Android",
-                    "IOS"
+                    "C-Cantilan",
+                    "C-Bislig",
+                    "C-Lianga"
                 ],
                 datasets: [{
-                    data: [15, 20, 30, 10, 30],
+                    data: [20,10,30],
                     backgroundColor: [
-                        "#BDC3C7",
                         "#9B59B6",
-                        "#E74C3C",
                         "#26B99A",
                         "#3498DB"
                     ],
                     hoverBackgroundColor: [
-                        "#CFD4D8",
                         "#B370CF",
-                        "#E95E4F",
                         "#36CAAB",
                         "#49A9EA"
                     ]
@@ -426,7 +420,7 @@ function init_chart_doughnut() {
             }
         }
 
-        $('.canvasDoughnut').each(function () {
+        $('.canvasDoughnuts').each(function () {
 
             var chart_element = $(this);
             var chart_doughnut = new Chart(chart_element, chart_doughnut_settings);
@@ -1913,9 +1907,9 @@ function init_charts() {
 
     // Doughnut chart
 
-    if ($('#canvasDoughnut').length) {
+    if ($('#canvasDoughnuts').length) {
 
-        var ctx = document.getElementById("canvasDoughnut");
+        var ctx = document.getElementById("canvasDoughnuts");
         var data = {
             labels: [
                 "Dark Grey",
