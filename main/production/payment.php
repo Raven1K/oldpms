@@ -52,7 +52,7 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                   <li><a href="dashboard.php"><i class="fa fa-home"></i> Dashboard </a></li>
-                  <li><a href="application.php"><i class="fa fa-edit"></i> Evaluation </a></li>
+                  <li><a href="application.php"><i class="fa fa-edit"></i> Application Status </a></li>
                   <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
                   <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
                   <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> Site Validated </a></li>
@@ -128,14 +128,14 @@
                       <thead>
                         <tr>
                           <tr>
-                            <th> Applicant Name </th>
+                            <th> Name of Permittee </th>
                             <th> Reference No </th>
                             <th> Total Payment </th>
                             <th> Address </th>
                             <th> Payment Mode </th>
                             <th> Payment Date </th>
-                            <th> Action Taken </th>
-                            <th> For Payment </th>
+                            <th> Status </th>
+                            <th> Action </th>
                           </tr>
                         </thead>
                         <tbody>
