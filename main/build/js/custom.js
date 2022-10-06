@@ -698,12 +698,12 @@ function init_chart_doughnut() {
                     data: [20,10,30],
                     backgroundColor: [
                         "#9B59B6",
-                        "#26B99A",
+                        "#22782c",
                         "#3498DB"
                     ],
                     hoverBackgroundColor: [
                         "#B370CF",
-                        "#36CAAB",
+                        "#224b27",
                         "#49A9EA"
                     ]
                 }]
