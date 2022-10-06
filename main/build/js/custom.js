@@ -2216,7 +2216,7 @@ function init_charts() {
                     backgroundColor: [
                         "#9B59B6",
                         "#26B99A",
-                        "#3498DB"
+                        "#22782c"
                     ],
                     hoverBackgroundColor: [
                         "#B370CF",
