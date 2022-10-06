@@ -166,13 +166,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -236,7 +236,7 @@
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -293,13 +293,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -357,13 +357,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -422,13 +422,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -485,13 +485,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
@@ -550,13 +550,13 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Payment Details</h4>
+          <h4 class="modal-title"></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-          <div class="bg-pay p-3"> <span class="font-weight-bold">Online Dealer Application Payment</span>
+          <div class="bg-pay p-3"> <span class="font-weight-bold">Payment Summary</Summary></span>
           <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Processing Fee</span> <span>₱100.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Application Fee</span> <span>₱600.00</span> </div>
                 <div class="d-flex justify-content-between mt-2"> <span class="fw-500">Registration Fee</span> <span>₱480.00</span> </div>
