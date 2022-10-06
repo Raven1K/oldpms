@@ -405,12 +405,12 @@ function init_chart_doughnut() {
                     backgroundColor: [
                         "#9B59B6",
                         "#26B99A",
-                        "#3498DB"
+                        "#22782c"
                     ],
                     hoverBackgroundColor: [
                         "#B370CF",
                         "#36CAAB",
-                        "#49A9EA"
+                        "#224b27"
                     ]
                 }]
             },
