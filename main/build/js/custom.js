@@ -697,9 +697,9 @@ function init_chart_doughnut() {
                 datasets: [{
                     data: [20,10,30],
                     backgroundColor: [
-                        "#9B59B6",
-                        "#22782c",
-                        "#3498DB"
+                        "#dc3545",
+                        "#6c757d",
+                        "#22782c"
                     ],
                     hoverBackgroundColor: [
                         "#B370CF",

@@ -166,7 +166,7 @@
                       </div>
                     </div>
                     <div>
-                      <p>CENRO Bislig</p>
+                      <p>CENRO Cantilan</p>
                       <div class="">
                         <div class="progress progress_sm" style="width: 76%;">
                           <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="60"></div>
@@ -176,7 +176,7 @@
                   </div>
                   <div class="col-md-12 col-sm-12 ">
                     <div>
-                      <p>CENRO Cantilan</p>
+                      <p>CENRO Bislig</p>
                       <div class="">
                         <div class="progress progress_sm" style="width: 76%;">
                           <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="40"></div>
@@ -235,19 +235,19 @@
                         <table class="tile_info">
                           <tr>
                             <td>
-                              <p><i class="fa fa-square blue"></i>C-Lianga </p>
+                              <p><i class="fa fa-square green"></i>C-Lianga </p>
                             </td>
                             <td>30%</td>
                           </tr>
                           <tr>
                             <td>
-                              <p><i class="fa fa-square green"></i>C-Bislig </p>
+                              <p><i class="fa fa-square grey"></i>C-Bislig </p>
                             </td>
                             <td>10%</td>
                           </tr>
                           <tr>
                             <td>
-                              <p><i class="fa fa-square purple"></i>C-Cantilan</p>
+                              <p><i class="fa fa-square red"></i>C-Cantilan</p>
                             </td>
                             <td>20%</td>
                           </tr>
