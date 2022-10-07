@@ -14,7 +14,11 @@
     <!-- Cuztomize Styles-->
     <link rel="stylesheet" href="css/mystyle.css">
 
-    <title>OLDPMS</title>
+    <title>Online Lumber Dealer Registration & Monitoring System</title>
+
+    <!-- add icon link -->
+    <link rel="icon" href="images/logoicon.png" type="image/icon type">
+
   </head>
   <body>
   <?php 
