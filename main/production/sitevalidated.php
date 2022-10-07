@@ -50,6 +50,7 @@
                       <thead>
                         <tr>
                           <tr>
+                          <th> No. </th>                            
                             <th> Name of Permittee </th>
                             <th> Reference No </th>
                             <th> Total Payment </th>
@@ -63,6 +64,7 @@
                         </thead>
                         <tbody>
                           <tr>
+                          <td> 1.</td>
                             <td>
                               <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Mayet Chua</span>
@@ -102,6 +104,7 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 2.</td>
                             <td>
                               <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Julie Mar Madelo</span>
@@ -141,6 +144,7 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 3.</td>
                             <td>
                               <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jobert Awa</span>
@@ -180,7 +184,7 @@
                             </td>
                           </tr>
                           <tr>
-                            </td>
+                          <td> 4.</td>
                             <td>
                               <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Anthonie Feny Catalan</span>
@@ -220,6 +224,7 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 5.</td>
                             <td>
                               <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jaycelen Paler</span>
@@ -259,6 +264,7 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 6.</td>
                             <td>
                               <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Joshua Jumonong</span>
@@ -298,6 +304,7 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 7.</td>
                             <td>
                               <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Totitz Baptisma</span>

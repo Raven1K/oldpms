@@ -49,6 +49,7 @@
                       <thead>
                         <tr>
                           <tr>
+                          <th> No. </th>
                             <th> Document Name </th>
                             <th> Status </th>
                             <th> Action </th>
@@ -56,9 +57,8 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td>
-                            1. Application form or duly accomplished & sworn/notirized.
-                            </td>
+                          <td> 01</td>
+                            <td>1. Application form or duly accomplished & sworn/notirized.</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -89,9 +89,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer.
-                            </td>
+                          <td> 02</td>
+                            <td>2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer.</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -124,9 +123,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            3. Mayor's Permit/Business Permit
-                            </td>
+                          <td> 03</td>
+                            <td>3. Mayor's Permit/Business Permit</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -159,10 +157,8 @@
                             </td>
                           </tr>
                           <tr>
-                            </td>
-                            <td>
-                            4. Annual Business Plan
-                            </td>
+                          <td> 04</td>
+                            <td>4. Annual Business Plan</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -195,9 +191,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            5. Latest Income Tax Return
-                            </td>
+                          <td> 05</td>
+                            <td>5. Latest Income Tax Return</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -230,9 +225,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            6. Proof ownership of the lumberyard or consent/agreement with the owner
-                            </td>
+                          <td> 06</td>
+                            <td>6. Proof ownership of the lumberyard or consent/agreement with the owner</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -265,9 +259,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            7. Generated Application Form
-                            </td>
+                          <td> 07</td>
+                            <td>7. Generated Application Form</td>
                             <td>
                               <div class="badge badge-success">Approved</div>
                             </td>
@@ -300,9 +293,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            8. Lumber Dealer Geotag Photo
-                            </td>
+                          <td> 08</td>
+                            <td>8. Lumber Dealer Geotag Photo</td>
                             <td>
                             <div class="badge badge-warning">Pending</div>
                             </td>
@@ -335,9 +327,8 @@
                             </td>
                           </tr>
                           <tr>
-                            <td>
-                            9. Inspection/Validation Report
-                            </td>
+                          <td> 09</td>
+                            <td>9. Inspection/Validation Report</td>
                             <td>
                             <div class="badge badge-warning">Pending</div>
                             </td>
