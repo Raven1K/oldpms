@@ -48,19 +48,23 @@
                       <thead>
                         <tr>
                           <tr>
+                          <th> No. </th>
                             <th> Name of Permittee </th>
                             <th> Address </th>
+                            <th> Date Applied </th>
                             <th> Status </th>
                             <th> Action </th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
+                          <td> 1. </td>
                             <td>
                             <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Mayet Chua</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -71,11 +75,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 2. </td>
                             <td>
                             <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Julie Mar Madelo</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                               <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -86,11 +92,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 3. </td>
                             <td>
                             <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jobert Awa</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -101,12 +109,13 @@
                             </td>
                           </tr>
                           <tr>
-                            </td>
+                          <td> 4. </td>
                             <td>
                             <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -117,11 +126,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 5. </td>
                             <td>
                             <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jaycelen Paler</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -132,11 +143,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 6. </td>
                             <td>
                             <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Joshua Jumonong</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -147,11 +160,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 7. </td>
                             <td>
                             <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-1">Totitz Baptisma</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -162,11 +177,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 8. </td>
                             <td>
                             <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Patric Luminarias</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -177,11 +194,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 9. </td>
                             <td>
                             <img src="images/faces/face12.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Jay Ar Montaner</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                               <div class="badge badge-warning">For Evaluation</div>
                             </td>
@@ -193,11 +212,13 @@
                             </td>
                           </tr>
                           <tr>
+                          <td> 10. </td>
                             <td>
                             <img src="images/faces/face15.jpg" alt="image" class="img-circle profile_pics" />
                               <span class="pl-2">Kent Bandoy</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Evaluation</div>
                             </td>
