@@ -40,7 +40,7 @@
             <div class="col-md-2 col-sm-4  tile_stats_count">
               <span class="count_top"><i class="fa fa-user"></i> Lumber Dealer</span>
               <div class="count red" style="color: #ffc107">5</div>
-              <span class="count_bottom"><i class="yellow"><i class="fa fa-sort-desc"></i>5% </i> Pending</span>
+              <span class="count_bottom"><i class="yellow"><i class="fa fa-sort-desc"></i>5% </i> On Process</span>
             </div>
             <div class="col-md-2 col-sm-4  tile_stats_count">
             <span class="count_top"><i class="fa fa-user"></i> Lumber Dealer</span>
