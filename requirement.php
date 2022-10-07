@@ -8,7 +8,7 @@
         <br>Once notarized, return to the system and locate the REQUIREMENTS FORM Browse to upload the scan copy.
         <br>You need to have pdf reader installed to open these files.</p></i></b><br>
         <p>
-          1. Application form or duly accomplished & sworn/notarized. <a class="link-info" href="#"><u>Download Fillable Form</u></a><br>
+          1. Application form or duly accomplished & sworn/notarized. <a class="link-info" href="#"><u>Download Form Here</u></a><br>
           2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer.<br>
           3. Mayor's Permit/Business Plan<br>
           4. Annual Business Plan<br>
