@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
-   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="client/css/style.css">
    <link rel="stylesheet" href="fonts/css/all.css">
-   <script src="js/main.js" defer></script>
+   <script src="client/js/main.js" defer></script>
   </head>
   
 <body>
@@ -25,13 +25,12 @@
   <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="images\oldpmslogoreg.png"></a>
+          <a class="nav-link disabled" style="cursor: pointer;"><img src="images/oldpmslogoreg.png"></a>
         </li>
         <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
-            <span style="font-weight: 900; color: #fff;"><img src="images\vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
+            <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
-    </ul>
   </div>
   <div class="custom-card-body" style="padding: 25px;">
     <h5 class="custom-card-title"></h5>
@@ -45,9 +44,9 @@
 
 
 
-                    <form action="processphp/prc_clientregister.php"  method="post" role="form" >
+                    <form action="processphp/prc_clientregister.php"  method="post" role="form" enctype="multipart/form-data" >
                     
-                    enctype="multipart/form-data" >
+             <!--      < enctype="multipart/form-data" >-->
 <!-- for  multilingual file back end reciptional  -->
 
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name" name="firstname">
@@ -68,7 +67,7 @@
                               <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
                               <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" name="my_image1" multiple>
                               </div>
-              <scrip>
+              <script>
                               <?php if (isset($_GET['error'])): 
                                 if(isset($_POST['my_image1']))
                                   {
