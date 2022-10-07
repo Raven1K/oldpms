@@ -50,24 +50,30 @@
 <!-- for  multilingual file back end reciptional  -->
 
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_firstname" placeholder="First Name*" aria-label="first_name" name="firstname">
-                              <input style="margin-bottom: 5px;" type="email" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name" name="email">
-                          <form class="row g-3" style="margin-bottom: 10px;">
-                              <div class="col-auto" style="width: 100%;">
-                              <input type="number" style="font-size:15px;" class="form-control user_mobileno" placeholder="Mobile No.*" name="mobilenum"></div>
-                       
-                              <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw" name="password"></div>
-                    <div class="col">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_middlename" placeholder="Middle Name*" aria-label="last_name" name="mid_name">
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name" name="lastname">
-                              <input style="margin-bottom: 5px;" type="email" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email" name="Cemail">
-                              <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button>
-                              <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw" name="Cpassword"></div></div>
+                              <form class="row g-3" style="margin-bottom: 10px;">
+                              <div class="col-auto" style="width: 100%;"></div>
+                              <input type="number" style="font-size:15px; margin-bottom: 8px;" class="form-control user_mobileno" placeholder="Mobile No.*" name="mobilenum">
+                              <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button></div>
+                       
+                              
+                              <div class="col">
+                              
+
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_email" placeholder="E-Mail*" aria-label="last_name" name="email">
+                              <input style="margin-bottom: 5px;" type="email" class="form-control user_confirm_email" placeholder="Confirm E-Mail*" aria-label="confirm_email" name="Cemail">                              
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw" name="password">
+                              
+                              <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw" name="Cpassword">
+                              
+
+                              </div></div>
                               <br>
                               <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
                               <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" name="my_image1" multiple>
                               </div>
-              <script>
                               <?php if (isset($_GET['error'])): 
                                 if(isset($_POST['my_image1']))
                                   {
@@ -92,7 +98,6 @@
 
                               ?>
 
-                                </script>
 
                                <div class="mb-3">
                               <label style="font-size: 12px; float: left;">Upload a copy of your Government Issued ID</label>
