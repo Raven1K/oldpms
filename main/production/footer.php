@@ -70,9 +70,6 @@
     <script src="../build/js/custom.js"></script>
     
       
-    <script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();   
-});
-</script>
 
+
+<script type="text/javascript" src="./assets/js/script.js"></script>

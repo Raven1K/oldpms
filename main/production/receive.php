@@ -24,7 +24,7 @@
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Application Status</h2>
+                    <h2>For Proccessing</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -51,6 +51,7 @@
                           <th> No. </th>
                             <th> Name of Permittee </th>
                             <th> Address </th>
+                            <th> Date Applied </th>
                             <th> Date Received </th>
                             <th> Status </th>
                             <th> Action </th>
@@ -64,13 +65,33 @@
                               <span class="pl-2">Mayet Chua</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 03 Oct 2022 </td>
                             <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Acknowledgement</div>
                             </td>
                             <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
+                            <div>
+                              <button type="button" class="btn btn-round btn-warning" id="myBtn1">
+                              <i class="fa fa-external-link"> </i> Recieve</button>
+                                <!-- Modal -->
+                                  <div class="modal fade" id="myModal1" role="dialog">
+                                   <div class="modal-dialog">
+    
+                                 <!-- Modal content-->
+                                    <div class="modal-content">
+                                     <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                         <h4 class="modal-title"></h4>
+                                     </div>
+                                   <div class="modal-body">
+                                   <p><strong>Sending Notification of Application Fee to the Permittee. Thank You!</strong></p>
+                                    </div>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                   </div>
+                                </div>
                               </div>
                             </td>
                           </tr>
@@ -81,13 +102,33 @@
                               <span class="pl-2">Julie Mar Madelo</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 03 Oct 2022 </td>
                             <td> 07 Oct 2022 </td>
                             <td>
                               <div class="badge badge-warning">For Acknowledgement</div>
                             </td>
                             <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
+                            <div>
+                              <button type="button" class="btn btn-round btn-warning" id="myBtn2">
+                              <i class="fa fa-external-link"> </i> Recieve</button>
+                                <!-- Modal -->
+                                  <div class="modal fade" id="myModal2" role="dialog">
+                                   <div class="modal-dialog">
+    
+                                 <!-- Modal content-->
+                                    <div class="modal-content">
+                                     <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                         <h4 class="modal-title"></h4>
+                                     </div>
+                                   <div class="modal-body">
+                                   <p><strong>Sending Notification of Application Fee to the Permittee. Thank You!</strong></p>
+                                    </div>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                   </div>
+                                </div>
                               </div>
                             </td>
                           </tr>
@@ -98,13 +139,33 @@
                               <span class="pl-2">Jobert Awa</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 03 Oct 2022 </td>
                             <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Acknowledgement</div>
                             </td>
                             <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
+                            <div>
+                              <button type="button" class="btn btn-round btn-warning" id="myBtn3">
+                              <i class="fa fa-external-link"> </i> Recieve</button>
+                                <!-- Modal -->
+                                  <div class="modal fade" id="myModal3" role="dialog">
+                                   <div class="modal-dialog">
+    
+                                 <!-- Modal content-->
+                                    <div class="modal-content">
+                                     <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                         <h4 class="modal-title"></h4>
+                                     </div>
+                                   <div class="modal-body">
+                                   <p><strong>Sending Notification of Application Fee to the Permittee. Thank You!</strong></p>
+                                    </div>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                   </div>
+                                </div>
                               </div>
                             </td>
                           </tr>
@@ -115,13 +176,33 @@
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 03 Oct 2022 </td>
                             <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Acknowledgement</div>
                             </td>
                             <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
+                            <div>
+                              <button type="button" class="btn btn-round btn-warning" id="myBtn4">
+                              <i class="fa fa-external-link"> </i> Recieve</button>
+                                <!-- Modal -->
+                                  <div class="modal fade" id="myModal4" role="dialog">
+                                   <div class="modal-dialog">
+    
+                                 <!-- Modal content-->
+                                    <div class="modal-content">
+                                     <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                         <h4 class="modal-title"></h4>
+                                     </div>
+                                   <div class="modal-body">
+                                   <p><strong>Sending Notification of Application Fee to the Permittee. Thank You!</strong></p>
+                                    </div>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                   </div>
+                                </div>
                               </div>
                             </td>
                           </tr>
@@ -132,99 +213,33 @@
                               <span class="pl-2">Jaycelen Paler</span>
                             </td>
                             <td> Lianga, Surigao del Sur </td>
+                            <td> 03 Oct 2022 </td>
                             <td> 07 Oct 2022 </td>
                             <td>
                             <div class="badge badge-warning">For Acknowledgement</div>
                             </td>
                             <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 6. </td>
-                            <td>
-                            <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Joshua Jumonong</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                            <div class="badge badge-warning">For Acknowledgement</div>
-                            </td>
-                            <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 7. </td>
-                            <td>
-                            <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-1">Totitz Baptisma</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                            <div class="badge badge-warning">For Acknowledgement</div>
-                            </td>
-                            <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 8. </td>
-                            <td>
-                            <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Patric Luminarias</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                            <div class="badge badge-warning">For Acknowledgement</div>
-                            </td>
-                            <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 9. </td>
-                            <td>
-                            <img src="images/faces/face12.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jay Ar Montaner</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-warning">For Acknowledgement</div>
-                            </td>
-                            <td>
-                            <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
-                              </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 10. </td>
-                            <td>
-                            <img src="images/faces/face15.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Kent Bandoy</span>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                            <div class="badge badge-warning">For Acknowledgement</div>
-                            </td>
-                             <td>
-                              <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
-                              <i class="fa fa-external-link"> </i> Recieve</a>
+                            <div>
+                              <button type="button" class="btn btn-round btn-warning" id="myBtn5">
+                              <i class="fa fa-external-link"> </i> Recieve</button>
+                                <!-- Modal -->
+                                  <div class="modal fade" id="myModal5" role="dialog">
+                                   <div class="modal-dialog">
+    
+                                 <!-- Modal content-->
+                                    <div class="modal-content">
+                                     <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                         <h4 class="modal-title"></h4>
+                                     </div>
+                                   <div class="modal-body">
+                                   <p><strong>Sending Notification of Application Fee to the Permittee. Thank You!</strong></p>
+                                    </div>
+                                     <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                   </div>
+                                </div>
                               </div>
                             </td>
                           </tr>
@@ -247,6 +262,20 @@
       require_once 'footer.php';
   ?>
     
+        <!-- Universal Modal-->
+        <div class="modal" tabindex="-1" id="universal_modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header py-1 px-2">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Universal Modal-->
 
 </body>
 </html>

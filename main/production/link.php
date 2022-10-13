@@ -23,3 +23,53 @@
 
 <!-- Custom Theme Style -->
 <link href="../build/css/custom.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#myBtn1").click(function(){
+    $("#myModal1").modal("show");
+  });
+  $("#myBtn2").click(function(){
+    $("#myModal2").modal("show");
+  });
+  $("#myBtn3").click(function(){
+    $("#myModal3").modal("show");
+  });
+  $("#myBtn4").click(function(){
+    $("#myModal4").modal("show");
+  });
+  $("#myBtn5").click(function(){
+    $("#myModal5").modal("show");
+  });
+  $("#myModal1").on('show.bs.modal', function(){
+    alert('The Application of Lumber Dealer Received.');
+  });
+  $("#myModal2").on('show.bs.modal', function(){
+    alert('The Application of Lumber Dealer Received.');
+  });
+  $("#myModal3").on('show.bs.modal', function(){
+    alert('The Application of Lumber Dealer Received.');
+  });
+  $("#myModal4").on('show.bs.modal', function(){
+    alert('The Application of Lumber Dealer Received.');
+  });
+  $("#myModal5").on('show.bs.modal', function(){
+    alert('The Application of Lumber Dealer Received.');
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
