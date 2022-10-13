@@ -51,7 +51,7 @@
                           <th> No. </th>
                             <th> Name of Permittee </th>
                             <th> Address </th>
-                            <th> Date Applied </th>
+                            <th> Date Received </th>
                             <th> Status </th>
                             <th> Action </th>
                           </tr>
