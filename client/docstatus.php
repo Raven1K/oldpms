@@ -148,7 +148,9 @@
             </td>
              <td align="center">
       <button hidden type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Proof of ownership of the lumberyard or consent/agreement with the owner</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
-              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+             <div class='alert alert-primary' role='alert'>
+  A simple primary alert—check it out!
+</div><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb6">10 MB</td>
         </tr>
