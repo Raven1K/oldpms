@@ -130,11 +130,11 @@
             <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax Return</span>
             </td>
            <td align="center">
-            <p  style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">Disapproved <i class="fa-solid fa-xmark"></i></p>
+            <p  style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">Disapproved <i class="fa-solid fa-xmark "></i></p>
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Latest Income Tax Return</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 
-              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a>" style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
+              <i role='button' id='browsefile' class='fa-solid fa-link'></i><br><a href='#'>File.pdf</a><a type='button' class='btn btn-primary' id='liveToastBtn'>Click me!</a> " style="background: #ffaa00; color: white; font-size: 12px; width: 90px; height:30px; font-weight: 500;">Details</button>
             </td>
             <td align="center" style="color: #808080; font-size: 15px;"id="mb5">9 MB</td>
         </tr>
@@ -160,6 +160,7 @@
   </div>
 </div>
 
+
 <script type="text/javascript">
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
@@ -177,6 +178,16 @@ $('body').on('click', function (e) {
     });
 });
 });
+
+ var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
 </script>
 
   </body>
