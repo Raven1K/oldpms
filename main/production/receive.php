@@ -39,7 +39,7 @@
                       </li>
                     </ul>
                     <div class="clearfix"></div>
-                  </div>                          <td> 1. </td>
+                  </div>
                   <div class="x_content">
                       <div class="row">
                           <div class="col-sm-12">
