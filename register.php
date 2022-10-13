@@ -54,7 +54,7 @@
                               <input style="margin-bottom: 5px;" type="text" class="form-control user_lastname" placeholder="Last Name*" aria-label="last_name" name="lastname">
                               <form class="row g-3" style="margin-bottom: 10px;">
                               <div class="col-auto" style="width: 100%;"></div>
-                              <input type="number" style="font-size:15px; margin-bottom: 8px;" class="form-control user_mobileno" placeholder="Mobile No.*" name="mobilenum">
+                              <input type="text" style="font-size:15px; margin-bottom: 8px;" class="form-control user_mobileno" onkeypress="return restrictAlphabets(event)" placeholder="Mobile No.*" name="mobilenum">
                               <button style="margin-bottom: 8px; width: 100%;" type="button" class="btn btn-danger verify_yournoBtn"data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><span style="font-size: 13px; font-weight: 500">Verify Your Mobile No.</span></button></div>
                        
                               
@@ -71,7 +71,7 @@
                               </div></div>
                               <br>
                               <div class="mb-3">
-                              <label style="font-size: 12px; float: left;">Upload a copy of your Company ID / Any Non-Government Issued ID</label>
+                              <i><label style="font-size: 12px; float: left;">Upload a copy of your Valid ID*</label></i>
                               <input class="form-control formFileMultiple1" type="file" id="formFileMultiple" name="my_image1" multiple>
                               </div>
                               <?php if (isset($_GET['error'])): 
@@ -98,13 +98,8 @@
 
                               ?>
 
-
                                <div class="mb-3">
-                              <label style="font-size: 12px; float: left;">Upload a copy of your Government Issued ID</label>
-                              <input class="form-control formFileMultiple2" type="file" id="formFileMultiple"  name="my_image2" multiple>
-                              </div>
-                               <div class="mb-3">
-                              <label style="font-size: 12px; float: left;">Upload Company's Authorization Letter</label>
+                              <i><label style="font-size: 12px; float: left;">Upload Company's Authorization Letter*</label></i>
                               <input class="form-control formFileMultiple3" type="file" id="formFileMultiple"  name="my_image3" multiple>
                               </div></div></p>
                               <center>
@@ -121,7 +116,7 @@
              <label style="font-weight: 700; font-size: 20px;">Authenticate Your Account</label>
              <label style="font-weight: 400; color:#808080; font-size: 15px; color: #696969;">Please confirm your account<br>by entering the verification code sent to</label>
              <label style="font-weight: 600; font-size: 16px; font-size: 15px; color: #525252">***-****-0909.</label><br>
-               <input type="number" style="font-weight: 300; width: 100px; font-size: 45px;color: #525252; text-align: center; border-bottom-color: #000; border-top-color: #fff; border-right-color: #fff; border-left-color: #fff;" class="form-control" id="exampleFormControlInput1" placeholder=""><br>
+               <input type="text" style="text-align: center; font-size: 26px; border-color: white; border: 0;" placeholder="123-456-789" onkeypress="return restrictAlphabets(event)"><br>
             </div>
             <div class="modal-footer">
               <label style="font-size: 13px; color: #696969; width: 80%; text-align: left; text-decoration: none;">It may take a minute to receive your code.<br>Haven't received it? <a href="  #" style="color: #3E8CFF; cursor: pointer; font-weight: 500;">Resend a new code</a></label>
@@ -192,6 +187,14 @@ if (toastTrigger) {
     toast.show()
   })
 }
+
+ function restrictAlphabets(e){
+  var x = e.which || e.keyboard;
+  if ((x >= 48 &&  x <= 57))
+    return true;
+  else
+    return false;
+ }
 </script>
 </body>
 </html>
