@@ -60,7 +60,7 @@
                           <td> 01</td>
                             <td>1. Application form or duly accomplished & sworn/notirized.</td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                              <div class="badge badge-danger">For Reevaluate</div>
                             </td>
                             <td>
              <div class="container">
@@ -126,7 +126,7 @@
                           <td> 03</td>
                             <td>3. Mayor's Permit/Business Permit</td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-danger">For Reevaluate</div>
                             </td>
                             <td>
                             <div class="container">
@@ -160,7 +160,7 @@
                           <td> 04</td>
                             <td>4. Annual Business Plan</td>
                             <td>
-                              <div class="badge badge-success">Approved</div>
+                            <div class="badge badge-danger">For Reevaluate</div>
                             </td>
                             <td>
                             <div class="container">
@@ -182,7 +182,7 @@
 
             <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
                        <div class="modal-footer">
-                                <a class="btn btn-success" data-dismiss="modal">
+                                <a class="btn btn-success" data-dismiss="modal" id="myBtn">
                                 <i class="fa fa-thumbs-o-up"> </i>Approve</a>
                                 <a class="btn btn-danger" data-dismiss="modal">
                                 <i class="fa fa-thumbs-o-down"> </i>Disapprove</a>

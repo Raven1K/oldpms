@@ -66,7 +66,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -83,7 +83,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-warning">For Evaluation</div>
+                              <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -100,7 +100,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -117,7 +117,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -134,7 +134,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -151,7 +151,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -168,7 +168,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -185,7 +185,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -202,7 +202,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-warning">For Evaluation</div>
+                              <div class="badge badge-warning">On Process</div>
                             </td>
                             <td>
                             <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
@@ -220,7 +220,7 @@
                             <td> Lianga, Surigao del Sur </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                            <div class="badge badge-warning">For Evaluation</div>
+                            <div class="badge badge-warning">On Process</div>
                             </td>
                              <td>
                               <div><a style="color: black" type="button" class="btn btn-round btn-warning" href="review.php">
