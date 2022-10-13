@@ -20,6 +20,7 @@
             <h3>General</h3>
             <ul class="nav side-menu">
               <li><a href="dashboard.php"><i class="fa fa-home"></i> Dashboard </a></li>
+              <li><a href="receive.php"><i class="fa fa-file-text-o"></i> For Receive </a></li>
               <li><a href="application.php"><i class="fa fa-edit"></i> Application Status </a></li>
               <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
               <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
