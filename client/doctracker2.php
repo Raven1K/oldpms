@@ -5,10 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta http-equiv="cache-control" content="no-cache" />
-      <meta http-equiv="Pragma" content="no-cache" />
-      <meta http-equiv="Expires" content="-1" />
-            
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
@@ -59,14 +56,19 @@
     </div>
   </nav>
 
-  <div class="card" style="width: 800px;  padding: 0; display: flex;margin: auto;margin-top: 5%; background: #ecedf0; border-color: #ecedf0;;">
+  <div class="card" style="width: 1000px;  padding: 0; align-items: center;display: flex;margin: auto;margin-top: 5%;">
   <div class="card-body">
   <center>
-    <p class="text-center" style="font-family: system-ui; font-weight: 600; font-size: 35px;">Track Documents</p>
-    <div class="container">
-  <div class="row" style="width: 1000px;">
-    <div class="col-6 col-sm-4"> <div class="btn-group">
-                <div class="dropdown" style="float: left; width: 300px;">
+    <h2 class="text-center" style="font-family: system-ui; font-weight: 600; margin-top: 20px; margin-bottom: 20px;"><i class="fa-solid fa-file-circle-check"></i> Document Tracker</h2><br>
+  </center>
+
+<div class="container" style="margin-bottom: 15px;">
+  <div class="row" >
+    <!-- first row -->
+    <div class="col-6 col-sm-4"> <input style="width: 400px; height: 40px; background: #ecedf0;" type="text" placeholder="Search document here.."></div>
+    <!-- second row -->
+    <div class="col-6 col-sm-4">
+          <div class="dropdown" style="margin-left:360px;">
                   <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Sort by: </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="dropdown-item" href="#">Name</a></li>
@@ -76,66 +78,56 @@
                   </ul>
                 </div>
     </div>
-    </div>
-    <div class="col-6 col-sm-4"> <div class="search">
-                <form action="#">
-                    <input type="text"
-                    placeholder="Search here.."
-                    name="search">
-                </form>
-    </div>
-    </div>
-       
-   <br><br>
-  </center>
-    <div class="card" style="margin-bottom: 20px;" >
-    <div class="card-body" >
-    <div class="card mb-3" style="max-width: 500px; background: white; border-color: white;">
-        <div class="row g-0" style="align-items: center; padding: 0px;">
-        <div class="col-md-4">
-        <span id="custom-text" style="font-size: 13px; color: #808080;">
-        <div class="date" style="margin-left: 45px;">
-        <p>25 <span>Dec</span></p>
-        </div>
-        </span>
-        </div>
-                <div class="col-md-8">
-                  <div class="card-body" >
-                    <h5 class="card-title" style="font-size: 15px; font-weight: 700">Site Validation Schedule for Inspection</h5>
-                    <p class="card-text" style="color: #7b8685;">Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.</p>
-                     <p class="card-text"><a href="#" style="text-decoration: none;">Read more..</a></p>
-                    <p class="card-text"><small class="text-muted">Last posted 30 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-        </div>
-        </div>
-        </div>
+    <!-- end second row -->
+  </div>
+</div>
 
-          <div class="card" style="margin-bottom: 20px;" >
-    <div class="card-body" >
-    <div class="card mb-3" style="max-width: 500px; background: white; border-color: white;">
-        <div class="row g-0" style="align-items: center; padding: 0px;">
-        <div class="col-md-4">
-        <span id="custom-text" style="font-size: 13px; color: #808080;">
-        <div class="date" style="margin-left: 45px;">
-        <p>1 <span>Jan</span></p>
-        </div>
-        </span>
-        </div>
-                <div class="col-md-8">
-                  <div class="card-body" >
-                    <h5 class="card-title" style="font-size: 15px; font-weight: 700">Service Fee Paid.</h5>
-                    <p class="card-text" style="color: #7b8685;">Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m</p>
-                     <p class="card-text"><a href="#" style="text-decoration: none;">Read more..</a></p>
-                    <p class="card-text"><small class="text-muted">Last posted an hour ago</small></p>
-                  </div>
-                </div>
-              </div>
-        </div>
-        </div>
-        </div>
+      <table class="table" style="width: 900px;">
+        <tr>
+          <th  style="background: #329664; color: #fff; font-weight: 500;">Documents</th>
+           <th style="background: #329664; color: #fff; font-weight: 500;">Date</th>
+          <th style="background: #329664; color: #fff; font-weight: 500;">Action</th>
+        </tr>
+        <tr>
+            <td style="border-right-color: #fff;">
+            <span id="custom-text" style="font-size: 13px; color: #808080;"><span style="color: #325094; font-weight: 600; font-size: 15px;"><i class="fa-solid fa-file"></i> Site Validation Schedule for Inspection</span><br>Validation Schedule June 29, 2022 8 a.m<br>Please prepare all the documents for actual verification.</span>
+            </td>
+            <td style="border-right-color: #fff;">
+            <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 12-25-2022</span>
+            </td>
+            <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+        </tr>
 
+        <tr>
+            <td style="border-right-color: #fff;">
+            <span id="custom-text" style="font-size: 13px; color: #808080;"><span style="color: #325094; font-weight: 600; font-size: 15px;"><i class="fa-solid fa-file"></i> Service Fee Paid.</span><br>Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m</span>
+            </td>
+            <td style="border-right-color: #fff;">
+            <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 09-09-2022</span>
+            </td>
+           <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+        </tr>
+
+        <tr>
+            <td style="border-right-color: #fff;">
+            <span id="custom-text" style="font-size: 13px; color: #808080;"><span style="color: #325094; font-weight: 600; font-size: 15px;"><i class="fa-solid fa-file"></i> Application Accepted</span><br>
+            1. Application form or duly accomplished & sworn/notarized.<br>
+            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
+            3. Mayor's Permit/Business Permit<br>
+            4. Annual Business Plan<br>
+            5. Latest Income Tax Return<br>
+            6. Proof of ownership of the lumberyard or consent/agreement with the owner </span>
+            </td>
+          <td style="border-right-color: #fff;">
+            <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 01-01-2022</span>
+            </td>
+        <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+        </tr>
+      </table>
+
+  </div>
+</div>
+<Br>
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     <li class="page-item disabled">
@@ -151,9 +143,6 @@
     </li>
   </ul>
 </nav>
-
-     
-
 
 <script type="text/javascript">
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))

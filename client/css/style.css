@@ -89,6 +89,20 @@ body {
   font-size: 45px; text-align: center; color: #9e9e9e; 
 }
 
+  .search input[type=text]{
+        width:400px;
+        height:33px;
+        border-radius:8px;
+        border: none;
+    }
+         
+    .search{
+        float:left;
+        margin:7px;
+    }
+         
+
+
 .custom_alert.hide {
   display: none;
 }
