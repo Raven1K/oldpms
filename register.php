@@ -6,7 +6,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-   <title>Online Lumber Dealer Permitting and Monitoring System</title>
+   <title>OLDPMS Register</title>
    <link rel="stylesheet" type="text/css" href="client/css/style.css">
    <link rel="stylesheet" href="fonts/css/all.css">
    <script src="client/js/main.js" defer></script>
@@ -22,12 +22,28 @@
 
 <div class="custom_container">
 <div class="custom-card text-center" style=" border-color: #ecedf0;">
-  <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
+  <div class="custom-card-header " style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
+
+<ul class="nav nav-tabs justify-content-end">
+   <li class="nav-item">
+    <a class="nav-link disabled" href="#"><img src="images/oldpmslogin.png" width="30%"></a>
+  </li>
+  <li class="nav-item">
+    <strong><a class="nav-link active bg-primary text-white" aria-current="page" href="#">REGISTRATION</a></strong>
+  </li>
+
+</ul>
+
+
+
+
+
+
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="images/oldpmslogoreg.png"></a>
+          <a href="index.php"><img src="images/oldpmslogin.png" width="80%"></a>
         </li>
-        <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
+        <li class="nav-item mt-3">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
             <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
