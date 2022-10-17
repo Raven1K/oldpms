@@ -59,13 +59,13 @@
   <div class="card" style="width: 1000px;  padding: 0; align-items: center;display: flex;margin: auto;margin-top: 5%;">
   <div class="card-body">
   <center>
-    <h2 class="text-center" style="font-family: system-ui; font-weight: 600; margin-top: 20px; margin-bottom: 20px;"><i class="fa-solid fa-file-circle-check"></i> Document Tracker</h2><br>
+    <h2 class="text-center" style="font-family: system-ui; font-weight: 600; margin-top: 20px; margin-bottom: 20px;"><i class="fa-solid fa-file-circle-check"></i> Application Tracker</h2><br>
   </center>
 
 <div class="container" style="margin-bottom: 15px;">
   <div class="row" >
     <!-- first row -->
-    <div class="col-6 col-sm-4"> <input style="width: 400px; height: 40px; background: #ecedf0;" type="text" placeholder="Search document here.."></div>
+    <div class="col-6 col-sm-4"> <input style="border-radius: 20px; width: 400px; height: 40px; background: #ecedf0;" type="text" placeholder="Search document here.."></div>
     <!-- second row -->
     <div class="col-6 col-sm-4">
           <div class="dropdown" style="margin-left:360px;">
