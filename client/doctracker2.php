@@ -86,7 +86,7 @@
         <tr>
           <th  style="background: #329664; color: #fff; font-weight: 500;">Documents</th>
            <th style="background: #329664; color: #fff; font-weight: 500;">Date</th>
-          <th style="background: #329664; color: #fff; font-weight: 500;">Action</th>
+          <th style="text-align: center; background: #329664; color: #fff; font-weight: 500;">Action</th>
         </tr>
         <tr>
             <td style="border-right-color: #fff;">
@@ -95,7 +95,7 @@
             <td style="border-right-color: #fff;">
             <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 12-25-2022</span>
             </td>
-            <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+            <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white; width: 90px; height: 35px;"><i class="fa-solid fa-magnifying-glass"></i> View</button></td>
         </tr>
 
         <tr>
@@ -105,7 +105,7 @@
             <td style="border-right-color: #fff;">
             <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 09-09-2022</span>
             </td>
-           <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+           <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white; width: 90px; height: 35px;"><i class="fa-solid fa-magnifying-glass"></i> View</button></td>
         </tr>
 
         <tr>
@@ -121,7 +121,7 @@
           <td style="border-right-color: #fff;">
             <span id="custom-text2" style="font-size: 15px; color: #519432; font-weight: 600;"><i class="fa-regular fa-calendar"></i> 01-01-2022</span>
             </td>
-        <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white;">View</button></td>
+        <td align="center" style="color: #808080; font-size: 15px;" id="mb1"><button type="button" class="btn btn-warning" style="color: white; width: 90px; height: 35px;"><i class="fa-solid fa-magnifying-glass"></i> View</button></td>
         </tr>
       </table>
 
