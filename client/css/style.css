@@ -71,13 +71,13 @@ body {
   -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 .date span {
-  background: #d10000; 
-  background: linear-gradient(top, #d10000 0%, #7a0909 100%);
-  background: -moz-linear-gradient(top, #d10000 0%, #7a0909 100%);
-  background: -webkit-linear-gradient(top, #d10000 0%, #7a0909 100%);
+  background: #0a6631; 
+  background: linear-gradient(top, #0a6631 0%, #0b7337 100%);
+  background: -moz-linear-gradient(top, #0a6631 0%, #0b7337 100%);
+  background: -webkit-linear-gradient(top, #0a6631 0%, #0b7337 100%);
   font-size: 25px; font-weight: bold; color: #fff; text-transform: uppercase;   
   display: block;
-  border-top: 3px solid #a13838;
+  border-top: 3px solid #0a6631;
   border-radius: 0 0 10px 10px;
   -moz-border-radius: 0 0 10px 10px;
   -webkit-border-radius: 0 0 10px 10px;

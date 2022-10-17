@@ -62,28 +62,12 @@
   <div class="card" style="width: 800px;  padding: 0; display: flex;margin: auto;margin-top: 5%; background: #ecedf0; border-color: #ecedf0;;">
   <div class="card-body">
   <center>
-    <p class="text-center" style="font-family: system-ui; font-weight: 600; font-size: 35px;">Track Documents</p>
+    <p class="text-center" style="font-family: system-ui; font-weight: 600; font-size: 35px;">Application Status</p>
     <div class="container">
   <div class="row" style="width: 1000px;">
-    <div class="col-6 col-sm-4"> <div class="btn-group">
-                <div class="dropdown" style="float: left; width: 300px;">
-                  <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Sort by: </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Name</a></li>
-                    <li><a class="dropdown-item" href="#">Date</a></li>
-                    <li><a class="dropdown-item" href="#">Type</a></li>
-                    <li><a class="dropdown-item" href="#">Size</a></li>
-                  </ul>
-                </div>
+   
     </div>
-    </div>
-    <div class="col-6 col-sm-4"> <div class="search">
-                <form action="#">
-                    <input type="text"
-                    placeholder="Search here.."
-                    name="search">
-                </form>
-    </div>
+  
     </div>
        
    <br><br>

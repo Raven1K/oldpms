@@ -60,13 +60,14 @@
   <div class="card-body">
   <center>
     <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Status of Documents Uploaded</h2>
-    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 19px; font-weight: 350;">Click <b>'Details'</b> to select the corresponding electronic copy of document.<br><span style="color:red;">Note: Only PDF File not larger than 10 MB is allowed.</span></p><br></p>
+    <p style="font-family: system-ui; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 19px; font-weight: 350;">Click <b>'Details'</b> to select the corresponding electronic copy of document.<br></p><br></p>
   </center>
 
       <table class="table table-striped" style="width: 900px;">
         <tr>
-          <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
-           <th style="background: #597EFB; color: #fff; font-weight: 300;"></th>
+          <th style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
+           <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 300;">Status</th>
+            <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 300;"></th>
           <th style="background: #597EFB; color: #fff; font-weight: 300;">File Size</th>
         </tr>
         <tr>
@@ -130,7 +131,7 @@
             <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax Return</span>
             </td>
            <td align="center">
-            <p  style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">Disapproved <i class="fa-solid fa-xmark "></i></p>
+            <p  style="font-family: system-ui; background: red; border-radius: 3px; color: white; width:70px; word-wrap:break-word; font-size: 12px; font-weight: 500; width: 90px;">Denied <i class="fa-solid fa-xmark "></i></p>
             </td>
              <td align="center">
           <button type="button" id="custom-button" class="btn btn-sm" data-bs-html="true" data-bs-toggle="popover" data-bs-content="<b>Latest Income Tax Return</b><br><br>Hi Juan Dela Cruz<br><br>Your attached document is not match to your application business address. Please update your documents.<br><br>Choose file to upload 

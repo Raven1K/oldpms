@@ -84,9 +84,9 @@
 
       <table class="table" style="width: 900px;">
         <tr>
-          <th  style="background: #329664; color: #fff; font-weight: 500;">Documents</th>
-           <th style="background: #329664; color: #fff; font-weight: 500;">Date</th>
-          <th style="text-align: center; background: #329664; color: #fff; font-weight: 500;">Action</th>
+          <th  style="background: #597EFB; color: #fff; font-weight: 500;">Documents</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 500;">Date</th>
+          <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 500;">Action</th>
         </tr>
         <tr>
             <td style="border-right-color: #fff;">
