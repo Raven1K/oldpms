@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,6 +17,8 @@
   </head>
   
 <body>
+    <input type="file" id="invalidfile" hidden="hidden" accept="Application/pdf" value=""/>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
   <div class="container-fluid">
@@ -55,72 +56,83 @@
     </div>
   </nav>
 
-<table class="table table-bordered" style="margin-top: 10px;">
-  <tr>
-    <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>
-    <th style="background: #597EFB; color: #fff; font-weight: 300;">File Size</th>
-  </tr>
+  <div class="card" style="width: 800px;  padding: 0; display: flex;margin: auto;margin-top: 5%; background: #ecedf0; border-color: #ecedf0;;">
+  <div class="card-body">
+  <center>
+    <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Application Status</h2><br>
+  </center>
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.<span style="color: red; font-weight: 500;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px;" id="mb1"></td>
-  </tr>
+    <div class="card" style="margin-bottom: 20px;" >
+    <div class="card-body" >
+    <div class="card mb-3" style="max-width: 500px; background: white; border-color: white;">
+        <div class="row g-0" style="align-items: center; padding: 0px;">
+        <div class="col-md-4">
+        <span id="custom-text" style="font-size: 13px; color: #808080;">
+        <div class="date" style="margin-left: 45px;">
+        <p>25 <span>May</span></p>
+        </div>
+        </span>
+        </div>
+                <div class="col-md-8">
+                  <div class="card-body" >
+                    <h5 class="card-title" style="font-size: 15px; font-weight: 700">Site Validation Schedule for Inspection</h5>
+                    <p class="card-text" style="color: #7b8685;">Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.</p>
+                     <p class="card-text"><a href="#">Read more</a></p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+        </div>
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button2" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px; "id="mb2"></td>
-  </tr>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button3" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px;"id="mb3"></td>
-  </tr>
+     
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button4" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px;"id="mb4"></td>
-  </tr>
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button5" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px;"id="mb5"></td>
-  </tr>
+<script type="text/javascript">
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+  $(window).load(function(){
+$('[data-bs-toggle="popover"]').popover();
+$('body').on('click', function (e) {
+    $('[data-bs-toggle="popover"]').each(function () {
+        if (!$(this).is(e.target) && 
+             $(this).has(e.target).length === 0 && 
+             $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+});
+});
 
-  <tr>
-      <td style="border-right-color: #fff;">
-      <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
-      </td>
-      <td align="center">
-      <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
-      </td>
-      <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
-  </tr>
-</table>
+ var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', function () {
+    var toast = new bootstrap.Toast(toastLiveExample)
+
+    toast.show()
+  })
+}
+</script>
 
   </body>
 </html>
