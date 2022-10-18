@@ -48,6 +48,8 @@ body::-webkit-scrollbar{
 }*/
 .timeline{
   width:800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-color:#fff;
   color:#000;
   padding:30px 20px;
@@ -61,7 +63,6 @@ body::-webkit-scrollbar{
 .timeline ul li{
   padding:20px 20px;
   position:relative;
-  cursor:pointer;
   border-radius: 12px;
   transition:.5s;
 }
@@ -69,7 +70,7 @@ body::-webkit-scrollbar{
   display:inline-block;
   background-color:#3d4e3f;
   color: #fff;
-  border-radius:25px;
+  border-radius:5px;
   padding:2px 5px;
   font-size:15px;
   text-align:center;
