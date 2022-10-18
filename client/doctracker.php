@@ -71,7 +71,7 @@
 <div class="timeline">
    <center><p style="font-size: 25px; font-weight: 600">Application Status</p></center>
     <ul>
-      <li style="background: #97C4B8; margin-bottom: 10px;">
+      <li style="background: #97C4B8; margin-bottom: 15px;">
         <span style="background: #0d6efd;">3rd January 2020</span>
         <div class="content">
           <br><h5 style="color: #fff">Site Validation Schedule for Inspection</h5>
@@ -80,7 +80,7 @@
           </p>
         </div>
       </li>
-      <li style="background: #749F82; margin-bottom: 10px;">
+      <li style="background: #749F82; margin-bottom: 15px;">
         <span style="background: #0d6efd">21st Jun 2019</span>
         <div class="content">
          <br><h5 style="color: #fff">Service Fee Paid.</h5>
@@ -89,7 +89,7 @@
           </p>
         </div>
       </li>
-      <li style="background: #417D7A; margin-bottom: 10px;">
+      <li style="background: #417D7A; margin-bottom: 15px;">
         <span style="background: #0d6efd">15th April 2018</span>
         <div class="content">
           <br><h5 style="color: #fff">Application Accepted</h5>
