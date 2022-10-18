@@ -14,13 +14,12 @@
     <script src="js/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </head>
   
 <body>
-    <input type="file" id="invalidfile" hidden="hidden" accept="Application/pdf" value=""/>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+   
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > 
   <div class="container-fluid">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -32,6 +31,7 @@
            </li>
         </ul>
           <form class="d-flex">
+          
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,8 +44,16 @@
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Profile</a>
-                <a class="dropdown-item" href="#">Logout</a>
-            </li>
+
+
+
+              <form action="../processphp/prc_logout.php"  method="post" role="form" >
+
+               <button class="btn  btn-success" name="Log-out">Logout</button>
+               <button class="btn  btn-success" name="btn"> Logout </button>
+
+</form>
+     </li>
           </ul>
         </li>
       </ul>
@@ -55,7 +63,7 @@
       </div>
     </div>
   </nav>
-
+<div class="bodytime">
   <div class="card" style="width: 1000px;  padding: 0; align-items: center;display: flex;margin: auto;margin-top: 5%;">
   <div class="card-body">
   <center>
@@ -159,6 +167,7 @@
 
 
   </div>
+</div>
 </div>
 
 

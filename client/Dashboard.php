@@ -45,7 +45,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
       
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > 
   <div class="container-fluid">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -75,14 +75,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
               <form action="../processphp/prc_logout.php"  method="post" role="form" >
 
-               <!-- <button class="btn  btn-success" name="Log-out">Logout</button> -->
+               <button class="btn  btn-success" name="Log-out">Logout</button>
                <button class="btn  btn-success" name="btn"> Logout </button>
 
 </form>
-
-
-
-            </li>
+     </li>
           </ul>
         </li>
       </ul>
@@ -92,7 +89,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       </div>
     </div>
   </nav>
-
+<div class="bodytime">
     <form action="#" class="form">
       <!-- Progress bar -->
       <div class="progressbar">
@@ -293,6 +290,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
   </div>
+</div>
 </div>
 </div>
   </body>
