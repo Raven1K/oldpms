@@ -5,7 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="-1" />
+            
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
@@ -14,13 +17,12 @@
     <script src="js/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </head>
   
 <body>
-    <input type="file" id="invalidfile" hidden="hidden" accept="Application/pdf" value=""/>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > 
   <div class="container-fluid">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -32,6 +34,7 @@
            </li>
         </ul>
           <form class="d-flex">
+          
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,8 +47,16 @@
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Profile</a>
-                <a class="dropdown-item" href="#">Logout</a>
-            </li>
+
+
+
+              <form action="../processphp/prc_logout.php"  method="post" role="form" >
+
+               <button class="btn  btn-success" name="Log-out">Logout</button>
+               <button class="btn  btn-success" name="btn"> Logout </button>
+
+</form>
+     </li>
           </ul>
         </li>
       </ul>
@@ -56,37 +67,46 @@
     </div>
   </nav>
 
-  <div class="card" style="width: 800px;  padding: 0; display: flex;margin: auto;margin-top: 5%; background: #ecedf0; border-color: #ecedf0;;">
-  <div class="card-body">
-  <center>
-    <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Application Status</h2><br>
-  </center>
-
-    <div class="card" style="margin-bottom: 20px;" >
-    <div class="card-body" >
-    <div class="card mb-3" style="max-width: 500px; background: white; border-color: white;">
-        <div class="row g-0" style="align-items: center; padding: 0px;">
-        <div class="col-md-4">
-        <span id="custom-text" style="font-size: 13px; color: #808080;">
-        <div class="date" style="margin-left: 45px;">
-        <p>25 <span>May</span></p>
+<div class="bodytime">
+<div class="timeline">
+   <center><p style="font-size: 25px; font-weight: 600">Application Status</p></center>
+    <ul>
+      <li style="background: #97C4B8; margin-bottom: 15px;">
+        <span style="background: #0d6efd;">3rd January 2020</span>
+        <div class="content">
+          <br><h5 style="color: #fff">Site Validation Schedule for Inspection</h5>
+          <p style="color: #fff">
+            Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
+          </p>
         </div>
-        </span>
+      </li>
+      <li style="background: #749F82; margin-bottom: 15px;">
+        <span style="background: #0d6efd">21st Jun 2019</span>
+        <div class="content">
+         <br><h5 style="color: #fff">Service Fee Paid.</h5>
+          <p style="color: #fff">
+            Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
+          </p>
         </div>
-                <div class="col-md-8">
-                  <div class="card-body" >
-                    <h5 class="card-title" style="font-size: 15px; font-weight: 700">Site Validation Schedule for Inspection</h5>
-                    <p class="card-text" style="color: #7b8685;">Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.</p>
-                     <p class="card-text"><a href="#">Read more</a></p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
+      </li>
+      <li style="background: #417D7A; margin-bottom: 15px;">
+        <span style="background: #0d6efd">15th April 2018</span>
+        <div class="content">
+          <br><h5 style="color: #fff">Application Accepted</h5>
+          <p style="color: #fff">
+            1. Application form or duly accomplished & sworn/notarized.<br>
+            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
+            3. Mayor's Permit/Business Permit<br>
+            4. Annual Business Plan<br>
+            5. Latest Income Tax Return<br>
+            6. Proof of ownership of the lumberyard or consent/agreement with the owner <br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
+          </p>
         </div>
-        </div>
-        </div>
-
-<nav aria-label="Page navigation example">
+      </li>
+    </ul>
+  </div>
+</div>
+<nav aria-label="Page navigation example" style="margin-bottom: 20px;">
   <ul class="pagination justify-content-center">
     <li class="page-item disabled">
       <span class="page-link">Previous</span>
@@ -100,39 +120,6 @@
       <a class="page-link" href="#">Next</a>
     </li>
   </ul>
-</nav>
-
-     
-
-
-<script type="text/javascript">
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
-})
-  $(window).load(function(){
-$('[data-bs-toggle="popover"]').popover();
-$('body').on('click', function (e) {
-    $('[data-bs-toggle="popover"]').each(function () {
-        if (!$(this).is(e.target) && 
-             $(this).has(e.target).length === 0 && 
-             $('.popover').has(e.target).length === 0) {
-            $(this).popover('hide');
-        }
-    });
-});
-});
-
- var toastTrigger = document.getElementById('liveToastBtn')
-var toastLiveExample = document.getElementById('liveToast')
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-
-    toast.show()
-  })
-}
-</script>
-
+</nav><br><br>
   </body>
 </html>
