@@ -72,27 +72,27 @@
    <center><p style="font-size: 25px; font-weight: 600">Application Status</p></center>
     <ul>
       <li style="background: #97C4B8; margin-bottom: 10px;">
-        <span style="background: #367E18;">3rd January 2020</span>
+        <span style="background: #0d6efd;">3rd January 2020</span>
         <div class="content">
-          <h3 style="color: #425F57">Site Validation Schedule for Inspection</h3>
+          <br><h5 style="color: #fff">Site Validation Schedule for Inspection</h5>
           <p style="color: #fff">
             Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
           </p>
         </div>
       </li>
       <li style="background: #749F82; margin-bottom: 10px;">
-        <span style="background: #367E18">21st Jun 2019</span>
+        <span style="background: #0d6efd">21st Jun 2019</span>
         <div class="content">
-          <h3 style="color: #1C6758">Service Fee Paid.</h3>
+         <br><h5 style="color: #fff">Service Fee Paid.</h5>
           <p style="color: #fff">
             Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
           </p>
         </div>
       </li>
       <li style="background: #417D7A; margin-bottom: 10px;">
-        <span style="background: #367E18">15th April 2018</span>
+        <span style="background: #0d6efd">15th April 2018</span>
         <div class="content">
-          <h3 style="color: #1A3C40">Application Accepted</h3>
+          <br><h5 style="color: #fff">Application Accepted</h5>
           <p style="color: #fff">
             1. Application form or duly accomplished & sworn/notarized.<br>
             2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
