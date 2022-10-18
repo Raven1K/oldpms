@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*, html,body{
- 
+body{
+  background-color:#ecedf0;
 }
 
 :root {
@@ -44,56 +44,62 @@
 }*/
 .timeline{
   width:800px;
-  background-color:#072736;
-  color:#fff;
+  background-color:#fff;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color:#000;
   padding:30px 20px;
   box-shadow:0px 0px 10px rgba(0,0,0,.5);
 }
 .timeline ul{
   list-style-type:none;
-  border-left:2px solid #094a68;
+  border-left:2px solid #3d4e3f;
   padding:10px 5px;
 }
 .timeline ul li{
   padding:20px 20px;
   position:relative;
   cursor:pointer;
+  border-radius: 12px;
   transition:.5s;
 }
 .timeline ul li span{
   display:inline-block;
-  background-color:#1685b8;
+  background-color:#3d4e3f;
+  color: #fff;
   border-radius:25px;
   padding:2px 5px;
   font-size:15px;
   text-align:center;
 }
 .timeline ul li .content h3{
-  color:#34ace0;
-  font-size:17px;
+  color:#3d4e3f;
+  font-weight: 700;
+  font-size:18px;
   padding-top:5px;
 }
 .timeline ul li .content p{
   padding:5px 0px 15px 0px;
   font-size:15px;
+  color: #3d4e3f;
 }
 .timeline ul li:before{
   position:absolute;
   content:'';
   width:10px;
   height:10px;
-  background-color:#34ace0;
+  background-color:#3d4e3f;
   border-radius:50%;
   left:-11px;
   top:28px;
   transition:.5s;
 }
 .timeline ul li:hover{
-  background-color:#071f2a;
+  background-color:#3d4e3f;
 }
 .timeline ul li:hover:before{
-  background-color:#0F0;
-  box-shadow:0px 0px 10px 2px #0F0;
+  background-color:#3d4e3f;
+  box-shadow:0px 0px 10px 2px #3d4e3f;
 }
 @media (max-width:300px){
   .timeline{

@@ -69,38 +69,57 @@
 
 <div class="bodytime">
 <div class="timeline">
-   <center><p style="font-size: 25px;">APPLICATION Status</p></center>
+   <center><p style="font-size: 25px; font-weight: 600">Application Status</p></center>
     <ul>
-      <li>
-        <span>3rd January 2020</span>
+      <li style="background: #97C4B8; margin-bottom: 10px;">
+        <span style="background: #367E18;">3rd January 2020</span>
         <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          <h3 style="color: #425F57">Site Validation Schedule for Inspection</h3>
+          <p style="color: #fff">
+            Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
           </p>
         </div>
       </li>
-      <li>
-        <span>21st Jun 2019</span>
+      <li style="background: #749F82; margin-bottom: 10px;">
+        <span style="background: #367E18">21st Jun 2019</span>
         <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          <h3 style="color: #1C6758">Service Fee Paid.</h3>
+          <p style="color: #fff">
+            Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
           </p>
         </div>
       </li>
-      <li>
-        <span>15th April 2018</span>
+      <li style="background: #417D7A; margin-bottom: 10px;">
+        <span style="background: #367E18">15th April 2018</span>
         <div class="content">
-          <h3>What Is Lorem Ipsum?</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          <h3 style="color: #1A3C40">Application Accepted</h3>
+          <p style="color: #fff">
+            1. Application form or duly accomplished & sworn/notarized.<br>
+            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
+            3. Mayor's Permit/Business Permit<br>
+            4. Annual Business Plan<br>
+            5. Latest Income Tax Return<br>
+            6. Proof of ownership of the lumberyard or consent/agreement with the owner <br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
           </p>
         </div>
       </li>
-    
     </ul>
   </div>
 </div>
+<nav aria-label="Page navigation example" style="margin-bottom: 20px;">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav><br><br>
   </body>
 </html>
