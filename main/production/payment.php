@@ -122,8 +122,6 @@
         
       </div>
     </div>
-  </div>
-  
 </div>
 </td>
                           </tr>
@@ -187,8 +185,6 @@
         
       </div>
     </div>
-  </div>
-  </div>
 </td>
                           </tr>
                           <tr>

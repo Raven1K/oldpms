@@ -64,7 +64,5 @@
           </ul>
         </nav>
       </div>
-    </div>
-    </div>
     </body>
     <!-- /top navigation -->
