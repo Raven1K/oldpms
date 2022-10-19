@@ -30,9 +30,9 @@
           		<div class="menu_section">
             		<h3>General</h3>
             			<ul class="nav side-menu">
-						  <li><a href="fus.php"><i class="fas fa-fw fa-tachometer-alt text-white"></i> Dashboard </a></li>
+						  <li><a href="fus.php"><i class="fas fa-fw fa-home text-white"></i> Dashboard </a></li>
 						  <li><a href="action.php"><i class="fas fa-fw fa-edit"></i> For Action </a></li>
-						  <li><a><i class="fas fa-fw fa-solid fa-magnifying-glass-chart"></i> Report <span class="fa fa-chevron-down"></span></a>
+						  <li><a><i class="fas fa-fw fa-solid fa-file-text"></i> Report <span class="fa fa-chevron-down"></span></a>
 								<ul class="nav child_menu">
 									<li><a href="table1.php" class="text-white">Existing Lumber Dealers</a></li>
 									<li><a href="table2.php" class="text-white">Issued Certificates</a></li>
