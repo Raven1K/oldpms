@@ -53,16 +53,6 @@
 												<input type="text" class="form-control" placeholder="Permittee" name="name" id="name">
 											</div>
                                             </div>
-                                            <div class="form-group row">
-                                        <label class="col-form-label col-md-2 col-sm-2   ">Gender</label>
-                                        <div class="col-md-2 col-sm-2 ">
-										<p>
-											M:
-											<input type="radio" class="flat" name="gender" id="genderM" value="M" checked="" required /> F:
-											<input type="radio" class="flat" name="gender" id="genderF" value="F" />
-										</p>
-                                        </div>
-                                        </div>
                                         <div class="form-group row">
                                          <label class="col-form-label col-md-2 col-sm-2 ">Address</label>
 											<div class="col-md-4 col-sm-4 ">

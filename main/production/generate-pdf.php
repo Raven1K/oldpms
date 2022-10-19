@@ -6,8 +6,6 @@ use Dompdf\Dompdf;
 use Dompdf\Options;
 
 $name = $_POST["name"];
-$gender = $_POST["genderM"]
-$gender = $_POST["genderF"]
 $address = $_POST["address"]
 $contract = $_POST["contract"]
 $planted = $_POST["planted"]
@@ -49,8 +47,8 @@ $dompdf->setPaper("LEGAL", "portrait");
  */
 $html = file_get_contents("template.php");
 
-$html = str_replace(["{{ name }}", "{{ gender }}", "{{ address }}", "{{ contract }}", "{{ planted }}", "{{ ptpoc }}", "{{ ptadd }}", "{{ falcu }}", "{{ falbd }}", "{{ macu }}", "{{ mabd }}"
-                        , "{{ gecu }}", "{{ gebd }}", "{{ cacu }}", "{{ cabd }}", "{{ mancu }}", "{{ manbd }}", "{{ bene }}"], [$name, $gender,$address,$contract,$planted,$ptpoc,$ptadd,$falcu,$falbd,$macu,$mabd,$gecu,$gebd,$cacu,$cabd,$mancu,$manbd,$bene], $html);
+$html = str_replace(["{{ name }}","{{ address }}", "{{ contract }}", "{{ planted }}", "{{ ptpoc }}", "{{ ptadd }}", "{{ falcu }}", "{{ falbd }}", "{{ macu }}", "{{ mabd }}"
+                        , "{{ gecu }}", "{{ gebd }}", "{{ cacu }}", "{{ cabd }}", "{{ mancu }}", "{{ manbd }}", "{{ bene }}"], [$name,$address,$contract,$planted,$ptpoc,$ptadd,$falcu,$falbd,$macu,$mabd,$gecu,$gebd,$cacu,$cabd,$mancu,$manbd,$bene], $html);
 
 $dompdf->loadHtml($html);
 //$dompdf->loadHtmlFile("template.html");
