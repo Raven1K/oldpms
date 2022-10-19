@@ -6,7 +6,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-   <title>Online Lumber Dealer Permitting and Monitoring System</title>
+   <title>OLDPMS Register</title>
    <link rel="stylesheet" type="text/css" href="client/css/style.css">
    <link rel="stylesheet" href="fonts/css/all.css">
    <script src="client/js/main.js" defer></script>
@@ -19,15 +19,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-
+<div class="bodytime">
 <div class="custom_container">
 <div class="custom-card text-center" style=" border-color: #ecedf0;">
-  <div class="custom-card-header" style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
+  <div class="custom-card-header " style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
+
+<ul class="nav nav-tabs justify-content-end">
+   <li class="nav-item">
+    <a class="nav-link disabled" href="#"><img src="images/oldpmslogin.png" width="30%"></a>
+  </li>
+  <li class="nav-item">
+    <strong><a class="nav-link active bg-primary text-white" aria-current="page" href="#">REGISTRATION</a></strong>
+  </li>
+
+</ul>
+
+
+
+
+
+
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
         <li class="nav-item">
-          <a class="nav-link disabled" style="cursor: pointer;"><img src="images/oldpmslogoreg.png"></a>
+          <a href="index.php"><img src="images/oldpmslogin.png" width="80%"></a>
         </li>
-        <li class="nav-item" style="margin-left: 75px; margin-top: 30px;">
+        <li class="nav-item mt-3">
           <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
             <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
         </li>
@@ -130,26 +146,68 @@
   <div class="modal-dialog" style="margin-top: 7%;">
     <div class="modal-content" >
       <div class="custom_modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel" style="text-align: center; font-size:20px;">Terms and Conditions</h5>
+        <h5 class="modal-title" id="staticBackdropLabel" style="text-align: center; font-size:20px;">Terms and Conditions For<br>Certificate Of Registration as Lumber Dealer</h5>
       </div>
       <div class="custom_modal-body">
-        <p style="position: absolute; font-size: 12px; font-family: Sans-serif; color: #808080; font-weight:100;">The following Terms and Conditions contain significant agreements involving all users of DENR Caraga Online Lumber Dealer Permitting and Monitoring System (Online LDPMS). We therefore advise you to please review these terms and conditions carefully and indicate whether you agree or disagree to them by clicking on the corresponding box towards the end of this document.
+        <p style="position: absolute; font-size: 12px; font-family: Sans-serif; color: #808080; font-weight:100;">1. The holder of this Certificate of Registration must:
         <br>
         <br>
-           All the terms "You", "Your" and "Yours" will refer to the Online Lumber Dealer Permitting & Monitoring System (OLDPMS) user. The terms "We", "Us" and "Our" refer to DENR Caraga. The words "System" refer to Online PMS.
-        <br>
-        <br>
+          1.1   Display the Certificate of Registration within the establishment’s premises exposed to public   view;
+          <br>
+1.2   Submit to the concerned CENR Office of monthly stock purchase and disposition reports every the fifth (5th) day of the succeeding month to include, among others, the following:
+<br>
+1.2.1 Balance of previous month;
+<br>
+1.2.2 Purchase(s) made during the month under report;
+<br>
+1.2.3 Total volume/quantity handled;
+<br>
+1.2.4 Volume sold;
+<br>
+1.2.5 Balance at the end of the month; and
+<br>
+1.2.6 Statement resources.
+<br>
+1.3   Allow authorized DENR personnel to inspect the premises of its lumberyard for monitoring and evaluation.
+<br>
+1.4   Provide information and/or intelligence essential to forest law enforcement, more particularly on Violation of RA-1239, RA No. 460 and PD 705, as amended, giving the names and addresses of the violators and the nature of violations.
+<br>
+1.5   Issues sales invoices of lumber sold to end-user and assist buyer in securing transport   documents when lumber is sold outside the province.<br>
+1.6   Buy lumber materials only from approved suppliers and other legitimate sources with   complete transport documents.<br>
+1.7   Maintain cleanliness of its lumberyard by establishing and maintaining solid wastes   management facilities, and observance of the proper disposal of wastes.<br>
+1.8   File the renewal application within sixty (60) days before it expire. Failure is construed that the registrant is no longer interested to pursue the trade.<br>
+1.9   Secure resaw permit immediately upon receipt hereof if using circular/or band saws  complementary to its lumber dealership.<br>
+1.10   Submit additional lumber supply contract from legitimate sawmill operator and/or lumber dealers, within sixty days upon receipt hereof.<br>
 
-            Your Username is the email address that you have provided in the registration page. The phrase "your access" or "system account" refers to the combination of your email address and password that you have registered in the system. The term "username" and "email address" will be used interchangeably to refer to the set of characters that you use to access the system.
-        <br>
-        <br>
-            The term "Confidential Business Information (CBI)" refers to an information considered as trade secret, i.e., an information which: (a) is secret in the sense that it is not, as a body or in the precise configuration and assembly of its components, generally known among or readily accessible to persons within the circles that normally deal with kind of information in question; (b) has commercial value because it is secret; (c) has been subject to reasonable steps under the circumstance, by the person lawfully in control of the information, to keep it secret. The phrase “disclosing party” is the company that have or made the CBI declaration or submission.
-        <br>
-        <br>
-            TERMS AND CONDITIONS
-        <br>
-        <br>
-            1. USER ACCESS</p>
+     <br>ADDITIONAL CONDITIONS:<br>
+
+2.  For lumber dealer and lumberyard operator<br>
+
+2.1.  This certificate authorizes the holder hereof to purchase lumber from its subsisting lumber supplier and that lumber purchased are for domestic sale especially for the immediate community. The purchase of lumber from other sources other than its subsisting supplier is not allowed under this certificate.<br>
+2.2.  This certificate is likewise subject to all rules and regulations that the Bureau of forest Development may hereafter prescribe.<br>
+2.3.  Violation shall be the same as the above in log dealership which are stipulated in No. 1 & 2 of the additional laws, rules and regulations.<br>
+
+3.  Prohibitions<br>
+
+3.1.  To use the Certificate of Registration as subterfuge in shielding lumber stock of dubious origins.<br>
+3.2.  To purchase logs, post and piles and lumber that were illegally cut.<br>
+3.3.  To establish any wood processing plant, e.g., sawmill, mini-sawmill and/or other powered saws that can slice logs, flitches, post and piles into pieces of lumber, unless with expressed written authority issued by the DENR.<br>
+
+4.  Causes of cancellation<br>
+
+4.1.  Commission of the folder hereof and/or his authorized representatives/agents of any of the above-prohibitions and failure to submit of the above-stated basic requirements on its operations as lumber dealer;<br>
+4.2.  When found out that the Certificate of Registration was secured through fraud.<br>
+4.3.  For any violation of the terms and conditions of the registration, the provision of R.A. 1239 and PD No. 705, as amended, or the Internal Revenue Laws and Regulations.<br>
+
+5.  Penal Provision<br>
+
+5.1.  In consonance with the provisions of R.A. 1239, persons found directly or indirectly responsible for violation of any provisions of this order or the terms and conditions stipulated in the Registration Certificate shall be penalized by a fine not more than One Thousand pesos (Php1,000.00) or imprisonment of not more than one (1) year, together with the cancellation of the Certificate of Registration.<br>
+5.2.  Lumber stock found inside yard/storage site that are not supported with proper documents usually required by the DENR are presumed to be illegal and would be subjected to seizure and confiscation in accordance with the pertinent provisions of DAO No. 97-32.<br>
+
+6.  Reference and Record<br>
+
+6.1.  Copy of Certificate of Registration upon approval shall be copy furnished to the PENRO, CENRO concerned (except NCR), and Forest Management Bureau for reference and record purposes.<br>
+</p>
       </div>
 
       <div class="modal-footer">
@@ -175,7 +233,7 @@
   </div>
 </div>
 </div>
-
+</div>
 
 
 <script>
