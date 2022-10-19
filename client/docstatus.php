@@ -18,8 +18,8 @@
   </head>
   
 <body>
-   
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > 
+   <div id="wrapper">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
   <div class="container-fluid">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
