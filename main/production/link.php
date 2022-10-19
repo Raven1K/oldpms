@@ -22,7 +22,7 @@
 <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom Theme Style -->
-<link href="../build/css/custom.css" rel="stylesheet">
+<link href="../build/css/old/custom.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 <script>

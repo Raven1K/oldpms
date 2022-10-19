@@ -41,12 +41,12 @@
     <div class="top_nav">
        <div class="nav_menu navbar-dark" style="background: #222222">
           <div class="nav toggle">
-            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            <a id="menu_toggle"><i class="fa fa-bars text-white"></i></a>
           </div>
           <nav class="nav navbar-nav">
           <ul class=" navbar-right">
-          <div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-4">
-          <a href="dashboard.php"><h5>ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5></a>
+          <div class="copyright text-white my-auto border-top-0 d-sm-flex align-items-center justify-content-between mb-2">
+          <a href="dashboard.php"><h5 class="text-white">ONLINE LUMBER DEALER PERMITTING AND MONITORING SYSTEM</h5></a>
           <li class="nav-item dropdown open" style="padding-left: 15px;">
               <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                 <img src="images/faces/face28.png" alt="" ><span>FUU - CENRO</span>
