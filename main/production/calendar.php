@@ -42,7 +42,7 @@
                     <div class="row">
                       <div class="col-sm-6 mail_list_column">                        
 						<a type="button" class="btn btn-sm btn-primary btn-block text-white" data-toggle="modal" data-target="#myCalendar"></button>
-						  <i class="fa fa-calendar-check"></i>&nbsp;&nbsp;<strong>Add Schedule</strong></a>
+						  <i class="fa fa-calendar"></i>&nbsp;&nbsp;<strong>Add Schedule</strong></a>
                         <a href="#">
                           <div class="mail_list">
                             <div class="left">
@@ -84,13 +84,14 @@
                         <div class="inbox-body">
                           <div class="mail_heading row">
                             <div class="col-md-8">
-                              
+                              <h4>Client Details</h4>
                             </div>
-                            <div class="col-md-4 text-right">
-                              <p class="date"> 8:02 AM 12 OCT 2022</p>
+                            <div class="col-md-4 text-left">
+                              <p class="date"> <strong class="text-black">Paid @ </strong> <strong class="text-warning">8:02 AM 12 OCT 2022</strong></p>
+								<p class="date text-danger"><strong class="text-black"> Reference #:</strong> XXXXXXXXXXXXX</p>
                             </div>
                             <div class="col-md-12">
-                              <h4>Client Details</h4>
+                              
                             </div>
                           </div>
                           <div class="sender-info">
@@ -99,7 +100,7 @@
                                 <strong>Jon Dibs</strong>
                                 <span>(No1knows Lumber Dealer)</span>
                                 <strong></strong>
-                                <a class="sender-dropdown"><i class="fa fa-chevron-down"></i></a>
+                                <a class="sender-dropdown"><i></i></a>
                               </div>
                             </div>
                           </div>
@@ -109,7 +110,7 @@
                           </div>
                           
                           <div class="btn-group">
-                            <button class="btn btn-sm btn-primary" type="button"> View Status</button>
+                            <button class="btn btn-sm btn-primary" type="button"> Upload Pictures</button>
                            
                           </div>
                         </div>
