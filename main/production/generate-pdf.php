@@ -7,7 +7,7 @@ use Dompdf\Options;
 
 $name = $_POST["name"];
 $address = $_POST["address"]
-$contract = $_POST["contract"]
+$cons = $_POST["cons"]
 $planted = $_POST["planted"]
 $ptpoc = $_POST["ptpoc"]
 $ptadd = $_POST["ptpadd"]

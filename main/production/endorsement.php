@@ -62,7 +62,7 @@
                                         <div class="form-group row">
 											<label class="col-form-label col-md-2 col-sm-2 ">Total Lumber Contract</label>
 											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="bd.ft." name="contract" id="contract">
+												<input type="text" class="form-control" placeholder="bd.ft." name="cons" id="cons">
 											</div>
 										</div>
                                         <div class="form-group row">
