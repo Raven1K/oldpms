@@ -2500,7 +2500,7 @@ function init_DataTables() {
                     {
                         extend: "print",
 						expertOptions: {
-							columns: ":invisible",
+							columns: ":visible",
 						},
 						text:"",						
                         className: "btn-lg btn-secondary fas fa-print",
