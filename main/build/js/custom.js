@@ -2484,24 +2484,42 @@ function init_DataTables() {
                 buttons: [
                     {
                         extend: "copy",
-                        className: "btn-sm"
-                    },
-                    {
-                        extend: "csv",
-                        className: "btn-sm"
+						text:"",
+                        className: "btn-lg btn-primary fas fa-copy",
                     },
                     {
                         extend: "excel",
-                        className: "btn-sm"
+						text:"",
+                        className: "btn-lg btn-warning fa fa-regular fa-file-excel",
                     },
                     {
                         extend: "pdfHtml5",
-                        className: "btn-sm"
+						text:"",
+                        className: "btn-lg btn-danger fa fa-regular fa-file-pdf",
                     },
                     {
                         extend: "print",
-                        className: "btn-sm"
+						expertOptions: {
+							columns: ":invisible",
+						},
+						text:"",						
+                        className: "btn-lg btn-secondary fas fa-print",
+						titleAttr: "Imprimir",
+						columns: ":not(.select-checkbox)",
+						orientation: ":landscape",
                     },
+					{
+						extend: "colvis",
+						text: "ColVis",
+						columnText: function (dt, idx, title){
+							return (idx+1)+':'+title;
+						},
+						className:"btn-md btn-warning",
+						columnDefs:[{
+							targets: -1,
+							visible: false
+						}],
+					},
                 ],
                 responsive: true
             });
