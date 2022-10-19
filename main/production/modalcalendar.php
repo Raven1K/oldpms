@@ -37,9 +37,9 @@
                                 </div>
 		    <div class="modal-footer">
 			   <a class="btn btn-success" data-dismiss="modal">
-				<i class="fas fa-thumbs-o-up"> </i>Accept</a>
+				<i class="fa fa-thumbs-o-up"> </i>Accept</a>
 			   <a class="btn btn-danger" data-dismiss="modal">
-				<i class="fas fa-thumbs-o-down"> </i>Return</a>
+				<i class="fa fa-thumbs-o-down"> </i>Return</a>
 			   
 		    </div>
 	    </div>	   
