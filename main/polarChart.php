@@ -1,9 +1,9 @@
 
- <div class="col-xl-12 col-lg-10 mb-4">
+ <div class="x_panel">
       
                   
                      <div class="card-body">
-                        <h5 class="card-title">Polar Area Chart</h5>
+                        <h2 class="card-title">Lumber Dealer Approved</h2>
                         <div id="polarAreaChart"></div>
                         <script>document.addEventListener("DOMContentLoaded", () => {
                            new ApexCharts(document.querySelector("#polarAreaChart"), {
@@ -12,16 +12,17 @@
 							   
                              chart: {
                                type: 'polarArea',
-                               height: 450,
+                               height: 350,
                                toolbar: {
                                  show: true
                                }
+							   
                              },
                              stroke: {
                                colors: ['#031918']
                              },
                              fill: {
-                               opacity: 0.8
+                               opacity: 1.8
                              }
                            }).render();
                            });
