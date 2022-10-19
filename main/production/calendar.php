@@ -130,6 +130,7 @@
 
 <?php 
       require_once 'footer.php';
+	  require_once('modalcalendar.php');	
   ?>
 
 </html>
