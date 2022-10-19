@@ -64,7 +64,7 @@
                   <div class="x_content">
                     <div class="row">
                       <div class="col-sm-6 mail_list_column">                        
-						<a type="button" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#myCalendar"></button>
+						<a type="button" class="btn btn-sm btn-primary btn-block text-white" data-toggle="modal" data-target="#myCalendar"></button>
 						  <i class="fa fa-calendar-check"></i>&nbsp;&nbsp;Add Schedule</a>
                         <a href="#">
                           <div class="mail_list">
