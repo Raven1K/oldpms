@@ -36,30 +36,31 @@
     
     <h3>MEMORANDUM</h3>
 
-    <p>	FOR 	:	The Regional Executive <br/>
-					DENR Caraga Region 13 <br/>
-					Ambago, Butuan City</p>
-
-    <p>ATTN 	:	The	ARD for Technical Management</p>
-    
-    <p>THRU 	:	The	PENR Officer<br/>
-					R13-D, Tandag City, Surigao del Sur</p>
-
-    <p>FROM 	:	The	CENR Officer<br/>
-					DENR Lianga, SDS</p>
-
+    <dl class="row">	
+    <dt class="col-sm-3">FOR : The Regional Executive</dt>
+    <dd class="col-sm-9">DENR Caraga Region 13</dd>
+    <dd class="col-sm-9">Ambago, Butuan City</dd>
+    <br/>
+    <dd class="col-sm-9">ATTN 	:	The	ARD for Technical Management</dd>
+    <br/>
+    <dt class="col-sm-3">THRU 	:	The	PENR Officer</dt>
+    <dd class="col-sm-9">R13-D, Tandag City, Surigao del Sur</dd>
+    <br/>
+    <dt class="col-sm-3">FROM 	:	The	CENR Officer</dt>
+    <dd class="col-sm-9">DENR Lianga, SDS</dd>
+    <br/>
     <p>SUBJECT	:	<strong>NEW APPLICATION OF {{ name }} FOR CERTIFICATE OF REGISTRATION AS LUMBER DEALER.</strong></p>
     
     <p>DATE :	AUGUST 25, 2020 </p>								
     
    <hr/>
 
-    <p class="intended">Respectfully forwarded herewith is the new application for Certficate of
-	    Registration for Lumber Dealer of {{ name }} located at Purok 5, Poblacion Barobo, Surigao del Sur.</p>
-
-    <p>The proponent has a total Lumber Supply Contract of <strong>20,643.71 bd.ft.</strong> at 
-        40% recovery from the following planted spicies of the PTPOC Holder of Victoriano R.
-		Argallon located ar San Jose, Barobo, SDS with the corresponding volume on bd. ft.,to wit:</p>
+   <dd class="col-sm-9">Respectfully forwarded herewith is the new application for Certficate of
+	    Registration for Lumber Dealer of</dd> <dt class="col-sm-3"> {{ name }} located at {{ address }}.</dt>
+        <br/>
+    <dd class="col-sm-9">The proponent has a total Lumber Supply Contract of <strong>{{ cons }} bd.ft.</strong> at 
+    {{ planted }}% recovery from the following </dd> <dt class="col-sm-3"> planted spicies of the PTPOC Holder of {{ ptpoc }} located at {{ ptadd }} with the corresponding volume on bd. ft.,to wit:.</dt>
+    <br/>
     <table>
         <thead>
         <tr class="heading">
@@ -71,57 +72,51 @@
         <tbody>
              <tr class="item">
                 <td style="text-align: center">Falcata</td>
-                <td style="text-align: center">{{ quantity }}</td>
-                <td style="text-align: center">{{ quantity }}</td>
+                <td style="text-align: center">{{ falcu }}</td>
+                <td style="text-align: center">{{ falbd }}</td>
             </tr>
             <tr class="item">
                 <td style="text-align: center">Mahogany</td>
-                <td style="text-align: center">{{ quantity }}</td>
-                <td style="text-align: center">{{ quantity }}</td>
+                <td style="text-align: center">{{ macu }}</td>
+                <td style="text-align: center">{{ mabd }}</td>
             </tr>
             <tr class="item">
                 <td style="text-align: center">Gemelina</td>
-                <td style="text-align: center">{{ quantity }}</td>
-                <td style="text-align: center">{{ quantity }}</td>
+                <td style="text-align: center">{{ gecu }}</td>
+                <td style="text-align: center">{{ gebd }}</td>
             </tr>
             <tr class="item">
                 <td style="text-align: center">Caimito</td>
-                <td style="text-align: center">{{ quantity }}</td>
-                <td style="text-align: center">{{ quantity }}</td>
+                <td style="text-align: center">{{ cacu }}</td>
+                <td style="text-align: center">{{ cabd }}</td>
             </tr>
             <tr class="item">
                 <td style="text-align: center">Mango</td>
-                <td style="text-align: center">{{ quantity }}</td>
-                <td style="text-align: center">{{ quantity }}</td>
+                <td style="text-align: center">{{ mancu }}</td>
+                <td style="text-align: center">{{ manbd }}</td>
             </tr>
             <tr class="total">
 					<td style="text-align: center"><strong>Total:</strong></td>
-                    <td style="text-align: center"><strong>{{ quantity }}</strong></td>
-					<td style="text-align: center"><strong>{{ quantity }}</strong></td>
+                    <td style="text-align: center"><strong></strong></td>
+					<td style="text-align: center"><strong></strong></td>
 				</tr>
         </tbody>
     </table>
-    
-    
-    <p>All the requirements listed on the checklist were all complied including the
-		application fees and others. Be informed further that the herein applicant will be
+    <br/>   
+    <dd class="col-sm-9">All the requirements listed on the checklist were all complied including the
+		application fees and others.</dd> <dt class="col-sm-3"> Be informed further that the herein applicant will be
 		informed to support the NGP activities such as tree planting and providing seedlings
-        for the replanting activity of our beneficiaries within the municipality of Barobo, Surigao del Sur.</p>
-
-    <p>This Office hereby recommended the approval for the new application of the
-        said Certificate of Registration for the benefits of Poblacion of Barobo residents.</p>
-
-    <p>For information, record, and approval.</p>
-
+        for the replanting activity of our beneficiaries within the municipality of {{ bene }}.</dt>
+        <br/>  
+    <dd class="col-sm-9">This Office hereby recommended the approval for the new application of the
+        said Certificate </dd> <dt class="col-sm-3">  of Registration for the benefits of Poblacion of {{ bene }} residents.</dt>
+        <br/>  
+    <dd class="col-sm-9">For information, record, and approval.</dd>
+    <br/>  
     <p align="right">CLIFF C. ABRAHAN<br/>
     CENR Officer</p>
 
 
-    <br/>
-    <br/>
-    <div class="text-center" style="padding:20px;" align="right">
-    <input type="button" id="rep" value="Endorse to Deputy CENRO" class="btn btn-success btn_endorse">
-    </div>
-    
+   
 </body>
 </html>

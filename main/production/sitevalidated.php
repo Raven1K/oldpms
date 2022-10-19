@@ -49,8 +49,7 @@
                     <table id="datatable-buttons" class="table table-striped table-bordered" style="width:100%">
                       <thead>
                         <tr>
-                          <tr>
-                          <th> No. </th>                            
+                          <tr>               
                             <th> Name of Permittee </th>
                             <th> Reference No </th>
                             <th> Total Payment </th>
@@ -62,131 +61,8 @@
                             <th> Action </th>
                           </tr>
                         </thead>
-                        <tbody>
-                          <tr>
-                          <td> 1.</td>
-                            <td>
-                              <img src="images/faces/face10.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Mayet Chua</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-          <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 2.</td>
-                            <td>
-                              <img src="images/faces/face28.png" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Julie Mar Madelo</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-       <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 3.</td>
-                            <td>
-                              <img src="images/faces/face5.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jobert Awa</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-   <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 4.</td>
-                            <td>
-                              <img src="images/faces/face13.jpg" alt="image" class="img-circle profile_pics" />
+                         <tr>
+                          <td>
                               <span class="pl-2">Anthonie Feny Catalan</span>
                             </td>
                             <td> 02312 </td>
@@ -194,7 +70,7 @@
                             <td>
                               <div class="badge badge-success">Fully Paid</div>
                             </td>
-                            <td> Lianga, Surigao del Sur </td>
+                            <td > Lianga, Surigao del Sur </td>
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
@@ -215,133 +91,123 @@
             </div>
             <div class="modal-body">
 
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 5.</td>
-                            <td>
-                              <img src="images/faces/face4.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Jaycelen Paler</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-          <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
+            <form class="form-label-left input_mask" method="post" action="generate-pdf.php">
 
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 6.</td>
-                            <td>
-                              <img src="images/faces/face7.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Joshua Jumonong</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left"  placeholder="Permitee" name="name" id="name" >
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
 
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
-                   <div class="modal-footer">
-                   <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
-                                <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                          <td> 7.</td>
-                            <td>
-                              <img src="images/faces/face6.jpg" alt="image" class="img-circle profile_pics" />
-                              <span class="pl-2">Totitz Baptisma</span>
-                            </td>
-                            <td> 02312 </td>
-                            <td> ₱2,216 </td>
-                            <td>
-                              <div class="badge badge-success">Fully Paid</div>
-                            </td>
-                            <td> Lianga, Surigao del Sur </td>
-                            <td> Online Payment </td>
-                            <td> 07 Oct 2022 </td>
-                            <td>
-                              <div class="badge badge-success">For Endorsement</div>
-                            </td>
-                            <td>
-                            <div class="container">
-                            <!-- Trigger the modal with a button -->
-           <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
-                          <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
-                              <div class="modal-dialog modal-lg">
-                            <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title">GENERATE ENDORSEMENT</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+<input type="text" class="form-control has-feedback-left"  placeholder="Address" name="address" id="address">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
 
-            <embed src="sample.pdf" frameborder="0" width="100%" height="400px">
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left" required="required" placeholder="Total Lumber Contract" name="cons" id="cons">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
+
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left"  required="required" placeholder="Planted Recovery" name="planted" id="planted">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
+
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left"  required="required" placeholder="PTPOC Holder" name="ptpoc" id="ptpoc">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
+
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left"  required="required" placeholder="PTPOC Address" name="ptadd" id="ptadd">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
+
+<div class="col-md-6 col-sm-6  form-group has-feedback">
+  <input type="text" class="form-control has-feedback-left"  required="required" placeholder="Municipality Beneficiary" name="bene" id="bene">
+  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+</div>
+</div>
+<div class="form-group row">
+  <label class="col-form-label col-md-2 col-sm-2 label-align">Species</label>
+  <div class="col-md-6 col-sm-6 ">
+										<p style="padding: 30px;">
+											<input type="checkbox" name="Fal" id="Fal" value="Falcata" required class="flat" /> Falcata
+											<br />
+
+											<input type="checkbox" name="Maho" id="Maho" value="Mahogany" class="flat" /> Mahogany
+											<br />
+
+											<input type="checkbox" name="Gem" id="Gem" value="Gemelina" class="flat" /> Gemelina
+											<br />
+
+											<input type="checkbox" name="Cai" id="Cai" value="Caimito" class="flat" /> Caimito
+											<br />
+
+                       <input type="checkbox" name="Mang" id="Mang" value="Mango" class="flat" /> Mango
+											<p>
+											</div>
+</div>
+
+  <div class="form-group row">
+  <label class="col-form-label col-md-2 col-sm-2 label-align" >Falcata</label>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="cu.m." name="falcu" id="falcu">
+  </div>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="bd.ft." name="falbd" id="falbd">
+  </div>
+  <label class="col-form-label col-md-1 col-sm-1 label-align ">Mahogany</label>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="cu.m." name="macu" id="macu">
+  </div>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="bd.ft." name="mabd" id="mabd">
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-form-label col-md-2 col-sm-2 label-align">Gemelina</label>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="cu.m." name="gecu" id="gecu">
+  </div>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="bd.ft." name="gebd" id="gebd">
+  </div>
+  <label class="col-form-label col-md-1 col-sm-1 label-align">Caimito</label>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="cu.m." name="cacu" id="cacu">
+  </div>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="bd.ft." name="cabd" id="cabd">
+  </div>
+</div>
+<div class="form-group row">
+  <label class="col-form-label col-md-2 col-sm-2 label-align">Mango</label>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="cu.m." name="mancu" id="mancu">
+  </div>
+  <div class="col-md-2 col-sm-2 ">
+    <input type="text" class="form-control" required="required" placeholder="bd.ft." name="manbd" id="manbd">
+  </div>
+</div>
+<div class="ln_solid"></div>
+<div class="form-group row">
+  <div class="col-md-9 col-sm-9  offset-md-4">
+    <button type="submit" class="btn btn-success">Generate Endorsement</button>
+  </div>
+</div>
+
+</form>
                    <div class="modal-footer">
-                                <a class="btn btn-success" data-dismiss="modal">Endorsement to DMO IV</a>
+                   <a class="btn btn-success" data-dismiss="modal">Endorse to DMO IV</a>
                                 <a class="btn btn-secondary" data-dismiss="modal">Cancel</a>
                                 </div>
-                              </div>
-                            </td>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</td>
                           </tr>
                           </tbody>
                       </table>
@@ -351,14 +217,14 @@
                 </div>
               </div>
             </div>
-            
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
 
-  <?php 
+<?php 
       require_once 'footer.php';
   ?>
- 
-</body>
 </html>

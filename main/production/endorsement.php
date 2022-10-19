@@ -53,6 +53,19 @@
 												<input type="text" class="form-control" placeholder="Permittee" name="name" id="name">
 											</div>
                                             </div>
+											<div class="item form-group">
+											<label class="col-form-label col-md-3 col-sm-3 label-align">Gender</label>
+											<div class="col-md-6 col-sm-6 ">
+												<div id="gender" class="btn-group" data-toggle="buttons">
+													<label class="btn btn-secondary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+														<input type="radio" name="gender" value="male" class="join-btn"> &nbsp; Male &nbsp;
+													</label>
+													<label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+														<input type="radio" name="gender" value="female" class="join-btn"> Female
+													</label>
+												</div>
+											</div>
+										</div>
                                         <div class="form-group row">
                                          <label class="col-form-label col-md-2 col-sm-2 ">Address</label>
 											<div class="col-md-4 col-sm-4 ">
@@ -80,7 +93,7 @@
                                         <div class="form-group row">
                                         <label class="col-form-label col-md-2 col-sm-2 ">Address</label>
 											<div class="col-md-4 col-sm-4 ">
-												<input type="text" class="form-control" placeholder="Address" name="ptadd" id="ptadd">
+												<input type="text" class="form-control" placeholder="PTPOC Address" name="ptadd" id="ptadd">
 											</div>
                                             </div>
                                         <div class="form-group row">
