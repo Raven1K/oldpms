@@ -24,11 +24,6 @@ $manbd = $_POST["manbd"];
 $bene = $_POST["bene"];
 
 
-//$html = '<h1 style="color: green">Example</h1>';
-//$html .= "Hello <em>$name</em>";
-//$html .= '<img src="example.png">';
-//$html .= "Quantity: $quantity";
-
 /**
  * Set the Dompdf options
  */
@@ -51,19 +46,17 @@ $html = file_get_contents("template.php");
 $html = str_replace(["{{ name }}","{{ address }}", "{{ cons }}", "{{ planted }}", "{{ ptpoc }}", "{{ ptadd }}", "{{ falcu }}", "{{ falbd }}", "{{ macu }}", "{{ mabd }}", "{{ gecu }}", "{{ gebd }}", "{{ cacu }}", "{{ cabd }}", "{{ mancu }}", "{{ manbd }}", "{{ bene }}"], [$name,$address,$cons,$planted,$ptpoc,$ptadd,$falcu,$falbd,$macu,$mabd,$gecu,$gebd,$cacu,$cabd,$mancu,$manbd,$bene], $html);
 
 $dompdf->loadHtml($html);
-//$dompdf->loadHtmlFile("template.html");
-
 /**
  * Create the PDF and set attributes
  */
 $dompdf->render();
 
-$dompdf->addInfo("Title", "An Example PDF"); // "add_info" in earlier versions of Dompdf
+$dompdf->addInfo("Title", "ENDORSEMENT"); // "add_info" in earlier versions of Dompdf
 
 /**
  * Send the PDF to the browser
  */
-$dompdf->stream("invoice.pdf", ["Attachment" => 0]);
+$dompdf->stream("endorsement.pdf", ["Attachment" => 0]);
 
 /**
  * Save the PDF file locally

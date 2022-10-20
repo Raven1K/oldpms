@@ -24,8 +24,7 @@
               <li><a href="application.php"><i class="fa fa-edit"></i> Application Status </a></li>
               <li><a href="payment.php"><i class="fa fa-paypal"></i> Payment </a></li>
               <li><a href="validation.php"><i class="fa fa-location-arrow"></i> Validation </a></li>
-              <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> Site Validated </a></li>
-              <li><a href="endorsement.php"><i class="fa fa-map-marker"></i> Endorsement </a></li>
+              <li><a href="sitevalidated.php"><i class="fa fa-map-marker"></i> Generate Endorsement </a></li>
                 </ul>
               </li>
             </ul>
