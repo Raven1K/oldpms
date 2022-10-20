@@ -43,7 +43,7 @@ $(document).ready(function(){
     $("#myModal5").modal("show");
   });
   $("#myModal1").on('show.bs.modal', function(){
-    alert('The Application of Lumber Dealer Received.');
+    alert('Please Complete the Details');
   });
   $("#myModal2").on('show.bs.modal', function(){
     alert('The Application of Lumber Dealer Received.');
