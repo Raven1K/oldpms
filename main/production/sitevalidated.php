@@ -128,27 +128,6 @@
   <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
 </div>
 </div>
-<div class="form-group row">
-  <label class="col-form-label col-md-2 col-sm-2 label-align">Species</label>
-  <div class="col-md-6 col-sm-6 ">
-										<p style="padding: 30px;">
-											<input type="checkbox" name="Fal" id="Fal" value="Falcata" required class="flat" /> Falcata
-											<br />
-
-											<input type="checkbox" name="Maho" id="Maho" value="Mahogany" class="flat" /> Mahogany
-											<br />
-
-											<input type="checkbox" name="Gem" id="Gem" value="Gemelina" class="flat" /> Gemelina
-											<br />
-
-											<input type="checkbox" name="Cai" id="Cai" value="Caimito" class="flat" /> Caimito
-											<br />
-
-                       <input type="checkbox" name="Mang" id="Mang" value="Mango" class="flat" /> Mango
-											<p>
-											</div>
-</div>
-
   <div class="form-group row">
   <label class="col-form-label col-md-2 col-sm-2 label-align" >Falcata</label>
   <div class="col-md-2 col-sm-2 ">
