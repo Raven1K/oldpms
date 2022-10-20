@@ -94,12 +94,12 @@
             <form class="form-label-left input_mask" method="post" action="generate-pdf.php">
 
 <div class="col-md-6 col-sm-6  form-group has-feedback">
-  <input type="text" class="form-control has-feedback-left"  placeholder="Permitee" name="name" id="name" >
+  <input type="text" class="form-control has-feedback-left" required="required"  placeholder="Permitee" name="name" id="name" >
   <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
 </div>
 
 <div class="col-md-6 col-sm-6  form-group has-feedback">
-<input type="text" class="form-control has-feedback-left"  placeholder="Address" name="address" id="address">
+<input type="text" class="form-control has-feedback-left" required="required"  placeholder="Address" name="address" id="address">
   <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
 </div>
 
