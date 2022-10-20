@@ -74,14 +74,14 @@
                             <td> Online Payment </td>
                             <td> 07 Oct 2022 </td>
                             <td>
-                              <div class="badge badge-success">For Endorsement</div>
+                              <div class="badge badge-success" id="myBtn1">For Endorsement</div>
                             </td>
                             <td>
                             <div class="container">
                             <!-- Trigger the modal with a button -->
           <div><a  type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal"></button><i class="fa fa-external-link"> </i>Endorse</a>
                           <!-- Modal -->
-                    <div id="myModal" class="modal fade" role="dialog">
+                    <div id="myModal" class="modal fade" id="myModal1" role="dialog">
                               <div class="modal-dialog modal-lg">
                             <!-- Modal content-->
         <div class="modal-content">
