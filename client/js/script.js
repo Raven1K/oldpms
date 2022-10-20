@@ -41,7 +41,7 @@ function Speech(say) {
   if ('speechSynthesis' in window && talking) {
     var utterance = new SpeechSynthesisUtterance(say);
     speechSynthesis.speak(utterance);
-  }
+  }  
 }
 
 document.onkeypress = keyPress;
