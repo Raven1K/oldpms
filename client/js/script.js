@@ -2,33 +2,32 @@ var messages = [],
   lastUserMessage = "", 
   UserName = "You", 
   botMessage = "",
-  botName = 'Chatbot', 
+  botName = ' OLDPMS Bot', 
   talking = true;
 
 function chatbotResponse() {
   talking = true;
-  const confused = ["I'm confused","I don't know what you're saying","try again with other words"]
+  const confused = ["I'm confused","I don't know what you're saying","try again with another words"]
   botMessage = confused[Math.floor(Math.random()*(confused.length))];; //the default message
 
-  if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
-    const hi = ['hi','howdy','hello']
+  if (lastUserMessage === 'hi' || lastUserMessage =='hello' || lastUserMessage =='hey') {
+    const hi = ['Hello there!','Hi! how can I help you?','Hi, how are you?']
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
   }
 
   if (lastUserMessage === 'what is your name?') {
-    botMessage = 'My name is ' + botName;
+    botMessage = 'My name is ' + botName + " and I'm your assistant for today!";
   }
 
 }
 
 function newEntry() {
-  
   if (document.getElementById("chatbox").value != "") {
     lastUserMessage = document.getElementById("chatbox").value;
     document.getElementById("chatbox").value = "";
     messages.push("<b>" + `<div style="font-weight: 600">${UserName+ ":</b> "}</div>` + lastUserMessage);
     chatbotResponse();
-    messages.push("<b>" + `<div style="color:#055C9D; font-weight: 600">${botName+ ":</b> "}</div>` + botMessage);
+    messages.push("<b>" + `<div style="color:#055C9D; font-weight: 600"><i class="fa-solid fa-user"></i>${botName+ ":</b> "}</div>` + botMessage);
     Speech(botMessage);
     for (var i = 1; i < 8; i++) {
       if (messages[messages.length - i])
