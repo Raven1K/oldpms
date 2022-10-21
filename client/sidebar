@@ -38,10 +38,10 @@
      <ul class="nav sidebar-nav">
        <div class="sidebar-header">
        <div class="sidebar-brand">
-         <a href="#" style="text-decoration: none;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
-       <li><a href="#dashboard">Dashboard</a></li>
-       <li><a href="#doctracker">Document Tracker</a></li>
-       <li><a href="#docstatus">Document Status</a></li>
+         <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
+       <li><a href="#dashboard">New Application</a></li>
+       <li><a href="#doctracker">Document Status</a></li>
+       <li><a href="#docstatus">Track your Application</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
@@ -55,9 +55,12 @@
     <p id="chatlog2" class="chatlog">&nbsp;</p>
     <p id="chatlog1" class="chatlog">&nbsp;</p>
 
-     <div class="scrollmenu" style="overflow: auto;white-space: nowrap; background: #ecedf0;">
-         
-          </div>
+    <div class="scrollmenu" style="overflow: auto;
+  white-space: nowrap; background: #ecedf0; padding: 5px;">
+  <a type="button" onclick="myFunction()" id="suggest1" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">What is your name?</a>
+  <a type="button" onclick="myFunction2()" id="suggest2" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">Can you help me?</a>
+  <a type="button" onclick="myFunction3()" id="suggest3" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">How to file application?</a>
+</div>
     <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
   </div>
  
@@ -83,8 +86,11 @@
         </div>
         <!-- /#page-content-wrapper -->
     </div>
-<script type="text/javascript">
-
-</script>
   </body>
+
+  <script type="text/javascript">
+  
+</script>
+
+
 </html>

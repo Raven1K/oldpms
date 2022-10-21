@@ -1,3 +1,21 @@
+const s1 = document.getElementById("suggest1");
+const s2 = document.getElementById("suggest2");
+const s3 = document.getElementById("suggest3");
+
+function myFunction() {
+ document.getElementById("chatbox").value = "What is your name?";
+}
+
+function myFunction2() {
+ document.getElementById("chatbox").value = "Can you help me?";
+}
+
+function myFunction3() {
+ document.getElementById("chatbox").value = "How to file application?";
+}
+
+
+
 var messages = [], 
   lastUserMessage = "", 
   UserName = "You", 
@@ -11,12 +29,20 @@ function chatbotResponse() {
   botMessage = confused[Math.floor(Math.random()*(confused.length))];; //the default message
 
   if (lastUserMessage === 'hi' || lastUserMessage =='hello' || lastUserMessage =='hey') {
-    const hi = ['Hello there!','Hi! how can I help you?','Hi, how are you?']
+    const hi = ['Hello there! How can I help you today?','Welcome to OLDPMS Chat! May I help you?', 'Hello, thank you for visiting our website. How can we assist you?']
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
   }
 
-  if (lastUserMessage === 'what is your name?') {
+  if (lastUserMessage === 'What is your name?') {
     botMessage = 'My name is ' + botName + " and I'm your assistant for today!";
+  }
+
+if (lastUserMessage === 'Can you help me?') {
+    botMessage = "pwede";
+  }
+
+if (lastUserMessage === 'How to file application?') {
+    botMessage = "wala ko kabalo";
   }
 
 }

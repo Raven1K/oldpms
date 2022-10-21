@@ -78,7 +78,7 @@
                                       <li style="background: #fff;">
                                         <span style="background: #0d6efd;" id="latestTime"><i class="fa-regular fa-calendar"></i> 28th June 2022</span><br>
                                         <div class="content">
-                                          <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 9:02 a.m</p><h5 style="color: #222; font-weight: 600;">Site Validation Schedule for Inspection</h5>
+                                          <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 9:02 a.m</p><h5 style="color: #222; font-weight: 600;">Site Validation Schedule</h5>
                                           <p style="color: #222">
                                             Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600; ">Read more..</a>
                                           </p>
@@ -87,9 +87,12 @@
                                       <li style="background: #fff;">
                                         <span style="background: #0d6efd" id="midTime"><i class="fa-regular fa-calendar"></i> 25th June 2022</span>
                                         <div class="content">
-                                         <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 3:00 p.m</p><h5 style="color: #222; font-weight: 600;">Service Fee Paid</h5>
+                                         <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 3:00 p.m</p><h5 style="color: #222; font-weight: 600;">Payment Confirmed</h5>
                                           <p style="color: #222">
-                                            Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m<br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600;">Read more..</a>
+                                            Reference No. 1234567890<br>
+                                            Processing Fee - 100.00<br>Application Fee - 600.00<br>Registration Fee - 480.00<br>
+                                            Oath Fee - 36.00<br>
+                                            Cash Bond - 1000.00<br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600;">Read more..</a>
                                           </p>
                                         </div>
                                       </li>

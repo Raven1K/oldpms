@@ -25,7 +25,7 @@ body::-webkit-scrollbar{
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  max-width: 550px;
+  max-width: 200px;
   font: 15px arial, sans-serif;
   background-color: #0C2D48;
   border-style: solid;
@@ -322,7 +322,7 @@ pre {
     overflow-y: auto;
     overflow-x: hidden;
     /*CHANGE*/
-    background: #226400;
+    background: #01390c;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -387,22 +387,22 @@ pre {
 }
 .sidebar-nav li:first-child a {
     color: #fff;
-    background-color: #37850a;
+    background-color: #01450e;
 }
 .sidebar-nav li:nth-child(5n+1):before {
-    background-color: #37850a;   
+    background-color: #01450e;   
 }
 .sidebar-nav li:nth-child(5n+2):before {
-    background-color: #37850a;   
+    background-color: #01450e;   
 }
 .sidebar-nav li:nth-child(5n+3):before {
-    background-color: #37850a;   
+    background-color: #01450e;   
 }
 .sidebar-nav li:nth-child(5n+4):before {
-    background-color: #37850a;   
+    background-color: #01450e;   
 }
 .sidebar-nav li:nth-child(5n+5):before {
-    background-color: #37850a;   
+    background-color: #01450e;   
 }
 
 .sidebar-nav li:hover:before,
@@ -443,7 +443,7 @@ pre {
     height: 65px;
     position: relative;
     /*CHANGE*/
-    background:#226400;       
+    background:#01390c;       
    padding-top: 1em;
 }
 .sidebar-brand a {
