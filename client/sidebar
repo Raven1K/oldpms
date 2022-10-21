@@ -43,37 +43,27 @@
        <li><a href="#doctracker">Document Tracker</a></li>
        <li><a href="#docstatus">Document Status</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
-         <!-- CHATBOT -->
-          <div class="wrapper">
-          <div class="title" style="font-size: 16px; font-weight: 700">OLDPMS Support</div>
-          <div class="box">
-          <div class="item">
-          <div class="icon">
-              <i class="fa-solid fa-robot"></i>
-          </div>
-          <div class="msg">
-              <p>Hey! <span style="font-weight: 600;">JUAN</span><br> how can I help you?</p>
-          </div>
-          </div>
-            <br clear="both">
-          <div class="item right">
-          <div class="msg">
+   
+<div id='bodybox'>
+  <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>
+  <div id='chatborder'>
+    <p id="chatlog7" class="chatlog">&nbsp;</p>
+    <p id="chatlog6" class="chatlog">&nbsp;</p>
+    <p id="chatlog5" class="chatlog">&nbsp;</p>
+    <p id="chatlog4" class="chatlog">&nbsp;</p>
+    <p id="chatlog3" class="chatlog">&nbsp;</p>
+    <p id="chatlog2" class="chatlog">&nbsp;</p>
+    <p id="chatlog1" class="chatlog">&nbsp;</p>
+
+     <div class="scrollmenu" style="overflow: auto;white-space: nowrap; background: #ecedf0;">
          
           </div>
-          </div>
-          </div>
-        <!-- END CHATBOT -->
-        <div class="typing-area">
-            <div class="input-field">
-                <input type="text" placeholder="Type your message" required>
-                <button>Send</button>
-            </div>
-        </div>
-    </div>
+    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+  </div>
+ 
+</div>
 
-       </nav>
-        <!-- /#sidebar-wrapper -->
-
+</nav>
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
@@ -85,7 +75,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <!-- START -->
-                      
+                      <!-- CONTENT -->
                               <!-- END -->
                     </div>
                 </div>
@@ -94,34 +84,7 @@
         <!-- /#page-content-wrapper -->
     </div>
 <script type="text/javascript">
-  $(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
 
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
 </script>
   </body>
 </html>

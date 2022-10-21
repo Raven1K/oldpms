@@ -1,3 +1,97 @@
+var messages = [], 
+  lastUserMessage = "", 
+  UserName = "You", 
+  botMessage = "",
+  botName = 'Chatbot', 
+  talking = true;
+
+function chatbotResponse() {
+  talking = true;
+  const confused = ["I'm confused","I don't know what you're saying","try again with other words"]
+  botMessage = confused[Math.floor(Math.random()*(confused.length))];; //the default message
+
+  if (lastUserMessage === 'hi' || lastUserMessage =='hello') {
+    const hi = ['hi','howdy','hello']
+    botMessage = hi[Math.floor(Math.random()*(hi.length))];;
+  }
+
+  if (lastUserMessage === 'what is your name?') {
+    botMessage = 'My name is ' + botName;
+  }
+
+}
+
+function newEntry() {
+  
+  if (document.getElementById("chatbox").value != "") {
+    lastUserMessage = document.getElementById("chatbox").value;
+    document.getElementById("chatbox").value = "";
+    messages.push("<b>" + `<div style="font-weight: 600">${UserName+ ":</b> "}</div>` + lastUserMessage);
+    chatbotResponse();
+    messages.push("<b>" + `<div style="color:#055C9D; font-weight: 600">${botName+ ":</b> "}</div>` + botMessage);
+    Speech(botMessage);
+    for (var i = 1; i < 8; i++) {
+      if (messages[messages.length - i])
+        document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
+    }
+  }
+}
+
+function Speech(say) {
+  if ('speechSynthesis' in window && talking) {
+    var utterance = new SpeechSynthesisUtterance(say);
+    speechSynthesis.speak(utterance);
+  }  
+}
+
+document.onkeypress = keyPress;
+function keyPress(e) {
+  var x = e || window.event;
+  var key = (x.keyCode || x.which);
+  if (key == 13 || key == 3) {
+     newEntry();
+  }
+  if (key == 38) {
+    console.log('hi')
+      
+  }
+}
+
+function placeHolder() {
+  document.getElementById("chatbox").placeholder = "Hi there! Type here to talk to me.";
+}
+
+  $(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+
+
+
 const prevBtns = document.querySelectorAll(".btn-prev");
 const nextBtns = document.querySelectorAll(".btn-next");
 const progress = document.getElementById("progress");
