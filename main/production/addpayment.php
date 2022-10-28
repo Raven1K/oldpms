@@ -56,12 +56,12 @@
             <label class="form-check-label" for="oathfee">Oath Fee</label>
           </div>
           <div class="mb-3 ms-3 form-check">
-            <input type="checkbox" class="form-check-input" id="cashbond" checked disabled>
             <label class="form-check-label" for="cashbond">Cash Bond</label>
+            <input type="text" class="form-control" style="width: 60%" id="cashbondentry">
           </div>
           <div class="mb-3 ms-3 me-3" style="width: 60%">
             <label for="disabled amount" class="form-label">Total Amount</label>
-            <input type="text" class="form-control" id="inputrefnum" value="2,216.00" disabled>
+            <input type="text" class="form-control" id="inputrefnum">
           </div>
             <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
