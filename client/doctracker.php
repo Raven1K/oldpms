@@ -11,7 +11,7 @@
             
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-   <title>Online Lumber Dealer Permitting and Monitoring System</title>
+   <title>OLDPMS</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="../fonts/css/all.css">
     <script src="js/script.js" defer></script>
@@ -22,7 +22,8 @@
   </head>
   
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" > 
+   <div id="wrapper">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
   <div class="container-fluid">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -67,59 +68,55 @@
     </div>
   </nav>
 
-<div class="bodytime">
-<div class="timeline">
-   <center><p style="font-size: 25px; font-weight: 600">Application Status</p></center>
-    <ul>
-      <li style="background: #97C4B8; margin-bottom: 15px;">
-        <span style="background: #0d6efd;">3rd January 2020</span>
-        <div class="content">
-          <br><h5 style="color: #fff">Site Validation Schedule for Inspection</h5>
-          <p style="color: #fff">
-            Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
-          </p>
-        </div>
-      </li>
-      <li style="background: #749F82; margin-bottom: 15px;">
-        <span style="background: #0d6efd">21st Jun 2019</span>
-        <div class="content">
-         <br><h5 style="color: #fff">Service Fee Paid.</h5>
-          <p style="color: #fff">
-            Payment received via GCASH.<br>Date posted July 25, 2022 3 p.m<br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
-          </p>
-        </div>
-      </li>
-      <li style="background: #417D7A; margin-bottom: 15px;">
-        <span style="background: #0d6efd">15th April 2018</span>
-        <div class="content">
-          <br><h5 style="color: #fff">Application Accepted</h5>
-          <p style="color: #fff">
-            1. Application form or duly accomplished & sworn/notarized.<br>
-            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
-            3. Mayor's Permit/Business Permit<br>
-            4. Annual Business Plan<br>
-            5. Latest Income Tax Return<br>
-            6. Proof of ownership of the lumberyard or consent/agreement with the owner <br><br><a href="#" style="text-decoration: none; color: #fff;">Read more..</a>
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-<nav aria-label="Page navigation example" style="margin-bottom: 20px;">
-  <ul class="pagination justify-content-center">
-    <li class="page-item disabled">
-      <span class="page-link">Previous</span>
-    </li>
-    <li class="page-item active" aria-current="page">
-      <span class="page-link">1</span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav><br><br>
+                              <div class="bodytime">
+                                <div class="timeline">
+                                   <p style="font-size: 30px; font-weight: 600"><i class="fa-solid fa-file"></i> Application Status</p>
+                                   <div class="scroll-bg">
+                                    <div class="scroll-div"style="padding: 10px; width: 780px; height: 800px; overflow: hidden; overflow-y: scroll;">
+                                    <div class="scroll-object">
+                                     <ul>
+                                      <li style="background: #fff;">
+                                        <span style="background: #0d6efd;" id="latestTime"><i class="fa-regular fa-calendar"></i> 28th June 2022</span><br>
+                                        <div class="content">
+                                          <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 9:02 a.m</p><h5 style="color: #222; font-weight: 600;">Site Validation Schedule</h5>
+                                          <p style="color: #222">
+                                            Validation Schedule June 29, 2022 8 a.m Please prepare all the<br>documents for actual verification.<br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600; ">Read more..</a>
+                                          </p>
+                                        </div>
+                                      </li>
+                                      <li style="background: #fff;">
+                                        <span style="background: #0d6efd" id="midTime"><i class="fa-regular fa-calendar"></i> 25th June 2022</span>
+                                        <div class="content">
+                                         <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 3:00 p.m</p><h5 style="color: #222; font-weight: 600;">Payment Confirmed</h5>
+                                          <p style="color: #222">
+                                            Reference No. 1234567890<br>
+                                            Processing Fee - 100.00<br>Application Fee - 600.00<br>Registration Fee - 480.00<br>
+                                            Oath Fee - 36.00<br>
+                                            Cash Bond - 1000.00<br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600;">Read more..</a>
+                                          </p>
+                                        </div>
+                                      </li>
+                                      <li style="background: #fff;">
+                                        <span style="background: #0d6efd" id="oldTime"><i class="fa-regular fa-calendar"></i> 22nd June 2022</span>
+                                        <div class="content">
+                                          <p style="font-size: 12px; margin-left: 2px; color: #888;"><i class="fa-regular fa-clock"></i> 4:30 p.m</p><h5 style="color: #222; font-weight: 600;">Application Accepted</h5>
+                                          <p style="color: #222">
+                                            1. Application form or duly accomplished & sworn/notarized.<br>
+                                            2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<br>
+                                            3. Mayor's Permit/Business Permit<br>
+                                            4. Annual Business Plan<br>
+                                            5. Latest Income Tax Return<br>
+                                            6. Proof of ownership of the lumberyard or consent/agreement with the owner <br><br><a href="#" style="text-decoration: none; color: #0d6efd; font-weight: 600;">Read more..</a>
+                                          </p>
+                                        </div>
+                                      </li>
+                                         </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+      
+    </div>
   </body>
 </html>

@@ -1,5 +1,4 @@
- <div class="card-body">
-                        <h5 class="card-title">Column Chart</h5>
+ <div style="height:280px">
                         <div id="columnChart"></div>
                         <script>document.addEventListener("DOMContentLoaded", () => {
                            new ApexCharts(document.querySelector("#columnChart"), {
@@ -53,6 +52,6 @@
                            }).render();
                            });
                         </script> 
-                     </div>
+</div>
 <script src="assets/js/apexcharts.min.js"></script>
 <script src="assets/js/main.js"></script>

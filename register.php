@@ -19,33 +19,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
 <div class="bodytime">
 <div class="custom_container">
 <div class="custom-card text-center" style=" border-color: #ecedf0;">
   <div class="custom-card-header " style="background-color: #ecedf0; cursor: pointer; border-color: #2987ce; border-width: thick;">
 
-<ul class="nav nav-tabs justify-content-end">
-   <li class="nav-item">
-    <a class="nav-link disabled" href="#"><img src="images/oldpmslogin.png" width="30%"></a>
-  </li>
-  <li class="nav-item">
-    <strong><a class="nav-link active bg-primary text-white" aria-current="page" href="#">REGISTRATION</a></strong>
-  </li>
-
-</ul>
-
-
-
-
-
 
     <ul class="nav nav-tabs custom-card-header-tabs" style="border-color:#ecedf0;">
-        <li class="nav-item">
-          <a href="index.php"><img src="images/oldpmslogin.png" width="80%"></a>
+        <li class="nav-item" style="margin-left: 50px;">
+          <a href="index.php"><img src="images/oldpmslogin.png" width="150px" height="50px;"></a>
         </li>
-        <li class="nav-item mt-3">
-          <a class="nav-link active" aria-current="true" style="background-color: #2987ce; border-width: thin; border-color: #2987ce; cursor: default;">
-            <span style="font-weight: 900; color: #fff;"><img src="images/vector.png" style="margin-right: 2px; margin-bottom: 3px;">REGISTRATION</span></a>
+        <li class="nav-item mt-3" style="margin-left: 100px;">
+          <a class="nav-link active bg-primary" aria-current="true" style="border-width: thin; border-color: #2987ce; cursor: default;">
+            <span style="font-weight: 900; color: #fff;"><i class="fa-solid fa-user"></i> REGISTRATION</span></a>
         </li>
   </div>
   <div class="custom-card-body" style="padding: 25px;">
@@ -57,9 +44,6 @@
                 <div class="col">
                   <div class="row">
                     <div class="col" style="position: relative;">
-
-
-
                     <form action="processphp/prc_clientregister.php"  method="post" role="form" enctype="multipart/form-data" >
                     
              <!--      < enctype="multipart/form-data" >-->
@@ -82,9 +66,7 @@
                               <input style="margin-bottom: 5px;" type="password" class="form-control user_password" placeholder="Password*" aria-label="pw" name="password">
                               
                               <input style="margin-bottom: 5px;" type="password" class="form-control user_confirm_password" placeholder="Confirm Password*" aria-label="confirm_pw" name="Cpassword">
-                              
-
-                              </div></div>
+                                                            </div></div>
                               <br>
                               <div class="mb-3">
                               <i><label style="font-size: 12px; float: left;">Upload a copy of your Valid ID*</label></i>
@@ -113,8 +95,7 @@
                                 endif;
 
                               ?>
-
-                               <div class="mb-3">
+                              <div class="mb-3">
                               <i><label style="font-size: 12px; float: left;">Upload Company's Authorization Letter*</label></i>
                               <input class="form-control formFileMultiple3" type="file" id="formFileMultiple"  name="my_image3" multiple>
                               </div></div></p>
@@ -209,10 +190,9 @@
 6.1.  Copy of Certificate of Registration upon approval shall be copy furnished to the PENRO, CENRO concerned (except NCR), and Forest Management Bureau for reference and record purposes.<br>
 </p>
       </div>
-
       <div class="modal-footer">
               <button type="button" class="btn btn-danger declineBtn" data-bs-dismiss="modal">Decline</button>
-              <button class="btn  btn-success" name="btn"> Accept </button>
+              <button class="btn  btn-success" name="btn"> Accept</button>
               <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" id="acceptBtn" style="background-color: #2987ce;" name="btn">Accept</button> -->
       </form>
       </div>
@@ -223,7 +203,6 @@
 </div>
   </div>
     </div>
-
 <div class="position-fixed top-0 end-0 p-3" style="z-index: 11;">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style=" background-color: #d1e7dd;">
     <div class="toast-header" style=" background-color: #d1e7dd; color: #658251">

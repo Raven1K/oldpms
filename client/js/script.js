@@ -1,3 +1,122 @@
+const s1 = document.getElementById("suggest1");
+const s2 = document.getElementById("suggest2");
+const s3 = document.getElementById("suggest3");
+
+function myFunction() {
+ document.getElementById("chatbox").value = "What is your name?";
+}
+
+function myFunction2() {
+ document.getElementById("chatbox").value = "Can you help me?";
+}
+
+function myFunction3() {
+ document.getElementById("chatbox").value = "How to file application?";
+}
+
+
+
+var messages = [], 
+  lastUserMessage = "", 
+  UserName = "You", 
+  botMessage = "",
+  botName = ' OLDPMS Bot', 
+  talking = true;
+
+function chatbotResponse() {
+  talking = true;
+  const confused = ["I'm confused","I don't know what you're saying","try again with another words"]
+  botMessage = confused[Math.floor(Math.random()*(confused.length))];; //the default message
+
+  if (lastUserMessage === 'hi' || lastUserMessage =='hello' || lastUserMessage =='hey') {
+    const hi = ['Hello there! How can I help you today?','Welcome to OLDPMS Chat! May I help you?', 'Hello, thank you for visiting our website. How can we assist you?']
+    botMessage = hi[Math.floor(Math.random()*(hi.length))];;
+  }
+
+  if (lastUserMessage === 'What is your name?') {
+    botMessage = 'My name is ' + botName + " and I'm your assistant for today!";
+  }
+
+if (lastUserMessage === 'Can you help me?') {
+    botMessage = "pwede";
+  }
+
+if (lastUserMessage === 'How to file application?') {
+    botMessage = "wala ko kabalo";
+  }
+
+}
+
+function newEntry() {
+  if (document.getElementById("chatbox").value != "") {
+    lastUserMessage = document.getElementById("chatbox").value;
+    document.getElementById("chatbox").value = "";
+    messages.push("<b>" + `<div style="font-weight: 600">${UserName+ ":</b> "}</div>` + lastUserMessage);
+    chatbotResponse();
+    messages.push("<b>" + `<div style="color:#055C9D; font-weight: 600"><i class="fa-solid fa-user"></i>${botName+ ":</b> "}</div>` + botMessage);
+    Speech(botMessage);
+    for (var i = 1; i < 8; i++) {
+      if (messages[messages.length - i])
+        document.getElementById("chatlog" + i).innerHTML = messages[messages.length - i];
+    }
+  }
+}
+
+function Speech(say) {
+  if ('speechSynthesis' in window && talking) {
+    var utterance = new SpeechSynthesisUtterance(say);
+    speechSynthesis.speak(utterance);
+  }  
+}
+
+document.onkeypress = keyPress;
+function keyPress(e) {
+  var x = e || window.event;
+  var key = (x.keyCode || x.which);
+  if (key == 13 || key == 3) {
+     newEntry();
+  }
+  if (key == 38) {
+    console.log('hi')
+      
+  }
+}
+
+function placeHolder() {
+  document.getElementById("chatbox").placeholder = "Hi there! Type here to talk to me.";
+}
+
+  $(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+
+
+
 const prevBtns = document.querySelectorAll(".btn-prev");
 const nextBtns = document.querySelectorAll(".btn-next");
 const progress = document.getElementById("progress");

@@ -29,7 +29,7 @@
           <a class="nav-link" href="main/production/dashboard.php">FUU-CENRO</a>
         </li>
 		<li class="nav-item">
-          <a class="nav-link" href="main/dashboard.php">FUS-RO</a>
+          <a class="nav-link" href="main/fus.php">FUS-RO</a>
         </li>
       </ul>
     </div>
