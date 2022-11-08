@@ -72,31 +72,7 @@
 												<input type="text" class="form-control" placeholder="0.00" disabled="disabled">
 											</div>
 										</div>
-                                        <div class="form-group row">
-											<label class="col-form-label col-md-2 col-sm-2 ">Kind of Equipment used</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="">
-											</div>
-                                            <label class="col-form-label col-md-1 col-sm-1 ">Made</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="">
-											</div>
-										</div>
-                                        <div class="form-group row">
-											<label class="col-form-label col-md-2 col-sm-2 ">State/Condition</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="">
-											</div>
-                                            <label class="col-form-label col-md-1 col-sm-1 ">Size</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="">
-											</div>
-                                            <label class="col-form-label col-md-1 col-sm-1 ">Value</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input type="text" class="form-control" placeholder="">
-											</div>
-										</div>
-                                        <div class="form-group row">
+					           <div class="form-group row">
 											<label class="col-form-label col-md-2 col-sm-2 ">Previous Cert. Registration No.</label>
 											<div class="col-md-2 col-sm-2 ">
 												<input type="text" class="form-control" placeholder="">

@@ -52,13 +52,6 @@
                         </div>
                     </div>
 
-
-               
-                    
-  
-                    
-                    
-                    
                     
                     <!-- <button class="btn" name="btn"> Signup </button> -->
 
@@ -72,8 +65,9 @@
                 <h4 class="heading-primary"><strong>RICTU DENR Caraga</strong></h4>
                 <ul class="list list-icons list-icons-style-3 mt-4">
                     <li><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Ambago, Butuan City, Philippines, 8600</li>
-                    <li><i class="fas fa-phone"></i> <strong>Phone:</strong> (085) 815 – 2277</li>
-                    <li><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:caraga@denr.gov.ph">caraga.ict@denr.gov.ph</a></li>
+                    <li><i class="fas fa-phone"></i> <strong>Phone:</strong> +639631975748</li>
+                    <li><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:fuscaraga@yahoo.com">fuscaraga@yahoo.com
+</a></li>
                 </ul>
 
             </div>
