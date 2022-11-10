@@ -1,17 +1,3 @@
-<?php
-// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-     header("location: ../login.php");
-    exit;
-}
-?>
-
-
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -30,7 +16,72 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   
-<body>
+<body style="background: #ecedf0;">
+  <div id="wrapper">
+             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
+              <div class="container-fluid">
+                <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
+                </div>
+              </div>
+            </nav>
+
+        <!-- Sidebar -->
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+     <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+       <div class="sidebar-brand">
+         <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
+       <li><a href="http://localhost/oldpms/client/dashboard.php">Requirements</a></li>
+       <li><a href="#doctracker">Document Status</a></li>
+       <li><a href="#docstatus">Track your Application</a></li>
+         <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
+   
+<div id='bodybox'>
+  <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>
+  <div id='chatborder'>
+    <p id="chatlog7" class="chatlog">&nbsp;</p>
+    <p id="chatlog6" class="chatlog">&nbsp;</p>
+    <p id="chatlog5" class="chatlog">&nbsp;</p>
+    <p id="chatlog4" class="chatlog">&nbsp;</p>
+    <p id="chatlog3" class="chatlog">&nbsp;</p>
+    <p id="chatlog2" class="chatlog">&nbsp;</p>
+    <p id="chatlog1" class="chatlog">&nbsp;</p>
+
+    <div class="scrollmenu" style="overflow: auto;
+  white-space: nowrap; background: #ecedf0; padding: 5px;">
+  <a type="button" onclick="myFunction()" id="suggest1" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">What is your name?</a>
+  <a type="button" onclick="myFunction2()" id="suggest2" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">Can you help me?</a>
+  <a type="button" onclick="myFunction3()" id="suggest3" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">How to file application?</a>
+</div>
+    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+  </div>
+ 
+</div>
+
+</nav>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <!-- START -->
+
+                      <!-- CONTENT -->
+                              <!-- END -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <input type="file" id="realfile"  hidden="hidden" accept="Application/pdf" value=""/>
@@ -45,50 +96,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
       
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
-  <div class="container-fluid">
-     <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="#"></a>
-           </li>
-        </ul>
-          <form class="d-flex">
-          
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown" style="margin-right: 10px;">
-          <a href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fa-solid fa-circle-user text-white style"></i>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li>
-              <a class="dropdown-item" href="#">Profile</a>
-
-
-
-              <form action="../processphp/prc_logout.php"  method="post" role="form" >
-
-               <button class="btn  btn-success" name="Log-out">Logout</button>
-               <button class="btn  btn-success" name="btn"> Logout </button>
-
-</form>
-     </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-           <a class="navbar-brand" style="font-family:Trebuchet MS; color:#312f31; font-size:20px; color: #fff; font-weight: bold;"><b>Juan, Client</b></a>
-         </form>
-      </div>
-    </div>
-  </nav>
+ 
 <div class="bodytime">
     <form action="#" class="form">
       <!-- Progress bar -->
@@ -96,9 +104,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="progress" id="progress"></div>
         <div
           class="progress-step progress-step-active"
-          data-title="Requirements"
+          data-title="Basic Information"
         ></div>
-        <div class="progress-step" data-title="Basic Information"></div>
         <div class="progress-step" data-title="Attachment"></div>
       </div>
 
@@ -106,29 +113,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <div class="form-step form-step-active">
         <div class="input-group">
          <div class="container mt-3">
-          <h2 class="text-center" style="font-family: system-ui; font-weight: 600"><i class="fa-regular fa-rectangle-list" style="margin-right: 15px;"></i>Requirements</h2><br>
-            <center><p style="font-family: system-ui; background: #d1e7dd; word-wrap: normal;  width:100%; word-wrap:break-word; font-size: 15px; font-weight: 550;"><i>Please download and fill up the forms below. Print the completed forms for notarial purposes. Once<br>notarized, return to the system and locate the REQUIREMENTS FORM Browse to upload the scan copy.<br>you need to have pdf reader installed to open these files.</p></i><br>
-            <p style="font-family: system-ui; font-weight: 400; text-align: justify; text-justify: inter-word; font-size: 17px;">
-              1. Application form or duly accomplished & sworn/notarized. <a style="color: #0645AD;" href="#"><u>Download Fillable Form</u></a><br>
-              2. Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer.<br>
-              3. Mayor's Permit/Business Plan<br>
-              4. Annual Business Plan<br>
-              5. Latest Income Tax Return<br>
-              6. Proof of ownership of the lumberyard or consent/agreement with the owner<br><br>
-              <strong>Provided after DENR CENRO Personnel site inspection.</strong><br>
-              1. Forestry Administrative Fees<br>
-              2. Pictures of lumberyard/establishment</p><br></center>
-               <center><h4 style="font-family: system-ui; font-weight: 500; font-size: 15px;">Click proceed if all requirements are completed and ready to upload.</h4></center>
-            </div>
-          </div>
-        <div class="">
-          <center><a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px;">Proceed<i class="fa-solid fa-circle-arrow-right" style="margin-left: 10px;"></i></a></center>
-        </div>
-      </div>
-
-      <!-- Basic Information -->
-      <div class="form-step">
-        <div class="input-group">
             <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>
          <div class="row">
           <div class="col"><br>
@@ -195,17 +179,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Mobile No.*" aria-label="Mobile no">
           </div>
         </div>
-        
-        </div>
-        <div class="btns-group">
-          <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
-          <a href="#" class="custom_btn_next custom_btn btn-next">Next<i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i></a>
+            </div>
+          </div>
+        <div class="">
+          <center><a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px;">Next<i class="fa-solid fa-circle-arrow-right" style="margin-left: 10px;"></i></a></center>
         </div>
       </div>
-      <!-- Attaching Required Documents -->
+
+      <!-- Basic Information -->
       <div class="form-step">
         <div class="input-group">
-            <h3 class="text-center" style="font-family: system-ui; font-weight: 600"><i class="fa-regular fa-file" style="margin-right: 15px;"></i>Attaching Required Documents</h3>
+              <h3 class="text-center" style="font-family: system-ui; font-weight: 600"><i class="fa-regular fa-file" style="margin-right: 15px;"></i>Attaching Required Documents</h3>
             <label style="font-size: 17px;">Click "Browse" to select the corresponding electronic copy of the document. <br><span style="color: red; font-size: 15px;"><i>Note: Only PDF File not larger than 10 MB is allowed.</i></span></label>
     <table class="table table-bordered" style="margin-top: 10px;">
   <tr>
@@ -273,14 +257,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
   </tr>
 </table>
-
-        </div>
+ </div>
         <div class="btns-group">
           <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
           <button type="button submit" class="btn btn-success" data-bs-toggle="modal" disabled="true" id="acceptBtn" >Submit</button>
         </div>
       </div>
     </form>
+     
 
    
 <div class="position-fixed top-0 end-0 p-3" style="z-index: 11;">
