@@ -17,7 +17,6 @@
   </head>
   
 <body style="background: #ecedf0;">
-
   <div id="wrapper">
              <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
               <div class="container-fluid">
