@@ -70,14 +70,20 @@
                     <h2 class="text-info">Juan Dela Cruz<small> | No1knows Lumber Dealer</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
 						<div class="row justify-content-center">
-							  <li><a href="#" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
+							  <li><a href="endorsement3.php" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
 									   <span class="text align-content-center text-white"><strong>Endorsement</strong></span>
 										<span class="icon ml-2">
 											   <i class="fas fa-check-to-slot text-white"></i>
 										</span>
 							  </li></a>
+							  <li><a href="#" class="btn-danger btn-sm btn-round btn ml-0">                                       				 
+									   <span class="text align-content-center text-white"><strong>Return to CENRO</strong></span>
+										<span class="icon ml-2">
+											   <i class="fas fa-times-circle text-white"></i>
+										</span>
+							  </li></a>
 							  <li><a href="action.php" class="btn-secondary btn-sm btn-round btn ml-0">                                       				 
-									   <span class="text align-content-center text-white"><strong>Cancel</strong></span>
+									   <span class="text align-content-center text-white"><strong>Back</strong></span>
 										<span class="icon ml-2">
 											   <i class="fas fa-circle-chevron-left text-white"></i>
 										</span>
@@ -109,7 +115,7 @@
 													  <td>
 														  <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 															<!-- modal for evaluation -->
 															  <?php
 																require_once('modaleval.php');
@@ -129,7 +135,7 @@
 													  <td>
 														  <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															  <!-- modal for evaluation -->
 															  <?php
@@ -150,7 +156,7 @@
 													  <td>
 														  <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															  <!-- modal for evaluation -->
 															  <?php
@@ -171,7 +177,7 @@
 													  <td>
 													      <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															  <!-- modal for evaluation -->
 															  <?php
@@ -192,7 +198,7 @@
 													  <td>
 													      <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															  <!-- modal for evaluation -->
 															  <?php
@@ -213,7 +219,7 @@
 													  <td>
 														  <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															 <!-- modal for evaluation -->
 															  <?php
@@ -234,7 +240,7 @@
 													  <td>
 													      <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															  <!-- modal for evaluation -->
 															  <?php
@@ -255,7 +261,7 @@
 													  <td>
 													      <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															 <!-- modal for evaluation -->
 															  <?php
@@ -276,7 +282,7 @@
 													  <td>
 													     <div class="container">
 															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> Review</a>
+																<i class="fa fa-search-plus"></i> View</a>
 
 															 <!-- modal for evaluation -->
 															  <?php
