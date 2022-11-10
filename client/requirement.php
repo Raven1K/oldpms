@@ -122,8 +122,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               4. Annual Business Plan<br>
               5. Latest Income Tax Return<br>
               6. Proof of ownership of the lumberyard or consent/agreement with the owner<br>
-              7. Proof of ownership of the lumberyard or consent/agreement with the owner<br>
-              8. Proof of ownership of the lumberyard or consent/agreement with the owner<br><br>
+              7. Ending stocked inventory report duly subscribed/sworn; and<br>
+              8. Summary reports showing the monthly lumber purchases, production, disposition/sales ending inventory report and other relevant information within the tenure of the permit duly attested by CENRO concerned.<br><br>
               <strong>Provided after all documents are evaluated by DENR CENRO Personnel site inspection.</strong><br>
               1. Forestry Administrative Fees<br>
               2. Pictures of lumberyard/establishment</p><br></center>
