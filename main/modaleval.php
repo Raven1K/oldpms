@@ -12,9 +12,9 @@
 			<embed src="sample.pdf" frameborder="0" width="100%" height="400px">
 		    <div class="modal-footer">
 			   <a class="btn btn-success" data-dismiss="modal">
-				<i class="fas fa-thumbs-o-up"> </i>Accept</a>
+				<i class="fas fa-thumbs-o-up"> </i>Approve</a>
 			   <a class="btn btn-danger" data-dismiss="modal">
-				<i class="fas fa-thumbs-o-down"> </i>Return</a>
+				<i class="fas fa-thumbs-o-down"> </i>Disapprove</a>
 			   
 		   </div>
 	    </div>	   

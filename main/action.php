@@ -96,6 +96,7 @@
 											<th>Registration Number</th>
 											<th>Date Applied</th>
 											<th>CENROs Concerned</th>
+											<th>New / Renewal</th>
 											<th>Action</th>
                                             <th>Status</th>                                           
                                         </tr>
@@ -109,6 +110,7 @@
 											<td>Registration Number</td>
 											<td>2022-10-03</td>
 											<td>CENRO Tubay</td>
+											<td> <strong>New</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												<a href="evaluation.php" class="btn btn-round btn-primary btn-sm ">                                        			
@@ -132,6 +134,7 @@
 											<td>Registration Number</td>
 											<td>2021-08-03</td>
 											<td>CENRO Talacogon</td>
+											<td> <strong>New</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												<a href="#" class="btn btn-success btn-round disabled btn-sm ">                                        			
@@ -154,6 +157,7 @@
 											<td>Registration Number</td>
 											<td>2022-12-03</td>
 											<td>CENRO Bunawan</td>
+											<td> <strong>New</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												<a href="#" class="btn btn-success btn-round disabled btn-sm ">                                        			
@@ -176,6 +180,7 @@
 											<td>Registration Number</td>
 											<td>2022-11-03</td>
 											<td>CENRO Bayugan</td>
+											<td> <strong>New</strong> </td>
 											 <td>
 												<div class="row justify-content-center">
 											 	<a href="#" class="btn-warning btn-sm btn-round btn ml-0">                                       				 
@@ -198,6 +203,7 @@
 											<td>Registration Number</td>
 											<td>2021-12-03</td>
 											<td>CENRO Tubod</td>
+											<td> <strong>Renewal</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												 <a href="evaluation.php" class="btn btn-primary btn-round btn-sm ml-0">                                       			
@@ -221,6 +227,7 @@
 											<td>Registration Number</td>
 											<td>2022-12-03</td>
 											<td>CENRO Bunawan</td>
+											<td> <strong>Renewal</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												<a href="#" class="btn btn-success disabled btn-round btn-sm">                                       			
@@ -243,6 +250,7 @@
 											<td>Registration Number</td>
 											<td>2022-11-03</td>
 											<td>CENRO Bayugan</td>
+											<td> <strong>Renewal</strong> </td>
 											 <td>
 												<div class="row justify-content-center">
 											 	<a href="#" class="btn-warning btn-sm btn-round btn ml-0">                                       				 
@@ -265,6 +273,7 @@
 											<td>Registration Number</td>
 											<td>2021-12-03</td>
 											<td>CENRO Tubod</td>
+											<td> <strong>Renewal</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 												 <a href="evaluation.php" class="btn btn-primary btn-round btn-sm ml-0">                                       			
@@ -288,6 +297,7 @@
 											<td>Registration Number</td>
 											<td>2022-10-15</td>
 											<td>PENRO Dinagat Island</td>
+											<td><strong>Renewal</strong></td>
 											<td>
 												<div class="row justify-content-center">
 											 	<a href="#" class="btn-danger  btn-sm btn btn-round ml-0">                                      				 
@@ -310,6 +320,7 @@
 											<td>Registration Number</td>
 											<td>2022-05-03</td>
 											<td>CENRO Bislig</td>
+											<td> <strong>Renewal</strong> </td>
 											<td>
 												<div class="row justify-content-center">
 											 	<a href="#" class="btn-warning btn-sm btn-round btn ml-0">                                       				 
