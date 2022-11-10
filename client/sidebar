@@ -39,7 +39,7 @@
        <div class="sidebar-header">
        <div class="sidebar-brand">
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
-       <li><a href="#dashboard">New Application</a></li>
+       <li><a href="#dashboard">Requirements</a></li>
        <li><a href="#doctracker">Document Status</a></li>
        <li><a href="#docstatus">Track your Application</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
@@ -78,11 +78,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                       <!-- START -->
+
                       <!-- CONTENT -->
                               <!-- END -->
                     </div>
                 </div>
             </div>
+            
         </div>
         <!-- /#page-content-wrapper -->
     </div>

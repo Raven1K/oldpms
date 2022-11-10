@@ -44,6 +44,9 @@
                 <div class="col">
                   <div class="row">
                     <div class="col" style="position: relative;">
+
+
+
                     <form action="processphp/prc_clientregister.php"  method="post" role="form" enctype="multipart/form-data" >
                     
              <!--      < enctype="multipart/form-data" >-->
