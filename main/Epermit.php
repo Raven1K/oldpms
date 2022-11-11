@@ -50,7 +50,7 @@
 				<div class="">
 					<div class="page-title">
 						<div class="title_right">
-							<h3 class="text-success">Endorsement Form</h3>
+							<h3 class="text-success">Generate Lumber Dealer Permit Form</h3>
 						</div>						
 					</div>
 					<div class="clearfix"></div>
@@ -77,13 +77,19 @@
 											<div class="item form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Payment Reference No.</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="text" class="form-control" placeholder="Reference Number" name="refnumber" id="refnumber">
+													<input type="text" class="form-control" placeholder="Payment Reference Number" name="refnumber" id="refnumber">
+												</div>
+											</div>
+										   <div class="item form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Registration Number</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="Permit Number" name="refnumber" id="refnumber">
 												</div>
 											</div>
 											<div class="item form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Permittee Name</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="text" class="form-control" placeholder="Lumber Dealer owner" name="owner" id="owner">
+													<input type="text" class="form-control" placeholder="Proprietor" name="owner" id="owner">
 												</div>
 											</div>
 											<div class="item form-group row">
@@ -105,45 +111,7 @@
 												<input id="date" name="date" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
 											</div>
 											</div>
-                                        	<span class="section"><strong>Mayor's Permit Details</strong> <small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
-												<i class="fa fa-search-plus"></i> <u/>view</u/> </a></small></span>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align">Issued Date<span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="MPdateissued" name="MPdateissued" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Expiry Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="MPdateexpiry" name="MPdateexpiry" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<span class="section"><strong>Department of Trade and Industry (DTI) Details</strong><small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
-												<i class="fa fa-search-plus"></i> <u/>view</u/> </a></small></span>
-											<div class="item form-group row">
-												<label class="col-form-label col-md-2 col-sm-2 label-align">Business Name No.</label>
-												<div class="col-md-4 col-sm-4 ">
-													<input type="text" class="form-control" placeholder="DTI BN #" name="BNNumber" id="BNNumber">
-												</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Issued Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="DTIdateissued" name="DTIdateissued" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Expiry Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="DTIdateexpiry" name="DTIdateexpiry" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-										<span class="section"><strong>Lumber Supplier Contract Details</strong></span>
+										    <span class="section"><strong>Lumber Supplier Contract Details</strong></span>
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Name (Owner)</label>
 												<div class="col-md-4 col-sm-4 ">
@@ -204,6 +172,36 @@
 											<p>
 											</div>
                                             </div>
+											 <div class="form-group row">
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Falacata</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input type="text" class="form-control" placeholder="Volume bd.ft." name="falbd" id="falbd">
+											</div>
+                                            </div>
+                                            <div class="form-group row">
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Mahogany</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input type="text" class="form-control" placeholder="Volume bd.ft." name="mabd" id="mabd">
+											</div>
+                                            </div>
+                                            <div class="form-group row">
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Gemelina</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input type="text" class="form-control" placeholder="Volume bd.ft." name="gebd" id="gebd">
+											</div>
+                                            </div>
+                                            <div class="form-group row">
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Caimito</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input type="text" class="form-control" placeholder="Volume bd.ft." name="cabd" id="cabd">
+											</div>
+                                            </div>
+                                            <div class="form-group row">
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Mango</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input type="text" class="form-control" placeholder="Volume bd.ft." name="manbd" id="manbd">
+											</div>
+                                            </div>
                                             <div class="form-group row">
                                             <label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Validity</label>
 											<div class="col-md-2 col-sm-2 ">
@@ -211,7 +209,7 @@
 											</div>
                                             </div>
                                             <div class="form-group row">
-                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Volume</label>
+                                            <label class="col-form-label col-md-2 col-sm-2 label-align">Total Volume</label>
 											<div class="col-md-2 col-sm-2 ">
 												<input type="text" class="form-control" placeholder="bd. ft." name="volume" id="volume">
 											</div>
@@ -219,7 +217,7 @@
                                        	<div class="ln_solid"></div>
 										<div class="form-group row">
 											<div class="col-md-5 col-sm-5  offset-md-5">
-                                                <button type="submit" class="btn btn-success">Generate Endorsement</button>
+                                                <button type="submit" class="btn btn-success">Generate E-Permit</button>
 											</div>
 										</div>
                     					</div>

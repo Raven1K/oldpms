@@ -76,6 +76,12 @@
 											   <i class="fas fa-check-to-slot text-white"></i>
 										</span>
 							  </li></a>
+							  <li><a href="Epermit.php" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
+									   <span class="text align-content-center text-white"><strong>Create E-Permit</strong></span>
+										<span class="icon ml-2">
+											   <i class="fas fa-check-to-slot text-white"></i>
+										</span>
+							  </li></a>
 							  <li><a href="#" class="btn-danger btn-sm btn-round btn ml-0">                                       				 
 									   <span class="text align-content-center text-white"><strong>Return to CENRO</strong></span>
 										<span class="icon ml-2">
