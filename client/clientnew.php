@@ -256,6 +256,26 @@
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
   </tr>
+
+   <tr>
+      <td style="border-right-color: #fff;">
+      <span id="custom-text6" style="font-size: 13px; color: #808080;">Ending stocked inventory report duly subscribed/sworn; and<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
+      </td>
+      <td align="center">
+      <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      </td>
+      <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
+  </tr>
+
+   <tr>
+      <td style="border-right-color: #fff;">
+      <span id="custom-text6" style="font-size: 13px; color: #808080;">Summary reports showing the monthly lumber purchases, production, disposition/sales ending inventory report and other relevant information within the tenure of the permit duly attested by CENRO concerned.<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
+      </td>
+      <td align="center">
+      <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      </td>
+      <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
+  </tr>
 </table>
  </div>
         <div class="btns-group">
