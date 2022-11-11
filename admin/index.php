@@ -92,10 +92,10 @@
          <div class="row">
           <div class="col">
             <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>Office Role</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option selected disabled>Office Role</option>
+              <option value="1">-</option>
+              <option value="2">-</option>
+              <option value="3">-</option>
             </select>
           </div>
         </div>
@@ -108,7 +108,7 @@
           <div class="row">
           <div class="col">
             <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>User Role</option>
+              <option selected disabled>User Role</option>
               <option value="1">Evaluator</option>
               <option value="2">Reviewer</option>
               <option value="3">CENRO Recommender</option>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="">
-        <center><a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px; margin-top: 50px;">Proceed<i class="fa-solid fa-circle-arrow-right" style="margin-left: 10px;"></i></a></center>
+        <center><a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px; margin-top: 50px; background: #228B22;">Submit</a></center>
         </div>
       </div>
 </div>
