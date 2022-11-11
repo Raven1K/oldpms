@@ -35,7 +35,7 @@
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
        <li><a href="http://localhost/oldpms/client/requirement.php">Requirements</a></li>
        <li><a href="http://localhost/oldpms/client/docstatus">Document Status</a></li>
-       <li><a href="http://localhost/oldpms/client/doctracker">Track your Application</a></li>
+      <li><a href="http://localhost/oldpms/client/doctracker" style="font-size: 15px;">Track your Application</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
@@ -114,9 +114,9 @@
         <div class="input-group">
          <div class="container mt-3">
             <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>   <label class="text-center" style="font-family: system-ui; color: #ff0000; font-weight: 600; font-size: 20px;"><i>(For Renewal)</i></label>
-
-            <label id="refno" hidden style="font-size: 14px; color: red;"><i>Please enter the referene no. below<i></label>
-            <input type="text" name="lumberdealerno" onkeypress="return isNumberKey(event)"  style="width: 330px; margin-top: 15px;" type="text" class="form-control" placeholder="Enter Lumber Dealer Reference No." aria-label="Enter Lubmber Dealer No." name="Enter Lubmber Dealer No." >
+      <p id="refno" style="font-size: 14px; color: red;"><i>Please enter the reference no.<i></p>
+            <input autofocus type="text" id="lumberd" name="lumberdealerno" onkeypress="return isNumberKey(event)"  style="width: 330px; margin-top: 15px;" type="text" class="form-control" placeholder="Enter Lumber Dealer Reference No." aria-label="Enter Lubmber Dealer No." name="Enter Lubmber Dealer No." >
+       
 
          <div class="row">
           <div class="col"><br>
@@ -174,7 +174,7 @@
       <div class="form-step">
         <div class="input-group">
               <h3 class="text-center" style="font-family: system-ui; font-weight: 600"><i class="fa-regular fa-file" style="margin-right: 15px;"></i>Attaching Required Documents</h3>
-            <label style="font-size: 17px;">Click "Browse" to select the corresponding electronic copy of the document. <br><span style="color: red; font-size: 15px;"><i>Note: Only PDF File not larger than 10 MB is allowed.</i></span></label>
+            <label style="font-size: 17px;">Click "Browse" to  the corresponding electronic copy of the document. <br><span style="color: red; font-size: 15px;"><i>Note: Only PDF File not larger than 10 MB is allowed.</i></span></label>
     <table class="table table-bordered" style="margin-top: 10px;">
   <tr>
     <th colspan="2" style="background: #597EFB; color: #fff; font-weight: 300;">DOCUMENTS</th>

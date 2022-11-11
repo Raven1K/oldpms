@@ -338,7 +338,7 @@ pre {
 
 #page-content-wrapper {
     width: 100%;
-    padding-top: 70px;
+/*    padding-top: 70px;*/
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -480,14 +480,23 @@ pre {
     display: inline-block;
     padding-right: 5px;
 }
-a[href*="http://localhost/oldpms/client/requirement.php"]::before {
-  content: "\f015" !important;
+a[href*="#Manage"]::before {
+  content: "\f828" !important;
 }
-a[href*="http://localhost/oldpms/client/docstatus"]::before {
-  content: "\f002" !important;
+a[href*="#Reports"]::before {
+  content: "\f328" !important;
 }
-a[href*="http://localhost/oldpms/client/doctracker"]::before {
-  content: "\f15b" !important;
+a[href*="#Users"]::before {
+  content: "\f0c0" !important;
+} 
+a[href*="#Office"]::before {
+  content: "\f0e8" !important;
+} 
+a[href*="#Permittee"]::before {
+  content: "\f2b9" !important;
+} 
+a[href*="#Others"]::before {
+  content: "\f056" !important;
 } 
 a[href*="#logout"]::before {
   content: "\f2f5" !important;
@@ -923,8 +932,7 @@ input {
 
 /* Form */
 .form {
-  width: clamp(20px, 40%, 450px);
-  margin: 0 auto;
+  width: clamp(310px, 40%, 450px);
   border-radius: 0.35rem;
   padding: 1.5rem;
 }

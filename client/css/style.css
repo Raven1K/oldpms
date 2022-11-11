@@ -481,13 +481,13 @@ pre {
     padding-right: 5px;
 }
 a[href*="http://localhost/oldpms/client/requirement.php"]::before {
-  content: "\f015" !important;
+  content: "\f328" !important;
 }
 a[href*="http://localhost/oldpms/client/docstatus"]::before {
-  content: "\f002" !important;
+  content: "\f15b" !important;
 }
 a[href*="http://localhost/oldpms/client/doctracker"]::before {
-  content: "\f15b" !important;
+  content: "\f002" !important;
 } 
 a[href*="#logout"]::before {
   content: "\f2f5" !important;

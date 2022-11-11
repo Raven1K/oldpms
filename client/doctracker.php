@@ -41,8 +41,8 @@
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
        <li><a href="http://localhost/oldpms/client/requirement.php">Requirements</a></li>
        <li><a href="http://localhost/oldpms/client/docstatus">Document Status</a></li>
-       <li><a href="http://localhost/oldpms/client/doctracker">Track your Application</a></li>
-         <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
+       <li><a href="http://localhost/oldpms/client/doctracker" style="font-size: 15px;">Track your Application</a></li>
+       <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
   <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>

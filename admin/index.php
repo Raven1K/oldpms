@@ -19,65 +19,84 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<body style="background: #ecedf0;">
 
-    <input type="file" id="realfile"  hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile2" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile3" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile4" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile5" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile6" hidden="hidden" accept="Application/pdf" value=""/>
+  <div id="wrapper">
+             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
+              <div class="container-fluid">
+                <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
+                </div>
+              </div>
+            </nav>
+
+        <!-- Sidebar -->
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+     <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+       <div class="sidebar-brand">
+         <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-user-tie"></i> Super Admin</a></div></div>
+           <li><a href="#Manage">Manage</a>
+            <ul>
+               <li><a href="#Users">Users</a>
+                 <li><a href="#Office">Office</a>
+                   <li><a href="#Permittee">Permittee</a>
+                     <li><a href="#Others">Others</a>
+            </ul></li>
+           <li><a href="#Reports">Reports</a></li>
+           <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
+   
+<div id='bodybox'>
+  <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>
+  <div id='chatborder'>
+    <p id="chatlog7" class="chatlog">&nbsp;</p>
+    <p id="chatlog6" class="chatlog">&nbsp;</p>
+    <p id="chatlog5" class="chatlog">&nbsp;</p>
+    <p id="chatlog4" class="chatlog">&nbsp;</p>
+    <p id="chatlog3" class="chatlog">&nbsp;</p>
+    <p id="chatlog2" class="chatlog">&nbsp;</p>
+    <p id="chatlog1" class="chatlog">&nbsp;</p>
+
+    <div class="scrollmenu" style="overflow: auto;
+  white-space: nowrap; background: #ecedf0; padding: 5px;">
+  <a type="button" onclick="myFunction()" id="suggest1" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">What is your name?</a>
+  <a type="button" onclick="myFunction2()" id="suggest2" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">Can you help me?</a>
+  <a type="button" onclick="myFunction3()" id="suggest3" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">How to file application?</a>
+</div>
+    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+  </div>
+ 
+</div>
+
+</nav>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <!-- START -->
+
+                      <!-- CONTENT -->
+                              <!-- END -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-      
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
-  <div class="container-fluid">
-     <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-           <a class="nav-link active" aria-current="page" href="#"></a>
-           </li>
-        </ul>
-          <form class="d-flex">
-          
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown" style="margin-right: 10px;">
-          <a href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fa-solid fa-circle-user text-white style"></i>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li>
-              <a class="dropdown-item" href="#">Profile</a>
-
-
-
-              <form action="../processphp/prc_logout.php"  method="post" role="form" >
-
-               <button class="btn  btn-success" name="Log-out">Logout</button>
-               <button class="btn  btn-success" name="btn"> Logout </button>
-
-</form>
-     </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-           <a class="navbar-brand" style="font-family:Trebuchet MS; color:#312f31; font-size:20px; color: #fff; font-weight: bold;"><b>Juan, Client</b></a>
-         </form>
-      </div>
-    </div>
-  </nav>
 <div class="bodytime">
     <form action="#" class="form">
       <div class="form-step form-step-active">
@@ -85,6 +104,7 @@
          <div class="container mt-3">
          <div class="row">
           <div class="col">
+            <p style="font-size: 30px; font-weight: 600;">Fill in the blanks</p>
           <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Office*" aria-label="Office">
           <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Enter your full name*" aria-label="Enter your full name" >
           </div>

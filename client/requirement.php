@@ -50,8 +50,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
        <li><a href="http://localhost/oldpms/client/requirement.php">Requirements</a></li>
        <li><a href="http://localhost/oldpms/client/docstatus">Document Status</a></li>
-       <li><a href="http://localhost/oldpms/client/doctracker">Track your Application</a></li>
-         <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
+       <li><a href="http://localhost/oldpms/client/doctracker" style="font-size: 15px;">Track your Application</a></li>
+       <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
   <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>
@@ -145,7 +145,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-         <label style="font-size: 16px; font-weight: 500; color: red;"><i>Please select data from dropdown below</i></label>
+         <label style="font-size: 20px; font-weight: 700; color: black;">New or for Renewal?<i><span style="color: #7f7f7f; font-weight: 400; font-size: 13px;"> (select from dropdown below)</span></i></label>
             <form method="POST">
                    <select id="info">
                     <option selected disabled>Select data..</option>
