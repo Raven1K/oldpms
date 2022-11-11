@@ -67,7 +67,7 @@
 			  <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>LPDD-FUS <small>| Regional Office Users</small></h2>
+                    <h2>LPDD-Chief <small>| Regional Office Users</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench fa-pull-left"></i></a>
