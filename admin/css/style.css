@@ -923,7 +923,7 @@ input {
 
 /* Form */
 .form {
-  width: clamp(820px, 40%, 530px);
+  width: clamp(20px, 40%, 450px);
   margin: 0 auto;
   border-radius: 0.35rem;
   padding: 1.5rem;

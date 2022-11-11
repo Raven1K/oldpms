@@ -125,7 +125,7 @@
           </div>
         </div>
         <div class="">
-        <a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px; margin-top: 50px;">Proceed<i class="fa-solid fa-circle-arrow-right" style="margin-left: 10px;"></i></a>
+        <center><a href="#" class="custom_btn btn-next width-50" style="font-family: system-ui; font-weight: 500; font-size: 16px; margin-top: 50px;">Proceed<i class="fa-solid fa-circle-arrow-right" style="margin-left: 10px;"></i></a></center>
         </div>
       </div>
 </div>
