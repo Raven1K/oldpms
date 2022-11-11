@@ -33,9 +33,9 @@
        <div class="sidebar-header">
        <div class="sidebar-brand">
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
-       <li><a href="http://localhost/oldpms/client/dashboard.php">Requirements</a></li>
-       <li><a href="#doctracker">Document Status</a></li>
-       <li><a href="#docstatus">Track your Application</a></li>
+       <li><a href="http://localhost/oldpms/client/requirement.php">Requirements</a></li>
+       <li><a href="http://localhost/oldpms/client/docstatus">Document Status</a></li>
+       <li><a href="http://localhost/oldpms/client/doctracker">Track your Application</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
@@ -113,70 +113,54 @@
       <div class="form-step form-step-active">
         <div class="input-group">
          <div class="container mt-3">
-            <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>
+            <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>   <label class="text-center" style="font-family: system-ui; color: #ff0000; font-weight: 600; font-size: 20px;"><i>(For Renewal)</i></label>
+
+            <label id="refno" hidden style="font-size: 14px; color: red;"><i>Please enter the referene no. below<i></label>
+            <input type="text" name="lumberdealerno" onkeypress="return isNumberKey(event)"  style="width: 330px; margin-top: 15px;" type="text" class="form-control" placeholder="Enter Lumber Dealer Reference No." aria-label="Enter Lubmber Dealer No." name="Enter Lubmber Dealer No." >
+
          <div class="row">
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" name="fname" >
+          <input readonly style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" name="fname" >
           </div>
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">
+          <input readonly style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">
           </div>
         </div>
          <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>Application Type</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Application Type*" aria-label="Application Type">
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Business Name*" aria-label="Business name">
+          <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Business Name*" aria-label="Business name">
           </div>
         </div>
           <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>Province</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+             <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Province*" aria-label="Province">
           </div>
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>City/Municipality</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+                  <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="City/Municipality*" aria-label="City/Municipality">
           </div>
         </div>
           <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>Barangay</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Barangay*" aria-label="Barangay">
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Zip Code" aria-label="Zip code">
+          <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Zip Code*" aria-label="Zip code">
           </div>
         </div>
           <div class="row">
           <div class="col">
-          <input style="width: 685px; margin-top: 10px;" type="text" class="form-control" placeholder="Street/Corner/Purok*" aria-label="Street/corner/purok" >
+          <input readonly style="width: 685px; margin-top: 10px;" type="text" class="form-control" placeholder="Street/Corner/Purok*" aria-label="Street/corner/purok" >
           </div>
         </div>
           <div class="row">
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="E-Mail (Optional)*" aria-label="Email" >
+          <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="E-Mail (Optional)*" aria-label="Email" >
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Mobile No.*" aria-label="Mobile no">
+          <input readonly style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Mobile No.*" aria-label="Mobile no">
           </div>
         </div>
             </div>
@@ -277,5 +261,15 @@
 </div>
 </div>
 </div>
+<script type="text/javascript">
+    function isNumberKey(evt)
+  {
+     var charCode = (evt.which) ? evt.which : event.keyCode
+     if (charCode != 45  && charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+
+     return true;
+  }
+</script>
   </body>
 </html>

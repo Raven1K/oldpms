@@ -127,9 +127,18 @@ let formStepsNum = 0;
 
 nextBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    formStepsNum++;
-    updateFormSteps();
-    updateProgressbar();
+
+    $(document).ready(function() {
+        var text_value = $('input[name="lumberdealerno"]').val();
+        if(text_value == '') {
+            alert('Lumber Dealer Reference No. cannot be empty!');
+        } else {
+          formStepsNum++;
+          updateFormSteps();
+          updateProgressbar();
+        }
+  
+});
   });
 });
 
