@@ -49,8 +49,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
        <div class="sidebar-brand">
          <a href="#" style="text-decoration: none; font-weight: 700; color; #fff;"><i class="fa-solid fa-circle-user"></i> JUAN</a></div></div>
        <li><a href="http://localhost/oldpms/client/requirement.php">Requirements</a></li>
-       <li><a href="#doctracker">Document Status</a></li>
-       <li><a href="#docstatus">Track your Application</a></li>
+       <li><a href="http://localhost/oldpms/client/docstatus">Document Status</a></li>
+       <li><a href="http://localhost/oldpms/client/doctracker">Track your Application</a></li>
          <li><a href="#logout" name="Log-out">Logout</a></li><br><br>
    
 <div id='bodybox'>
@@ -145,7 +145,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-         <label style="font-size: 16px; font-weight: 500;"><i>Please select data from dropdown below</i></label>
+         <label style="font-size: 16px; font-weight: 500; color: red;"><i>Please select data from dropdown below</i></label>
             <form method="POST">
                    <select id="info">
                     <option selected disabled>Select data..</option>
@@ -176,7 +176,7 @@ $(document).ready(function() {
                 else  if (isRenew == true) {     
                   location.href = "http://localhost/oldpms/client/clientrenewal.php";
                 }  else {     
-                  alert('Nothing is selected'); }
+                  alert('Please select data'); }
               }
             );
         });
