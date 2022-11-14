@@ -204,6 +204,7 @@
 											<p>
 											</div>
                                             </div>
+<!--	Start Here								-->
 											<div class="form-group row">
                                             <label class="col-form-label col-md-2 col-sm-2 label-align">Falacata</label>
 											<div class="col-md-2 col-sm-2 ">
@@ -234,6 +235,7 @@
 												<input type="text" class="form-control" placeholder="Volume bd.ft." name="manbd" id="manbd">
 											</div>
                                             </div>
+<!--	End Here								-->
                                             <div class="form-group row">
                                             <label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Validity</label>
 											<div class="col-md-2 col-sm-2 ">
