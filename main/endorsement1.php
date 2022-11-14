@@ -50,7 +50,7 @@
 				<div class="">
 					<div class="page-title">
 						<div class="title_right">
-							<h3 class="text-success">Endorsement Form</h3>
+							<h3 class="text-success">Lumber Dealer E-Permit Form</h3>
 						</div>						
 					</div>
 					<div class="clearfix"></div>
@@ -73,15 +73,21 @@
 								</div>
 								<div class="x_content">
 									<br />
-									<form class="form-label-left input_mask" method="post" action="generate-pdf.php" formtarget="_blank" target="_blank">
+									<form class="form-label-left input_mask" method="post" action="generate-pdf1.php" formtarget="_blank" target="_blank">
 											<div class="item form-group row">
-												<label class="col-form-label col-md-2 col-sm-2 label-align">Payment Reference No.</label>
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Registration Number</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="text" class="form-control" placeholder="Reference Number" name="refnumber" id="refnumber">
+													<input type="text" class="form-control" placeholder="Registration Number" name="regnumber" id="regnumber">
 												</div>
 											</div>
 											<div class="item form-group row">
-												<label class="col-form-label col-md-2 col-sm-2 label-align">Permittee Name</label>
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Payment Reference No.</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="Payment Reference Number" name="refnumber" id="refnumber">
+												</div>
+											</div>
+											<div class="item form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Proprietor's Name</label>
 												<div class="col-md-4 col-sm-4 ">
 													<input type="text" class="form-control" placeholder="Lumber Dealer owner" name="owner" id="owner">
 												</div>
@@ -102,48 +108,10 @@
 											<label class="col-form-label col-md-2 col-sm-2 label-align">Date <span class="required">*</span>
 											</label>
 											<div class="col-md-2 col-sm-2 ">
-												<input id="date" name="date" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
+												<input id="date" name="date" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text">												
 											</div>
 											</div>
-                                        	<span class="section"><strong>Mayor's Permit Details</strong> <small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
-												<i class="fa fa-search-plus"></i> <u/>view</u/> </a></small></span>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align">Issued Date<span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="MPdateissued" name="MPdateissued" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Expiry Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="MPdateexpiry" name="MPdateexpiry" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<span class="section"><strong>Department of Trade and Industry (DTI) Details</strong><small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
-												<i class="fa fa-search-plus"></i> <u/>view</u/> </a></small></span>
-											<div class="item form-group row">
-												<label class="col-form-label col-md-2 col-sm-2 label-align">Business Name No.</label>
-												<div class="col-md-4 col-sm-4 ">
-													<input type="text" class="form-control" placeholder="DTI BN #" name="BNNumber" id="BNNumber">
-												</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Issued Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="DTIdateissued" name="DTIdateissued" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-											<div class="item form-group">
-											<label class="col-form-label col-md-2 col-sm-2 label-align"> Expiry Date <span class="required">*</span>
-											</label>
-											<div class="col-md-2 col-sm-2 ">
-												<input id="DTIdateexpiry" name="DTIdateexpiry" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
-											</div>
-											</div>
-										<span class="section"><strong>Lumber Supplier Contract Details</strong></span>
+											<span class="section"><strong>Lumber Supplier Contract Details</strong></span>
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Name (Owner)</label>
 												<div class="col-md-4 col-sm-4 ">
@@ -154,9 +122,15 @@
 												<label class="control-label col-form-label col-md-2 col-sm-2 label-align">Type of Contracts</label>
 												<div class="col-md-4 col-sm-4 ">
 													<select class="form-control" name="SCtype" id="SCtype" placeholder="PTPOC or PTPR">
-													<option>Private Tree Plantation Registration (PTPR)</option>
-													<option>Private Tree Plantation Ownership Certificate (PTPOC)</option>												
+													<option value="PTPR">Private Tree Plantation Registration (PTPR)</option>
+													<option value="PTPOC">Private Tree Plantation Ownership Certificate (PTPOC)</option>
 												</select>
+												</div>
+											</div>
+											<div class="form-group row">
+											<label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Contract Reg. Number</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="Supplier Contract Registration Number" name="SCregnumber" id="SCregnumber">
 												</div>
 											</div>
 											<div class="form-group row">
@@ -190,16 +164,16 @@
 											<input type="checkbox" name="treespecie" id="treespecie" value="Falcata" class="flat" /> Falcata
 											<br />
 
-											<input type="checkbox" name="treespecie1" id="treespecie" value="Mahogany" class="flat" /> Mahogany
+											<input type="checkbox" name="treespecie" id="treespecie" value="Mahogany" class="flat" /> Mahogany
 											<br />
 
-											<input type="checkbox" name="treespecie2" id="treespecie" value="Gemelina" class="flat" /> Gemelina
+											<input type="checkbox" name="treespecie" id="treespecie" value="Gemelina" class="flat" /> Gemelina
 											<br />
 
-											<input type="checkbox" name="treespecie3" id="treespecie" value="Caimito" class="flat" /> Caimito
+											<input type="checkbox" name="treespecie" id="treespecie" value="Caimito" class="flat" /> Caimito
 											<br />
 
-                                            <input type="checkbox" name="treespecie4" id="treespecie" value="Mango" class="flat" /> Mango
+                                            <input type="checkbox" name="treespecie" id="treespecie" value="Mango" class="flat" /> Mango
 											<br />
 											<p>
 											</div>
@@ -249,7 +223,7 @@
                                        	<div class="ln_solid"></div>
 										<div class="form-group row">
 											<div class="col-md-5 col-sm-5  offset-md-5">
-                                                <button type="submit" class="btn btn-success">Generate Endorsement</button>
+                                                <button type="submit" class="btn btn-success">Generate E-Permit</button>
 											</div>
 										</div>
                     					</div>
@@ -261,11 +235,6 @@
 		  		</div>
 			</div>
 		<!-- end page content -->
-															<!-- modal for view -->
-															  <?php
-																require_once('modalview.php');
-																?> 
-															<!-- end modal for view --> 
         <!-- footer content -->
         	<?php
 					require_once('footer.php');
