@@ -23,6 +23,7 @@ $regnumber = $_POST["regnumber"];
 $lsname = $_POST["lsname"];
 $SCregnumber = $_POST["SCregnumber"];
 
+
 /**
  * Set the Dompdf options
  */

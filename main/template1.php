@@ -2,20 +2,34 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6">
+<!--    <link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6">-->
+		
+
+	  <style>
+		.qr-code {
+		  max-width: 200px;
+		  margin: 10px;
+		}
+	  </style>
     <style>
-		body {
-			  width: 100%;
-      		  height: 500px;
-			  background-image: url('backdropseal.png');
-			  background-repeat: no-repeat;
-			  background-attachment: fixed;
-			  background-size: 650px;
-				background-position: 50% 50%; 
-				-webkit-background-size: cover; 
-				-moz-background-size: cover; 
-				-o-background-size: cover;
-			}
+		#example1 {
+  
+  background: url("backdropseal.png");
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+	background-position: center;
+  
+}
+
+#example2 {
+  
+  background: url(RED.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+	background-position: 655px 30px;
+  
+}
+		
         table {
             width: 100%;
         }
@@ -28,58 +42,67 @@
 			line-height: 0.5;
         }
         .indented {
-			padding-top : -500pt;
-			padding-bottom : -500pt;
-			padding-left :-500pt;
-			padding-right : -500pt;
+			size: A4;
+    		margin: 2mm 2mm 2mm 2mm;
         }
 		table.center {
   			margin-left: auto; 
   			margin-right: auto;
 		}
+		.qr-code {
+			  max-width: 60px;
+			  margin: 1px;
+			}
     </style>
     
 </head>
-<body class="indented">
-	<table>
+<body >
+<div id="example1">
+	
+<table border="7">
+
+	
+	<table border="0">
+		
 		<tr>
 			<td style="width: 10%;"></td>
-			<td style="width: 20%; text-align: right"><img src="seal3.png" style="max-width: 70px; vertical-align: middle;" /></td>
+			<td style="width: 20%; text-align: right"><img src="seal3.png" style="max-width: 60px; vertical-align: middle;" /></td>
 			<td style="width: 50%;">
-    			<p style="width:100%; text-align: center; line-height: 16px; font-size: 15px; vertical-align: middle;">REPUBLIC OF THE PHILIPPINES </br>
-												<STRONG>DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</STRONG> </br>
-														CARAGA REGION, AMBAGO, BUTUAN CITY 
+    			<p style="width:100%; text-align: center; font-size: 14px; vertical-align: middle;">Republic of the Philippines </br>
+					<STRONG>DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</STRONG> </br>
+							Caraga Region 
 				</p>
 			</td>			
 			<td style="width: 25%;"></td>
 		</tr>
+		
     </table>
-			 
-		 <h1 style="width:100%;text-align: center; line-height: 0px"><strong>CERTIFICATE OF REGISTRATION</strong></h1>
-		 <p style="width:100%;text-align: center; font-size: 20px; line-height: 1px">Registration No. <strong><u>LD-R13-{{regnumber}} ({{status}})</u></strong></p>
+	<table border="0">
+		<tr>
+		 <td style="width: 20%;"></td>
+		 <td style="width: 60%;">
+		 <h2 style="width:100%; text-align: center; line-height: 0px"><strong>CERTIFICATE OF REGISTRATION</strong></h2>
+		 <p style="width:100%; text-align: center; font-size: 17px; line-height: 12px">Registration No. <strong><u>{{regnumber}} ({{status}})</u></strong></p>
+		 <p style="width:100%; text-align: center; line-height: 5px; font-size: 13px">This is to certify that,</p>
+		 </td>
+		 <td style="width: 20%;"> 
+		 </td>
+		</tr>
+	</table>	 
+		 <h3 style="width:100%;text-align: center; text-transform: uppercase; line-height: 5px;"><u><strong>{{ldname}}</strong></strong></u></h3>
+		 
+		 <p style="width:100%;text-align: center; line-height: 0px; font-size: 12px">(Business Name)</p>
+		 
+		 <p style="width:100%;text-align: center; font-size: 15px">Represented by its owner, Mr./Ms. <u><strong>{{owner}}</strong></u>, a Filipino citizen of <u><strong>{{ldaddress}}</strong></u> that has been registered in this office as</p>
+		 <h3 style="width:100%;text-align: center; line-height: 10px;"><strong><u>LUMBER DEALER</u></strong></h3>
 	
-		 <p style="width:100%;text-align: center; line-height: 1px; font-size: 13px">This is to certify that,</p>
-		 
-		 <h2 style="width:100%;text-align: center; text-transform: uppercase; line-height: 1px;"><u><strong>{{ldname}}</strong></strong></u></h2>
-		 
-		 <p style="width:100%;text-align: center; line-height: 1px; font-size: 13px">(Business Name)</p>
-		 
-		 <p style="width:100%;text-align: center; font-size: 15px">Represented by its Owner, Mr./Ms. <u><strong>{{owner}}</strong></u>, a Filipino citizen of <u><strong>{{ldaddress}}</strong></u> that has been registered in this</p>
-		
-		 <p style="width:100%;text-align: center; font-size: 13px; line-height: 3px;">Office as</p>
-		
-		 <h2 style="width:100%;text-align: center; line-height: 3px;"><strong><u>LUMBER DEALER</u></strong></h2>
-		 
-		 <p style="width:100%;text-align: center; line-height: .5px; font-size: 13px">(Dealer in lumber/or operator of lumber yard)</p>
-		
+	<p style="font-size: 15px; text-align:justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pursuant to the pertinent provisions of Presidential Decree 705, as amended, in accordance with the provisions of Republic Act No. 1239, and the regulations promulgated thereto, subject to the terms and conditions enumerated in the succeeding pages, and such other additional regulation which may herein after be prescribed. The registrant has lumber supply contract(s) with the following:</p>
 	
-	<dd class="col-sm-9" style="font-size: 15px">Pursuant to the pertinent provisions of PD 705, as amended, in accordance with the provisions of Republic Act No. 1239, and the Regulations promulgated thereto, subject to the terms and conditions enumerated in the succeeding pages (marked as Annex A), and such other additional regulation which may herein after be prescribed. The registrant has lumber supply contract(s) with the following:</dd>
-	
-	<table border=0 class="center" style="width:70%; font-size: 15px">
+	<table border=0 class="center" style="width:70%; font-size: 10px">
         <thead>
         <tr class="heading">
-			<th style="font-size: 15px">SUPPLIERS </br> NAME/COMPANY</th>
-			<th style="font-size: 15px">VOLUME FOR DISPOSITION </br> (BD.FT.)</th>
+			<th style="font-size: 12px; text-align: center">SUPPLIERS </br> NAME/COMPANY</th>
+			<th style="font-size: 12px; text-align: center">VOLUME FOR DISPOSITION </br> (BD.FT.)</th>
         </tr>
         </thead>
         <tbody>
@@ -91,56 +114,65 @@
                 <td style="text-align: left"><u>{{lsname}} {{SCtype}} {{SCregnumber}}</u></td>
                 <td style="text-align: left"><u>{{volume}} board feet of Chainsaw-cut lumbers of {{treespecie}}</u></td>
             </tr>
-           <tr class="item">
-                <td style="text-align: left"><u>{{lsname}} {{SCtype}} {{SCregnumber}}</u></td>
-                <td style="text-align: left"><u>{{volume}} board feet of Chainsaw-cut lumbers of {{treespecie}}</u></td>
-            </tr>
-            <tr class="item">
+			<tr class="item">
                 <td style="text-align: left"><u>{{lsname}} {{SCtype}} {{SCregnumber}}</u></td>
                 <td style="text-align: left"><u>{{volume}} board feet of Chainsaw-cut lumbers of {{treespecie}}</u></td>
             </tr>
         </tbody>
     </table>
-	</br>
-	<dd class="col-sm-9" style="text-align:justify; font-size: 15px">The place of its/his/her business operation is in <u><strong>{{ldaddress}}</strong></u>. This Certificate of Registration is non-negotiable and non-transferable and, unless sooner terminated, will expire on <u><strong>{{dateexpiry}}</strong></u>.</dd>
-	</br>
-	<dd class="col-sm-9" style="text-align:justify; font-size: 15px">Issued on <u><strong>{{dateissued}}</strong></u> at <u><strong>DENR-13, Ambago, Butuan City, Agusan del Norte, Philippines</strong></u>.</dd>
-    
+	<p style="text-align:justify; font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The place of its/his/her business operation is in <u><strong>{{ldaddress}}</strong></u>. This Certificate of Registration is non-negotiable and non-transferable and, unless sooner terminated, will expire on <u><strong>{{dateexpiry}}</strong></u>.</p>
+	<p style="text-align:justify; font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Issued on <u><strong>{{dateissued}}</strong></u> at <u><strong>Ambago, Butuan City, Agusan del Norte, Philippines</strong></u>.</p>
+<div id="example2">	
 	<table border=0 class="center" style="width:90%">
 		<tr>
-			<td style="width:15%"> <p style="font-size: 10px">Bond (Cash) No. </br> Date:</p> </td>
-			<td style="width:15%"> <p style="font-size: 10px"><u>PHP 1,000.00</u> </br> <u>{{datepaid}}</u></p> </td>
-			<td style="width:5%"></td>
-			<td style="width:65%"></td>
+			<td style="width:10%"> <p style="font-size: 10px">Bond (Cash) No. </br> Date:</p> </td>
+			<td style="width:10%"> <p style="font-size: 10px"><u>PHP 1,000.00</u> </br> <u>{{datepaid}}</u></p> </td>
+			<td style="width:15%"></td>
+			<td style="width:10%;"></td>
+			<td style="width:15%"></td>
+			<td style="width:10%"></td> <img src=
+								"https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=160x160&chld=L|0"
+										class="qr-code img-thumbnail img-responsive" /> </td>
 		</tr>
-	</table>
-	<table border=0 class="center" style="width:90%">
 		<tr>
-			<td style="width:15%"> <p style="font-size: 10px"> Application Fee: </br>
-					 O.R. No. </br>
+			<td style="width:10%"> <p style="font-size: 10px"> Application Fee: </br>
+					 Reference No. </br>
 					 Date:
 				</p>
 		    </td>
-			<td style="width:15%"> <p style="font-size: 10px"> PHP 600.00 </br>
+			<td style="width:10%"> <p style="font-size: 10px"> PHP 600.00 </br>
 					 {{refnumber}} </br>
 					 {{datepaid}} 
 				</p>
 			</td>
-			<td style="width:10px"></td>
+			
 			<td style="width:15%"> 
-				<p style="font-size: 12px"> Registration Fee: </br>
-					 O.R. No. </br>
+				<p style="font-size: 10px"> Registration Fee: </br>
+					 Reference No. </br>
 					 Date:
 				 </p>
 			</td>
-			<td style="width:15%"> <p style="font-size: 10px"> PHP 480.00 </br>
+			<td style="width:10%"> <p style="font-size: 10px"> PHP 480.00 </br>
 					 {{refnumber}} </br>
 					 {{datepaid}}
 				</p>
 			</td>
-			<td style="width:35%"> <p align="right" style="padding-right: 70px; font-size: 15px"><u><strong>NONITO M. TAMAYO, CESO III</strong></u> </br>
-			Regional Executive Director </p></td>
-		</tr>
-	</table>
+			<td style="width:15%"></td>
+			<td style="width:40%; align-content: center">
+				
+				<p align="center" style="padding-right: 70px; font-size: 15px"><u><strong>NONITO M. TAMAYO, CESO III</strong></u> </br>
+																						Regional Executive Director
+			</tr>
+		</table>
+	</div>
+</table>
+</div>
+<!-- Script for QR Code -->
+	  <script src=
+		"https://code.jquery.com/jquery-3.5.1.js">
+	  </script>
+
+	  
+<!-- Script for QR Code -->
 </body>
 </html>
