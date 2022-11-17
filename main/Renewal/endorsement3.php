@@ -75,13 +75,19 @@
 									<br />
 									<form class="form-label-left input_mask" method="post" action="generate-pdf.php" formtarget="_blank" target="_blank">
 											<div class="item form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">New Registration Number.</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="New Registration Number" name="regnumber" id="regnumber">
+												</div>
+											</div>
+											<div class="item form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Payment Reference No.</label>
 												<div class="col-md-4 col-sm-4 ">
 													<input type="text" class="form-control" placeholder="Reference Number" name="refnumber" id="refnumber">
 												</div>
 											</div>
 											<div class="item form-group row">
-												<label class="col-form-label col-md-2 col-sm-2 label-align">Permittee Name</label>
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Proprietor Name</label>
 												<div class="col-md-4 col-sm-4 ">
 													<input type="text" class="form-control" placeholder="Lumber Dealer owner" name="owner" id="owner">
 												</div>
@@ -102,7 +108,7 @@
 											<label class="col-form-label col-md-2 col-sm-2 label-align">Date <span class="required">*</span>
 											</label>
 											<div class="col-md-2 col-sm-2 ">
-												<input id="date" name="date" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
+												<input id="date" name="date" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text">												
 											</div>
 											</div>
                                         	<span class="section"><strong>Mayor's Permit Details</strong> <small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
@@ -143,6 +149,95 @@
 												<input id="DTIdateexpiry" name="DTIdateexpiry" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
 											</div>
 											</div>
+											<span class="section"><strong>Production and Disposition Report</strong> <small>&nbsp;|&nbsp; <a href type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal2"></button>
+												<i class="fa fa-search-plus"></i> <u/>view</u/> </a></small></span>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Current Registration Number</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="Current Registration Number" name="regnonumber" id="regnonumber">
+												</div>
+											</div>
+											<div class="item form-group">
+											<label class="col-form-label col-md-2 col-sm-2 label-align"> Issued Date <span class="required">*</span>
+											</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input id="regissueddate" name="regissueddate" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
+											</div>
+											</div>
+											<div class="item form-group">
+											<label class="col-form-label col-md-2 col-sm-2 label-align"> Expiry Date <span class="required">*</span>
+											</label>
+											<div class="col-md-2 col-sm-2 ">
+												<input id="regexpirydate" name="regexpirydate" class="date-picker form-control" placeholder="dd-mm-yyyy" type="text" required="required" type="text" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'" onblur="this.type='text'" onmouseout="timeFunctionLong(this)">												
+											</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Lumber Type</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="text" class="form-control" placeholder="Lumber Type" name="lumtype" id="lumtype">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Previous Balance (bd.ft)</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="number" class="form-control" placeholder="bd.ft." name="previousbal" id="previousbal">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Volume Purchased/Displayed (bd.ft)</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="number" class="form-control" placeholder="bd.ft." name="voldisplayed" id="voldisplayed">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Total Volume Handled</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="number" class="form-control" placeholder="bd.ft." name="totvolhand" id="totvolhand" onClick="Calculate()" readonly>
+													
+												<script>
+														$(document).ready(function(){
+															$(".input").keyup(function(){
+																var val1 = +$("#male").val();
+																var val2 = +$("#female").val();
+																$("#result").val(val1+val2);
+														});
+														});
+												</script>
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Volume Disposed (bd.ft.)</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="number" class="form-control" placeholder="bd.ft." name="voldisposed" id="voldisposed">
+												</div>
+											</div>
+											<div class="form-group row">
+												<label class="col-form-label col-md-2 col-sm-2 label-align">Balance (bd.ft)</label>
+												<div class="col-md-4 col-sm-4 ">
+													<input type="number" class="form-control" placeholder="bd.ft." name="volbalance" id="volbalance" value="volbalance" onClick="Calc()" readonly>
+												</div>
+											</div>
+											<script lang="javascript">
+												function Calculate()
+												{
+												  var first = document.getElementById('previousbal').value;
+												  var last = document.getElementById('voldisplayed').value; 
+
+												   document.getElementById('totvolhand').value=parseInt(first) + parseInt(last);
+												   document.form1.submit();
+												}
+											</script>
+											<script lang="javascript">
+												function Calc()
+												{
+												  var first = document.getElementById('totvolhand').value;
+												  var last = document.getElementById('voldisposed').value; 
+
+												   document.getElementById('volbalance').value=parseInt(first) - parseInt(last);
+												   document.form1.submit();
+												}
+											</script>
+											
 										<span class="section"><strong>Lumber Supplier Contract Details</strong></span>
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Supplier Name (Owner)</label>

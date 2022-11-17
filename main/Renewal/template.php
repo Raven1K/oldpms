@@ -6,6 +6,8 @@
     <style>
         table {
             width: 100%;
+			align-content: center;
+			table-layout: auto
         }
         footer {
 			text-color: gray;
@@ -36,7 +38,7 @@
     </td>
     </tr>
 	</table>
-	<hr style="width:100%;text-align:left;margin-left:0;height:5px;background-color:red;margin-left:-70; padding-left: 150">
+	<hr style="width:100%;text-align:left;margin-left:0;height:5px;background-color:maroon;margin-left:-70; padding-left: 150">
     
     <p><strong>MEMORANDUM</strong></p>
 	
@@ -56,11 +58,11 @@
 		 </tr>
 	</table>
 	</br>
-	<table>
+	<table border=0>
 		 <tr>
-		 <td style="width:13%;padding-bottom:37px;"><strong>SUBJECT</strong></td>
-		 <td style="width:7%;padding-bottom:37px;"><strong>:</strong></td>
-		 <td style="width:80%;text-transform:uppercase;text-align:justify;"><strong>NEW APPLICATION OF {{ldname}} FOR CERTIFICATE OF REGISTRATION AS LUMBER DEALER WITH BUSINESS OPERATION LOCATED AT {{ldaddress}}</strong></td>
+		 <td style="width:13%;padding-bottom:40px;"><strong>SUBJECT</strong></td>
+		 <td style="width:7%;padding-bottom:40px;"><strong>:</strong></td>
+		 <td style="width:80%;text-transform:uppercase;text-align:justify;"><strong>RENEWAL APPLICATION OF {{ldname}} FOR CERTIFICATE OF REGISTRATION AS LUMBER DEALER WITH BUSINESS OPERATION LOCATED AT {{ldaddress}}</strong></td>
 		 </tr>
 	</table>
     <table>
@@ -72,17 +74,46 @@
 	</table>
    <hr style="width:100%;text-align:left;margin-left:0">
 
-   <dt class="col-sm-3" style="text-align:justify;">This pertains to the above subject new application for Certificate of Registration as Lumber Dealer of <strong>{{ldname}}</strong> with place of operation at <strong>{{ldaddress}}</strong>.</dt>
+   <dt class="col-sm-3" style="text-align:justify;text-indent: 40px">This pertains to the above subject renewal application for Certificate of Registration as Lumber Dealer of <strong>{{ldname}}</strong> with place of operation at <strong>{{ldaddress}}</strong>.</dt>
     <br/>    
-   <dt class="col-sm-3">Please be apprised of the following information regarding the subject application:</dt>
-<br/>
-   <dd class="col-sm-9" style="text-align:justify;">a.) <strong>{{ldname}}</strong> is a single proprietor owned and managed by {{owner}} with a business operation at <strong>{{ldaddress}}</strong>. The proponent's objective are: to provide employment opportunities; and to firmly established a functional lumber yard in order to cater lumber needs of the growing economic activity in the locality and other neighboring municipalities and provinces;</dd>
-   <br/>
-   <dd class="col-sm-9" style="text-align:justify;">b.) The applicant has already secured the required Mayor'/Business Permit from the concerned LGU issued on {{MPdateissued}} valid until {{MPdateexpiry}}. The proponent's business trade name was also registered with the Dapartment of Trade and Industry (DTI) with Business Name No. {{BNNumber}} issued on {{DTIdateissued}} valid until {{DTIdateexpiry}};</dd>
+   <dt class="col-sm-3" style="text-align:justify;text-indent: 40px">Please be apprised of the following information regarding the subject application:</dt>
 	<br/>
-   <dd class="col-sm-9" style="text-align:justify;">c.) Under this application, the proponent has entered Lumber Supply Contracts with the legitimate {{SCtype}} holders of {{municipal}},  {{province}} covering {{totalsupply}} board feet of {{particulars}} of {{treespecie}} for your approval, as detailed in the table</dd>
+   <dd class="col-sm-9" style="text-align:justify;">a.) <strong>{{ldname}}</strong> is a single proprietor owned and managed by {{owner}} with a business operation at <strong>{{ldaddress}}</strong>. The proponent's latest lumber dealer permit was issued on {{regissueddate}}, with Certificate of Registration No. {{regnonumber}} (Renewal) to be expired on {{regexpirydate}}. Hence, this renewal application;</dd>
    <br/>
-    <table border=1>
+   <dd class="col-sm-9" style="text-align:justify;">b.) The applicant has already secured the required Mayor'/Business Permit from the concerned LGU issued on {{MPdateissued}} valid until {{MPdateexpiry}}. With the issuance of Mayor's Business Permit, it is assured that the permittee has already paid its Income Tax Return at the Bureau of Internal Revenue (BIR); The proponent's business trade name was also registered with the Dapartment of Trade and Industry (DTI) with Business Name No. {{BNNumber}} issued on {{DTIdateissued}} valid until {{DTIdateexpiry}};</dd>
+	<br/>
+	<dd class="col-sm-9" style="text-align:justify;">c.) The proponent's business trade name was also registered with the Dapartment of Trade and Industry (DTI) with Business Name No. {{BNNumber}} issued on {{DTIdateissued}} valid until {{DTIdateexpiry}};</dd>
+	<br/>
+	<dd class="col-sm-9" style="text-align:justify;">d.) Per submitted summary of production and diposition report of {{ldname}} from the month of {{regissueddate}} to {{regexpirydate}}, a total of {{voldisplayed}} board feet of planted species of lumber were purchased and disposed a total of {{voldisposed}} board feet leaving a remaining stock of {{volbalance}} board feet, as detailed below:</dd>
+	<br/>
+	<table border=1 style="border:1px solid black;margin-left:auto;margin-right:auto;">
+        <thead>
+        <tr class="heading">
+				<th>Type</th>
+			    <th>Previous Balance </n> (bd.ft.)</th>
+				<th>Volume Purchased/Displayed </n> (bd.ft.)</th>
+                <th>Total Volume Handled</th>
+				<th>Volume Disposed </n>(bd.ft.)</th>
+				<th>Balanced </n>(bd.ft.)</th>
+        </tr>
+        </thead>
+        <tbody>
+             <tr class="item">
+                <td style="text-align: center">{{lumtype}}</td>
+                <td style="text-align: center">{{previousbal}}</td>
+                <td style="text-align: center">{{voldisplayed}}</td>
+				<td style="text-align: center">{{totvolhand}}</td>
+				<td style="text-align: center">{{voldisposed}}</td>
+				<td style="text-align: center">{{volbalance}}</td>
+            </tr>
+        </tbody>
+    </table>
+	<br/>
+	<dd class="col-sm-9" style="text-align:justify;">e.) The Business Plan/Program of the association was duly prepared under the supervision of a registered Forester;</dd>
+   <br/>
+   <dd class="col-sm-9" style="text-align:justify;">f.) Under this application, the proponent has entered Lumber Supply Contracts with the legitimate {{SCtype}} holders of {{municipal}},  {{province}} covering {{totalsupply}} board feet of {{particulars}} of {{treespecie}} for your approval, as detailed in the table</dd>
+   <br/>
+    <table border=1 style="border:1px solid black;margin-left:auto;margin-right:auto;">
         <thead>
         <tr class="heading">
 				<th>Suppliers</th>
@@ -140,15 +171,17 @@
     <br/>   
     <dd class="col-sm-9" style="text-align:justify;">Per Certification issued by the concerned CENRO dated {{lsdateissued}}, the total volume as shown in the table above are still intact/available in the area;</dd>
     <br/>
-	<dd class="col-sm-9" style="text-align:justify;">d.) The lumber dealer and furniture shop establishment of {{ldname}} were verified/inspected by the personnel of CENRO {{office}} per attached geotagged photographs on {{datevalidation}}.</dd>
+	<dd class="col-sm-9" style="text-align:justify;">g.) The lumber dealer establishment of {{ldname}} were verified/inspected by the personnel of CENRO {{office}} per attached geotagged photographs on {{datevalidation}}.</dd>
 	<br/>
-	<dd class="col-sm-9" style="text-align:justify;">e.) All the requirements pursuant to Memorandum Order No. 13, Series of 1986 were complied and submitted including the payment of the required fees paid under Official Reciept No. {{refnumber}} date {{datepaid}}, as detailed in the table below:</dd>
+	<dd class="col-sm-9" style="text-align:justify;">h.) The renewal application was favorably endorsed for approval by PENRO and CENRO concernced per Memoranda dated {{dateendorsePENRO}} and {{dateendorseCENRO}}, respectively; and</dd>
 	<br/>
-	<table border=1>
+	<dd class="col-sm-9" style="text-align:justify;">i.) All necessary requirements pursuant to DAO No. 99-46 were complied and submitted including the payment of the required fees paid under Official Reciept No. {{refnumber}} date {{datepaid}}, as detailed in the table below:</dd>
+	<br/>
+	<table border=1 style="border:1px solid black;margin-left:auto;margin-right:auto;">
         <thead>
         <tr class="heading">
 				<th>Forestry Administrative Fees</th>
-                <th>Official Receipt No.</th>
+                <th>Official Reference No.</th>
                 <th>Amount</th>
         </tr>
         </thead>
@@ -181,21 +214,19 @@
         </tbody>
     </table>
 	<br/>
-	<p><strong>COMMENTS/RECOMMENDATIONS:</strong></p>
-    	
-	<dt class="col-sm-3" style="text-align:justify;">The approval of the new application of Certificate of Registration as Lumber Dealer is vested with the Regional Executive Director pursuant to DAO No. 2022-10 dated May 30, 2022 (Revised DENR Manual of Authority on Technical Matters).</dt>
+	<dt class="col-sm-3" style="text-align:justify; text-indent: 40px">The approval of the renewal application of Certificate of Registration as Lumber Dealer is vested with the Regional Executive Director pursuant to DAO No. 2022-10 dated May 30, 2022 (Revised DENR Manual of Authority on Technical Matters).</dt>
 	<br/>
-	<dt class="col-sm-3" style="text-align:justify;">In view of the above information and based on the favorable recommendation of the PENRO and CENRO concerned, this Office is recommending for approval of the subject application. Should you concur, attached are the prepared Lumber Supply Contracts and Certificate of Registration as Lumber Dealer for a duration of one (1) year.</dt>
+	<dt class="col-sm-3" style="text-align:justify; text-indent: 40px">Should you concur, attached are the prepared Lumber Supply Contracts and Certificate of Registration as Lumber Dealer for a duration of one (1) year.</dt>
 	<br/>
-	<dt class="col-sm-3">For information and approval.</dt>
+	<dt class="col-sm-3" style="text-align:justify; text-indent: 40px">For information and approval.</dt>
 	<br/>
 	<br/>
 	<br/>
-    <p align="left"><strong>MARITESS M. OCAMPO</strong></p>
-<footer>
-<p>DENR-13, Ambago, Butuan City, Philippines</p>
-<p>Telephone Nos. (085) 8171545 E-Mail: ordcaraga@gmail.com</p>
-</footer>
+    <p align="right"><strong>MARITESS M. OCAMPO</strong></p>
+<!--<footer>-->
+<!--<p>DENR-13, Ambago, Butuan City, Philippines</p>-->
+<!--<p>Telephone Nos. (085) 8171545 E-Mail: ordcaraga@gmail.com</p>-->
+<!--</footer>-->
 
    
 </body>
