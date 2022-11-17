@@ -14,21 +14,21 @@
     <style>
 		#example1 {
   
-		  background: url("backdropseal.png");
-		  background-size: 600px 600px;
-		  background-repeat: no-repeat;
-			background-position: center;
+  background: url("backdropseal.png");
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+	background-position: center;
+  
+}
 
-		}
-
-		#example2 {
-
-		  background: url(RED.png);
-		  background-repeat: no-repeat;
-		  background-size: 80px 80px;
-			background-position: 655px 30px;
-
-		}
+#example2 {
+  
+  background: url(RED.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+	background-position: 655px 30px;
+  
+}
 		
         table {
             width: 100%;
@@ -85,14 +85,10 @@
 		 <p style="width:100%; text-align: center; font-size: 17px; line-height: 12px">Registration No. <strong><u>{{regnumber}} ({{status}})</u></strong></p>
 		 <p style="width:100%; text-align: center; line-height: 5px; font-size: 13px">This is to certify that,</p>
 		 </td>
-		 <td style="width: 20%;" style="background-image:url('records/records.png'); background-size: 200px 90px; background-repeat: no-repeat;"><p style="text-align: left; padding-top: 48px; padding-left: 65px; line-height: 10px; font-size: 10px"> {{date}} </br>
-					  {{LD-random}}-{{signature}}
-			 
-			 </p>
+		 <td style="width: 20%;"> 
 		 </td>
 		</tr>
-	</table>
-	
+	</table>	 
 		 <h3 style="width:100%;text-align: center; text-transform: uppercase; line-height: 5px;"><u><strong>{{ldname}}</strong></strong></u></h3>
 		 
 		 <p style="width:100%;text-align: center; line-height: 0px; font-size: 12px">(Business Name)</p>
