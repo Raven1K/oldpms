@@ -259,7 +259,7 @@
 													  </td>
 													  <td>
 													     <div class="container">
-															<div><a type="button" class="btn btn-round btn-info" data-toggle="modal" data-target="#myModal4"></button>
+															<div><a type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal4"></button>
 																<i class="fa fa-search-plus"></i> Release </a>
 
 															 <!-- modal for evaluation -->
