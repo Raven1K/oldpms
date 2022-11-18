@@ -253,14 +253,14 @@
 
 												  <tr>
 												      <td> 09</td>
-													  <td>9. Inspection/Validation Report</td>
+													  <td>Memorandum of Endorsement</td>
 													  <td>
-													     <div class="badge badge-success">Approved</div>
+													     <div class="badge badge-success">For Initial</div>
 													  </td>
 													  <td>
 													     <div class="container">
-															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
-																<i class="fa fa-search-plus"></i> View</a>
+															<div><a type="button" class="btn btn-round btn-primary" data-toggle="modal" data-target="#myModal"></button>
+																<i class="fa fa-search-plus"></i> Inital</a>
 
 															 <!-- modal for evaluation -->
 															  <?php
@@ -279,12 +279,14 @@
             	  </div>
 					<ul class="nav navbar-right panel_toolbox">
 						<div class="row justify-content-center">
+<!--
 							  <li><a href="endorsement3.php" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
 									   <span class="text align-content-center text-white"><strong>Initial</strong></span>
 										<span class="icon ml-2">
 											   <i class="fas fa-check-to-slot text-white"></i>
 										</span>
 							  </li></a>
+-->
 							  <li><a href="#" class="btn-danger btn-sm btn-round btn ml-0">                                       				 
 									   <span class="text align-content-center text-white"><strong>Return to CENRO</strong></span>
 										<span class="icon ml-2">

@@ -221,11 +221,24 @@
 											</div>
                                             </div>
                                        	<div class="ln_solid"></div>
-										<div class="form-group row">
-											<div class="col-md-5 col-sm-5  offset-md-5">
-                                                <button type="submit" class="btn btn-success">Generate E-Permit</button>
+										<ul class="nav navbar-right panel_toolbox">
+											<div class="form-group row justify-content-center">
+											<!--	Start Here	-->
+												  <li><button class="btn-primary btn-sm btn-round btn ml-0" type="submit">                                       				 
+														   <span class="text align-content-center text-white"><strong>Create E-Permit</strong></span>
+															<span class="icon ml-2">
+																   <i class="fas fa-check-to-slot text-white"></i>
+															</span>
+												  </li></button>
+										  <!--	End Here-->
+												  <li><a href="evaluation.php" class="btn-secondary btn-sm btn-round btn ml-0">                                       				 
+														   <span class="text align-content-center text-white"><strong>Back</strong></span>
+															<span class="icon ml-2">
+																   <i class="fas fa-circle-chevron-left text-white"></i>
+															</span>
+												  </li></a>
 											</div>
-										</div>
+                    						</ul>
                     					</div>
 									</form>
 								</div>

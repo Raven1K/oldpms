@@ -232,7 +232,7 @@
 
 												  <tr>
 												      <td> 08</td>
-													  <td>Approved Endorsement</td>
+													  <td>Memorandum of Endorsement</td>
 													  <td>
 													      <div class="badge badge-success">Approved</div>
 													  </td>

@@ -253,7 +253,7 @@
 
 												  <tr>
 												      <td> 09</td>
-													  <td>9. Endorsement Approved</td>
+													  <td>9. Memorandum of Endorsement</td>
 													  <td>
 													     <div class="badge badge-success">Approved</div>
 													  </td>
@@ -279,8 +279,8 @@
             	  </div>
 					<ul class="nav navbar-right panel_toolbox">
 						<div class="row justify-content-center">
-							  <li><a href="endorsement3.php" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
-									   <span class="text align-content-center text-white"><strong>Approved</strong></span>
+							  <li><a href="#" class="btn-primary btn-sm btn-round btn ml-0">                                       				 
+									   <span class="text align-content-center text-white"><strong>Approved E-Permit</strong></span>
 										<span class="icon ml-2">
 											   <i class="fas fa-check-to-slot text-white"></i>
 										</span>
