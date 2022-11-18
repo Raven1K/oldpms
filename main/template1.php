@@ -14,7 +14,7 @@
     <style>
 		#example1 {
   
-		  background: url("backdropseal.png");
+		  background: url("img/backdropseal.png");
 		  background-size: 600px 600px;
 		  background-repeat: no-repeat;
 			background-position: center;
@@ -23,7 +23,7 @@
 
 		#example2 {
 
-		  background: url(RED.png);
+		  background: url(img/RED.png);
 		  background-repeat: no-repeat;
 		  background-size: 80px 80px;
 			background-position: 655px 30px;
@@ -66,7 +66,7 @@
 		
 		<tr>
 			<td style="width: 10%;"></td>
-			<td style="width: 20%; text-align: right"><img src="seal3.png" style="max-width: 60px; vertical-align: middle;" /></td>
+			<td style="width: 20%; text-align: right"><img src="img/seal.jpg" style="max-width: 60px; vertical-align: middle;" /></td>
 			<td style="width: 50%;">
     			<p style="width:100%; text-align: center; font-size: 14px; vertical-align: middle;">Republic of the Philippines </br>
 					<STRONG>DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</STRONG> </br>
@@ -85,7 +85,7 @@
 		 <p style="width:100%; text-align: center; font-size: 17px; line-height: 12px">Registration No. <strong><u>{{regnumber}} ({{status}})</u></strong></p>
 		 <p style="width:100%; text-align: center; line-height: 5px; font-size: 13px">This is to certify that,</p>
 		 </td>
-		 <td style="width: 20%;" style="background-image:url('records/records.png'); background-size: 200px 90px; background-repeat: no-repeat;"><p style="text-align: left; padding-top: 48px; padding-left: 65px; line-height: 10px; font-size: 10px"> {{date}} </br>
+		 <td style="width: 20%;" style="background-image:url('img/records.png'); background-size: 200px 90px; background-repeat: no-repeat;"><p style="text-align: left; padding-top: 48px; padding-left: 65px; line-height: 10px; font-size: 10px"> {{date}} </br>
 					  {{LD-random}}-{{signature}}
 			 
 			 </p>
@@ -129,8 +129,8 @@
 <div id="example2">	
 	<table border=0 class="center" style="width:90%">
 		<tr>
-			<td style="width:10%"> <p style="font-size: 10px">Bond (Cash) No. </br> Date:</p> </td>
-			<td style="width:10%"> <p style="font-size: 10px"><u>PHP 1,000.00</u> </br> <u>{{datepaid}}</u></p> </td>
+			<td style="width:10%"><p style="font-size: 10px">Bond (Cash) No. </br> Date:</p> </td>
+			<td style="width:10%"><p style="font-size: 10px"><u>PHP 1,000.00</u> </br> <u>{{datepaid}}</u></p> </td>
 			<td style="width:15%"></td>
 			<td style="width:10%;"></td>
 			<td style="width:15%"></td>

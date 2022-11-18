@@ -55,10 +55,10 @@ $dompdf->addInfo("Title", "E-PERMIT"); // "add_info" in earlier versions of Domp
 /**
  * Send the PDF to the browser
  */
-$dompdf->stream("endorsement.pdf", array("Attachment" => false));
+$dompdf->stream("LumberDealerPermit.pdf", array("Attachment" => false));
 
 /**
  * Save the PDF file locally
  */
 $output = $dompdf->output();
-file_put_contents("file.pdf", $output);
+file_put_contents("records/permit.pdf", $output);

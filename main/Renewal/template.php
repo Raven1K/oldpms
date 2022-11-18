@@ -86,6 +86,7 @@
 	<br/>
 	<dd class="col-sm-9" style="text-align:justify;">d.) Per submitted summary of production and diposition report of {{ldname}} from the month of {{regissueddate}} to {{regexpirydate}}, a total of {{voldisplayed}} board feet of planted species of lumber were purchased and disposed a total of {{voldisposed}} board feet leaving a remaining stock of {{volbalance}} board feet, as detailed below:</dd>
 	<br/>
+	
 	<table border=1 style="border:1px solid black;margin-left:auto;margin-right:auto;">
         <thead>
         <tr class="heading">
@@ -109,8 +110,10 @@
         </tbody>
     </table>
 	<br/>
+	<div style="page-break-before: always"></div>
 	<dd class="col-sm-9" style="text-align:justify;">e.) The Business Plan/Program of the association was duly prepared under the supervision of a registered Forester;</dd>
    <br/>
+   
    <dd class="col-sm-9" style="text-align:justify;">f.) Under this application, the proponent has entered Lumber Supply Contracts with the legitimate {{SCtype}} holders of {{municipal}},  {{province}} covering {{totalsupply}} board feet of {{particulars}} of {{treespecie}} for your approval, as detailed in the table</dd>
    <br/>
     <table border=1 style="border:1px solid black;margin-left:auto;margin-right:auto;">
@@ -220,8 +223,8 @@
 	<br/>
 	<dt class="col-sm-3" style="text-align:justify; text-indent: 40px">For information and approval.</dt>
 	<br/>
-	<br/>
-	<br/>
+	
+	
     <p align="right"><strong>MARITESS M. OCAMPO</strong></p>
 <!--<footer>-->
 <!--<p>DENR-13, Ambago, Butuan City, Philippines</p>-->

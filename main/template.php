@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/gutenberg-css@0.6">
     <style>
+		#example1 {
+  
+		  background: url("img/lpddchief.png");
+		  background-size: 20px 20px;
+		  background-repeat: no-repeat;
+			background-position: 40px 320px;
+
+		}
+		#example2 {
+		  background: url("img/ardts.png");
+		  background-repeat: no-repeat;
+		  background-size: 80px 80px;
+			background-position: 50px 120px;
+
+		}
         table {
-            width: 100%;
+            width: 90%;
         }
         footer {
 			text-color: gray;
@@ -28,7 +43,7 @@
 	<table>
 	<tr>
 		<td class="title" style="width:15%;">
-        <img src="seal.jpg" style="width: 100%; max-width: 100px" />
+        <img src="img/seal.jpg" style="width: 100%; max-width: 100px" />
         </td>
         <td style="width:85%;">
         <h3><strong>Department of Environment and Natural Resources<br />
@@ -36,7 +51,7 @@
     </td>
     </tr>
 	</table>
-	<hr style="width:100%;text-align:left;margin-left:0;height:5px;background-color:red;margin-left:-70; padding-left: 150">
+	<hr style="width:100%;text-align:left;margin-left:0;height:5px;background-color:maroon;margin-left:-70; padding-left: 150">
     
     <p><strong>MEMORANDUM</strong></p>
 	
@@ -181,10 +196,12 @@
         </tbody>
     </table>
 	<br/>
+	<div id="example1">
 	<p><strong>COMMENTS/RECOMMENDATIONS:</strong></p>
     	
 	<dt class="col-sm-3" style="text-align:justify;">The approval of the new application of Certificate of Registration as Lumber Dealer is vested with the Regional Executive Director pursuant to DAO No. 2022-10 dated May 30, 2022 (Revised DENR Manual of Authority on Technical Matters).</dt>
 	<br/>
+	<div id="example2">
 	<dt class="col-sm-3" style="text-align:justify;">In view of the above information and based on the favorable recommendation of the PENRO and CENRO concerned, this Office is recommending for approval of the subject application. Should you concur, attached are the prepared Lumber Supply Contracts and Certificate of Registration as Lumber Dealer for a duration of one (1) year.</dt>
 	<br/>
 	<dt class="col-sm-3">For information and approval.</dt>
@@ -192,11 +209,14 @@
 	<br/>
 	<br/>
     <p align="left"><strong>MARITESS M. OCAMPO</strong></p>
+	</div>
+	
 <footer>
 <p>DENR-13, Ambago, Butuan City, Philippines</p>
 <p>Telephone Nos. (085) 8171545 E-Mail: ordcaraga@gmail.com</p>
 </footer>
-
+	</div>
+	</div>
    
 </body>
 </html>

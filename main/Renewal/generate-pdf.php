@@ -53,7 +53,7 @@ $dompdf = new Dompdf($options);
 /**
  * Set the paper size and orientation
  */
-$dompdf->setPaper("8.5in x 13in", "portrait");
+$dompdf->setPaper("A4", "portrait");
 /**
  * Load the HTML and replace placeholders with values from the form
  */

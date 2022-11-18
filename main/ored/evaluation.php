@@ -253,18 +253,18 @@
 
 												  <tr>
 												      <td> 09</td>
-													  <td>9. Inspection/Validation Report</td>
+													  <td>9. Endorsement Approved</td>
 													  <td>
 													     <div class="badge badge-success">Approved</div>
 													  </td>
 													  <td>
 													     <div class="container">
-															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal1"></button>
+															<div><a type="button" class="btn btn-round btn-warning" data-toggle="modal" data-target="#myModal3"></button>
 																<i class="fa fa-search-plus"></i> View</a>
 
 															 <!-- modal for evaluation -->
 															  <?php
-																require_once('modaleval.php');
+																require_once('modaleval2.php');
 																?> 
 															<!-- end modal for evaluation --> 
 															</div>

@@ -63,4 +63,4 @@ $dompdf->stream("endorsement.pdf", array("Attachment" => false));
  * Save the PDF file locally
  */
 $output = $dompdf->output();
-file_put_contents("file.pdf", $output);
+file_put_contents("ored/endorsement.pdf", $output);
