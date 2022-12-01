@@ -180,29 +180,28 @@
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Previous Balance (bd.ft)</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="number" class="form-control" placeholder="bd.ft." name="previousbal" id="previousbal">
+													<input type="text" class="form-control input" placeholder="" name="previous" id="previousbal">
 												</div>
 											</div>
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Volume Purchased/Displayed (bd.ft)</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="number" class="form-control" placeholder="bd.ft." name="voldisplayed" id="voldisplayed">
+													<input type="text" class="form-control input" placeholder="" name="voldisplay" id="voldisplayed">
 												</div>
 											</div>
 											<div class="form-group row">
 												<label class="col-form-label col-md-2 col-sm-2 label-align">Total Volume Handled</label>
 												<div class="col-md-4 col-sm-4 ">
-													<input type="number" class="form-control" placeholder="bd.ft." name="totvolhand" id="totvolhand" onClick="Calculate()" readonly>
-													
-												<script>
-														$(document).ready(function(){
-															$(".input").keyup(function(){
-																var val1 = +$("#male").val();
-																var val2 = +$("#female").val();
-																$("#result").val(val1+val2);
-														});
-														});
-												</script>
+												<input type="text" class="form-control" placeholder="" name="result" id="result" readonly>
+													<script>
+															$(document).ready(function(){
+																$(".input").keyup(function(){
+																	var val1 = +$("#previousbal").val();
+																	var val2 = +$("#voldisplayed").val();
+																	$("#result").val(val1+val2);
+															});
+															});
+													</script>
 												</div>
 											</div>
 											<div class="form-group row">
@@ -217,6 +216,7 @@
 													<input type="number" class="form-control" placeholder="bd.ft." name="volbalance" id="volbalance" value="volbalance" onClick="Calc()" readonly>
 												</div>
 											</div>
+<!--
 											<script lang="javascript">
 												function Calculate()
 												{
@@ -237,6 +237,7 @@
 												   document.form1.submit();
 												}
 											</script>
+-->
 											
 										<span class="section"><strong>Lumber Supplier Contract Details</strong></span>
 											<div class="form-group row">
