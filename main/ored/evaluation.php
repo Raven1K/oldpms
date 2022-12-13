@@ -343,6 +343,9 @@
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
+<script>$('#openBtn').click(function(){
+	$('#myModal3').modal({show:true});
+})</script>
 
   </body>
 </html>
