@@ -18,7 +18,8 @@
         $File1 =  $img_name;
 
         if ($error === 0) {
-            if ($img_size > 1125000) 
+            // if ($img_size > 1125000) 
+            if ($img_size > 10 * 1024 * 1024) {
             {
                 $em = "Sorry, your file is too large.";
                 header("Location: ../Register.php?error=$em");

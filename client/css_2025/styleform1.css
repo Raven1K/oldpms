@@ -1,0 +1,1005 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f0f8ff;
+    zoom: 80%;
+}
+
+.form-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #389c64;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.denr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #389c64;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.denr-text {
+    margin-left: 0px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.denr-logo {
+    height: 65px;
+    width: 65px;
+    margin-left: -10px;
+}
+
+.agency {
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: normal;
+    margin: 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 2;
+    text-align: left;
+}
+
+.smiley-icon {
+    height: 60px;
+    width: 60;
+    margin-left: 140px;
+}
+
+.survey-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -1px;
+}
+
+.version {
+    font-size: 12px;
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 2px 0;
+}
+
+.approval {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.help-banner {
+    background-color: white;
+    color: #27ae60;
+    text-align: left;
+    padding: 20px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.help-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #27ae60;
+}
+
+.help-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+.description-box {
+    background-color: white;
+    color: #000;
+    padding: 10px 25px 25px;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+    line-height: 1.6;
+    margin-top: -10px;
+     margin-left: -22px;
+}
+
+.description-box strong {
+    font-weight: bold;
+}
+
+.description-box a.underline {
+    color: #389c64;
+    text-decoration: underline;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.form-label {
+    width: 220px;
+    font-size: 14px;
+    color: #000;
+    margin-left: 30px;
+}
+
+.sub-label {
+    font-size: 12px;
+    color: #555;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.form-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-right: -50px;
+    margin-left: -82px;
+}
+
+.compact-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -13px;
+}
+
+.form-short-input1 {
+    width: 150px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -45px;
+    margin-left: 175px;
+}
+
+.form-short-input2 {
+    width: 155px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: -45px;
+    margin-left: 300px;
+}
+
+.form-row-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px 25px 0;
+    padding: 0 25px;
+}
+
+.label-left,
+.label-right {
+    font-size: 14px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.mid-input {
+    flex-grow: 1;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-option {
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 120px;
+}
+
+.radio-option input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+.radio-option input[type="radio"]:checked ~ .custom-radio {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+
+.radio-label1 {
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: -30px;
+}
+
+.radio-label2 {
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: -95px;
+}
+
+
+.form-row-sex-age {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 25px 0;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.label-sex,
+.label-age {
+    font-size: 14px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.label-age {
+    margin-left: -15px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.radio-option {
+    position: relative;
+    padding-left: 25px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-option input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.custom-radio1 {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -40px;
+}
+
+.custom-radio2 {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+     margin-left: -100px;
+}
+
+.radio-option input[type="radio"]:checked ~ .custom-radio {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+/* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+.custom-radio1.is-checked,
+.custom-radio2.is-checked {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+
+.age-input {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 290px;
+}
+
+
+.radio-option-lungsuranon {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 681px;
+    margin-top: -50px;
+}
+
+.radio-option-lungsuranon input[type="radio"] {
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.custom-radio-lungsuranon {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.radio-option-lungsuranon input[type="radio"]:checked ~ .custom-radio-lungsuranon {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+/* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+.custom-radio-lungsuranon.is-checked {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+
+.radio-label-lungsuranon {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-top: 10px;
+}
+
+.form-label {
+    width: 220px;
+    font-size: 14px;
+    color: #000;
+}
+
+.form-input-email {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 620px;
+    margin-right: 20px;
+    margin-left: -75px;
+}
+
+.form-input-phone {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 620px;
+    margin-right: -25px;
+    margin-left: -80px;
+
+}
+
+.email-row-with-radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.radio-option-negosyo {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+    max-width: 300px;
+}
+
+.radio-option-negosyo input[type="radio"] {
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.custom-radio-negosyo {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.radio-option-negosyo input[type="radio"]:checked ~ .custom-radio-negosyo {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+/* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+.custom-radio-negosyo.is-checked {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+
+.radio-label-negosyo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 20px;
+}
+
+
+.phone-with-radio {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 25px;
+    margin-top: 10px;
+}
+
+.radio-options-client-type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    margin-top: 5px;
+}
+
+.radio-option-client {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.radio-option-client input[type="radio"] {
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.custom-radio-client {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    margin-left: 48px;
+}
+
+.radio-option-client input[type="radio"]:checked ~ .custom-radio-client {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+/* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+.custom-radio-client.is-checked {
+    background-color: #27ae60;
+    box-shadow: inset 0 0 0 4px white;
+}
+
+
+.radio-label-client {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 60px;
+}
+
+.disclaimer-text {
+    color: #333;
+    line-height: 1.6;
+    margin-right: 300px;
+    margin-left: -600px;
+    margin-top: -100px;
+
+}
+
+.panudlo-section {
+    margin: 25px 0 10px 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.6;
+    margin-top: -450px; /* This margin-top might be causing layout issues if not intended for specific positioning */
+}
+
+.panudlo-section strong {
+    font-weight: bold;
+}
+
+.panudlo-translation {
+    font-size: 13px;
+    color: #555;
+}
+
+.check-icon {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.green-line-separator {
+    height: 8px;
+    background-color: #389c64;
+    border-top: 2px solid white;
+    margin: 25px 0;
+    width: 1060px;
+    margin-left: -28px;
+}
+
+
+.question-label {
+    font-size: 15px;
+    color: #000;
+    margin: 25px 25px 10px;
+    line-height: 1.5;
+}
+
+.question-label strong {
+    font-weight: bold;
+}
+
+.question-translation {
+    font-size: 14px;
+    color: #555;
+}
+
+.custom-radio-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 18px 25px;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.custom-radio-option input[type="radio"] {
+    /* REMOVED: accent-color - we will rely on custom styling for screenshot consistency */
+    opacity: 0; /* Keep the actual input hidden */
+    position: absolute;
+    width: 18px; /* Maintain dimensions */
+    height: 18px; /* Maintain dimensions */
+    margin-top: 4px; /* Maintain alignment */
+    cursor: pointer;
+    /* ADDED: For older browsers/fallbacks if custom style doesn't load */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* ORIGINAL STYLE FOR THE NATIVE RADIO BUTTON */
+/* The accent-color here was on the native input, which html2canvas sometimes misses */
+/* .custom-radio-option input[type="radio"]:checked {
+    accent-color: #2e7d32;
+} */
+
+
+.option-box {
+    width: 24px;
+    height: 24px;
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    position: relative; /* Added for ::after pseudo-element */
+}
+
+.option-text {
+    max-width: 90%;
+}
+
+.translation {
+    color: #555;
+    font-size: 13px;
+}
+
+.instruction-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 25px 25px 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.icon {
+    background-color: #2e7d32;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.instruction-text {
+    max-width: 90%;
+}
+
+.translation {
+    color: #555;
+    font-size: 13px;
+}
+
+/* Duplicated rule, removed from here as it's defined globally below */
+/* .question-label {
+    font-size: 15px;
+    margin: 25px 25px 10px;
+    line-height: 1.4;
+} */
+
+/* Duplicated rule, removed from here as it's defined globally below */
+/* .question-translation {
+    color: #555;
+    font-size: 14px;
+} */
+
+.radio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 40px;
+    margin: 15px 25px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.radio-item input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none; /* For WebKit browsers */
+    -moz-appearance: none;   /* For Firefox */
+    width: 18px;
+    height: 18px;
+    border: 2px solid #2e7d32;
+    border-radius: 50%;
+    margin-top: 4px;
+    position: relative;
+    outline: none; /* Remove default focus outline */
+    cursor: pointer;
+}
+
+.radio-item input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #2e7d32;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: block; /* Ensure it's displayed */
+}
+
+/* ADDED FOR SCREENSHOT: This will make the radio-item look checked when 'is-checked' is added by JS */
+.radio-item input[type="radio"].is-checked::before { /* Apply to the native input directly for these specific radios */
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #2e7d32;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: block;
+}
+
+
+.option-content {
+    line-height: 1.3;
+}
+
+/* Duplicated rule, removed from here as it's defined globally below */
+/* .translation {
+    color: #555;
+    font-size: 13px;
+} */
+
+.radio-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 15px 25px;
+    flex-wrap: wrap;
+}
+
+/* Duplicated radio-item rules, assuming .radio-item is generic */
+/* Removed the entire block as it's redundant with the .radio-grid .radio-item definition */
+
+
+.insert1 {
+    height: 120%;
+    width: 200px;
+    margin-left: 718px;
+    margin-top: -79.1px;
+
+
+}
+
+.charter {
+    margin-left: 780px;
+    margin-bottom: 50px;
+    margin-top: -28px;
+}
+
+.cc1 {
+    height: 50px;
+    width: 50px;
+    margin-top: -350px;
+    margin-left: -32px;
+    margin-bottom: 320px;
+    margin-right: -5px;
+}
+
+.cc2 {
+    height: 50px;
+    width: 50px;
+    margin-bottom: -80px;
+    margin-left: -49px
+}
+
+.cc3 {
+    height: 50px;
+    width: 50px;
+    margin-bottom: -245px;
+    margin-left: -55px;
+}
+
+
+@media (max-width: 1060px) {
+    .form-container {
+        padding: 15px;
+        margin: 20px 10px;
+        border-radius: 8px;
+    }
+
+    .denr-header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .header-left, .header-right {
+        flex: unset;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .smiley-icon {
+        margin-left: 0;
+        height: 50px;
+        width: 50px;
+    }
+
+    .form-row-between,
+    .form-row-sex-age,
+    .compact-row,
+    .email-row-with-radio,
+    .phone-with-radio {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    .form-input,
+    .form-input-email,
+    .form-input-phone,
+    .form-short-input1,
+    .form-short-input2,
+    .mid-input,
+    .age-input {
+        width: 100% !important;
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .radio-option,
+    .radio-option-lungsuranon,
+    .radio-option-negosyo,
+    .radio-option-client {
+        margin: 0 !important;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .radio-label1,
+    .radio-label2,
+    .radio-label-client,
+    .radio-label-negosyo,
+    .radio-label-lungsuranon {
+        margin-left: 0 !important;
+    }
+
+    .radio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .green-line-separator {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .panudlo-section {
+        margin: 20px;
+    }
+
+    .disclaimer-text {
+        margin: 0;
+    }
+
+    .charter,
+    .cc1,
+    .cc2,
+    .cc3 {
+        display: none;
+    }
+}
+
+/* --- NEW CSS RULES ADDED HERE FOR SCREENSHOT FIX --- */
+
+/* For the 'Matang sa Kliyente' radios (Lungsuranon, Negosyo, Kapunungan/PO, Gobyerno) */
+/* These elements already have a ::after pseudo-element for their checked state. */
+/* We need to define the same ::after when the .is-checked class is present. */
+.custom-radio-lungsuranon.is-checked::after,
+.custom-radio-negosyo.is-checked::after,
+.custom-radio-client.is-checked::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #28a745; /* Green fill for the dot */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block; /* Ensure it's displayed */
+}
+
+/* For the 'Kasarian (Sex)' radios (Lalaki, Babae) */
+/* These don't seem to have a custom span that is styled. They use `accent-color`.
+   If html2canvas still struggles with them, you might need to convert them
+   to a custom span structure similar to 'Matang sa Kliyente' and apply this pattern.
+   For now, I'm assuming accent-color is the main issue if they don't show.
+   If you had a .custom-radio__input2-indicator { ... } like structure:
+.radio__input2.is-checked + label::before { ... }
+   But since `accent-color` is directly on the input, html2canvas might have trouble.
+   Let's see if the other fixes help first.
+*/
+
+/* For the CC1, CC2, CC3 radio options which use .option-box and :checked::after */
+.option-box.is-checked::after {
+    /* Duplicate the checkmark style that appears when the radio is :checked */
+    content: '✅'; /* Or whatever checkmark content you use */
+    position: absolute;
+    top: -5px; /* Adjust position to match your original checked state */
+    right: -5px; /* Adjust position to match your original checked state */
+    font-size: 1.2em; /* Match original font size */
+    color: #28a745; /* Match original color */
+    display: block; /* Ensure it's visible */
+}
+
+/* For radio-item inputs (like in CC2 and CC3 where you used input[type="radio"]:checked::before) */
+/* This will target the native radio button directly and add the 'before' pseudo-element */
+.radio-item input[type="radio"].is-checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #2e7d32;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: block;
+}

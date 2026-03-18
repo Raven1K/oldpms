@@ -1,8 +1,8 @@
 <!-- Sidebar -->
-        <ul class="navbar-nav bg-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav sidebar sidebar-dark accordion" style="background-color:#22782c" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="fusdash.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard.php">
                 <div class="sidebar-brand-icon">
 					<img class="img-fluid img-overlay" src="img/oldpmslogo.png">
                  <!--   <i class="fas fa-laugh-wink"></i> -->
@@ -15,8 +15,8 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link text-white" href="fusdash.php">
-                    <i class="fas fa-fw fa-tachometer-alt text-info"></i>
+                <a class="nav-link text-white" href="dashboard.php">
+                    <i class="fas fa-fw fa-tachometer-alt text-white"></i>
                     <span class="text-white">Dashboard</span></a>
             </li>
 
@@ -29,32 +29,33 @@
             </div> -->
 			
 			<li class="nav-item">
-                <a class="nav-link text-white" href="tables.php">
-                    <i class="fas fa-fw fa-search text-info"></i>
+                <a class="nav-link text-white" href="foraction.php">
+                    <i class="fas fa-fw fa-edit text-white"></i>
                     <span class="text-white">For Review</span></a>
             </li>
 			<hr class="sidebar-divider">
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link text-white" href="existLD.php">
-                    <i class="fas fa-fw fa-certificate text-info"></i>
-                    <span class="text-white">Existing Lumber Dealers</span>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-solid fa-magnifying-glass-chart text-white"></i>
+                    <span class="text-white">Reports</span>
                 </a>
-              <!--  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <h6 class="collapse-header">Reports:</h6>
+                        <a class="collapse-item" href="dealertable.php">Existing Lumber Dealers</a>
+                        <a class="collapse-item" href="dashboard.php">Issued Certificates</a>
+                        <li><a href="../map/index_show.php"><i class="fas fa-fw fa-map-marked-alt"></i> Maps </a></li>
                     </div>
-                </div>  -->
+                </div>  
             </li>
 			<hr class="sidebar-divider">
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+         <!--   <li class="nav-item">
                 <a class="nav-link text-white" href="#">
-                    <i class="fas fa-fw fa-database text-info"></i>
+                    <i class="fas fa-fw fa-database text-white"></i>
                     <span class="text-white">Issued Certificates</span>
                 </a>
             <!--    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
@@ -68,7 +69,7 @@
                     </div>
                 </div>  -->
             </li>
-			<hr class="sidebar-divider">
+			
             <!-- Divider -->
         <!--     <hr class="sidebar-divider"> -->
 
@@ -101,7 +102,7 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link text-white" href="maps.php">
-                    <i class="fas fa-fw fa-map-marked-alt text-info"></i>
+                    <i class="fas fa-fw fa-map-marked-alt text-white"></i>
                     <span class="text-white">Maps</span></a>
             </li>
 			

@@ -1,0 +1,422 @@
+<?php
+// Initialize the session
+
+require_once "../processphp/config.php";
+
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+ }
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+     header("location: ../login.php");
+    exit;
+
+
+
+}
+
+
+
+// if ( ! isset($_GET['email']) ) {
+  // $_SESSION['error'] = "Missing user_id";
+
+  $_SESSION["client_id"];
+  // $em =  $_SESSION["client_id"];
+  // header ("Location: ../processphp/univmodal.php?error=$em");
+ 
+  // header('Location: ../index.php');
+  // return;
+
+
+{
+
+
+  $id = $_SESSION["client_id"];
+
+  $_SESSION["uniquid_lap"] =  uniqid();
+  // $email = $_POST['email'];
+  // $password = $_POST['password'];
+
+  $query = $connection->prepare("SELECT * FROM user_client WHERE client_id=:client_id");
+  $query->bindParam("client_id", $id, PDO::PARAM_STR);
+  $query->execute();
+  $result = $query->fetch(PDO::FETCH_ASSOC);
+  if (!$result) {
+      // echo '<p class="error">Email and Password combination is wrong!</p>';
+
+      $em = "Email and Password combination is wrong!";
+      header ("Location: univmodal.php?error=$em");
+  } else {
+
+
+      // $password_hash = password_hash($password, PASSWORD_BCRYPT);
+
+      // echo(htmlentities($result['password']));
+
+      // $em = $result['email'];;
+      // header ("Location: ../processphp/univmodal.php?error=$em");
+      // echo(htmlentities($password_hash));
+
+      // echo(htmlentities(password_verify($password, $result['password'])));
+      $id = $result['client_id'];
+
+      $_POST['fname'] = $id;
+      // echo "<tr><td>" ;
+      // echo  (htmlentities($id));
+      // echo("</td><td>");</form
+      // echo("</td></tr>\n");
+  }
+
+
+    }
+
+?>
+
+
+               <?php
+// Initialize the session
+require_once "../processphp/config.php";
+
+
+$id = $_SESSION["client_id"];
+// $email = $_POST['email'];
+// $password = $_POST['password'];
+
+$query = $connection->prepare("SELECT * FROM user_client WHERE client_id=:client_id");
+$query->bindParam("client_id", $id, PDO::PARAM_STR);
+$query->execute();
+$result = $query->fetch(PDO::FETCH_ASSOC);
+if (!$result) {
+    // echo '<p class="error">Email and Password combination is wrong!</p>';
+
+    $em = "Email and Password combination is wrong!";
+    header ("Location: univmodal.php?error=$em");
+} else {
+
+
+    // $password_hash = password_hash($password, PASSWORD_BCRYPT);
+
+    // echo(htmlentities($result['password']));
+
+    // $em = $result['email'];;
+    // header ("Location: ../processphp/univmodal.php?error=$em");
+    // echo(htmlentities($password_hash));
+
+    // echo(htmlentities(password_verify($password, $result['password'])));
+    $clientname = $result['firstname'];
+
+    $lastname = $result['lastname'];
+    $email = $result['email'];
+    $mobileno = $result['mobilenum'];
+
+    $_POST['fname'] = $clientname;
+
+
+
+
+    $sql = "SELECT * FROM `user_client`";
+    $all_categories = mysqli_query($con,$sql);
+
+    while ($category = mysqli_fetch_array(
+      $all_categories,MYSQLI_ASSOC)):;
+
+    endwhile;
+
+    // echo "<tr><td>" ;
+    // echo  (htmlentities($id));
+    // echo("</td><td>");
+    // echo("</td></tr>\n");
+
+// with middle name
+    
+}
+
+
+
+?>
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <title>OLDPMS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../fonts/css/all.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ <link href="css/custom_styles.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="../main/css/sb-admin-2.css"> -->
+  </head>
+  
+<body style="background: #ecedf0;">
+<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <form action="../processphp/prc_logout.php"  method="post" role="form" >
+  <div id="wrapper">
+             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 5px;"> 
+              <div class="container-fluid">
+                <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="navbar-brand" href="#"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
+                </div>
+              </div>
+            </nav>
+
+        <!-- Sidebar -->
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+       <div class="sidebar-brand">
+        <a class="navbar-brand" style="font-family:Trebuchet MS; color:#312f31; font-size:20px; color: #fff; font-weight: bold;" ><i class="fa-solid fa-circle-user"></i> <?php  echo  "<b>{$clientname}</b> </a>"; ?>   </div></div>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="dashboard_requirement.php">Requirements</a></li>
+       <li><a href="dashboard_doclist.php">Application Status</a></li>
+      <!--  <li><a href="doctracker.php" style="font-size: 15px;">Track your Application</a></li> -->
+       <li style="padding-left: 30px;"><i style="color: white;" class="fa-solid fa-right-from-bracket"></i><button style="color: white;" class="btn"  name="btn" data-target="#logoutModal" data-toggle="modal">Logout</button></li><br><br>
+     </ul>
+   </form>
+<div id='bodybox'>
+  <h5 style="color: white; font-weight: 600; font-size: 15px; padding: 5px; text-align: center;"> OLDPMS Support</h5>
+  <div id='chatborder'>
+    <p id="chatlog7" class="chatlog">&nbsp;</p>
+    <p id="chatlog6" class="chatlog">&nbsp;</p>
+    <p id="chatlog5" class="chatlog">&nbsp;</p>
+    <p id="chatlog4" class="chatlog">&nbsp;</p>
+    <p id="chatlog3" class="chatlog">&nbsp;</p>
+    <p id="chatlog2" class="chatlog">&nbsp;</p>
+    <p id="chatlog1" class="chatlog">&nbsp;</p>
+
+    <div class="scrollmenu" style="overflow: auto;
+  white-space: nowrap; background: #ecedf0; padding: 5px;">
+  <a type="button" onclick="myFunction()" id="suggest1" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">What is your name?</a>
+
+  <a type="button" onclick="myFunction2()" id="suggest2" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">Can you help me?</a>
+
+  <a type="button" onclick="myFunction3()" id="suggest3" style="display: inline-block; text-decoration: none; color: #0078d4; background: #fff; padding: 5px; border-radius: 15px; font-weight: 600; font-size: 12px;">How to file application?</a>
+
+</div>
+    <input type="text" name="chat" id="chatbox" placeholder="Hi there! Type here to talk to me." onfocus="placeHolder()">
+  </div>
+ 
+</div>
+
+</nav>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+          <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                      <!-- START -->
+
+                      <!-- CONTENT -->
+                              <!-- END -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+<div class="bodytime">
+  <div class="card" style="width: 1000px;  padding: 0; align-items: center;display: flex;margin: auto;margin-top: 5%;">
+  <div class="card-body">
+  <center><br>
+    <h2 class="text-center" style="font-family: system-ui; font-weight: 600">Track your Application</h2><br>
+  </center>
+
+      <table class="table table-striped" style="width: 950px;">
+        <tr>
+          <th style="background: #597EFB; color: #fff; font-weight: 300;">ID</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 300;">Previous/Existing LD Registration Number</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 300;">Type</th>
+          <th style="background: #597EFB; color: #fff; font-weight: 300;">Business/Trade Name</th>
+           <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 300;">Address</th>
+           <th style="background: #597EFB; color: #fff; font-weight: 300;">Date Filed</th>
+            <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 300;">Track Application</th>
+            <th style="text-align: center; background: #597EFB; color: #fff; font-weight: 300;">View Details</th>
+      
+
+
+          
+           
+        </tr>
+        
+<?php 
+
+
+function getFullMonthNameFromDate($date){
+  $monthName = date('F d, Y', strtotime($date));
+  return $monthName;
+       }
+
+
+$stmt = $connection->query("SELECT Registration_Number, bussiness_name, full_address, date_applied, lumber_app_id, Rating, Application_status, Status_
+FROM lumber_application 
+where client_id  = $id
+
+");
+
+           while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+
+          // $Registration_Number =  $row['Registration_Number'];
+        
+          $date = $row['date_applied'];
+
+      //  echo   $row['Registration_Number'] ;
+
+    echo    '<tr>' ; 
+    echo    '<td align="center" style="color: #597EFB; font-size: 15px;" id="mb1">'.$row['lumber_app_id'].'</td>' ;
+    echo    '<td align="center" style="color: #597EFB; font-size: 15px;" id="mb1">'.$row['Registration_Number'].'</td>' ;
+    echo       '<td style="border-right-color: #fff;">' ;
+    echo       '<span id="custom-text" style="font-size: 13px; color: #808080;">'.$row['Status_'].'</span>' ;
+    echo        '</td>' ;
+    echo        '<td align="center">' ;
+    echo       '<span id="custom-text" style="font-size: 13px; color: #808080;">'.$row['bussiness_name'].'</span>' ;
+    echo        '</td>' ;
+    echo        '<td align="center">' ;
+    echo       '<span id="custom-text" style="font-size: 13px; color: #808080;">'.$row['full_address'].'</span>';
+    echo        '</td>' ;
+    echo        '<td align="center" style="color: #808080; font-size: 15px;" id="mb1">'.getFullMonthNameFromDate($date).'</td>' ;
+    echo         '<td align="center">' ;
+    echo        '<a type="button" href="doctracker.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button1" class="btn btn-sm" data-bs-html="true" style="background: #32CD32; color: white; font-size: 12px; width: 15; height:30px; font-weight: 500;">Track</button>' ;
+    // echo        '<a type="button" href="trackercheckpoint.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button1" class="btn btn-sm" data-bs-html="true" style="background: #32CD32; color: white; font-size: 12px; width: 15; height:30px; font-weight: 500;">Track</button>' ;
+
+    echo        '</td>' ;
+
+
+    // if (($row['Rating'])==('Rated')){
+
+
+                  if (($row['Application_status'])==('Complete')) {
+
+                      if (($row['Rating'])==('Rated')){
+
+                      echo      '<td align="center">' ;
+                      echo       '<a  type="button" type="button"  href="docstatus_released.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button2" class="btn btn-sm" data-bs-html="true" style="background: #ffaa00; color: white; font-size: 14px; width: auto; height:30px; font-weight: 500;"></i>View</button>' ;
+                      echo       '</td>' ;
+
+
+                      }else {
+                       
+                        echo      '<td align="center">' ;
+                        echo       '<a  type="button" type="button"  href="clientcss_s.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button2" class="btn btn-sm" data-bs-html="true" style="background: #ffaa00; color: white; font-size: 14px; width: auto; height:30px; font-weight: 500;"></i>View</button>' ;
+                        echo       '</td>' ;
+                      }
+
+                      
+
+
+                  }else{
+                    echo      '<td align="center">' ;
+                    echo       '<a  type="button" type="button"  href="docstatus.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button2" class="btn btn-sm" data-bs-html="true" style="background: #ffaa00; color: white; font-size: 14px; width: auto; height:30px; font-weight: 500;">Status</button>' ;
+                    echo       '</td>' ;
+
+                  }
+
+
+    
+
+
+    // }else{
+    
+    //   echo      '<td align="center">' ;
+    //   echo       '<a  type="button" type="button"  href="clientcss_s.php?lumber_app_id='.$row['lumber_app_id'].'" id="custom-button2" class="btn btn-sm" data-bs-html="true" style="background: #ffaa00; color: white; font-size: 14px; width: auto; height:30px; font-weight: 500;"><i class="fa-solid fa-circle-info"></i>View</button>' ;
+    //   echo       '</td>' ;
+    // }
+
+
+
+    
+
+
+
+    echo    '</tr>' ; 
+
+  }
+
+      ?> 
+
+      </table>
+
+
+  </div>
+</div>
+</div>
+
+
+<!-- <script type="text/javascript">
+    document.getElementById("custom-button1").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button2").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+
+     document.getElementById("custom-button3").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button4").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+
+     document.getElementById("custom-button5").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button6").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+
+     document.getElementById("custom-button7").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button8").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+
+     document.getElementById("custom-button9").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button10").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+
+     document.getElementById("custom-button11").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/doctracker.php";
+    };
+     document.getElementById("custom-button12").onclick = function () {
+        location.href = "http://localhost/oldpms_feny/client/docstatus.php";
+    };
+</script> -->
+<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+  </body>
+</html>

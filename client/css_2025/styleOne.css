@@ -1,0 +1,1413 @@
+
+        /* Combined CSS for both front and back pages */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #f0f8ff;
+            zoom: 80%;
+        }
+
+        .form-container {
+            max-width: 1060px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #389c64;
+            color: white;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .form-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .denr-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #389c64;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            gap: 20px;
+        }
+
+        .denr-text {
+            margin-left: 0px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .denr-logo {
+            height: 65px;
+            width: 65px;
+            margin-left: -10px;
+        }
+
+        .agency {
+            font-size: 16px;
+            line-height: 1.3;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 2;
+            text-align: left;
+        }
+
+        .smiley-icon {
+            height: 60px;
+            width: 60;
+            margin-left: 140px;
+        }
+
+        .survey-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: -1px;
+        }
+
+        .version {
+            font-size: 12px;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.2;
+            margin: 2px 0;
+        }
+
+        .approval {
+            font-size: 13px;
+            margin: 0;
+        }
+
+
+        .help-banner {
+            background-color: white;
+            color: #27ae60;
+            text-align: left;
+            padding: 20px 25px 10px 25px;
+            border-radius: 10px;
+        }
+
+        .help-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0;
+            color: #27ae60;
+        }
+
+        .help-subtitle {
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            margin: 5px 0 0;
+        }
+
+        .description-box {
+            background-color: white;
+            color: #000;
+            padding: 10px 25px 25px;
+            font-size: 14px;
+            border-radius: 0 0 10px 10px;
+            line-height: 1.6;
+            margin-top: -10px;
+             margin-left: -22px;
+        }
+
+        .description-box strong {
+            font-weight: bold;
+        }
+
+        .description-box a.underline {
+            color: #389c64;
+            text-decoration: underline;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-top: 20px;
+            padding: 0 25px;
+        }
+
+        .form-label {
+            width: 220px;
+            font-size: 14px;
+            color: #000;
+            margin-left: 30px;
+        }
+
+        .sub-label {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 0 25px;
+        }
+
+        .form-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin-right: -50px;
+            margin-left: -82px;
+        }
+
+        .compact-row {
+            display: flex;
+            justify-content: flex-start;
+            gap: 50px;
+            padding: 0 50px;
+            margin-top: 10px;
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: -13px;
+        }
+
+        .form-short-input1 {
+            width: 150px;
+            padding: 10px 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: -45px;
+            margin-left: 175px;
+        }
+
+        .form-short-input2 {
+            width: 155px;
+            padding: 10px 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: -45px;
+            margin-left: 300px;
+        }
+
+        .form-row-between {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            margin: 20px 25px 0;
+            padding: 0 25px;
+        }
+
+        .label-left,
+        .label-right {
+            font-size: 14px;
+            color: #000;
+            white-space: nowrap;
+        }
+
+        .mid-input {
+            flex-grow: 1;
+            max-width: 400px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+
+        .radio-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .radio-option {
+            position: relative;
+            padding-left: 25px;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 120px;
+        }
+
+        .radio-option input[type="radio"] {
+            opacity: 0;
+            position: absolute;
+            cursor: pointer;
+        }
+
+
+        .radio-option input[type="radio"]:checked ~ .custom-radio {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+
+
+        .radio-label1 {
+            flex-direction: column;
+            line-height: 1.2;
+            margin-left: -30px;
+        }
+
+        .radio-label2 {
+            flex-direction: column;
+            line-height: 1.2;
+            margin-left: -95px;
+        }
+
+
+        .form-row-sex-age {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 25px 25px 0;
+            gap: 10px;
+            padding: 0 25px;
+        }
+
+        .label-sex,
+        .label-age {
+            font-size: 14px;
+            color: #000;
+            white-space: nowrap;
+        }
+
+        .label-age {
+            margin-left: -15px;
+        }
+
+        .radio-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .radio-option {
+            position: relative;
+            padding-left: 25px;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .radio-option input[type="radio"] {
+            opacity: 0;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .custom-radio1 {
+            height: 20px;
+            width: 20px;
+            border: 2px solid #27ae60;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: -40px;
+        }
+
+        .custom-radio2 {
+            height: 20px;
+            width: 20px;
+            border: 2px solid #27ae60;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+             margin-left: -100px;
+        }
+
+        .radio-option input[type="radio"]:checked ~ .custom-radio {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+        /* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+        .custom-radio1.is-checked,
+        .custom-radio2.is-checked {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+
+
+        .age-input {
+            width: 60px;
+            padding: 8px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-right: 290px;
+        }
+
+
+        .radio-option-lungsuranon {
+            position: relative;
+            padding-left: 30px;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: 681px;
+            margin-top: -50px;
+        }
+
+        .radio-option-lungsuranon input[type="radio"] {
+            opacity: 1;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .custom-radio-lungsuranon {
+            height: 20px;
+            width: 20px;
+            border: 2px solid #27ae60;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .radio-option-lungsuranon input[type="radio"]:checked ~ .custom-radio-lungsuranon {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+        /* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+        .custom-radio-lungsuranon.is-checked {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+
+
+        .radio-label-lungsuranon {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 25px;
+            margin-top: 10px;
+        }
+
+        .form-label {
+            width: 220px;
+            font-size: 14px;
+            color: #000;
+        }
+
+        .form-input-email {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            max-width: 620px;
+            margin-right: 20px;
+            margin-left: -75px;
+        }
+
+        .form-input-phone {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+            font-size: 14px;
+            max-width: 620px;
+            margin-right: -25px;
+            margin-left: -80px;
+
+        }
+
+        .email-row-with-radio {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .radio-option-negosyo {
+            position: relative;
+            padding-left: 30px;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: 10px;
+            max-width: 300px;
+        }
+
+        .radio-option-negosyo input[type="radio"] {
+            opacity: 1;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .custom-radio-negosyo {
+            height: 20px;
+            width: 20px;
+            border: 2px solid #27ae60;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .radio-option-negosyo input[type="radio"]:checked ~ .custom-radio-negosyo {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+        /* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+        .custom-radio-negosyo.is-checked {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+
+
+        .radio-label-negosyo {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            margin-left: 20px;
+        }
+
+
+        .phone-with-radio {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 0 25px;
+            margin-top: 10px;
+        }
+
+        .radio-options-client-type {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 320px;
+            margin-top: 5px;
+        }
+
+        .radio-option-client {
+            position: relative;
+            padding-left: 30px;
+            font-size: 14px;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            align-items: flex-start;
+            gap: 5px;
+        }
+
+        .radio-option-client input[type="radio"] {
+            opacity: 1;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .custom-radio-client {
+            height: 20px;
+            width: 20px;
+            border: 2px solid #27ae60;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 5px;
+            margin-left: 48px;
+        }
+
+        .radio-option-client input[type="radio"]:checked ~ .custom-radio-client {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+        /* ADDED FOR SCREENSHOT: This will make the custom radio look checked when 'is-checked' is added by JS */
+        .custom-radio-client.is-checked {
+            background-color: #27ae60;
+            box-shadow: inset 0 0 0 4px white;
+        }
+
+
+        .radio-label-client {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            margin-left: 60px;
+        }
+
+        .disclaimer-text {
+            color: #333;
+            line-height: 1.6;
+            margin-right: 300px;
+            margin-left: -600px;
+            margin-top: -100px;
+
+        }
+
+        .panudlo-section {
+            margin: 25px 0 10px 25px;
+            padding-right: 25px;
+            font-size: 14px;
+            color: #000;
+            line-height: 1.6;
+            margin-top: -450px; /* This margin-top might be causing layout issues if not intended for specific positioning */
+        }
+
+        .panudlo-section strong {
+            font-weight: bold;
+        }
+
+        .panudlo-translation {
+            font-size: 13px;
+            color: #555;
+        }
+
+        .check-icon {
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .green-line-separator {
+            height: 8px;
+            background-color: #389c64;
+            border-top: 2px solid white;
+            margin: 25px 0;
+            width: 1060px;
+            margin-left: -28px;
+        }
+
+
+        .question-label {
+            font-size: 15px;
+            color: #000;
+            margin: 25px 25px 10px;
+            line-height: 1.5;
+        }
+
+        .question-label strong {
+            font-weight: bold;
+        }
+
+        .question-translation {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .custom-radio-option {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 18px 25px;
+            font-size: 14px;
+            line-height: 1.4;
+            cursor: pointer;
+        }
+
+        .custom-radio-option input[type="radio"] {
+            /* REMOVED: accent-color - we will rely on custom styling for screenshot consistency */
+            opacity: 0; /* Keep the actual input hidden */
+            position: absolute;
+            width: 18px; /* Maintain dimensions */
+            height: 18px; /* Maintain dimensions */
+            margin-top: 4px; /* Maintain alignment */
+            cursor: pointer;
+            /* ADDED: For older browsers/fallbacks if custom style doesn't load */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .option-box {
+            width: 24px;
+            height: 24px;
+            background-color: #2e7d32;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            line-height: 24px;
+            font-size: 14px;
+            border-radius: 4px;
+            flex-shrink: 0;
+            position: relative; /* Added for ::after pseudo-element */
+        }
+
+        .option-text {
+            max-width: 90%;
+        }
+
+        .translation {
+            color: #555;
+            font-size: 13px;
+        }
+
+        .instruction-note {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 25px 25px 10px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .icon {
+            background-color: #2e7d32;
+            color: white;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 22px;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .instruction-text {
+            max-width: 90%;
+        }
+
+        .translation {
+            color: #555;
+            font-size: 13px;
+        }
+
+        .radio-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px 40px;
+            margin: 15px 25px;
+        }
+
+        .radio-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .radio-item input[type="radio"] {
+            appearance: none;
+            -webkit-appearance: none; /* For WebKit browsers */
+            -moz-appearance: none;   /* For Firefox */
+            width: 18px;
+            height: 18px;
+            border: 2px solid #2e7d32;
+            border-radius: 50%;
+            margin-top: 4px;
+            position: relative;
+            outline: none; /* Remove default focus outline */
+            cursor: pointer;
+        }
+
+        .radio-item input[type="radio"]:checked::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #2e7d32;
+            border-radius: 50%;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            display: block; /* Ensure it's displayed */
+        }
+
+        /* ADDED FOR SCREENSHOT: This will make the radio-item look checked when 'is-checked' is added by JS */
+        .radio-item input[type="radio"].is-checked::before { /* Apply to the native input directly for these specific radios */
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #2e7d32;
+            border-radius: 50%;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            display: block;
+        }
+
+
+        .option-content {
+            line-height: 1.3;
+        }
+
+        .radio-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            margin: 15px 25px;
+            flex-wrap: wrap;
+        }
+
+
+        .insert1 {
+            height: 120%;
+            width: 200px;
+            margin-left: 718px;
+            margin-top: -79.1px;
+
+
+        }
+
+        .charter {
+            margin-left: 780px;
+            margin-bottom: 50px;
+            margin-top: -28px;
+        }
+
+        .cc1 {
+            height: 50px;
+            width: 50px;
+            margin-top: -350px;
+            margin-left: -32px;
+            margin-bottom: 320px;
+            margin-right: -5px;
+        }
+
+        .cc2 {
+            height: 50px;
+            width: 50px;
+            margin-bottom: -80px;
+            margin-left: -49px
+        }
+
+        .cc3 {
+            height: 50px;
+            width: 50px;
+            margin-bottom: -245px;
+            margin-left: -55px;
+        }
+
+
+        @media (max-width: 1060px) {
+            .form-container {
+                padding: 15px;
+                margin: 20px 10px;
+                border-radius: 8px;
+            }
+
+            .denr-header {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
+            }
+
+            .header-left, .header-right {
+                flex: unset;
+                width: 100%;
+                justify-content: flex-start;
+            }
+
+            .smiley-icon {
+                margin-left: 0;
+                height: 50px;
+                width: 50px;
+            }
+
+            .form-row-between,
+            .form-row-sex-age,
+            .compact-row,
+            .email-row-with-radio,
+            .phone-with-radio {
+                flex-direction: column;
+                gap: 10px;
+                align-items: stretch;
+            }
+
+            .form-input,
+            .form-input-email,
+            .form-input-phone,
+            .form-short-input1,
+            .form-short-input2,
+            .mid-input,
+            .age-input {
+                width: 100% !important;
+                max-width: 100%;
+                margin: 0 !important;
+            }
+
+            .radio-option,
+            .radio-option-lungsuranon,
+            .radio-option-negosyo,
+            .radio-option-client {
+                margin: 0 !important;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+
+            .radio-label1,
+            .radio-label2,
+            .radio-label-client,
+            .radio-label-negosyo,
+            .radio-label-lungsuranon {
+                margin-left: 0 !important;
+            }
+
+            .radio-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .green-line-separator {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .panudlo-section {
+                margin: 20px;
+            }
+
+            .disclaimer-text {
+                margin: 0;
+            }
+
+            .charter,
+            .cc1,
+            .cc2,
+            .cc3 {
+                display: none;
+            }
+        }
+        
+        /* The following styles are from style.css */
+        
+        .instructions-container {
+            margin-bottom: 20px;
+        }
+
+        .form-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            margin-left: 13px;
+        }
+
+        .info-icon {
+            width: 55px;
+            height: 55px;
+            flex-shrink: 0;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        .text-block {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .instructions {
+            margin: 0;
+            line-height: 1.4;
+            text-align: left;
+            margin-left: 13px;
+        }
+
+        .instructions-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 30px;
+        }
+
+        .rating-scale {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+            align-items: flex-start;
+            gap: 10px;
+            margin-right: 0;
+        }
+
+        .scale-item {
+            flex: 1;
+            min-width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .label {
+            font-size: 0.8em;
+            line-height: 1.3;
+        }
+
+        .icon1, .icon2, .icon3, .icon4, .icon5 {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        /* ------Survey Part-----------*/
+        .questionnaire {
+            margin-top: 20px;
+            margin-left: 0;
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+            color: black;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .question {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .question-row {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 18px;
+        }
+
+        .question-text {
+            width: 100%;
+        }
+
+        .statement {
+            line-height: 1.5;
+            margin-top: 4px;
+        }
+
+        .question-title {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        .translation {
+            display: block;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .choices {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 5px;
+        }
+
+        .choices .radio-group {
+            display: flex;
+            gap: 15px;
+        }
+
+        .choices label:not(.na-box) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .choices input[type="radio"] {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            border: 2px solid #389c64;
+            accent-color: #389c64;
+            appearance: none;
+            background-color: white;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .choices input[type="radio"]::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            background-color: #389c64;
+            border-radius: 50%;
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            display: none;
+        }
+
+        .choices input[type="radio"]:checked::before {
+            display: block;
+        }
+
+        .na-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .na-box input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: #389c64;
+            margin-left: 1px;
+        }
+
+        .green-line {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: #389c64;
+            border-radius: 10px;
+            z-index: 1;
+        }
+
+        /* Suggestion Box */
+        .suggestion-box {
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        .suggestion-header {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-left: 0;
+            margin-top: 10px;
+        }
+
+        .suggestion-content {
+            background-color: white;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .suggestion-text {
+            width: 100%;
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        .suggestion-input {
+            width: 100%;
+        }
+
+        .suggestion-input textarea {
+            width: 100%;
+            height: 100px;
+            border: 2px solid #000;
+            border-radius: 4px;
+            resize: none;
+            box-sizing: border-box;
+        }
+
+        /* Form Footer */
+        .top-form-box {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            color: #000;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .left-box, .right-box {
+            width: 100%;
+            margin-top: 10px;
+            margin-left: 0;
+        }
+
+        .right-box strong {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 5px;
+        }
+
+        .controlnumber-input, .signature-input {
+            width: 100%;
+            height: 40px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        .privacy-text {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        .authorized-label {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .form-details-offset {
+            margin-top: 14px;
+        }
+
+        .form-details-offset strong {
+            font-size: 18px;
+        }
+
+        .form-details-offset .translation {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Media Queries for Responsiveness */
+        @media (min-width: 768px) {
+            .form-content {
+                flex-direction: row;
+            }
+            
+            .instructions-container {
+                flex: 1;
+                margin-bottom: 100px;
+            }
+            
+            .rating-scale {
+                flex-wrap: nowrap;
+                margin-right: 70px;
+            }
+            
+            .scale-item {
+                min-width: 50px;
+            }
+            
+            .icon1, .icon2, .icon3, .icon4, .icon5 {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .questionnaire {
+                margin-top: -11%;
+                margin-left: 1.5%;
+                padding: 10px 20px;
+                max-width: 1030px;
+            }
+            
+            .question-row {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            .question-text {
+                flex: 1 1 55%;
+            }
+            
+            .choices {
+                flex: 1 1 40%;
+                gap: 0;
+            }
+            
+            .choices input[type="radio"] {
+                width: 28px;
+                height: 28px;
+            }
+            
+            .choices input[type="radio"]::before {
+                width: 15px;
+                height: 15px;
+                top: 5px;
+                left: 5px;
+            }
+            
+            .na-box {
+                margin-top: -13px;
+            }
+            
+            .na-box input[type="checkbox"] {
+                width: 25px;
+                height: 25px;
+            }
+            
+            .green-line {
+                left: -50px;
+                right: -50px;
+                height: 5px;
+            }
+            
+            .suggestion-header {
+                margin-left: 25px;
+                margin-top: -3px;
+            }
+            
+            .suggestion-content {
+                flex-direction: row;
+                max-width: 1025px;
+                margin-left: 9px;
+            }
+            
+            .suggestion-text {
+                width: 60%;
+            }
+            
+            .suggestion-input {
+                width: 80%;
+                padding-left: 10px;
+                margin-right: 18px;
+            }
+            
+            .top-form-box {
+                flex-direction: row;
+                max-width: 1025px;
+                margin-left: 19px;
+            }
+            
+            .left-box {
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            
+            .right-box strong {
+                margin-left: 75px;
+            }
+            
+            .controlnumber-input, .signature-input {
+                width: 285px;
+                height: 50px;
+            }
+            
+            .privacy-text {
+                margin-left: -190px;
+                margin-top: 8px;
+            }
+        }
+
+        /* Styling for the form navigation buttons */
+.form-navigation {
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right */
+    gap: 15px; /* Adds space between the buttons */
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.form-navigation button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#prevBtn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+#prevBtn:hover {
+    background-color: #ccc;
+}
+
+#nextBtn, #submitBtn {
+    background-color: #389c64; /* DENR's green color */
+    color: white;
+}
+
+#nextBtn:hover, #submitBtn:hover {
+    background-color: #2e7d32; /* A slightly darker green on hover */
+}
+
+/* Toast Notification Styles */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    pointer-events: none; /* Allows clicks to pass through when hidden */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toast-message {
+    background-color: #333;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    margin-bottom: 10px;
+    font-size: 16px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.toast-message.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Specific colors for success and error messages */
+.toast-message.success {
+    background-color: #28a745;
+}
+
+.toast-message.error {
+    background-color: #dc3545;
+}

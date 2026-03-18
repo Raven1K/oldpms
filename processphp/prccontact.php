@@ -1,93 +1,51 @@
 <?php 
+    // Prevent Clickjacking by setting X-Frame-Options and Content-Security-Policy headers
+    header('X-Frame-Options: SAMEORIGIN');
+    header("Content-Security-Policy: frame-ancestors 'self';");
 
     require_once('config.php');
-     if(isset($_POST['btn']))
-     {
 
-   
+    if(isset($_POST['btn'])) {
 
-    // if ( isset($_POST['name']) && isset($_POST['email'])
-    //  && isset($_POST['subject']) && isset($_POST['message']) ) {
+        // 1. Sanitize and trim inputs to prevent XSS and clean up whitespace
+        $full_name = trim($_POST['name']);
+        $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+        $subject = trim($_POST['subject']);
+        $message = htmlspecialchars(trim($_POST['message']), ENT_QUOTES, 'UTF-8');
 
-
-        $full_name = $_POST['name'];
-        $email = $_POST['email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
-
-
-
-        if(empty($full_name) || empty($email) || empty($subject) || empty($message))
-        {
-            // echo ' Please Fill in the Blanks ';
-            // echo '<script>alert("Please Fill in the Blanks" )</script>';
-
-            //    echo '<input type="button" class="btn" <a href="#" onclick="history.back();"> </a>';
-            //   echo '<a href="#" onclick="history.back();"></a>';
-
-            echo '<form action ="index.php" method = "POST">
-            <script>alert("Please Fill in the Blanks" )</script>
-            <button type="backpage" name="button"> Backpage </button>
+        // 2. Check for empty fields
+        if(empty($full_name) || empty($email) || empty($subject) || empty($message)) {
+            echo '<form action="index.php" method="POST">
+            <script>alert("Please Fill in the Blanks")</script>
+            <button type="submit" name="button"> Backpage </button>
             </form>';
-
-           
-
-            // echo '<a class="btn btn-primary" href="edit_old.php?user_id" </a>  ';
-            // header("Location: index.php");
-        }
-        else
-        {
-         
- 
+        } 
+        else {
+            // 3. Use Prepared Statements to prevent SQL Injection
+            $stmt = $con->prepare("INSERT INTO contact_us (full_name, email, subject, message) VALUES (?, ?, ?, ?)");
             
-                $query = "insert into contact_us (full_name,email,subject,message) values ('$full_name','$email','$subject','$message')";
-                $result = mysqli_query($con,$query);
-               
-
-                if($result)
-                {
-
-
-                    //  echo ' Your Record Has Been Saved in the Database ';
+            if ($stmt) {
+                // "ssss" means we are binding 4 string parameters
+                $stmt->bind_param("ssss", $full_name, $email, $subject, $message);
                 
-             
-      
-                
-              
-            //  echo '<script>alert("Your Record Has Been Saved in the Database" )</script>';
+                // Execute the prepared statement
+                $result = $stmt->execute();
 
-        
-            // header("Location: ../index.php#contactus");
-                    // header("Location: ../index.php#contactus");
-                   
-
-
-                     $em = "Your Message Has Been Send";
-                     header ("Location: univmodal.php?error=$em");
-
-    //    header("Location: ../");
-                    // die();
-                    
-                    // echo ' Your Record Has Been Saved in the Database ';
-                   
-                    // echo '<a href="../index.php" onclick="history.back();">
-                    // <script>alert("Your Record Has Been Saved in the Database" ) </script>
-                    // <button type="backpage" name="button"> OK </button>
-                    // </form>';
-                   
-                    
-                    
-    
-
-                }
-                else
-                {
-                    echo ' Please Check Your Query ';
+                if($result) {
+                    $em = "Your Message Has Been Sent";
+                    header("Location: univmodal.php?error=" . urlencode($em));
+                    exit(); // Crucial: Always exit after a header redirect
+                } else {
+                    // Do not expose raw database errors to users in a live environment
+                    echo 'An error occurred while saving your message. Please try again later.';
                 }
                 
+                // Close the statement
+                $stmt->close();
+            } else {
+                // Triggers if the SQL query structure is wrong or db connection fails
+                echo 'Database configuration error.';
             }
         }
-    
-
-
+    }
 ?>

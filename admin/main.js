@@ -53,16 +53,18 @@ tbody.addEventListener("click", (e) => {
   }
 });
 
-const editUser = async (id) => {
+const editUser = async (user_id) => {
   const data = await fetch(`action.php?edit=1&id=${id}`, {
     method: "GET",
   });
   const response = await data.json();
-  document.getElementById("id").value = response.id;
-  document.getElementById("fname").value = response.first_name;
-  document.getElementById("lname").value = response.last_name;
-  document.getElementById("email").value = response.email;
-  document.getElementById("phone").value = response.phone;
+  document.getElementById("user_id").value = response.user_id;
+  document.getElementById("name").value = response.name;
+  document.getElementById("office_id").value = response.office_id;
+  document.getElementById("contact_no").value = response.phone;
+  document.getElementById("username").value = response.username;
+  // document.getElementById("password").value = response.password;
+  document.getElementById("user_role").value = response.user_role;
 };
 
 // Update User Ajax Request
@@ -99,13 +101,13 @@ updateForm.addEventListener("submit", async (e) => {
 tbody.addEventListener("click", (e) => {
   if (e.target && e.target.matches("a.deleteLink")) {
     e.preventDefault();
-    let id = e.target.getAttribute("id");
+    let id = e.target.getAttribute("user_id");
     deleteUser(id);
   }
 });
 
-const deleteUser = async (id) => {
-  const data = await fetch(`action.php?delete=1&id=${id}`, {
+const deleteUser = async (user_id) => {
+  const data = await fetch(`action.php?delete=1&user_id=${user_id}`, {
     method: "GET",
   });
   const response = await data.text();

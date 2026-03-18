@@ -1,5 +1,10 @@
 <?php
 // Initialize the session
+session_set_cookie_params([
+    'secure' => true,
+    'httponly' => true,
+    'samesite' => 'Strict'
+]);
 session_start();
  
 // Check if the user is logged in, if not then redirect him to login page

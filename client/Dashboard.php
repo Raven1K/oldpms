@@ -1,20 +1,77 @@
 <?php
 // Initialize the session
+
+require_once "../processphp/config.php";
 session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
      header("location: ../login.php");
     exit;
+
+
+
 }
+
+
+
+// if ( ! isset($_GET['email']) ) {
+  // $_SESSION['error'] = "Missing user_id";
+
+  $_SESSION["client_id"];
+  // $em =  $_SESSION["client_id"];
+  // header ("Location: ../processphp/univmodal.php?error=$em");
+ 
+  // header('Location: ../index.php');
+  // return;
+
+
+{
+
+
+  $id = $_SESSION["client_id"];
+
+  $_SESSION["uniquid_lap"] =  uniqid();
+  // $email = $_POST['email'];
+  // $password = $_POST['password'];
+
+  $query = $connection->prepare("SELECT * FROM user_client WHERE client_id=:client_id");
+  $query->bindParam("client_id", $id, PDO::PARAM_STR);
+  $query->execute();
+  $result = $query->fetch(PDO::FETCH_ASSOC);
+  if (!$result) {
+      // echo '<p class="error">Email and Password combination is wrong!</p>';
+
+      $em = "Email and Password combination is wrong!";
+      header ("Location: univmodal.php?error=$em");
+  } else {
+
+
+      // $password_hash = password_hash($password, PASSWORD_BCRYPT);
+
+      // echo(htmlentities($result['password']));
+
+      // $em = $result['email'];;
+      // header ("Location: ../processphp/univmodal.php?error=$em");
+      // echo(htmlentities($password_hash));
+
+      // echo(htmlentities(password_verify($password, $result['password'])));
+      $id = $result['client_id'];
+
+      $_POST['fname'] = $id;
+      // echo "<tr><td>" ;
+      // echo  (htmlentities($id));
+      // echo("</td><td>");</form
+      // echo("</td></tr>\n");
+  }
+
+
+    }
+
 ?>
-
-
-
-
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta charset="utf-8">
@@ -23,30 +80,24 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
    <title>Online Lumber Dealer Permitting and Monitoring System</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="../fonts/css/all.css">
-    <script src="../js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!--<link rel="stylesheet" href="../main/css/sb-admin-2.css"> -->
   </head>
-  
+  <!-- -----------------------------------------------------------------------------------------------------  Get form sumpay 1 -->
+  <form action="../processphp/prc_logout.php"  method="post" role="form" >
+  <!-- <form action="../main/outmodal.php"  method="post" role="form" > -->
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <input type="file" id="realfile"  hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile2" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile3" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile4" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile5" hidden="hidden" accept="Application/pdf" value=""/>
-    <input type="file" id="realfile6" hidden="hidden" accept="Application/pdf" value=""/>
-
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
       
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
-  <div class="container-fluid">
+  <div class="container-fluid ">
      <a href="index.php"><img src="../images/oldpmslogo.png" alt="oldpms" height="40"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <a class="navbar-brand" href="index.php"><strong>ONLINE LUMBER DEALER PERMITTING & MONITORING SYSTEM</strong></a>
@@ -57,43 +108,108 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
            </li>
         </ul>
           <form class="d-flex">
-          
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown" style="margin-right: 10px;">
+        <li class="nav-item dropdown" style="margin-left: 880px; ">
           <a href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fa-solid fa-circle-user text-white style"></i>
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="#">Profile</a>
+              <button class="btn  btn-success"  name="btn" data-target="#logoutModal" data-toggle="modal"> Logout </button>
+               <?php
+// Initialize the session
+require_once "../processphp/config.php";
+
+
+$id = $_SESSION["client_id"];
+// $email = $_POST['email'];
+// $password = $_POST['password'];
+
+$query = $connection->prepare("SELECT * FROM user_client WHERE client_id=:client_id");
+$query->bindParam("client_id", $id, PDO::PARAM_STR);
+$query->execute();
+$result = $query->fetch(PDO::FETCH_ASSOC);
+if (!$result) {
+    // echo '<p class="error">Email and Password combination is wrong!</p>';
+
+    $em = "Email and Password combination is wrong!";
+    header ("Location: univmodal.php?error=$em");
+} else {
+
+
+    // $password_hash = password_hash($password, PASSWORD_BCRYPT);
+
+    // echo(htmlentities($result['password']));
+
+    // $em = $result['email'];;
+    // header ("Location: ../processphp/univmodal.php?error=$em");
+    // echo(htmlentities($password_hash));
+
+    // echo(htmlentities(password_verify($password, $result['password'])));
+    $clientname = $result['firstname'];
+
+    $lastname = $result['lastname'];
+    $email = $result['email'];
+    $mobileno = $result['mobilenum'];
+
+    $_POST['fname'] = $clientname;
 
 
 
-              <form action="../processphp/prc_logout.php"  method="post" role="form" >
 
-               <!-- <button class="btn  btn-success" name="Log-out">Logout</button> -->
-               <button class="btn  btn-success" name="btn"> Logout </button>
+    $sql = "SELECT * FROM `user_client`";
+    $all_categories = mysqli_query($con,$sql);
 
-</form>
+    while ($category = mysqli_fetch_array(
+      $all_categories,MYSQLI_ASSOC)):;
+
+    endwhile;
+
+    // echo "<tr><td>" ;
+    // echo  (htmlentities($id));
+    // echo("</td><td>");
+    // echo("</td></tr>\n");
+
+// with middle name
+    
+}
 
 
 
+?>
+ </form>
+ 
             </li>
           </ul>
         </li>
       </ul>
     </div>
-           <a class="navbar-brand" style="font-family:Trebuchet MS; color:#312f31; font-size:20px; color: #fff; font-weight: bold;"><b>Juan, Client</b></a>
+    <a class="navbar-brand" style="font-family:Trebuchet MS; color:#312f31; font-size:20px; color: #fff; font-weight: bold;" > <?php  echo  "<b>{$clientname}</b> </a>"; ?>   
          </form>
       </div>
     </div>
   </nav>
+  
 
-    <form action="#" class="form">
+
+  <!-- <form action="#" class="form"> -->
+  <form action="../processphp/clientupload/prc_clientdashboard.php" class="form" method="post" role="form"  enctype="multipart/form-data" >
+   
+
+  <input class="form-control" type="file" id="realfile" name="my_image"  hidden="hidden" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile2" hidden="hidden" accept="Application/pdf" name="my_image2" value="upload"/>
+    <input type="file" id="realfile3" hidden="hidden" name="my_image3" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile4" hidden="hidden" name="my_image4" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile5" hidden="hidden" name="my_image5" accept="Application/pdf" value=""/>
+    <input type="file" id="realfile6" hidden="hidden" name="my_image6" accept="Application/pdf" value=""/>
+
+
+
       <!-- Progress bar -->
       <div class="progressbar">
         <div class="progress" id="progress"></div>
@@ -135,67 +251,155 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <h3 class="text-center" style="font-family: system-ui; font-weight: 600;"><i class="fa-regular fa-user" style="margin-right: 15px; margin-left: 12px;"></i>Permittee's Basic Information</h3>
          <div class="row">
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" name="fname" >
+          <input style="width: 330px;" type="text" class="form-control" placeholder="First Name*" aria-label="First name" value="<?php echo $clientname; ?>" name="perm_fname" >
           </div>
           <div class="col"><br>
-          <input style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">
+          <input style="width: 330px;" type="text" class="form-control" placeholder="Last Name*" aria-label="Last name" value="<?php echo $lastname; ?>" name="perm_lname" >
           </div>
         </div>
          <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
+          <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px;" name="application_type">
               <option selected>Application Type</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option value="Individual">Individual</option>
+              <option value="Association">Association</option>
             </select>
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Business Name*" aria-label="Business name">
+          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Business Name*" aria-label="Business name" name="bussiness_name">
           </div>
         </div>
           <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
-              <option selected>Province</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+          <select class="form-select" id="province" name="province" style="margin-top: 10px; width: 330px; ">
+              <option selected >Province</option>
+
+              <?php           
+              
+              $sql = "SELECT * FROM `province` ORDER BY prov_name ASC";
+              // user_client ORDER BY lastname ASC"; 
+              $province = mysqli_query($con,$sql);
+              ?>
+
+             <?php   while ($row = mysqli_fetch_array($province,MYSQLI_ASSOC)):;?>
+
+              <option value="<?php echo $row["prov_code"];?>">  <?php echo $row["prov_name"];?> </option>
+
+              <?php endwhile;?>
+
+
+
+
             </select>
+
           </div>
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
+          <select class="form-select" id="citymun" name="citymun" style="margin-top: 10px; width: 330px; ">
               <option selected>City/Municipality</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+
             </select>
           </div>
         </div>
           <div class="row">
           <div class="col">
-            <select class="form-select" id="autoSizingSelect" style="margin-top: 10px; width: 330px; ">
+            <select class="form-select"  id="brgy" name="brgy" style="margin-top: 10px; width: 330px; ">
               <option selected>Barangay</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
             </select>
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Zip Code" aria-label="Zip code">
+          <input style="width: 330px; margin-top: 10px;" id="zip"  type="text"  class="form-control" placeholder="Zip Code" aria-label="Zip code" >
+          </div>
+          <script> 
+              
+              $('#province').on('change',function() {
+                
+                var province_id = this.value;
+              // console.log(province_id);
+              
+
+              $.ajax({
+                   
+                   url:"provstate.php",
+                   type:"POST",
+	                 data:{ 
+                    province_data: province_id
+                  },
+                success:function(result){
+                  $('#citymun').html(result);
+                  console.log(result);
+                }
+              })
+
+              });
+
+              $('#citymun').on('change',function() {
+                
+                var citymun_id = this.value;
+               console.log(citymun_id);
+              
+
+              $.ajax({
+                   
+                   url:"provmun.php",
+                   type:"POST",
+	                 data:{ 
+                    citymun_data: citymun_id
+                  },
+                success:function(result){
+                  $('#brgy').html(result);
+                  // console.log(result);
+                }
+              })
+
+              });
+
+
+
+              $('#brgy').on('change',function() {
+                
+                var zip_id = this.value;
+              // console.log(zip_id);
+              
+
+              $.ajax({
+                   
+                   url:"provzip.php",
+                   type:"POST",
+	                 data:{ 
+                    zip_data: zip_id
+                  },
+                success:function(result){
+ 
+               
+               
+               $('#zip').val(result);
+                  
+             
+                   console.log(result);
+                }
+              })
+
+              });
+
+              
+              
+              
+              
+              </script>
+    
+
+        </div>
+          <div class="row">
+          <div class="col">
+          <input style="width: 685px; margin-top: 10px;" type="text" class="form-control" placeholder="Street/Corner/Purok*" aria-label="Street/corner/purok" name="purok" >
           </div>
         </div>
           <div class="row">
           <div class="col">
-          <input style="width: 685px; margin-top: 10px;" type="text" class="form-control" placeholder="Street/Corner/Purok*" aria-label="Street/corner/purok" >
-          </div>
-        </div>
-          <div class="row">
-          <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="E-Mail (Optional)*" aria-label="Email" >
+          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="E-Mail (Optional)*" aria-label="Email" value="<?php echo $email; ?>" name="perm_email">
           </div>
           <div class="col">
-          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Mobile No.*" aria-label="Mobile no">
+          <input style="width: 330px; margin-top: 10px;" type="text" class="form-control" placeholder="Mobile No.*" aria-label="Mobile no" value="<?php echo $mobileno; ?>" name="perm_contact">
           </div>
         </div>
         
@@ -221,7 +425,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text" style="font-size: 13px; color: #808080;">Application form or duly accompished & sworn/notarized.<span style="color: red; font-weight: 500;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button" class="btn btn-primary btn-sm" style="width: 100px; height:30px;" name="my_image">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px;" id="mb1"></td>
   </tr>
@@ -231,7 +435,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text2" style="font-size: 12px; color: #808080;">Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button2" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button2" class="btn btn-primary btn-sm" style="width: 100px; height:30px;" name="my_image2">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px; "id="mb2"></td>
   </tr>
@@ -241,7 +445,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text3" style="font-size: 13px; color: #808080;">Mayor's Permit/Business Permit<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button3" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button3" class="btn btn-primary btn-sm" style="width: 100px; height:30px;" name="my_image3">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb3"></td>
   </tr>
@@ -251,7 +455,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text4" style="font-size: 13px; color: #808080;">Annual Business Plan<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button4" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button4" class="btn btn-primary btn-sm" style="width: 100px; height:30px;" name="my_image4">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb4"></td>
   </tr>
@@ -261,7 +465,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text5" style="font-size: 13px; color: #808080;">Latest Income Tax return<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button5" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button5" class="btn btn-primary btn-sm" style="width: 100px; height:30px;"name="my_image5">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb5"></td>
   </tr>
@@ -271,21 +475,22 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <span id="custom-text6" style="font-size: 13px; color: #808080;">Proof of ownership of the lumberyard or consent/agreement with the owner<span style="font-weight: 500; color: red;"><i> *Required</i></span></span>
       </td>
       <td align="center">
-      <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;">Browse..</button>
+      <button type="button" id="custom-button6" class="btn btn-primary btn-sm" style="width: 100px; height:30px;"name="my_image6">Browse..</button>
       </td>
       <td align="center" style="color: #808080; font-size: 15px;"id="mb6"></td>
   </tr>
 </table>
 
+
         </div>
         <div class="btns-group">
           <a href="#" class="custom_btn_prev custom_btn btn-prev">Back</a>
-          <button type="button submit" class="btn btn-success" data-bs-toggle="modal" disabled="true" id="acceptBtn" >Submit</button>
+          <button type="button submit" class="btn btn-success" name="btn" data-toggle="modal" disabled="true" id="acceptBtn" >Submit</button>
+          <!-- <button class="btn  btn-success"  name="btn" data-toggle="modal"> Submit </button> -->
         </div>
       </div>
-    </form>
 
-   
+            </form>
 <div class="position-fixed top-0 end-0 p-3" style="z-index: 11;">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style=" background-color: #d1e7dd;">
     <div class="toast-header" style=" background-color: #DFF0FA; color: #5C7585">
@@ -295,320 +500,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </div>
 </div>
 </div>
-
-<script type="text/javascript">
-
-
- 
-  const realFileBtnAccept = document.getElementById("acceptBtn");
-  const realFileBtn = document.getElementById("realfile");
-  const realFileBtn2 = document.getElementById("realfile2");
-  const realFileBtn3 = document.getElementById("realfile3");
-  const realFileBtn4 = document.getElementById("realfile4");
-  const realFileBtn5 = document.getElementById("realfile5");
-  const realFileBtn6 = document.getElementById("realfile6");
-
-  const customBtn = document.getElementById("custom-button");
-  const customBtn2 = document.getElementById("custom-button2");
-  const customBtn3 = document.getElementById("custom-button3");
-  const customBtn4 = document.getElementById("custom-button4");
-  const customBtn5 = document.getElementById("custom-button5");
-  const customBtn6 = document.getElementById("custom-button6");
-
-  const customTxt = document.getElementById("custom-text");
-  const customTxt2 = document.getElementById("custom-text2");
-  const customTxt3 = document.getElementById("custom-text3");
-  const customTxt4 = document.getElementById("custom-text4");
-  const customTxt5 = document.getElementById("custom-text5");
-  const customTxt6 = document.getElementById("custom-text6");
-
-  const customTxtMB = document.getElementById("mb1");
-  const customTxtMB2 = document.getElementById("mb2");
-  const customTxtMB3 = document.getElementById("mb3");
-  const customTxtMB4 = document.getElementById("mb4");
-  const customTxtMB5 = document.getElementById("mb5");
-  const customTxtMB6 = document.getElementById("mb6");
-
-
-  customBtn.addEventListener("click", function() {
-        realFileBtn.click();
-  });
-  realFileBtn.addEventListener("change", function(){
-    let files = realFileBtn.files;
-    var totalBytes = this.files[0].size;
-
-    if (files.length > 0){
-      for (var i = 0; i < this.files.length; i++){
-         customTxt.style.color="red";
-            customTxt.innerHTML = this.files.item(i).name;
-            customBtn.innerHTML = "Upload file..";
-                  }
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB.innerHTML = 'File exceed 10 mb';
-        customTxtMB.style.color = "red";
-        customTxt.innerHTML = this.files.item(i).name;
-        customTxt.style.color="red";
-        return;
-      }
-    }
-    if (totalBytes < 1000000){
-      var _size = Math.floor(totalBytes/1000) + ' KB';
-    }else {
-      var _size = Math.floor(totalBytes/1000000) + ' MB'; 
-    }
-    
-    customTxtMB.innerHTML = _size;
-    customTxtMB.style.color = "#808080";
-        if (realFileBtn.value) {
-            customTxt.style.color = "#4285F4";
-            customTxt.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt.innerHTML = "Application form or duly accompished & sworn/notarized. ";
-          customTxt.style.color = "#808080";
-        }
-  });
-
-  customBtn2.addEventListener("click", function() {
-        realFileBtn2.click();
-  });
-  realFileBtn2.addEventListener("change", function(){
-    let files = realFileBtn2.files;
-    var totalBytes2 = this.files[0].size;
- for (var i = 0; i < this.files.length; i++){
-         customTxt2.style.color="red";
-            customTxt2.innerHTML = this.files.item(i).name;
-              customBtn2.innerHTML = "Upload file..";
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB2.innerHTML = 'File exceed 10 mb';
-        customTxtMB2.style.color = "red";
-        customTxt2.innerHTML = this.files.item(i).name;
-        customTxt2.style.color="red";
-        return;
-      }
-    }
-
-       if (totalBytes2 < 1000000){
-      var _size = Math.floor(totalBytes2/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes2/1000000) + ' MB'; 
-    }
-
-    customTxtMB2.innerHTML = _size;
-    customTxtMB2.style.color = "#808080";
-        if (realFileBtn2.value) {
-            customTxt2.style.color = "#4285F4";
-            customTxt2.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt2.innerHTML = "Lumber Supply Contract/Agreement from legitimate suppliers/subsisting lumber dealer ";
-          customTxt2.style.color = "#808080";
-        }
-  });
-
-    customBtn3.addEventListener("click", function() {
-        realFileBtn3.click();
-  });
-  realFileBtn3.addEventListener("change", function(){
-    let files = realFileBtn3.files;
-    var totalBytes3 = this.files[0].size;
-    for (var i = 0; i < this.files.length; i++){
-         customTxt3.style.color="red";
-            customTxt3.innerHTML = this.files.item(i).name;
-              customBtn3.innerHTML = "Upload file..";
-      }
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB3.innerHTML = 'File exceed 10 mb';
-        customTxtMB3.style.color = "red";
-        customTxt3.innerHTML = this.files.item(i).name;
-        customTxt3.style.color="red";
-        return;
-      }
-    }
-
-       if (totalBytes3 < 1000000){
-      var _size = Math.floor(totalBytes3/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes3/1000000) + ' MB'; 
-    }
-
-    customTxtMB3.innerHTML = _size;
-
-    customTxtMB3.style.color = "#808080";
-        if (realFileBtn3.value) {
-            customTxt3.style.color = "#4285F4";
-            customTxt3.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt3.innerHTML = "Mayor's Permit/Business Permit ";
-          customTxt3.style.color = "#808080";
-        }
-  });
-
-
-   customBtn4.addEventListener("click", function() {
-        realFileBtn4.click();
-  });
-  realFileBtn4.addEventListener("change", function(){
-    let files = realFileBtn4.files;
-     var totalBytes4 = this.files[0].size;
-
-      for (var i = 0; i < this.files.length; i++){
-         customTxt4.style.color="red";
-            customTxt4.innerHTML = this.files.item(i).name;
-             customBtn4.innerHTML = "Upload file..";
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB4.innerHTML = 'File exceed 10 mb';
-        customTxtMB4.style.color = "red";
-        customTxt4.innerHTML = this.files.item(i).name;
-        customTxt4.style.color="red";
-        return;
-      }
-    }
-    
-       if (totalBytes4 < 1000000){
-      var _size = Math.floor(totalBytes4/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes4/1000000) + ' MB'; 
-    }
-
-    customTxtMB4.innerHTML = _size;
-
-    customTxtMB4.style.color = "#808080";
-        if (realFileBtn4.value) {
-            customTxt4.style.color = "#4285F4";
-            customTxt4.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt4.innerHTML = "Annual Business Plan ";
-          customTxt4.style.color = "#808080";
-        }
-  });
-
-     customBtn5.addEventListener("click", function() {
-        realFileBtn5.click();
-  });
-  realFileBtn5.addEventListener("change", function(){
-    let files = realFileBtn5.files;
-      var totalBytes5 = this.files[0].size;
-        for (var i = 0; i < this.files.length; i++){
-         customTxt5.style.color="red";
-            customTxt5.innerHTML = this.files.item(i).name;
-             customBtn5.innerHTML = "Upload file..";
-      }
-
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB5.innerHTML = 'File exceed 10 mb';
-        customTxtMB5.style.color = "red";
-        customTxt5.innerHTML = this.files.item(i).name;
-        customTxt5.style.color="red";
-        return;
-      }
-    }
-  
-       if (totalBytes5 < 1000000){
-      var _size = Math.floor(totalBytes5/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes5/1000000) + ' MB'; 
-    }
-
-    customTxtMB5.innerHTML = _size;
-    customTxtMB5.style.color = "#808080";
-        if (realFileBtn5.value) {
-            customTxt5.style.color = "#4285F4";
-            customTxt5.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt5.innerHTML = "Latest Income Tax return ";
-          customTxt5.style.color = "#808080";
-        }
-  });
-
-     customBtn6.addEventListener("click", function() {
-        realFileBtn6.click();});
-  realFileBtn6.addEventListener("change", function(){
-    let files = realFileBtn6.files;
-      var totalBytes6 = this.files[0].size;
-        for (var i = 0; i < this.files.length; i++){
-         customTxt6.style.color="red";
-            customTxt6.innerHTML = this.files.item(i).name;
-             customBtn6.innerHTML = "Upload file..";
-      }
-    if (files.length > 0){
-      if(files[0].size > 10 * 1024 * 1024){
-        customTxtMB6.innerHTML = 'File exceed 10 mb';
-        customTxtMB6.style.color = "red";
-        customTxt6.innerHTML = this.files.item(i).name;
-        customTxt6.style.color="red";
-        return;
-      }
-    }
-   
-       if (totalBytes6 < 1000000){
-      var _size = Math.floor(totalBytes6/1000) + ' KB';
-      }else 
-      {
-      var _size = Math.floor(totalBytes6/1000000) + ' MB'; 
-    }
-
-    customTxtMB6.innerHTML = _size;
-    customTxtMB6.style.color = "#808080";
-        if (realFileBtn6.value) {
-            customTxt6.style.color = "#4285F4";
-            customTxt6.innerHTML = this.files.item(i).name;
-        } else {
-          customTxt6.innerHTML = "Proof of ownership of the lumberyard or consent/agreement with the owner ";
-          customTxt6.style.color = "#808080";
-        }
-  });
-
- $(document).ready(function(){
-  $('input[type="file"]').change(function(){
-    if( $('#realfile').val() != '' && $('#realfile2').val() != '' && $('#realfile3').val() != ''  && $('#realfile4').val() != ''  
-      && $('#realfile5').val() != ''  && $('#realfile6').val() != '')
-    {
-      $('#acceptBtn').attr('disabled', false);
-    }
-  });
-});
-
- document.getElementById("acceptBtn").addEventListener("click", function showFileSize() {
-    if (!window.FileReader) { 
-        console.log("The file API isn't supported on this browser yet.");
-        return;
-    }
-    var input = document.getElementById('realfile');
-    if (!input.files) { 
-        console.error("This browser doesn't seem to support the `files` property of file inputs.");
-    } else {
-        var file = input.files[0];
-        alert("File " + file.name + " is " + " more than 10 MB in size");
-          $('#acceptBtn').attr('disabled', true);
-    }
-
-});
-</script> 
-<!--
-    var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-    //
-  var toastTrigger = document.getElementById("acceptBtn")
-  var toastLiveExample = document.getElementById("liveToast")
-
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-    toast.show()
-  })
-}
-    -->
-  
   </body>
 </html>

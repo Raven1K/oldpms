@@ -7,14 +7,14 @@ session_start();
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PHP Demo</title>
+    <title>ONLINE LUMBER DEALER</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>s
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 
 
@@ -91,8 +91,8 @@ session_start();
         padding: 60px 15px 0;
         }
     </style>
-
-<input type="submit" value="OK" class="btn btn-primary btn-lg mt-3 mb-4" name="btn" data-loading-text="Loading...">
+<a   type="submit" value="OK" class="btn btn-primary btn-lg mt-3 mb-4" href = "javascript:history.back()">OK</a>
+<!-- <input type="submit" value="OK" class="btn btn-primary btn-lg mt-3 mb-4" name="btn" data-loading-text="Loading..."> -->
 
 <?php if (isset($_GET['error'])): 
   
@@ -107,8 +107,10 @@ session_start();
     $strg4 = "The email address is already registered!" ;
     $strg5 = "Password Not Matched" ;
     $strg6 = "Confirm Email Not Match" ;
-    
-    
+    $strg7 = "Email and Password combination is wrong!" ;
+    $strg8 = "Please Fill in the Blanks |" ;
+    $strg9 = "Your registration was successful!" ;
+    $strg10 = "Successfully Received!";
     
 
     $strgGet = $_GET['error'] ;
@@ -123,6 +125,7 @@ session_start();
   }
   
   elseif ($strgGet == $strg3){
+    // echo  '<a href = "javascript:history.back()">Back to previous page</a>';
     header("Location: ../register.php");
   }
 
@@ -132,14 +135,43 @@ session_start();
   }
 
   elseif ($strgGet == $strg5){
-    // echo 'onclick="history.back(-1)" />';
-     header("Location: ../register.php");
+  //  echo "onclick="history.back(-1)" />";
+  //  echo "<a href="history.back()">Back</a>"
+      header("Location: ../register.php");
+    // header("Location: window.history.back()");
+//  echo   "<button id="go-back">Go back!</button>"
+// echo "<INPUT TYPE="button" VALUE="Back" onClick="history.go(-1);">" ;
   }
 
   elseif ($strgGet == $strg6){
     // echo 'onclick="history.back(-1)" />';
      header("Location: ../register.php");
   }
+  elseif ($strgGet == $strg7){
+    // echo 'onclick="history.back(-1)" />';
+     header("Location: ../login.php");
+  }
+  elseif ($strgGet == $strg8){
+    // echo 'onclick="history.back(-1)" />';
+   echo  '<a href = "javascript:history.back()">Back to previous page</a>';
+    //  header("Location: ../client/dashboard.php");
+  }
+
+  elseif ($strgGet == $strg9){
+    echo  '<a href = "../index.php">Back to previous page</a>';
+    // echo 'onclick="history.back(-1)" />';
+
+    
+     header("Location: ../login.php");
+  }
+  elseif ($strgGet == $strg10){
+    // echo 'onclick="history.back(-1)" />';
+
+    
+     header("Location: ../main/production/application.php");
+  }
+
+
 
 
   

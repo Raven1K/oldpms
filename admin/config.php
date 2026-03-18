@@ -1,14 +1,18 @@
 <?php
 
+
   class Config {
     private const DBHOST = 'localhost';
     private const DBUSER = 'root';
     private const DBPASS = '';
-    private const DBNAME = 'fetch_crud_app';
+    // private const DBNAME = 'oldrms_db';
+    private const DBNAME = 'oldpms';
 
     private $dsn = 'mysql:host=' . self::DBHOST . ';dbname=' . self::DBNAME . '';
 
     protected $conn = null;
+
+
 
     // Method for connection to the database
     public function __construct() {
@@ -20,5 +24,6 @@
       }
     }
   }
+  
 
 ?>
